@@ -10,10 +10,6 @@ spec:
       revision: HEAD
       directories:
       - path: apps/*
-      - path: apps/cluster-cert-issuer
-        exclude: true
-      - path: apps/cert-manager1
-        exclude: true
   template:
     metadata:
       name: '{{path.basename}}'
