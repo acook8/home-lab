@@ -1,0 +1,21 @@
+kind: Ingress
+apiVersion: extensions/v1beta1
+metadata:
+  name: demoapp
+  annotations:
+    cert-manager.io/cluster-issuer: cloudflare-issuer
+    # nginx.ingress.kubernetes.io/auth-url: "https://$host/oauth2/auth"
+    # nginx.ingress.kubernetes.io/auth-signin: "https://$host/oauth2/start?rd=$escaped_request_uri"    
+spec:
+  rules:
+  - host: demo.alexcook.dev
+    http:
+      paths:
+      - path: /        
+        backend:
+          serviceName: demoapp
+          servicePort: 80
+  tls:
+  - hosts:
+    - demo.alexcook.dev
+    secretName: alexcookdev-cert
