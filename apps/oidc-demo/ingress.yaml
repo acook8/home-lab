@@ -11,7 +11,8 @@ spec:
   - host: demo.alexcook.dev
     http:
       paths:
-      - path: /        
+      - pathType: Prefix
+        path: /        
         backend:
           serviceName: demoapp
           servicePort: 80
