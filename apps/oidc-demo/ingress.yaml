@@ -12,10 +12,12 @@ spec:
     http:
       paths:
       - pathType: Prefix
-        path: /        
+        path: "/"
         backend:
-          serviceName: demoapp
-          servicePort: 80
+          service:
+            name: demoapp
+            port: 
+              number: 80
   tls:
   - hosts:
     - demo.alexcook.dev
