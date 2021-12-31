@@ -4,7 +4,7 @@ metadata:
   name: oauth2-proxy
 spec:
   selector:
-    name: oauth2-proxy
+      k8s-app: oauth2-proxy
   ports:
   - port: 4180
     targetPort: 4180
