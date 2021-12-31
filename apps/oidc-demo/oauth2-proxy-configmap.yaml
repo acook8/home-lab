@@ -5,9 +5,9 @@ metadata:
   labels:
     app: oauth2-proxy
 data:
-  OAUTH2_PROXY_PROVIDER: "oidc"
+  OAUTH2_PROXY_PROVIDER: "azure"
   OAUTH2_PROXY_REDIRECT_URL: "https://alexcook.dev/oauth2/callback"
-  OAUTH2_PROXY_OIDC_ISSUER_URL: "dev-hixhccrf.us.auth0.com"
-  OAUTH2_PROXY_CLIENT_ID: "2B15Ru9ShmA1MILwEiWMh9MIFnmWZ7IR"
-  OAUTH2_PROXY_EMAIL_DOMAINS: "*"
+  OAUTH2_PROXY_OIDC_ISSUER_URL: "https://sts.windows.net/b401840d-913d-45e0-963c-eb32267db551/"
+  OAUTH2_PROXY_CLIENT_ID: "a5ce24b1-81bb-41a2-b392-4d0b64e61c50"
+  OAUTH2_PROXY_EMAIL_DOMAINS: "arbitersports.com"
   OAUTH2_PROXY_PASS_ACCESS_TOKEN: "true"
