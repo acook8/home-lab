@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    k8s-app: oauth2-proxy
+  name: oauth2-proxy
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      k8s-app: oauth2-proxy
+  template:
+    metadata:
+      labels:
+        k8s-app: oauth2-proxy
+    spec:
+      containers:
+      - name: oauth2-proxy
+        image: quay.io/oauth2-proxy/oauth2-proxy:latest
+        imagePullPolicy: Always   
+        envFrom:
+          - configMapRef:
+              name: oauth2-proxy-configmap
+          - secretRef:
+              name: oauth2-proxy-secret
+        ports:
+        - containerPort: 4180
+          protocol: TCP
+        resources:
+          limits:
+            memory: "200Mi"
+            cpu: "0.2" 
