@@ -31,6 +31,8 @@ metadata:
   name: oauth2-proxy
   labels:
     name: oauth2-proxy
+  annotations: 
+    nginx.ingress.kubernetes.io/proxy-buffer-size: "8k"
 spec:
   rules:
   - host: demo.alexcook.dev
