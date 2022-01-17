@@ -1,4 +1,0 @@
-dependencies:
-- name: longhorn
-  version: 1.2.3
-  repository: https://charts.longhorn.io
