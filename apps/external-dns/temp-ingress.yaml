@@ -1,0 +1,21 @@
+# https://kubernetes.io/docs/concepts/services-networking/ingress/#the-ingress-resource
+
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: tempIngress
+  annotations:
+    external-dns.alpha.kubernetes.io/hostname: temp.alexcook.dev
+    external-dns.alpha.kubernetes.io/target: ddns.alexcook.dev
+spec:
+  rules:
+  - host: temp.alexcook.dev
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: ServiceName
+            port:
+              number: 80
