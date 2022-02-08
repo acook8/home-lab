@@ -16,6 +16,6 @@ spec:
         pathType: Prefix
         backend:
           service:
-            name: ServiceName
+            name: fake-service
             port:
               number: 80
