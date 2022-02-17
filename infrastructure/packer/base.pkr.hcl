@@ -56,6 +56,10 @@ build {
   sources = ["source.proxmox-clone.test-cloud-init"]
 
   provisioner "shell" {
-    inline         = ["sudo cloud-init clean"]
+    inline         = ["sudo cloud-init clean",
+                      "sudo apt update",
+                      "sudo apt install qemu-guest-agent -y",
+                      "sudo snap install microk8s --classic"
+                      ]
   }
 }
