@@ -33,8 +33,8 @@ source "proxmox-clone" "test-cloud-init" {
   clone_vm      = "${var.proxmox_source_template}"
   
   os              = "l26"
-  cores           = "1"
-  memory          = "512"
+  cores           = "4"
+  memory          = "4096"
   scsi_controller = "virtio-scsi-pci"
 
   ssh_username = "ubuntu"
@@ -57,7 +57,7 @@ build {
 
   provisioner "shell" {
     inline         = ["sudo cloud-init clean",
-                      "sudo apt update",
+                      "sudo apt update -qq",
                       "sudo apt install qemu-guest-agent -y",
                       "sudo snap install microk8s --classic"
                       ]
