@@ -1,1 +1,4 @@
 infrastructure/packer/*.auto.pkrvars.hcl
+infrastructure/terraform/variables.tf
+infrastructure/terraform/.terraform/*
+infrastructure/terraform/.terraform.lock.hcl

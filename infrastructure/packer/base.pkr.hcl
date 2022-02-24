@@ -57,8 +57,9 @@ build {
 
   provisioner "shell" {
     inline         = ["sudo cloud-init clean",
+                      "sleep 20",
                       "sudo apt update -qq",
-                      "sudo apt install qemu-guest-agent -y",
+                      "sudo apt-get install -y nfs-common open-iscsi qemu-guest-agent",
                       "sudo snap install microk8s --classic"
                       ]
   }
