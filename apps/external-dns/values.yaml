@@ -1,3 +1,6 @@
 cloudflare:
   email: acook8@gmail.com
   secretName: cloudflare-secret
+sources:
+  - ingress
+provider: cloudflare
