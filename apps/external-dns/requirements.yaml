@@ -1,4 +1,0 @@
-dependencies:
-- name: external-secrets
-  version: 6.2.0
-  repository: https://charts.bitnami.com/bitnami
