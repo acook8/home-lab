@@ -1,0 +1,47 @@
+apiVersion: kubevirt.io/v1
+kind: VirtualMachine
+metadata:
+  name: ubuntuvm
+spec:
+  running: false
+  template:
+    metadata:
+      labels:
+        kubevirt.io/size: small
+        kubevirt.io/domain: ubuntuvm
+    spec:
+      domain:
+        devices:
+          disks:
+          - disk:
+              bus: virtio
+            name: containerdisk
+          - disk:
+              bus: virtio
+            name: cloudinitdisk
+          interfaces:
+          - name: default
+            bridge: {}
+        machine:
+          type: ""
+        resources:
+          requests:
+            memory: "1024Mi"
+            cpu: "500m"
+      networks:
+      - name: default
+        pod: {}
+      volumes:
+      - name: containerdisk
+        dataVolume:
+          name: ubuntu-data-volume
+      - name: cloudinitdisk
+        cloudInitNoCloud:
+          userData: |
+            #cloud-config
+            password: passwd
+            chpasswd: { expire: False }
+            ssh_pwauth: True
+            ssh_authorized_keys:
+            - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIHJZnD8jYjjK28EIG1vc+2aL2oAUmdnCuI1P7eWpizoE
+            - ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIH0lq7xmFsLszgmwrmu11ZuGRU1A4ZmZVUuq9ci9KnXh

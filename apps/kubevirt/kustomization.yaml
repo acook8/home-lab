@@ -9,3 +9,5 @@ bases:
 
 resources:
   - vm.yaml
+  - ubuntu-data-volume.yaml
+  - ubuntu-vm.yaml
