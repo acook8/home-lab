@@ -1,6 +1,6 @@
 resource "proxmox_vm_qemu" "microk8s-master" {
   count             = 1
-  name              = "kubernetes-master-${count.index}"
+  name              = "microk8s-master"
   target_node       = "proxmox"
 
   clone             = "k8s-base"
@@ -36,7 +36,7 @@ resource "proxmox_vm_qemu" "microk8s-master" {
 
   # Cloud Init Settings
   ciuser            = "acook8"
-  ipconfig0         = "ip=192.168.0.110/24,gw=192.168.0.1"
+  ipconfig0         = "ip=192.168.0.120/24,gw=192.168.0.1"
 
   sshkeys = <<EOF
   ${var.ssh_key}
@@ -45,7 +45,7 @@ resource "proxmox_vm_qemu" "microk8s-master" {
 
 resource "proxmox_vm_qemu" "microk8s-agent" {
   count             = 2
-  name              = "kubernetes-node-${count.index}"
+  name              = "microk8s-node-${count.index}"
   target_node       = "proxmox"
 
   clone             = "k8s-base"
@@ -80,6 +80,7 @@ resource "proxmox_vm_qemu" "microk8s-agent" {
   }
 
   # Cloud Init Settings
+  ciuser = "acook8"
   ipconfig0         = "ip=192.168.0.12${count.index + 1}/24,gw=192.168.0.1"
 
   sshkeys = <<EOF
