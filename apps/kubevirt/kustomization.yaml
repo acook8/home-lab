@@ -11,3 +11,4 @@ resources:
   - vm.yaml
   - ubuntu-data-volume.yaml
   - ubuntu-vm.yaml
+  - ubuntu-service.yaml
