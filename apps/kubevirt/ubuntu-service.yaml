@@ -4,7 +4,7 @@ metadata:
   name: ubuntu
 spec:
   selector:
-    name: ubuntuvm
+    kubevirt.io/domain: ubuntuvm
   type: LoadBalancer
   sessionAffinity: None
   sessionAffinityConfig:
