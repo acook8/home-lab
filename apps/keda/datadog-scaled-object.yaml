@@ -1,0 +1,26 @@
+apiVersion: keda.sh/v1alpha1
+kind: ScaledObject
+metadata:
+  name: datadog-scaledobject-familyid-web
+spec:
+  scaleTargetRef:
+    name: test-deployment
+  minReplicaCount: 3
+  maxReplicaCount: 25
+  pollingInterval: 60
+  fallback:
+    failureThreshold: 3
+    replicas: 6
+  triggers:
+  - type: datadog
+    metadata:
+      # Required: datadog metric query
+      query: "sum:trace.rack.request.hits{env:production,service:familyidweb}"
+      # Required: according to the number of query result, to scale the TargetRef
+      queryValue: "1200"
+      # Optional: (Global or Average). Whether the target value is global or average per pod. Default: Average
+      type: "Average"
+      # Optional: The time window (in seconds) to retrieve metrics from Datadog. Default: 90
+      age: "60"
+    authenticationRef:
+      name: keda-trigger-auth-datadog-secret

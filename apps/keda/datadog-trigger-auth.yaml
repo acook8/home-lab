@@ -1,0 +1,14 @@
+apiVersion: keda.sh/v1alpha1
+kind: TriggerAuthentication
+metadata:
+  name: keda-trigger-auth-datadog-secret
+spec:
+  secretTargetRef:
+    # Required: API key for your Datadog account
+  - parameter: apiKey
+    name: datadog-secrets
+    key: apiKey
+    # Required: APP key for your Datadog account
+  - parameter: appKey
+    name: datadog-secrets
+    key: appKey
