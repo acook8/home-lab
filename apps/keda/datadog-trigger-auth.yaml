@@ -7,8 +7,8 @@ spec:
     # Required: API key for your Datadog account
   - parameter: apiKey
     name: datadog-secrets
-    key: apiKey
+    key: datadog-api-key
     # Required: APP key for your Datadog account
   - parameter: appKey
     name: datadog-secrets
-    key: appKey
+    key: datadog-app-key
