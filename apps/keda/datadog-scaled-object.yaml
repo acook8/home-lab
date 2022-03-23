@@ -15,7 +15,7 @@ spec:
   - type: datadog
     metadata:
       # Required: datadog metric query
-      query: "sum:trace.rack.request.hits{env:production,service:familyidweb}"
+      query: "sum:trace.web.request.hits{env:dev,service:arbiterpay}"
       # Required: according to the number of query result, to scale the TargetRef
       queryValue: "1200"
       # Optional: (Global or Average). Whether the target value is global or average per pod. Default: Average
