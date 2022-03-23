@@ -3,9 +3,3 @@ kind: Kustomization
 
 bases:
   - https://github.com/kedacore/keda/releases/download/v2.6.1/keda-2.6.1.yaml
-
-resources:
-  - datadog-secrets.yaml
-  - datadog-trigger-auth.yaml
-  - test-deployment.yaml
-  - datadog-scaled-object.yaml
