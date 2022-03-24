@@ -1,7 +1,7 @@
 apiVersion: kubegres.reactive-tech.io/v1
 kind: Kubegres
 metadata:
-  name: mypostgres
+  name: mealie-postgres
 
 spec:
   replicas: 3
