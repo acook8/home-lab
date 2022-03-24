@@ -1,5 +1,4 @@
 # home-lab
-## This will document all my services running in my home lab
 
 ## Setup
 * Install ubuntu server
@@ -13,3 +12,12 @@
   * ingress
 * Install argocd
 * set secret for external-secret
+
+
+## Services
+* argocd
+* cert-manager
+* external-secrets
+* kubevirt
+* prometheus
+* mealie

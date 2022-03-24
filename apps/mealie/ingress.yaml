@@ -1,0 +1,25 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: mealie
+  labels:
+    name: mealie
+  annotations:
+    cert-manager.io/cluster-issuer: cloudflare-issuer
+    cert-manager.io/renew-before-expiry: "730h0m0s"
+spec:
+  rules:
+  - host: mealie.alexcook.dev
+    http:
+      paths:
+      - pathType: Prefix
+        path: "/"
+        backend:
+          service:
+            name: mealie
+            port: 
+              number: 80
+  tls:
+  - hosts:
+    - mealie.alexcook.dev
+    secretName: mealie-tls
