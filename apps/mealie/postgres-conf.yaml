@@ -1,8 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: mypostgres-conf
-  namespace: default
+  name: mealie-postgres-conf
 
 data:
 

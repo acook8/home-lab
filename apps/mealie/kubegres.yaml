@@ -22,3 +22,8 @@ spec:
         secretKeyRef:
           name: mealie-postgres-password
           key: replicationPassword
+    - name: POSTGRES_MY_DB_PASSWORD
+      valueFrom:
+        secretKeyRef:
+          name: mealie-postgres-password
+          key: POSTGRES_MY_DB_PASSWORD

@@ -6,7 +6,7 @@ metadata:
     app: mealie
 data:
   DB_ENGINE: postgres
-  POSTGRES_USER: postgres
+  POSTGRES_USER: mealie
   TZ: MDT
   POSTGRES_SERVER: mealie-postgres
   POSTGRES_PORT: "5432"
