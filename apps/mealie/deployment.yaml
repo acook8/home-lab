@@ -24,6 +24,12 @@ spec:
                 name: mealie-postgres-password
             - configMapRef:
                 name: mealie-configmap
+          env:  
+            - name: POSTGRES_MY_DB_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: mealie-postgres-password
+                  key: POSTGRES_MY_DB_PASSWORD
           resources:
             requests:
               cpu: 100m

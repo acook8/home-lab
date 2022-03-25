@@ -15,16 +15,16 @@ spec:
     - name: POSTGRES_PASSWORD
       valueFrom:
         secretKeyRef:
-          name: mealie-postgres-password
+          name: kubegres-password
           key: POSTGRES_PASSWORD
 
     - name: POSTGRES_REPLICATION_PASSWORD
       valueFrom:
         secretKeyRef:
-          name: mealie-postgres-password
+          name: kubegres-password
           key: replicationPassword
     - name: POSTGRES_MY_DB_PASSWORD
       valueFrom:
         secretKeyRef:
-          name: mealie-postgres-password
+          name: kubegres-password
           key: POSTGRES_MY_DB_PASSWORD
