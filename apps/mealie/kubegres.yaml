@@ -10,6 +10,7 @@ spec:
   database:
     size: 10Gi
 
+  customConfig: mealie-postgres-conf
   env:
     - name: POSTGRES_PASSWORD
       valueFrom:
