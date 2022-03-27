@@ -1,5 +1,5 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
-bases:
-  - https://github.com/zalando/postgres-operator/blob/d5660f65bbef956c69bc7d6ea46c7f519432917e/manifests/kustomization.yaml
+resources:
+  - https://github.com/zalando/postgres-operator/blob/d5660f65bbef956c69bc7d6ea46c7f519432917e/manifests/
