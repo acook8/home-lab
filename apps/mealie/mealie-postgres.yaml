@@ -1,7 +1,7 @@
 apiVersion: "acid.zalan.do/v1"
 kind: postgresql
 metadata:
-  name: mealie-postgres
+  name: mealie-postgresql
 spec:
   teamId: mealie
   volume:
@@ -12,7 +12,7 @@ spec:
     admin:
     - superuser
     - createdb
-    mealie:
+    mealie: []
 
   databases:
     mealie: admin
