@@ -1,0 +1,20 @@
+apiVersion: "acid.zalan.do/v1"
+kind: postgresql
+metadata:
+  name: mealie-postgres
+spec:
+  teamId: mealie
+  volume:
+    size: 8Gi
+  numberOfInstances: 2
+  users:
+    # database owner
+    admin:
+    - superuser
+    - createdb
+    mealie:
+
+  databases:
+    mealie: admin
+  postgresql:
+    version: "14"
