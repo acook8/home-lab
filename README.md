@@ -10,6 +10,7 @@
   * metrics-server
   * storage
   * ingress
+  * openebs
 * Install argocd
 * set secret for external-secret
 
