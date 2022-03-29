@@ -31,8 +31,6 @@ spec:
                   name: mealie.mealie-postgresql.credentials.postgresql.acid.zalan.do
                   key: password
           envFrom:
-            - secretRef:
-                name: mealie-postgres-password
             - configMapRef:
                 name: mealie-configmap
           resources:
