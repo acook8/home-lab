@@ -9,12 +9,12 @@ spec:
   numberOfInstances: 2
   users:
     # database owner
-    admin:
+    zalando:
     - superuser
     - createdb
     mealie: []
 
   databases:
-    mealie: admin
+    mealie: zalando
   postgresql:
     version: "14"
