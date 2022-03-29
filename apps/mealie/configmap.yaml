@@ -6,7 +6,6 @@ metadata:
     app: mealie
 data:
   DB_ENGINE: postgres
-  POSTGRES_USER: mealie
   TZ: America/Denver
   POSTGRES_SERVER: mealie-postgres
   POSTGRES_PORT: "5432"
