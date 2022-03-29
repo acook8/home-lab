@@ -7,6 +7,6 @@ metadata:
 data:
   DB_ENGINE: postgres
   TZ: America/Denver
-  POSTGRES_SERVER: mealie-postgres
+  POSTGRES_SERVER: mealie-postgresql
   POSTGRES_PORT: "5432"
   POSTGRES_DB: mealie
