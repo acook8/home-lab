@@ -1,0 +1,10 @@
+mode: standalone
+persistence:
+  enabled: true
+  strogaeClass: "local-hostpath-external-hdd"
+  size: 100Gi
+buckets:
+  name: backup
+  policy: none
+  purge: false
+  versioning: false
