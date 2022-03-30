@@ -1,4 +1,5 @@
 mode: standalone
+replicas: 1
 persistence:
   enabled: true
   strogaeClass: "local-hostpath-external-hdd"
