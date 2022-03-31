@@ -1,0 +1,22 @@
+apiVersion: external-secrets.io/v1alpha1
+kind: ExternalSecret
+metadata:
+  name: external-dns-external-secret
+spec:
+  refreshInterval: 1h
+
+  secretStoreRef:
+    kind: ClusterSecretStore
+    name: akeyless-secret-store # Must match SecretStore on the cluster
+
+  target:
+    name: minio-backup-creds # Name for the secret to be created on the cluster
+    creationPolicy: Owner
+
+  data:
+    - secretKey: accessKey # Key given to the secret to be created on the cluster
+      remoteRef:
+        key: /k8s/mealie/minio-access-key # Full path of the secret on Akeyless
+    - secretKey: secretKey # Key given to the secret to be created on the cluster
+      remoteRef:
+        key: /k8s/mealie/minio-secret-key # Full path of the secret on Akeyless
