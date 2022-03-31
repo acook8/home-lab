@@ -14,7 +14,7 @@ spec:
       ## custom pool name
       name: minio-0
       ## volumesPerServer specifies the number of volumes attached per MinIO Tenant Pod / Server.
-      volumesPerServer: 1
+      volumesPerServer: 4
       ## This VolumeClaimTemplate is used across all the volumes provisioned for MinIO Tenant in this
       ## Pool.
       volumeClaimTemplate:
@@ -27,5 +27,5 @@ spec:
             - ReadWriteOnce
           resources:
             requests:
-              storage: 20Gi
+              storage: 10Gi
           storageClassName: local-hostpath-external-hdd
