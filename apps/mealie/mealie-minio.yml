@@ -1,12 +1,8 @@
 apiVersion: minio.min.io/v2
 kind: Tenant
 metadata:
-  name: mealie
+  name: mealie-minio
 spec:
-  configuration:
-    name: mealie-env-configuration
-  credsSecret:
-    name: mealie-secret
   exposeServices:
     console: true
     minio: true
