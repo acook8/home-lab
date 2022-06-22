@@ -1,4 +1,4 @@
-apiVersion: extensions/v1beta1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name:  pihole
@@ -16,7 +16,7 @@ spec:
         name:  pihole
     spec:
       containers:
-      - image:  ipedrazas/docmock
+      - image:  pihole/pihole:2022.05
         name:  pihole
         resources:
           requests:
