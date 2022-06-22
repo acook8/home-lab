@@ -5,11 +5,9 @@ metadata:
   labels:
     name:  pihole
 spec:
-  strategy:
-    rollingUpdate:
-      maxSurge: 1
-      maxUnavailable: 1
-    type: RollingUpdate
+  selector:
+    matchLabels:
+      name: pihole
   template:
     metadata:
       labels:
@@ -68,10 +66,8 @@ spec:
           - name: client-udp
             containerPort: 67
             protocol: UDP
-      restartPolicy: Always
-      imagePullPolicy: Always
       dnsConfig:
         nameservers:
           - 127.0.0.1
           - 8.8.8.8
-  revisionHistoryLimit: 3
+  # revisionHistoryLimit: 3
