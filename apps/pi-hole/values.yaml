@@ -1,0 +1,5 @@
+serviceDhcp:
+  enabled: false
+dnsmasq:
+  customCnameEntries:
+    - cname=services.arbitersports.com,as-phx-api-prd-staging.azurewebsites.net
