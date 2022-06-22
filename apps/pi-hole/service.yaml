@@ -1,0 +1,21 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name:  pihole
+spec:
+  selector:
+    name:  pihole
+  type:  LoadBalancer
+  ports:
+    - name: dns
+      protocol: TCP
+      port:  53
+      targetPort:  53
+    - name: dns
+      protocol: UDP
+      port: 53
+      targetPort: 53
+    - name: http
+      protocol: TCP
+      port: 80
+      targetPort: 80
