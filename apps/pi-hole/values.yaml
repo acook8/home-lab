@@ -3,6 +3,9 @@ dualStack:
 serviceDns:
   mixedService: true
   type: LoadBalancer
+  loadBalancerIP: 192.168.3.12
+  annotations:
+    metallb.universe.tf/allow-shared-ip: pihole-svc
 serviceDhcp:
   enabled: false
 dnsmasq:
