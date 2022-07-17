@@ -23,10 +23,10 @@ spec:
           - name: default
             bridge: {}
         machine:
-          type: ""
+          type: "q35"
         resources:
           requests:
-            memory: "1024Mi"
+            memory: "1Gi"
             cpu: "500m"
       networks:
       - name: default
