@@ -16,4 +16,4 @@ grafana:
           type: loki
           url: http://loki.loki:3100
           access: proxy
-          isDefault: true
+          isDefault: false
