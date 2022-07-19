@@ -2,6 +2,6 @@ wordpress:
   wordpressPassword: foo
   mariadb:
     db:
-      password: bar
+      password: barrrr
     rootUser:
       password: baz
