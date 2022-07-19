@@ -1,5 +1,5 @@
-service:
-  enabled: true
-  type: LoadBalancer
-persistence:
-  enabled: true
+grafana:
+  service:
+    type: LoadBalancer
+  persistence:
+    enabled: true
