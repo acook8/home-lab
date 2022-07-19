@@ -1,7 +1,4 @@
-wordpress:
-  wordpressPassword: foo
-  mariadb:
-    db:
-      password: barrrr
-    rootUser:
-      password: baz
+service:
+  type: LoadBalancer
+persistence:
+  enabled: true
