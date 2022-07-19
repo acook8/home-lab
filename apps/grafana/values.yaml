@@ -4,8 +4,8 @@ grafana:
   persistence:
     enabled: true
   datasources:
-    datasources.yaml: |-
-      apiVersion 1
+    datasources.yaml:
+      apiVersion: 1
       datasources:
         - name: Prometheus
           type: prometheus
