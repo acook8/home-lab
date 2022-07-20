@@ -7,4 +7,10 @@ kube-prometheus-stack:
       type: LoadBalancer
     persistence:
       enabled: true
+    additionalDataSources: 
+    - name: Loki
+      access: proxy
+      type: loki
+      url: http://loki.loki:3100
+      version: 1
   
