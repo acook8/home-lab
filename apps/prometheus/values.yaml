@@ -1,6 +1,6 @@
 prometheus:
   serverFiles:
-    prometheus.yaml:
+    prometheus.yml:
       scrape_configs:
         - job_name: blackbox
           metrics_path: /probe
