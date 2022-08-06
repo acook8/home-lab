@@ -1,0 +1,25 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: mosquitto
+spec:
+  replicas: 1
+  selector:
+    matchLabels: mosquitto
+  template:
+    metadata:
+      labels:
+        editor: vscode
+    spec:
+      containers:
+      - name: name
+        image: eclipse-mosquitto:2.0.14
+        resources:
+          limits:
+            memory: "200Mi"
+            cpu: "200m"
+        ports:
+        - port: 1883
+          protocol: TCP
+        - port: 9001
+          protocol: TCP
