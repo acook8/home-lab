@@ -5,11 +5,11 @@ metadata:
 spec:
   replicas: 1
   selector:
-    matchLabels: mosquitto
+    matchLabels:
+      name: mosquitto
   template:
     metadata:
-      labels:
-        editor: vscode
+      name: mosquitto
     spec:
       containers:
       - name: name
