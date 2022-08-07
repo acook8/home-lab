@@ -1,5 +1,5 @@
 apiVersion: v2
-name: hivemq-operator
+name: mosquitto
 
 type: application
 
@@ -13,6 +13,6 @@ version: 0.1.0
 # follow Semantic Versioning. They should reflect the version the application is using.
 appVersion: "1.0"
 dependencies:
-- name: hivemq-operator
-  version: 0.10.11
-  repository: https://hivemq.github.io/helm-charts
+- name: mosquitto
+  version: 4.8.2
+  repository: https://k8s-at-home.com/charts/

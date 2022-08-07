@@ -1,4 +1,0 @@
-service:
-  type: LoadBalancer
-persistence:
-  enabled: true
