@@ -5,6 +5,7 @@ metadata:
 spec:
   selector:
     name: mosquitto
+  type: LoadBalancer
   ports:
     - name: mqtt
       port: 1883
