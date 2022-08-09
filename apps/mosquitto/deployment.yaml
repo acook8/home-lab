@@ -3,7 +3,6 @@ kind: Deployment
 metadata:
   name: mosquitto
 spec:
-  progressDeadlineSeconds: 600
   replicas: 1
   revisionHistoryLimit: 3
   selector:
@@ -11,7 +10,8 @@ spec:
       name: mosquitto
   template:
     metadata:
-      name: mosquitto
+      labels:
+        name: mosquitto
     spec:
       containers:
         - image: 'eclipse-mosquitto:2.0.14'
