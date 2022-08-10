@@ -15,7 +15,7 @@ spec:
         name:  wyze-bridge
     spec:
       containers:
-      - image:  mrlt8/wyze-bridge
+      - image:  mrlt8/wyze-bridge:1.8.2
         name:  wyze-bridge
         resources:
           requests:
