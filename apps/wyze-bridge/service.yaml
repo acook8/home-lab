@@ -1,0 +1,15 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: wyze-bridge
+spec:
+  selector:
+    name: wyze-bridge
+  type:  LoadBalancer
+  ports:
+  - port: 8554
+    targetPort: 8554
+  - port: 8888
+    targetPort: 8888
+  - port: 5000
+    targetPort: 5000

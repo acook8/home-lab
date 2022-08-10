@@ -1,0 +1,35 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name:  wyze-bridge
+  labels:
+    name:  wyze-bridge
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: wyze-bridge
+  template:
+    metadata:
+      labels:
+        name:  wyze-bridge
+    spec:
+      containers:
+      - image:  mrlt8/wyze-bridge
+        name:  wyze-bridge
+        resources:
+          requests:
+            cpu: "100m"
+            memory: "100M"
+          limits:
+            cpu: "250m"
+            memory: "300M"
+        envFrom:
+          - configMapRef:
+              name: wyze-bridge
+          - secretRef:
+              name: wyze-bridge
+        ports:
+        - containerPort: 8554
+        - containerPort: 8888
+        - containerPort: 5000

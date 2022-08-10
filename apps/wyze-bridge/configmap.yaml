@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: wyze-bridge
+  labels:
+    app: wyze-bridge
+data:
+  FILTER_NAMES: Garage
+  FILTER_BLOCK: "true"
+  ROTATE_DOOR: "true"
