@@ -1,0 +1,20 @@
+telegraf:
+  config:
+    outputs:
+      - influxdb:
+          urls:
+            - "http://influxdb.influxdb"
+          database: moisture-sensor
+    inputs:
+      - mqtt:
+          servers:
+            - "mosquitto.mosquitto:1883"
+          qos: 2
+          topics:
+            - sensor/home
+          data_format: json
+chronograf:
+  service:
+    type: LoadBalancer
+  influxdb:
+    existingSecret: influxdb-auth
