@@ -33,3 +33,4 @@ spec:
         - containerPort: 8554
         - containerPort: 8888
         - containerPort: 5000
+        - containerPort: 1935
