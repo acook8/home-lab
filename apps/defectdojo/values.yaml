@@ -1,0 +1,6 @@
+django:
+  ingress:
+    enabled: false
+createSecret: true
+createRedisSecret: true
+createPostgresqlSecret: true
