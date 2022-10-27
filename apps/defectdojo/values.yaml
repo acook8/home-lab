@@ -8,6 +8,7 @@ defectdojo:
   createRabbitMqSecret: true
   createPostgresqlSecret: false
   createMysqlSecret: true
+  database: mysql
   postgresql:
     enabled: false
   mysql:
