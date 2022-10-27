@@ -9,7 +9,10 @@ defectdojo:
   createPostgresqlSecret: true
   createMysqlSecret: false
   # database: mysql
+  initializer:
+    keepSeconds: 120
   postgresql:
     enabled: true
   mysql:
     enabled: false
+  
