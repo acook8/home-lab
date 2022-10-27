@@ -6,5 +6,9 @@ defectdojo:
   createSecret: true
   createRedisSecret: false
   createRabbitMqSecret: true
-  createPostgresqlSecret: true
-  createMysqlSecret: false
+  createPostgresqlSecret: false
+  createMysqlSecret: true
+  postgresql:
+    enabled: false
+  mysql:
+    enabled: true
