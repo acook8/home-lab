@@ -2,6 +2,9 @@ defectdojo:
   django:
     ingress:
       enabled: false
+      activatetlS: false
   createSecret: true
   createRedisSecret: true
+  createRabbitMqSecret: false
   createPostgresqlSecret: true
+  createMysqlSecret: false
