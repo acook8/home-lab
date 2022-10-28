@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: minio 
+spec:
+  selector:
+    matchLabels:
+      app: minio  
+  template:
+    metadata:
+      labels:
+        app: minio  
+    spec:
+      containers:
+      - name: minio 
+        image: minio/minio@sha256:d88c394a2e4c3ca2b1fa5ac49451f5d0fea602b79365f0081e993eed733d4ed2
+        args:
+          - server
+          - /data
+          - "console-address"
+          - ":9001"
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        ports:
+        - containerPort: 9000
+        - containerPort: 9001
