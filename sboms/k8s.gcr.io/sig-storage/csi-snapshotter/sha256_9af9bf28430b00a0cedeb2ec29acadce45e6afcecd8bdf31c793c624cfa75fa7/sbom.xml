@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:6d94b340-4c09-4b4c-b957-8ab2961c4ae7" version="1">
+  <metadata>
+    <timestamp>2022-10-31T16:00:10Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>anchore</vendor>
+        <name>syft</name>
+        <version>v0.58.0</version>
+      </tool>
+    </tools>
+    <component bom-ref="1045622998ba266" type="container">
+      <name>/tmp/sha256_9af9bf28430b00a0cedeb2ec29acadce45e6afcecd8bdf31c793c624cfa75fa7.tar.gz</name>
+      <version>sha256:20e873a8d6100f958a266f258643bf1c313e4c2f7a43115ce7c3309ea7f7e50a</version>
+    </component>
+  </metadata>
+  <components>
+    <component bom-ref="pkg:golang/./client?package-id=1673c67910551328" type="library">
+      <name>./client</name>
+      <purl>pkg:golang/./client</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:deb/debian/base-files@9.9+deb9u13?arch=amd64&amp;distro=debian-9&amp;package-id=c48fd807290c256d" type="library">
+      <publisher>Santiago Vila &lt;sanvila@debian.org&gt;</publisher>
+      <name>base-files</name>
+      <version>9.9+deb9u13</version>
+      <cpe>cpe:2.3:a:base-files:base-files:9.9\+deb9u13:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:deb/debian/base-files@9.9+deb9u13?arch=amd64&amp;distro=debian-9</purl>
+      <properties>
+        <property name="syft:package:foundBy">dpkgdb-cataloger</property>
+        <property name="syft:package:metadataType">DpkgMetadata</property>
+        <property name="syft:package:type">deb</property>
+        <property name="syft:cpe23">cpe:2.3:a:base-files:base_files:9.9\+deb9u13:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:base_files:base-files:9.9\+deb9u13:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:base_files:base_files:9.9\+deb9u13:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:base:base-files:9.9\+deb9u13:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:base:base_files:9.9\+deb9u13:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:7a5b9c0b4b140d0379ef710a07c3ecf963685b5236e3d0977b1aa96f209f7c5e</property>
+        <property name="syft:location:0:path">/usr/share/doc/base-files/copyright</property>
+        <property name="syft:location:1:layerID">sha256:7a5b9c0b4b140d0379ef710a07c3ecf963685b5236e3d0977b1aa96f209f7c5e</property>
+        <property name="syft:location:1:path">/var/lib/dpkg/status.d/base</property>
+        <property name="syft:metadata:installedSize">333</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/beorn7/perks@v1.0.1?package-id=6ebba3edb3cf23d" type="library">
+      <name>github.com/beorn7/perks</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:beorn7:perks:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/beorn7/perks@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/blang/semver@v3.5.0+incompatible?package-id=d61c1489e4bfed0a" type="library">
+      <name>github.com/blang/semver</name>
+      <version>v3.5.0+incompatible</version>
+      <cpe>cpe:2.3:a:blang:semver:v3.5.0\+incompatible:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/blang/semver@v3.5.0+incompatible</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/cespare/xxhash/v2@v2.1.1?package-id=a1d8a02ff78f113f" type="library">
+      <name>github.com/cespare/xxhash/v2</name>
+      <version>v2.1.1</version>
+      <cpe>cpe:2.3:a:cespare:xxhash\/v2:v2.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/cespare/xxhash/v2@v2.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/container-storage-interface/spec@v1.2.0?package-id=2a2aaac0d1edc9bd" type="library">
+      <name>github.com/container-storage-interface/spec</name>
+      <version>v1.2.0</version>
+      <cpe>cpe:2.3:a:container-storage-interface:spec:v1.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/container-storage-interface/spec@v1.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:container_storage_interface:spec:v1.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:container-storage:spec:v1.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:container_storage:spec:v1.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:container:spec:v1.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/davecgh/go-spew@v1.1.1?package-id=cb55d40ce25e2e23" type="library">
+      <name>github.com/davecgh/go-spew</name>
+      <version>v1.1.1</version>
+      <cpe>cpe:2.3:a:davecgh:go-spew:v1.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/davecgh/go-spew@v1.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:davecgh:go_spew:v1.1.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-logr/logr@v0.2.0?package-id=f7a2de6a9e581d89" type="library">
+      <name>github.com/go-logr/logr</name>
+      <version>v0.2.0</version>
+      <cpe>cpe:2.3:a:go-logr:logr:v0.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-logr/logr@v0.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_logr:logr:v0.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:logr:v0.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/gogo/protobuf@v1.3.1?package-id=8bd50d3aab171ce8" type="library">
+      <name>github.com/gogo/protobuf</name>
+      <version>v1.3.1</version>
+      <cpe>cpe:2.3:a:gogo:protobuf:v1.3.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/gogo/protobuf@v1.3.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/golang/groupcache@v0.0.0-20191227052852-215e87163ea7?package-id=afb9aa1aecfc8cfa" type="library">
+      <name>github.com/golang/groupcache</name>
+      <version>v0.0.0-20191227052852-215e87163ea7</version>
+      <cpe>cpe:2.3:a:golang:groupcache:v0.0.0-20191227052852-215e87163ea7:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/golang/groupcache@v0.0.0-20191227052852-215e87163ea7</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/golang/protobuf@v1.4.2?package-id=96b7337b47ab7ddb" type="library">
+      <name>github.com/golang/protobuf</name>
+      <version>v1.4.2</version>
+      <cpe>cpe:2.3:a:golang:protobuf:v1.4.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/golang/protobuf@v1.4.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/go-cmp@v0.4.0?package-id=687e2fdf45dc1b3" type="library">
+      <name>github.com/google/go-cmp</name>
+      <version>v0.4.0</version>
+      <cpe>cpe:2.3:a:google:go-cmp:v0.4.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/go-cmp@v0.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:google:go_cmp:v0.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/gofuzz@v1.1.0?package-id=7afcbfb098969373" type="library">
+      <name>github.com/google/gofuzz</name>
+      <version>v1.1.0</version>
+      <cpe>cpe:2.3:a:google:gofuzz:v1.1.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/gofuzz@v1.1.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/googleapis/gnostic@v0.4.1?package-id=f8b3534a23933a6f" type="library">
+      <name>github.com/googleapis/gnostic</name>
+      <version>v0.4.1</version>
+      <cpe>cpe:2.3:a:googleapis:gnostic:v0.4.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/googleapis/gnostic@v0.4.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/hashicorp/golang-lru@v0.5.1?package-id=cf07a77ecab59d8" type="library">
+      <name>github.com/hashicorp/golang-lru</name>
+      <version>v0.5.1</version>
+      <cpe>cpe:2.3:a:hashicorp:golang-lru:v0.5.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/hashicorp/golang-lru@v0.5.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:hashicorp:golang_lru:v0.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/imdario/mergo@v0.3.9?package-id=d97fb180c0655390" type="library">
+      <name>github.com/imdario/mergo</name>
+      <version>v0.3.9</version>
+      <cpe>cpe:2.3:a:imdario:mergo:v0.3.9:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/imdario/mergo@v0.3.9</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/json-iterator/go@v1.1.10?package-id=3f79f169dff94d0b" type="library">
+      <name>github.com/json-iterator/go</name>
+      <version>v1.1.10</version>
+      <cpe>cpe:2.3:a:json-iterator:go:v1.1.10:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/json-iterator/go@v1.1.10</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:json_iterator:go:v1.1.10:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:json:go:v1.1.10:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/kubernetes-csi/csi-lib-utils@v0.8.1?package-id=feb0152d24f4cb45" type="library">
+      <name>github.com/kubernetes-csi/csi-lib-utils</name>
+      <version>v0.8.1</version>
+      <cpe>cpe:2.3:a:kubernetes-csi:csi-lib-utils:v0.8.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/kubernetes-csi/csi-lib-utils@v0.8.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes-csi:csi_lib_utils:v0.8.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes_csi:csi-lib-utils:v0.8.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes_csi:csi_lib_utils:v0.8.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes:csi-lib-utils:v0.8.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes:csi_lib_utils:v0.8.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/kubernetes-csi/external-snapshotter/v3@(devel)?package-id=3efd1085ad24d440" type="library">
+      <name>github.com/kubernetes-csi/external-snapshotter/v3</name>
+      <version>(devel)</version>
+      <cpe>cpe:2.3:a:kubernetes-csi:external-snapshotter\/v3:\(devel\):*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/kubernetes-csi/external-snapshotter/v3@(devel)</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes-csi:external_snapshotter\/v3:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes_csi:external-snapshotter\/v3:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes_csi:external_snapshotter\/v3:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes:external-snapshotter\/v3:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes:external_snapshotter\/v3:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.2-0.20181231171920-c182affec369?package-id=9f84827622da229a" type="library">
+      <name>github.com/matttproud/golang_protobuf_extensions</name>
+      <version>v1.0.2-0.20181231171920-c182affec369</version>
+      <cpe>cpe:2.3:a:matttproud:golang-protobuf-extensions:v1.0.2-0.20181231171920-c182affec369:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.2-0.20181231171920-c182affec369</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:matttproud:golang_protobuf_extensions:v1.0.2-0.20181231171920-c182affec369:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd?package-id=6a618cf8003086d8" type="library">
+      <name>github.com/modern-go/concurrent</name>
+      <version>v0.0.0-20180306012644-bacd9c7ef1dd</version>
+      <cpe>cpe:2.3:a:modern-go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern_go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/modern-go/reflect2@v1.0.1?package-id=7e85be496af73f8d" type="library">
+      <name>github.com/modern-go/reflect2</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:modern-go:reflect2:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/modern-go/reflect2@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern_go:reflect2:v1.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern:reflect2:v1.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/client_golang@v1.7.1?package-id=3a11d9b0224b4bc6" type="library">
+      <name>github.com/prometheus/client_golang</name>
+      <version>v1.7.1</version>
+      <cpe>cpe:2.3:a:prometheus:client-golang:v1.7.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/client_golang@v1.7.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:client_golang:v1.7.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/client_model@v0.2.0?package-id=86898e2e036d7aae" type="library">
+      <name>github.com/prometheus/client_model</name>
+      <version>v0.2.0</version>
+      <cpe>cpe:2.3:a:prometheus:client-model:v0.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/client_model@v0.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:client_model:v0.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/common@v0.10.0?package-id=bfcce8447829ce7c" type="library">
+      <name>github.com/prometheus/common</name>
+      <version>v0.10.0</version>
+      <cpe>cpe:2.3:a:prometheus:common:v0.10.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/common@v0.10.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/procfs@v0.1.3?package-id=d4722c3f1dcbbb83" type="library">
+      <name>github.com/prometheus/procfs</name>
+      <version>v0.1.3</version>
+      <cpe>cpe:2.3:a:prometheus:procfs:v0.1.3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/procfs@v0.1.3</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/spf13/pflag@v1.0.5?package-id=fba77593ceefda3b" type="library">
+      <name>github.com/spf13/pflag</name>
+      <version>v1.0.5</version>
+      <cpe>cpe:2.3:a:spf13:pflag:v1.0.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/spf13/pflag@v1.0.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/crypto@v0.0.0-20200622213623-75b288015ac9?package-id=f7aab36dc63171f" type="library">
+      <name>golang.org/x/crypto</name>
+      <version>v0.0.0-20200622213623-75b288015ac9</version>
+      <cpe>cpe:2.3:a:golang:x\/crypto:v0.0.0-20200622213623-75b288015ac9:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/crypto@v0.0.0-20200622213623-75b288015ac9</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/net@v0.0.0-20200707034311-ab3426394381?package-id=bb271c584a0f7d14" type="library">
+      <name>golang.org/x/net</name>
+      <version>v0.0.0-20200707034311-ab3426394381</version>
+      <cpe>cpe:2.3:a:golang:x\/net:v0.0.0-20200707034311-ab3426394381:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/net@v0.0.0-20200707034311-ab3426394381</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/oauth2@v0.0.0-20200107190931-bf48bf16ab8d?package-id=9fa2789f310fae92" type="library">
+      <name>golang.org/x/oauth2</name>
+      <version>v0.0.0-20200107190931-bf48bf16ab8d</version>
+      <cpe>cpe:2.3:a:golang:x\/oauth2:v0.0.0-20200107190931-bf48bf16ab8d:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/oauth2@v0.0.0-20200107190931-bf48bf16ab8d</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/sys@v0.0.0-20200622214017-ed371f2e16b4?package-id=13b27091ce65a178" type="library">
+      <name>golang.org/x/sys</name>
+      <version>v0.0.0-20200622214017-ed371f2e16b4</version>
+      <cpe>cpe:2.3:a:golang:x\/sys:v0.0.0-20200622214017-ed371f2e16b4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/sys@v0.0.0-20200622214017-ed371f2e16b4</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/text@v0.3.3?package-id=3c43d5005e49f1b2" type="library">
+      <name>golang.org/x/text</name>
+      <version>v0.3.3</version>
+      <cpe>cpe:2.3:a:golang:x\/text:v0.3.3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/text@v0.3.3</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/time@v0.0.0-20200416051211-89c76fbcd5d1?package-id=4bbc4f708026d51b" type="library">
+      <name>golang.org/x/time</name>
+      <version>v0.0.0-20200416051211-89c76fbcd5d1</version>
+      <cpe>cpe:2.3:a:golang:x\/time:v0.0.0-20200416051211-89c76fbcd5d1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/time@v0.0.0-20200416051211-89c76fbcd5d1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/genproto@v0.0.0-20200526211855-cb27e3aa2013?package-id=4d3667058a150746" type="library">
+      <name>google.golang.org/genproto</name>
+      <version>v0.0.0-20200526211855-cb27e3aa2013</version>
+      <cpe>cpe:2.3:a:google:genproto:v0.0.0-20200526211855-cb27e3aa2013:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/genproto@v0.0.0-20200526211855-cb27e3aa2013</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/grpc@v1.29.0?package-id=6726748f6d24f12" type="library">
+      <name>google.golang.org/grpc</name>
+      <version>v1.29.0</version>
+      <cpe>cpe:2.3:a:google:grpc:v1.29.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/grpc@v1.29.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/protobuf@v1.24.0?package-id=20a6850340365bb5" type="library">
+      <name>google.golang.org/protobuf</name>
+      <version>v1.24.0</version>
+      <cpe>cpe:2.3:a:google:protobuf:v1.24.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/protobuf@v1.24.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/inf.v0@v0.9.1?package-id=d1dd3889ac74126f" type="library">
+      <name>gopkg.in/inf.v0</name>
+      <version>v0.9.1</version>
+      <purl>pkg:golang/gopkg.in/inf.v0@v0.9.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/yaml.v2@v2.2.8?package-id=6f4350e49a24b21" type="library">
+      <name>gopkg.in/yaml.v2</name>
+      <version>v2.2.8</version>
+      <purl>pkg:golang/gopkg.in/yaml.v2@v2.2.8</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/api@v0.19.0?package-id=f2215ae0838c4490" type="library">
+      <name>k8s.io/api</name>
+      <version>v0.19.0</version>
+      <purl>pkg:golang/k8s.io/api@v0.19.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/apimachinery@v0.19.0?package-id=d45d6d3cdf52734b" type="library">
+      <name>k8s.io/apimachinery</name>
+      <version>v0.19.0</version>
+      <purl>pkg:golang/k8s.io/apimachinery@v0.19.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/client-go@v0.19.0?package-id=1eed3edc5a1827e2" type="library">
+      <name>k8s.io/client-go</name>
+      <version>v0.19.0</version>
+      <purl>pkg:golang/k8s.io/client-go@v0.19.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/component-base@v0.19.0?package-id=4092cebe2df3b1be" type="library">
+      <name>k8s.io/component-base</name>
+      <version>v0.19.0</version>
+      <purl>pkg:golang/k8s.io/component-base@v0.19.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/klog@v1.0.0?package-id=734ce1449c7c490c" type="library">
+      <name>k8s.io/klog</name>
+      <version>v1.0.0</version>
+      <purl>pkg:golang/k8s.io/klog@v1.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/klog/v2@v2.2.0?package-id=4e3cfa41b7a9b0d0" type="library">
+      <name>k8s.io/klog/v2</name>
+      <version>v2.2.0</version>
+      <cpe>cpe:2.3:a:klog:v2:v2.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/k8s.io/klog/v2@v2.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/kube-openapi@v0.0.0-20200805222855-6aeccd4b50c6?package-id=9058bd2b8d37e434" type="library">
+      <name>k8s.io/kube-openapi</name>
+      <version>v0.0.0-20200805222855-6aeccd4b50c6</version>
+      <purl>pkg:golang/k8s.io/kube-openapi@v0.0.0-20200805222855-6aeccd4b50c6</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/utils@v0.0.0-20200729134348-d5654de09c73?package-id=e8303e5d5fc5225c" type="library">
+      <name>k8s.io/utils</name>
+      <version>v0.0.0-20200729134348-d5654de09c73</version>
+      <purl>pkg:golang/k8s.io/utils@v0.0.0-20200729134348-d5654de09c73</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:deb/debian/netbase@5.4?arch=all&amp;distro=debian-9&amp;package-id=f251c3f02e01d42" type="library">
+      <publisher>Marco d&#39;Itri &lt;md@linux.it&gt;</publisher>
+      <name>netbase</name>
+      <version>5.4</version>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:netbase:netbase:5.4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:deb/debian/netbase@5.4?arch=all&amp;distro=debian-9</purl>
+      <properties>
+        <property name="syft:package:foundBy">dpkgdb-cataloger</property>
+        <property name="syft:package:metadataType">DpkgMetadata</property>
+        <property name="syft:package:type">deb</property>
+        <property name="syft:location:0:layerID">sha256:7a5b9c0b4b140d0379ef710a07c3ecf963685b5236e3d0977b1aa96f209f7c5e</property>
+        <property name="syft:location:0:path">/usr/share/doc/netbase/copyright</property>
+        <property name="syft:location:1:layerID">sha256:7a5b9c0b4b140d0379ef710a07c3ecf963685b5236e3d0977b1aa96f209f7c5e</property>
+        <property name="syft:location:1:path">/var/lib/dpkg/status.d/netbase</property>
+        <property name="syft:metadata:installedSize">44</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.0.1?package-id=51e6f955ca7f453d" type="library">
+      <name>sigs.k8s.io/structured-merge-diff/v4</name>
+      <version>v4.0.1</version>
+      <cpe>cpe:2.3:a:structured-merge-diff:v4:v4.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured_merge_diff:v4:v4.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured-merge:v4:v4.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured_merge:v4:v4.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured:v4:v4.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/yaml@v1.2.0?package-id=21ebfa44acf6db21" type="library">
+      <name>sigs.k8s.io/yaml</name>
+      <version>v1.2.0</version>
+      <purl>pkg:golang/sigs.k8s.io/yaml@v1.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43e7c7ab081c1c7034723d6336e2d88f2dca5b9169f41c1672b4715238b6fa23</property>
+        <property name="syft:location:0:path">/csi-snapshotter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-snapshotter/v3</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:deb/debian/tzdata@2020d-0+deb9u1?arch=all&amp;distro=debian-9&amp;package-id=2e4bab419275c07c" type="library">
+      <publisher>GNU Libc Maintainers &lt;debian-glibc@lists.debian.org&gt;</publisher>
+      <name>tzdata</name>
+      <version>2020d-0+deb9u1</version>
+      <cpe>cpe:2.3:a:tzdata:tzdata:2020d-0\+deb9u1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:deb/debian/tzdata@2020d-0+deb9u1?arch=all&amp;distro=debian-9</purl>
+      <properties>
+        <property name="syft:package:foundBy">dpkgdb-cataloger</property>
+        <property name="syft:package:metadataType">DpkgMetadata</property>
+        <property name="syft:package:type">deb</property>
+        <property name="syft:location:0:layerID">sha256:7a5b9c0b4b140d0379ef710a07c3ecf963685b5236e3d0977b1aa96f209f7c5e</property>
+        <property name="syft:location:0:path">/usr/share/doc/tzdata/copyright</property>
+        <property name="syft:location:1:layerID">sha256:7a5b9c0b4b140d0379ef710a07c3ecf963685b5236e3d0977b1aa96f209f7c5e</property>
+        <property name="syft:location:1:path">/var/lib/dpkg/status.d/tzdata</property>
+        <property name="syft:metadata:installedSize">3034</property>
+      </properties>
+    </component>
+    <component type="operating-system">
+      <name>debian</name>
+      <version>9</version>
+      <description>Distroless</description>
+      <swid tagId="debian" name="debian" version="9"></swid>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/GoogleContainerTools/distroless/issues/new</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/GoogleContainerTools/distroless</url>
+        </reference>
+        <reference type="other">
+          <url>https://github.com/GoogleContainerTools/distroless/blob/master/README.md</url>
+          <comment>support</comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:distro:id">debian</property>
+        <property name="syft:distro:prettyName">Distroless</property>
+        <property name="syft:distro:versionID">9</property>
+      </properties>
+    </component>
+  </components>
+</bom>
