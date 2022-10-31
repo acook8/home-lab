@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:da08a7b0-601f-483a-b9b6-320c4b33516c" version="1">
+  <metadata>
+    <timestamp>2022-10-31T16:00:06Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>anchore</vendor>
+        <name>syft</name>
+        <version>v0.58.0</version>
+      </tool>
+    </tools>
+    <component bom-ref="28dab649835fd18c" type="container">
+      <name>/tmp/sha256_36c31f7e1f433c9634d24f876353e8646246d81a03c4e351202c2644daff1620.tar.gz</name>
+      <version>sha256:2cb20f785d824c66274887a8097f65ac30e3d98718241d2e09529f006e8eda40</version>
+    </component>
+  </metadata>
+  <components>
+    <component bom-ref="pkg:deb/debian/base-files@10.3+deb10u9?arch=amd64&amp;distro=debian-10&amp;package-id=aa6507139cb4b460" type="library">
+      <publisher>Santiago Vila &lt;sanvila@debian.org&gt;</publisher>
+      <name>base-files</name>
+      <version>10.3+deb10u9</version>
+      <cpe>cpe:2.3:a:base-files:base-files:10.3\+deb10u9:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:deb/debian/base-files@10.3+deb10u9?arch=amd64&amp;distro=debian-10</purl>
+      <properties>
+        <property name="syft:package:foundBy">dpkgdb-cataloger</property>
+        <property name="syft:package:metadataType">DpkgMetadata</property>
+        <property name="syft:package:type">deb</property>
+        <property name="syft:cpe23">cpe:2.3:a:base-files:base_files:10.3\+deb10u9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:base_files:base-files:10.3\+deb10u9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:base_files:base_files:10.3\+deb10u9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:base:base-files:10.3\+deb10u9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:base:base_files:10.3\+deb10u9:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:417cb9b79adeec55f58b890dc9831e252e3523d8de5fd28b4ee2abb151b7dc8b</property>
+        <property name="syft:location:0:path">/usr/share/doc/base-files/copyright</property>
+        <property name="syft:location:1:layerID">sha256:417cb9b79adeec55f58b890dc9831e252e3523d8de5fd28b4ee2abb151b7dc8b</property>
+        <property name="syft:location:1:path">/var/lib/dpkg/status.d/base</property>
+        <property name="syft:metadata:installedSize">340</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/beorn7/perks@v1.0.1?package-id=2e97dc4f426ed010" type="library">
+      <name>github.com/beorn7/perks</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:beorn7:perks:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/beorn7/perks@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/blang/semver@v3.5.1+incompatible?package-id=9ae5a88c88105de" type="library">
+      <name>github.com/blang/semver</name>
+      <version>v3.5.1+incompatible</version>
+      <cpe>cpe:2.3:a:blang:semver:v3.5.1\+incompatible:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/blang/semver@v3.5.1+incompatible</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/cespare/xxhash/v2@v2.1.1?package-id=5e3616815ec31a5" type="library">
+      <name>github.com/cespare/xxhash/v2</name>
+      <version>v2.1.1</version>
+      <cpe>cpe:2.3:a:cespare:xxhash\/v2:v2.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/cespare/xxhash/v2@v2.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/container-storage-interface/spec@v1.4.0?package-id=cf773f4dc1bfbce1" type="library">
+      <name>github.com/container-storage-interface/spec</name>
+      <version>v1.4.0</version>
+      <cpe>cpe:2.3:a:container-storage-interface:spec:v1.4.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/container-storage-interface/spec@v1.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:container_storage_interface:spec:v1.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:container-storage:spec:v1.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:container_storage:spec:v1.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:container:spec:v1.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/davecgh/go-spew@v1.1.1?package-id=aca4b2b0d8384971" type="library">
+      <name>github.com/davecgh/go-spew</name>
+      <version>v1.1.1</version>
+      <cpe>cpe:2.3:a:davecgh:go-spew:v1.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/davecgh/go-spew@v1.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:davecgh:go_spew:v1.1.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-logr/logr@v0.4.0?package-id=48a36cda59d72867" type="library">
+      <name>github.com/go-logr/logr</name>
+      <version>v0.4.0</version>
+      <cpe>cpe:2.3:a:go-logr:logr:v0.4.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-logr/logr@v0.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_logr:logr:v0.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:logr:v0.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/gogo/protobuf@v1.3.2?package-id=92df64409d59c1e0" type="library">
+      <name>github.com/gogo/protobuf</name>
+      <version>v1.3.2</version>
+      <cpe>cpe:2.3:a:gogo:protobuf:v1.3.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/gogo/protobuf@v1.3.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/golang/groupcache@v0.0.0-20200121045136-8c9f03a8e57e?package-id=5272fad832a5ef34" type="library">
+      <name>github.com/golang/groupcache</name>
+      <version>v0.0.0-20200121045136-8c9f03a8e57e</version>
+      <cpe>cpe:2.3:a:golang:groupcache:v0.0.0-20200121045136-8c9f03a8e57e:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/golang/groupcache@v0.0.0-20200121045136-8c9f03a8e57e</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/golang/protobuf@v1.5.1?package-id=62310907c2242fa6" type="library">
+      <name>github.com/golang/protobuf</name>
+      <version>v1.5.1</version>
+      <cpe>cpe:2.3:a:golang:protobuf:v1.5.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/golang/protobuf@v1.5.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/go-cmp@v0.5.5?package-id=c920259b6385a735" type="library">
+      <name>github.com/google/go-cmp</name>
+      <version>v0.5.5</version>
+      <cpe>cpe:2.3:a:google:go-cmp:v0.5.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/go-cmp@v0.5.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:google:go_cmp:v0.5.5:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/gofuzz@v1.2.0?package-id=dd6359a331c07ce0" type="library">
+      <name>github.com/google/gofuzz</name>
+      <version>v1.2.0</version>
+      <cpe>cpe:2.3:a:google:gofuzz:v1.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/gofuzz@v1.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/googleapis/gnostic@v0.5.4?package-id=8bc2a69778168ecb" type="library">
+      <name>github.com/googleapis/gnostic</name>
+      <version>v0.5.4</version>
+      <cpe>cpe:2.3:a:googleapis:gnostic:v0.5.4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/googleapis/gnostic@v0.5.4</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/hashicorp/golang-lru@v0.5.4?package-id=53346e8942acd088" type="library">
+      <name>github.com/hashicorp/golang-lru</name>
+      <version>v0.5.4</version>
+      <cpe>cpe:2.3:a:hashicorp:golang-lru:v0.5.4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/hashicorp/golang-lru@v0.5.4</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:hashicorp:golang_lru:v0.5.4:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/imdario/mergo@v0.3.12?package-id=32b06dde4237bbc3" type="library">
+      <name>github.com/imdario/mergo</name>
+      <version>v0.3.12</version>
+      <cpe>cpe:2.3:a:imdario:mergo:v0.3.12:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/imdario/mergo@v0.3.12</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/json-iterator/go@v1.1.10?package-id=49a57920d4384dac" type="library">
+      <name>github.com/json-iterator/go</name>
+      <version>v1.1.10</version>
+      <cpe>cpe:2.3:a:json-iterator:go:v1.1.10:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/json-iterator/go@v1.1.10</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:json_iterator:go:v1.1.10:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:json:go:v1.1.10:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/kubernetes-csi/csi-lib-utils@v0.9.1?package-id=322ec252150e4006" type="library">
+      <name>github.com/kubernetes-csi/csi-lib-utils</name>
+      <version>v0.9.1</version>
+      <cpe>cpe:2.3:a:kubernetes-csi:csi-lib-utils:v0.9.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/kubernetes-csi/csi-lib-utils@v0.9.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes-csi:csi_lib_utils:v0.9.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes_csi:csi-lib-utils:v0.9.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes_csi:csi_lib_utils:v0.9.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes:csi-lib-utils:v0.9.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes:csi_lib_utils:v0.9.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/kubernetes-csi/external-resizer@(devel)?package-id=a60fbd054fd6a91d" type="library">
+      <name>github.com/kubernetes-csi/external-resizer</name>
+      <version>(devel)</version>
+      <cpe>cpe:2.3:a:kubernetes-csi:external-resizer:\(devel\):*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/kubernetes-csi/external-resizer@(devel)</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes-csi:external_resizer:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes_csi:external-resizer:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes_csi:external_resizer:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes:external-resizer:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes:external_resizer:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.2-0.20181231171920-c182affec369?package-id=45c8a817ef20eaed" type="library">
+      <name>github.com/matttproud/golang_protobuf_extensions</name>
+      <version>v1.0.2-0.20181231171920-c182affec369</version>
+      <cpe>cpe:2.3:a:matttproud:golang-protobuf-extensions:v1.0.2-0.20181231171920-c182affec369:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.2-0.20181231171920-c182affec369</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:matttproud:golang_protobuf_extensions:v1.0.2-0.20181231171920-c182affec369:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd?package-id=2bf059b181472fd7" type="library">
+      <name>github.com/modern-go/concurrent</name>
+      <version>v0.0.0-20180306012644-bacd9c7ef1dd</version>
+      <cpe>cpe:2.3:a:modern-go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern_go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/modern-go/reflect2@v1.0.1?package-id=d1b7dc5cb07f8cd6" type="library">
+      <name>github.com/modern-go/reflect2</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:modern-go:reflect2:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/modern-go/reflect2@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern_go:reflect2:v1.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern:reflect2:v1.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/client_golang@v1.9.0?package-id=33ff6add5e9f5aa4" type="library">
+      <name>github.com/prometheus/client_golang</name>
+      <version>v1.9.0</version>
+      <cpe>cpe:2.3:a:prometheus:client-golang:v1.9.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/client_golang@v1.9.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:client_golang:v1.9.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/client_model@v0.2.0?package-id=c417c3ff24561aa8" type="library">
+      <name>github.com/prometheus/client_model</name>
+      <version>v0.2.0</version>
+      <cpe>cpe:2.3:a:prometheus:client-model:v0.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/client_model@v0.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:client_model:v0.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/common@v0.19.0?package-id=c153e8c3eae18d96" type="library">
+      <name>github.com/prometheus/common</name>
+      <version>v0.19.0</version>
+      <cpe>cpe:2.3:a:prometheus:common:v0.19.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/common@v0.19.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/procfs@v0.6.0?package-id=71086f0e5a53e75f" type="library">
+      <name>github.com/prometheus/procfs</name>
+      <version>v0.6.0</version>
+      <cpe>cpe:2.3:a:prometheus:procfs:v0.6.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/procfs@v0.6.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/spf13/pflag@v1.0.5?package-id=ea9668ab66bd7b66" type="library">
+      <name>github.com/spf13/pflag</name>
+      <version>v1.0.5</version>
+      <cpe>cpe:2.3:a:spf13:pflag:v1.0.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/spf13/pflag@v1.0.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/net@v0.0.0-20210316092652-d523dce5a7f4?package-id=d6738ce4a47416ee" type="library">
+      <name>golang.org/x/net</name>
+      <version>v0.0.0-20210316092652-d523dce5a7f4</version>
+      <cpe>cpe:2.3:a:golang:x\/net:v0.0.0-20210316092652-d523dce5a7f4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/net@v0.0.0-20210316092652-d523dce5a7f4</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/oauth2@v0.0.0-20210313182246-cd4f82c27b84?package-id=1a3bf7618272d54" type="library">
+      <name>golang.org/x/oauth2</name>
+      <version>v0.0.0-20210313182246-cd4f82c27b84</version>
+      <cpe>cpe:2.3:a:golang:x\/oauth2:v0.0.0-20210313182246-cd4f82c27b84:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/oauth2@v0.0.0-20210313182246-cd4f82c27b84</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/sys@v0.0.0-20210317225723-c4fcb01b228e?package-id=add432f01662ca65" type="library">
+      <name>golang.org/x/sys</name>
+      <version>v0.0.0-20210317225723-c4fcb01b228e</version>
+      <cpe>cpe:2.3:a:golang:x\/sys:v0.0.0-20210317225723-c4fcb01b228e:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/sys@v0.0.0-20210317225723-c4fcb01b228e</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/term@v0.0.0-20210317153231-de623e64d2a6?package-id=65e086caf2217a59" type="library">
+      <name>golang.org/x/term</name>
+      <version>v0.0.0-20210317153231-de623e64d2a6</version>
+      <cpe>cpe:2.3:a:golang:x\/term:v0.0.0-20210317153231-de623e64d2a6:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/term@v0.0.0-20210317153231-de623e64d2a6</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/text@v0.3.5?package-id=6cd40014a02466bf" type="library">
+      <name>golang.org/x/text</name>
+      <version>v0.3.5</version>
+      <cpe>cpe:2.3:a:golang:x\/text:v0.3.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/text@v0.3.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/time@v0.0.0-20210220033141-f8bda1e9f3ba?package-id=c3526c9f1edcdfc9" type="library">
+      <name>golang.org/x/time</name>
+      <version>v0.0.0-20210220033141-f8bda1e9f3ba</version>
+      <cpe>cpe:2.3:a:golang:x\/time:v0.0.0-20210220033141-f8bda1e9f3ba:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/time@v0.0.0-20210220033141-f8bda1e9f3ba</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/genproto@v0.0.0-20210317182105-75c7a8546eb9?package-id=68484f86331c6780" type="library">
+      <name>google.golang.org/genproto</name>
+      <version>v0.0.0-20210317182105-75c7a8546eb9</version>
+      <cpe>cpe:2.3:a:google:genproto:v0.0.0-20210317182105-75c7a8546eb9:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/genproto@v0.0.0-20210317182105-75c7a8546eb9</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/grpc@v1.36.0?package-id=198651e956a50353" type="library">
+      <name>google.golang.org/grpc</name>
+      <version>v1.36.0</version>
+      <cpe>cpe:2.3:a:google:grpc:v1.36.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/grpc@v1.36.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/protobuf@v1.26.0?package-id=f7960a21a5648e49" type="library">
+      <name>google.golang.org/protobuf</name>
+      <version>v1.26.0</version>
+      <cpe>cpe:2.3:a:google:protobuf:v1.26.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/protobuf@v1.26.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/inf.v0@v0.9.1?package-id=edd86292605be969" type="library">
+      <name>gopkg.in/inf.v0</name>
+      <version>v0.9.1</version>
+      <purl>pkg:golang/gopkg.in/inf.v0@v0.9.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/yaml.v2@v2.4.0?package-id=4fb690092c0bd7de" type="library">
+      <name>gopkg.in/yaml.v2</name>
+      <version>v2.4.0</version>
+      <purl>pkg:golang/gopkg.in/yaml.v2@v2.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/yaml.v3@v3.0.0-20210107192922-496545a6307b?package-id=f2ffc3027bd02212" type="library">
+      <name>gopkg.in/yaml.v3</name>
+      <version>v3.0.0-20210107192922-496545a6307b</version>
+      <purl>pkg:golang/gopkg.in/yaml.v3@v3.0.0-20210107192922-496545a6307b</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/api@v0.21.0?package-id=f21e08889afbec43" type="library">
+      <name>k8s.io/api</name>
+      <version>v0.21.0</version>
+      <purl>pkg:golang/k8s.io/api@v0.21.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/apimachinery@v0.21.0?package-id=c20430856a1cad44" type="library">
+      <name>k8s.io/apimachinery</name>
+      <version>v0.21.0</version>
+      <purl>pkg:golang/k8s.io/apimachinery@v0.21.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/apiserver@v0.20.0?package-id=8da69f0250be63d6" type="library">
+      <name>k8s.io/apiserver</name>
+      <version>v0.20.0</version>
+      <purl>pkg:golang/k8s.io/apiserver@v0.20.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/client-go@v0.21.0?package-id=4097a5f2dc9632e5" type="library">
+      <name>k8s.io/client-go</name>
+      <version>v0.21.0</version>
+      <purl>pkg:golang/k8s.io/client-go@v0.21.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/component-base@v0.21.0?package-id=f25756d7c0875936" type="library">
+      <name>k8s.io/component-base</name>
+      <version>v0.21.0</version>
+      <purl>pkg:golang/k8s.io/component-base@v0.21.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/csi-translation-lib@v0.21.0?package-id=9084dd4563cc1516" type="library">
+      <name>k8s.io/csi-translation-lib</name>
+      <version>v0.21.0</version>
+      <purl>pkg:golang/k8s.io/csi-translation-lib@v0.21.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/klog/v2@v2.8.0?package-id=f11712d7c10b4bfc" type="library">
+      <name>k8s.io/klog/v2</name>
+      <version>v2.8.0</version>
+      <cpe>cpe:2.3:a:klog:v2:v2.8.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/k8s.io/klog/v2@v2.8.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/kube-openapi@v0.0.0-20210305164622-f622666832c1?package-id=18bcc200624d9dc" type="library">
+      <name>k8s.io/kube-openapi</name>
+      <version>v0.0.0-20210305164622-f622666832c1</version>
+      <purl>pkg:golang/k8s.io/kube-openapi@v0.0.0-20210305164622-f622666832c1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/utils@v0.0.0-20210305010621-2afb4311ab10?package-id=7e1d4ed1d382167f" type="library">
+      <name>k8s.io/utils</name>
+      <version>v0.0.0-20210305010621-2afb4311ab10</version>
+      <purl>pkg:golang/k8s.io/utils@v0.0.0-20210305010621-2afb4311ab10</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:deb/debian/netbase@5.6?arch=all&amp;distro=debian-10&amp;package-id=daeceb2be1ffa05e" type="library">
+      <publisher>Marco d&#39;Itri &lt;md@linux.it&gt;</publisher>
+      <name>netbase</name>
+      <version>5.6</version>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:netbase:netbase:5.6:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:deb/debian/netbase@5.6?arch=all&amp;distro=debian-10</purl>
+      <properties>
+        <property name="syft:package:foundBy">dpkgdb-cataloger</property>
+        <property name="syft:package:metadataType">DpkgMetadata</property>
+        <property name="syft:package:type">deb</property>
+        <property name="syft:location:0:layerID">sha256:417cb9b79adeec55f58b890dc9831e252e3523d8de5fd28b4ee2abb151b7dc8b</property>
+        <property name="syft:location:0:path">/usr/share/doc/netbase/copyright</property>
+        <property name="syft:location:1:layerID">sha256:417cb9b79adeec55f58b890dc9831e252e3523d8de5fd28b4ee2abb151b7dc8b</property>
+        <property name="syft:location:1:path">/var/lib/dpkg/status.d/netbase</property>
+        <property name="syft:metadata:installedSize">44</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.1.0?package-id=76c6e8ff29cd1844" type="library">
+      <name>sigs.k8s.io/structured-merge-diff/v4</name>
+      <version>v4.1.0</version>
+      <cpe>cpe:2.3:a:structured-merge-diff:v4:v4.1.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.1.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured_merge_diff:v4:v4.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured-merge:v4:v4.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured_merge:v4:v4.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured:v4:v4.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/yaml@v1.2.0?package-id=69d3a5e1d635faa9" type="library">
+      <name>sigs.k8s.io/yaml</name>
+      <version>v1.2.0</version>
+      <purl>pkg:golang/sigs.k8s.io/yaml@v1.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:c398eebbc269bf3116fd8a40f419863bc6d0f16521bbbd2d3450252e2c9f70f8</property>
+        <property name="syft:location:0:path">/csi-resizer</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-resizer</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:deb/debian/tzdata@2021a-0+deb10u1?arch=all&amp;distro=debian-10&amp;package-id=6b5e82bfedd3aa6f" type="library">
+      <publisher>GNU Libc Maintainers &lt;debian-glibc@lists.debian.org&gt;</publisher>
+      <name>tzdata</name>
+      <version>2021a-0+deb10u1</version>
+      <cpe>cpe:2.3:a:tzdata:tzdata:2021a-0\+deb10u1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:deb/debian/tzdata@2021a-0+deb10u1?arch=all&amp;distro=debian-10</purl>
+      <properties>
+        <property name="syft:package:foundBy">dpkgdb-cataloger</property>
+        <property name="syft:package:metadataType">DpkgMetadata</property>
+        <property name="syft:package:type">deb</property>
+        <property name="syft:location:0:layerID">sha256:417cb9b79adeec55f58b890dc9831e252e3523d8de5fd28b4ee2abb151b7dc8b</property>
+        <property name="syft:location:0:path">/usr/share/doc/tzdata/copyright</property>
+        <property name="syft:location:1:layerID">sha256:417cb9b79adeec55f58b890dc9831e252e3523d8de5fd28b4ee2abb151b7dc8b</property>
+        <property name="syft:location:1:path">/var/lib/dpkg/status.d/tzdata</property>
+        <property name="syft:metadata:installedSize">3040</property>
+      </properties>
+    </component>
+    <component type="operating-system">
+      <name>debian</name>
+      <version>10</version>
+      <description>Distroless</description>
+      <swid tagId="debian" name="debian" version="10"></swid>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/GoogleContainerTools/distroless/issues/new</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/GoogleContainerTools/distroless</url>
+        </reference>
+        <reference type="other">
+          <url>https://github.com/GoogleContainerTools/distroless/blob/master/README.md</url>
+          <comment>support</comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:distro:id">debian</property>
+        <property name="syft:distro:prettyName">Distroless</property>
+        <property name="syft:distro:versionID">10</property>
+      </properties>
+    </component>
+  </components>
+</bom>
