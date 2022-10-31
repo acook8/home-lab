@@ -1,0 +1,1443 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:92cfd299-db21-4f1f-974d-45adf7dc9e56" version="1">
+  <metadata>
+    <timestamp>2022-10-31T16:01:21Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>anchore</vendor>
+        <name>syft</name>
+        <version>v0.58.0</version>
+      </tool>
+    </tools>
+    <component bom-ref="6b9944d98a9305f2" type="container">
+      <name>/tmp/sha256_6385aec64bb97040a5e692947107b81e178555c7a5b71caa90d733e4130efc10.tar.gz</name>
+      <version>sha256:9816e31b92a7620c8d5355e830bf2409ee1b30dc62e6caa7f6b8fb6b98918da7</version>
+    </component>
+  </metadata>
+  <components>
+    <component bom-ref="pkg:deb/debian/base-files@11.1+deb11u1?arch=amd64&amp;distro=debian-11&amp;package-id=3efad6487107811f" type="library">
+      <publisher>Santiago Vila &lt;sanvila@debian.org&gt;</publisher>
+      <name>base-files</name>
+      <version>11.1+deb11u1</version>
+      <cpe>cpe:2.3:a:base-files:base-files:11.1\+deb11u1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:deb/debian/base-files@11.1+deb11u1?arch=amd64&amp;distro=debian-11</purl>
+      <properties>
+        <property name="syft:package:foundBy">dpkgdb-cataloger</property>
+        <property name="syft:package:metadataType">DpkgMetadata</property>
+        <property name="syft:package:type">deb</property>
+        <property name="syft:cpe23">cpe:2.3:a:base-files:base_files:11.1\+deb11u1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:base_files:base-files:11.1\+deb11u1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:base_files:base_files:11.1\+deb11u1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:base:base-files:11.1\+deb11u1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:base:base_files:11.1\+deb11u1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:6d75f23be3ddcb784b51ea7ef9b6a3a038f9e0b2f08f08628b226dba8b5161f8</property>
+        <property name="syft:location:0:path">/usr/share/doc/base-files/copyright</property>
+        <property name="syft:location:1:layerID">sha256:6d75f23be3ddcb784b51ea7ef9b6a3a038f9e0b2f08f08628b226dba8b5161f8</property>
+        <property name="syft:location:1:path">/var/lib/dpkg/status.d/base</property>
+        <property name="syft:metadata:installedSize">340</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/nytimes/gziphandler@v1.1.1?package-id=7f5d43ff09d78f08" type="library">
+      <name>github.com/NYTimes/gziphandler</name>
+      <version>v1.1.1</version>
+      <cpe>cpe:2.3:a:NYTimes:gziphandler:v1.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/NYTimes/gziphandler@v1.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:ZUDjpQae29j0ryrS0u/B8HZfJBtBQHjqw2rQ2cqUQ3I=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/puerkitobio/purell@v1.1.1?package-id=6ee2aacb77ec32b0" type="library">
+      <name>github.com/PuerkitoBio/purell</name>
+      <version>v1.1.1</version>
+      <cpe>cpe:2.3:a:PuerkitoBio:purell:v1.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/PuerkitoBio/purell@v1.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:WEQqlqaGbrPkxLJWfBwQmfEAE1Z7ONdDLqrN38tNFfI=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/puerkitobio/urlesc@v0.0.0-20170810143723-de5bf2ad4578?package-id=fb35f197e39da6eb" type="library">
+      <name>github.com/PuerkitoBio/urlesc</name>
+      <version>v0.0.0-20170810143723-de5bf2ad4578</version>
+      <cpe>cpe:2.3:a:PuerkitoBio:urlesc:v0.0.0-20170810143723-de5bf2ad4578:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/PuerkitoBio/urlesc@v0.0.0-20170810143723-de5bf2ad4578</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:d+Bc7a5rLufV/sSk/8dngufqelfh6jnri85riMAaF/M=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/beorn7/perks@v1.0.1?package-id=5f804b2e68cd749e" type="library">
+      <name>github.com/beorn7/perks</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:beorn7:perks:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/beorn7/perks@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/blang/semver@v3.5.1+incompatible?package-id=23e9dc0630a68db1" type="library">
+      <name>github.com/blang/semver</name>
+      <version>v3.5.1+incompatible</version>
+      <cpe>cpe:2.3:a:blang:semver:v3.5.1\+incompatible:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/blang/semver@v3.5.1+incompatible</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:cQNTCjp13qL8KC3Nbxr/y2Bqb63oX6wdnnjpJbkM4JQ=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/cespare/xxhash/v2@v2.1.1?package-id=9eee3c0bd64c61f4" type="library">
+      <name>github.com/cespare/xxhash/v2</name>
+      <version>v2.1.1</version>
+      <cpe>cpe:2.3:a:cespare:xxhash\/v2:v2.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/cespare/xxhash/v2@v2.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:6MnRN8NT7+YBpUIWxHtefFZOKTAPgGjpQSxqLNn0+qY=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/coreos/go-semver@v0.3.0?package-id=642f2294c99ff3bc" type="library">
+      <name>github.com/coreos/go-semver</name>
+      <version>v0.3.0</version>
+      <cpe>cpe:2.3:a:coreos:go-semver:v0.3.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/coreos/go-semver@v0.3.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:coreos:go_semver:v0.3.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:wkHLiw0WNATZnSG7epLsujiMCgPAc9xhjJ4tgnAxmfM=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/coreos/go-systemd@v0.0.0-20190321100706-95778dfbb74e?package-id=dd1dfec4b96d9307" type="library">
+      <name>github.com/coreos/go-systemd</name>
+      <version>v0.0.0-20190321100706-95778dfbb74e</version>
+      <cpe>cpe:2.3:a:coreos:go-systemd:v0.0.0-20190321100706-95778dfbb74e:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/coreos/go-systemd@v0.0.0-20190321100706-95778dfbb74e</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:coreos:go_systemd:v0.0.0-20190321100706-95778dfbb74e:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:Wf6HqHfScWJN9/ZjdUKyjop4mf3Qdd+1TvvltAvM3m8=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/coreos/pkg@v0.0.0-20180928190104-399ea9e2e55f?package-id=6d69c403f1f514f6" type="library">
+      <name>github.com/coreos/pkg</name>
+      <version>v0.0.0-20180928190104-399ea9e2e55f</version>
+      <cpe>cpe:2.3:a:coreos:pkg:v0.0.0-20180928190104-399ea9e2e55f:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/coreos/pkg@v0.0.0-20180928190104-399ea9e2e55f</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:lBNOc5arjvs8E5mO2tbpBpLoyyu8B6e44T7hJy6potg=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/davecgh/go-spew@v1.1.1?package-id=afba2b90c7c644c1" type="library">
+      <name>github.com/davecgh/go-spew</name>
+      <version>v1.1.1</version>
+      <cpe>cpe:2.3:a:davecgh:go-spew:v1.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/davecgh/go-spew@v1.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:davecgh:go_spew:v1.1.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/emicklei/go-restful@v2.9.5+incompatible?package-id=320e367edf1faf34" type="library">
+      <name>github.com/emicklei/go-restful</name>
+      <version>v2.9.5+incompatible</version>
+      <cpe>cpe:2.3:a:emicklei:go-restful:v2.9.5\+incompatible:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/emicklei/go-restful@v2.9.5+incompatible</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:emicklei:go_restful:v2.9.5\+incompatible:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:spTtZBk5DYEvbxMVutUuTyh1Ao2r4iyvLdACqsl/Ljk=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/evanphx/json-patch@v4.9.0+incompatible?package-id=c426baf2a43e19dd" type="library">
+      <name>github.com/evanphx/json-patch</name>
+      <version>v4.9.0+incompatible</version>
+      <cpe>cpe:2.3:a:evanphx:json-patch:v4.9.0\+incompatible:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/evanphx/json-patch@v4.9.0+incompatible</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:evanphx:json_patch:v4.9.0\+incompatible:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:kLcOMZeuLAJvL2BPWLMIj5oaZQobrkAqrL+WFZwQses=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-logr/logr@v0.4.0?package-id=e36324a9431ee92" type="library">
+      <name>github.com/go-logr/logr</name>
+      <version>v0.4.0</version>
+      <cpe>cpe:2.3:a:go-logr:logr:v0.4.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-logr/logr@v0.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_logr:logr:v0.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:logr:v0.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:K7/B1jt6fIBQVd4Owv2MqGQClcgf0R266+7C/QjRcLc=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/jsonpointer@v0.19.5?package-id=ac945a53118d242a" type="library">
+      <name>github.com/go-openapi/jsonpointer</name>
+      <version>v0.19.5</version>
+      <cpe>cpe:2.3:a:go-openapi:jsonpointer:v0.19.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/jsonpointer@v0.19.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:jsonpointer:v0.19.5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:jsonpointer:v0.19.5:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:gZr+CIYByUqjcgeLXnQu2gHYQC9o73G2XUeOFYEICuY=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/jsonreference@v0.19.5?package-id=4c6172a707089baa" type="library">
+      <name>github.com/go-openapi/jsonreference</name>
+      <version>v0.19.5</version>
+      <cpe>cpe:2.3:a:go-openapi:jsonreference:v0.19.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/jsonreference@v0.19.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:jsonreference:v0.19.5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:jsonreference:v0.19.5:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:1WJP/wi4OjB4iV8KVbH73rQaoialJrqv8gitZLxGLtM=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/spec@v0.20.3?package-id=37a3e5504e43aca5" type="library">
+      <name>github.com/go-openapi/spec</name>
+      <version>v0.20.3</version>
+      <cpe>cpe:2.3:a:go-openapi:spec:v0.20.3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/spec@v0.20.3</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:spec:v0.20.3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:spec:v0.20.3:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:uH9RQ6vdyPSs2pSy9fL8QPspDF2AMIMPtmK5coSSjtQ=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/swag@v0.19.14?package-id=7b6fbac123f674cc" type="library">
+      <name>github.com/go-openapi/swag</name>
+      <version>v0.19.14</version>
+      <cpe>cpe:2.3:a:go-openapi:swag:v0.19.14:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/swag@v0.19.14</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:swag:v0.19.14:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:swag:v0.19.14:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:gm3vOOXfiuw5i9p5N9xJvfjvuofpyvLA9Wr6QfK5Fng=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/gogo/protobuf@v1.3.2?package-id=afdbd5cb5bd8aa69" type="library">
+      <name>github.com/gogo/protobuf</name>
+      <version>v1.3.2</version>
+      <cpe>cpe:2.3:a:gogo:protobuf:v1.3.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/gogo/protobuf@v1.3.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:Ov1cvc58UF3b5XjBnZv7+opcTcQFZebYjWzi34vdm4Q=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/golang/groupcache@v0.0.0-20200121045136-8c9f03a8e57e?package-id=a9565e168d5eb726" type="library">
+      <name>github.com/golang/groupcache</name>
+      <version>v0.0.0-20200121045136-8c9f03a8e57e</version>
+      <cpe>cpe:2.3:a:golang:groupcache:v0.0.0-20200121045136-8c9f03a8e57e:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/golang/groupcache@v0.0.0-20200121045136-8c9f03a8e57e</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:1r7pUrabqp18hOBcwBwiTsbnFeTZHV9eER/QT5JVZxY=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/golang/protobuf@v1.5.0?package-id=51b655d14174d1fb" type="library">
+      <name>github.com/golang/protobuf</name>
+      <version>v1.5.0</version>
+      <cpe>cpe:2.3:a:golang:protobuf:v1.5.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/golang/protobuf@v1.5.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:LUVKkCeviFUMKqHa4tXIIij/lbhnMbP7Fn5wKdKkRh4=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/go-cmp@v0.5.5?package-id=59ced522ae1e1a8b" type="library">
+      <name>github.com/google/go-cmp</name>
+      <version>v0.5.5</version>
+      <cpe>cpe:2.3:a:google:go-cmp:v0.5.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/go-cmp@v0.5.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:google:go_cmp:v0.5.5:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:Khx7svrCpmxxtHBq5j2mp/xVjsi8hQMfNLvJFAlrGgU=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/gofuzz@v1.1.0?package-id=a4abec2d16e5feab" type="library">
+      <name>github.com/google/gofuzz</name>
+      <version>v1.1.0</version>
+      <cpe>cpe:2.3:a:google:gofuzz:v1.1.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/gofuzz@v1.1.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:Hsa8mG0dQ46ij8Sl2AYJDUv1oA9/d6Vk+3LG99Oe02g=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/uuid@v1.1.2?package-id=f9300820263b0762" type="library">
+      <name>github.com/google/uuid</name>
+      <version>v1.1.2</version>
+      <cpe>cpe:2.3:a:google:uuid:v1.1.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/uuid@v1.1.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:EVhdT+1Kseyi1/pUmXKaFxYsDNy9RQYkMWRH68J/W7Y=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/googleapis/gnostic@v0.4.1?package-id=580aef17328a0137" type="library">
+      <name>github.com/googleapis/gnostic</name>
+      <version>v0.4.1</version>
+      <cpe>cpe:2.3:a:googleapis:gnostic:v0.4.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/googleapis/gnostic@v0.4.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:DLJCy1n/vrD4HPjOvYcT8aYQXpPIzoRZONaYwyycI+I=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/grpc-ecosystem/go-grpc-prometheus@v1.2.0?package-id=66eec5a2335f0d02" type="library">
+      <name>github.com/grpc-ecosystem/go-grpc-prometheus</name>
+      <version>v1.2.0</version>
+      <cpe>cpe:2.3:a:grpc-ecosystem:go-grpc-prometheus:v1.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/grpc-ecosystem/go-grpc-prometheus@v1.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:grpc-ecosystem:go_grpc_prometheus:v1.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:grpc_ecosystem:go-grpc-prometheus:v1.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:grpc_ecosystem:go_grpc_prometheus:v1.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:grpc:go-grpc-prometheus:v1.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:grpc:go_grpc_prometheus:v1.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:Ovs26xHkKqVztRpIrF/92BcuyuQ/YW4NSIpoGtfXNho=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/hashicorp/golang-lru@v0.5.1?package-id=286cc81c2bb71ff6" type="library">
+      <name>github.com/hashicorp/golang-lru</name>
+      <version>v0.5.1</version>
+      <cpe>cpe:2.3:a:hashicorp:golang-lru:v0.5.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/hashicorp/golang-lru@v0.5.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:hashicorp:golang_lru:v0.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:0hERBMJE1eitiLkihrMvRVBYAkpHzc/J3QdDN+dAcgU=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/imdario/mergo@v0.3.5?package-id=8b8e584e0ef07450" type="library">
+      <name>github.com/imdario/mergo</name>
+      <version>v0.3.5</version>
+      <cpe>cpe:2.3:a:imdario:mergo:v0.3.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/imdario/mergo@v0.3.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:JboBksRwiiAJWvIYJVo46AfV+IAIKZpfrSzVKj42R4Q=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/josharian/intern@v1.0.0?package-id=35422d09e5c43439" type="library">
+      <name>github.com/josharian/intern</name>
+      <version>v1.0.0</version>
+      <cpe>cpe:2.3:a:josharian:intern:v1.0.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/josharian/intern@v1.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:vlS4z54oSdjm0bgjRigI+G1HpF+tI+9rE5LLzOg8HmY=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/json-iterator/go@v1.1.10?package-id=e2141ca9a9c511da" type="library">
+      <name>github.com/json-iterator/go</name>
+      <version>v1.1.10</version>
+      <cpe>cpe:2.3:a:json-iterator:go:v1.1.10:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/json-iterator/go@v1.1.10</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:json_iterator:go:v1.1.10:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:json:go:v1.1.10:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:Kz6Cvnvv2wGdaG/V8yMvfkmNiXq9Ya2KUv4rouJJr68=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/mailru/easyjson@v0.7.7?package-id=58f14f72a1870c08" type="library">
+      <name>github.com/mailru/easyjson</name>
+      <version>v0.7.7</version>
+      <cpe>cpe:2.3:a:mailru:easyjson:v0.7.7:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/mailru/easyjson@v0.7.7</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:UGYAvKxe3sBsEDzO8ZeWOSlIQfWFlxbzLZe7hwFURr0=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.2-0.20181231171920-c182affec369?package-id=6b963bcd954c5933" type="library">
+      <name>github.com/matttproud/golang_protobuf_extensions</name>
+      <version>v1.0.2-0.20181231171920-c182affec369</version>
+      <cpe>cpe:2.3:a:matttproud:golang-protobuf-extensions:v1.0.2-0.20181231171920-c182affec369:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.2-0.20181231171920-c182affec369</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:matttproud:golang_protobuf_extensions:v1.0.2-0.20181231171920-c182affec369:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:I0XW9+e1XWDxdcEniV4rQAIOPUGDq67JSCiRCgGCZLI=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/moby/term@v0.0.0-20201216013528-df9cb8a40635?package-id=568b8858c5cc5697" type="library">
+      <name>github.com/moby/term</name>
+      <version>v0.0.0-20201216013528-df9cb8a40635</version>
+      <cpe>cpe:2.3:a:moby:term:v0.0.0-20201216013528-df9cb8a40635:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/moby/term@v0.0.0-20201216013528-df9cb8a40635</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:rzf0wL0CHVc8CEsgyygG0Mn9CNCCPZqOPaz8RiiHYQk=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd?package-id=3991184619371b14" type="library">
+      <name>github.com/modern-go/concurrent</name>
+      <version>v0.0.0-20180306012644-bacd9c7ef1dd</version>
+      <cpe>cpe:2.3:a:modern-go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern_go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:TRLaZ9cD/w8PVh93nsPXa1VrQ6jlwL5oN8l14QlcNfg=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/modern-go/reflect2@v1.0.1?package-id=a3bc55b790338032" type="library">
+      <name>github.com/modern-go/reflect2</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:modern-go:reflect2:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/modern-go/reflect2@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern_go:reflect2:v1.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern:reflect2:v1.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:9f412s+6RmYXLWZSEzVVgPGK7C2PphHj5RJrvfx9AWI=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/munnerz/goautoneg@v0.0.0-20191010083416-a7dc8b61c822?package-id=2b63f21f18a87530" type="library">
+      <name>github.com/munnerz/goautoneg</name>
+      <version>v0.0.0-20191010083416-a7dc8b61c822</version>
+      <cpe>cpe:2.3:a:munnerz:goautoneg:v0.0.0-20191010083416-a7dc8b61c822:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/munnerz/goautoneg@v0.0.0-20191010083416-a7dc8b61c822</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:C3w9PqII01/Oq1c1nUAm88MOHcQC9l5mIlSMApZMrHA=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/pkg/errors@v0.9.1?package-id=105e98ab45153fca" type="library">
+      <name>github.com/pkg/errors</name>
+      <version>v0.9.1</version>
+      <cpe>cpe:2.3:a:pkg:errors:v0.9.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/pkg/errors@v0.9.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/client_golang@v1.7.1?package-id=78559564c3a748ab" type="library">
+      <name>github.com/prometheus/client_golang</name>
+      <version>v1.7.1</version>
+      <cpe>cpe:2.3:a:prometheus:client-golang:v1.7.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/client_golang@v1.7.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:client_golang:v1.7.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:NTGy1Ja9pByO+xAeH/qiWnLrKtr3hJPNjaVUwnjpdpA=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/client_model@v0.2.0?package-id=aa433db4c91ad518" type="library">
+      <name>github.com/prometheus/client_model</name>
+      <version>v0.2.0</version>
+      <cpe>cpe:2.3:a:prometheus:client-model:v0.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/client_model@v0.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:client_model:v0.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:uq5h0d+GuxiXLJLNABMgp2qUWDPiLvgCzz2dUR+/W/M=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/common@v0.25.0?package-id=a8107269a9a8eae" type="library">
+      <name>github.com/prometheus/common</name>
+      <version>v0.25.0</version>
+      <cpe>cpe:2.3:a:prometheus:common:v0.25.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/common@v0.25.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:IjJYZJCI8HZYtqA3xYwGyDzSCy1r4CA2GRh+4vdOmtE=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/procfs@v0.2.0?package-id=7bfcc70751d217be" type="library">
+      <name>github.com/prometheus/procfs</name>
+      <version>v0.2.0</version>
+      <cpe>cpe:2.3:a:prometheus:procfs:v0.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/procfs@v0.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:wH4vA7pcjKuZzjF7lM8awk4fnuJO6idemZXoKnULUx4=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/spf13/cobra@v1.1.3?package-id=3f9bc85ae31203ea" type="library">
+      <name>github.com/spf13/cobra</name>
+      <version>v1.1.3</version>
+      <cpe>cpe:2.3:a:spf13:cobra:v1.1.3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/spf13/cobra@v1.1.3</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:xghbfqPkxzxP3C/f3n5DdpAbdKLj4ZE4BWQI362l53M=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/spf13/pflag@v1.0.5?package-id=ab89a6bd10d8ec63" type="library">
+      <name>github.com/spf13/pflag</name>
+      <version>v1.0.5</version>
+      <cpe>cpe:2.3:a:spf13:pflag:v1.0.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/spf13/pflag@v1.0.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:iy+VFUOCP1a+8yFto/drg2CJ5u0yRoB7fZw3DKv/JXA=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/go.etcd.io/etcd@v0.5.0-alpha.5.0.20200910180754-dd1b699fc489?package-id=33ab63664ea34fed" type="library">
+      <name>go.etcd.io/etcd</name>
+      <version>v0.5.0-alpha.5.0.20200910180754-dd1b699fc489</version>
+      <purl>pkg:golang/go.etcd.io/etcd@v0.5.0-alpha.5.0.20200910180754-dd1b699fc489</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:1JFLBqwIgdyHN1ZtgjTBwO+blA6gVOmZurpiMEsETKo=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/go.uber.org/atomic@v1.5.0?package-id=47d91fc073f54aca" type="library">
+      <name>go.uber.org/atomic</name>
+      <version>v1.5.0</version>
+      <purl>pkg:golang/go.uber.org/atomic@v1.5.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:OI5t8sDa1Or+q8AeE+yKeB/SDYioSHAgcVljj9JIETY=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/go.uber.org/multierr@v1.3.0?package-id=78ce9731889151e9" type="library">
+      <name>go.uber.org/multierr</name>
+      <version>v1.3.0</version>
+      <purl>pkg:golang/go.uber.org/multierr@v1.3.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:sFPn2GLc3poCkfrpIXGhBD2X0CMIo4Q/zSULXrj/+uc=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/go.uber.org/zap@v1.13.0?package-id=730221937b397df8" type="library">
+      <name>go.uber.org/zap</name>
+      <version>v1.13.0</version>
+      <purl>pkg:golang/go.uber.org/zap@v1.13.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:nR6NoDBgAf67s68NhaXbsojM+2gxp3S1hWkHDl27pVU=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/crypto@v0.0.0-20210220033148-5ea612d1eb83?package-id=e3c178e455f95bd" type="library">
+      <name>golang.org/x/crypto</name>
+      <version>v0.0.0-20210220033148-5ea612d1eb83</version>
+      <cpe>cpe:2.3:a:golang:x\/crypto:v0.0.0-20210220033148-5ea612d1eb83:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/crypto@v0.0.0-20210220033148-5ea612d1eb83</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:/ZScEX8SfEmUGRHs0gxpqteO5nfNW6axyZbBdw9A12g=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/net@v0.0.0-20210224082022-3d97a244fca7?package-id=adaad4cdda2708ef" type="library">
+      <name>golang.org/x/net</name>
+      <version>v0.0.0-20210224082022-3d97a244fca7</version>
+      <cpe>cpe:2.3:a:golang:x\/net:v0.0.0-20210224082022-3d97a244fca7:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/net@v0.0.0-20210224082022-3d97a244fca7</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:OgUuv8lsRpBibGNbSizVwKWlysjaNzmC9gYMhPVfqFM=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/oauth2@v0.0.0-20200107190931-bf48bf16ab8d?package-id=b4d1cde84dcf6ea5" type="library">
+      <name>golang.org/x/oauth2</name>
+      <version>v0.0.0-20200107190931-bf48bf16ab8d</version>
+      <cpe>cpe:2.3:a:golang:x\/oauth2:v0.0.0-20200107190931-bf48bf16ab8d:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/oauth2@v0.0.0-20200107190931-bf48bf16ab8d</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:TzXSXBo42m9gQenoE3b9BGiEpg5IG2JkU5FkPIawgtw=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/sync@v0.0.0-20201020160332-67f06af15bc9?package-id=accf50d39901480f" type="library">
+      <name>golang.org/x/sync</name>
+      <version>v0.0.0-20201020160332-67f06af15bc9</version>
+      <cpe>cpe:2.3:a:golang:x\/sync:v0.0.0-20201020160332-67f06af15bc9:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/sync@v0.0.0-20201020160332-67f06af15bc9</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:SQFwaSi55rU7vdNs9Yr0Z324VNlrF+0wMqRXT4St8ck=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/sys@v0.0.0-20210426230700-d19ff857e887?package-id=45d4426d56e23a26" type="library">
+      <name>golang.org/x/sys</name>
+      <version>v0.0.0-20210426230700-d19ff857e887</version>
+      <cpe>cpe:2.3:a:golang:x\/sys:v0.0.0-20210426230700-d19ff857e887:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/sys@v0.0.0-20210426230700-d19ff857e887</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:dXfMednGJh/SUUFjTLsWJz3P+TQt9qnR11GgeI3vWKs=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/term@v0.0.0-20210220032956-6a3ed077a48d?package-id=47ed0bddf9786349" type="library">
+      <name>golang.org/x/term</name>
+      <version>v0.0.0-20210220032956-6a3ed077a48d</version>
+      <cpe>cpe:2.3:a:golang:x\/term:v0.0.0-20210220032956-6a3ed077a48d:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/term@v0.0.0-20210220032956-6a3ed077a48d</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:SZxvLBoTP5yHO3Frd4z4vrF+DBX9vMVanchswa69toE=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/text@v0.3.5?package-id=3681d9503873df16" type="library">
+      <name>golang.org/x/text</name>
+      <version>v0.3.5</version>
+      <cpe>cpe:2.3:a:golang:x\/text:v0.3.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/text@v0.3.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:i6eZZ+zk0SOf0xgBpEpPD18qWcJda6q1sxt3S0kzyUQ=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/time@v0.0.0-20210220033141-f8bda1e9f3ba?package-id=a2393a810676842c" type="library">
+      <name>golang.org/x/time</name>
+      <version>v0.0.0-20210220033141-f8bda1e9f3ba</version>
+      <cpe>cpe:2.3:a:golang:x\/time:v0.0.0-20210220033141-f8bda1e9f3ba:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/time@v0.0.0-20210220033141-f8bda1e9f3ba</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:O8mE0/t419eoIwhTFpKVkHiTs/Igowgfkj25AcZrtiE=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/genproto@v0.0.0-20201110150050-8816d57aaa9a?package-id=13214b352bcd9dc9" type="library">
+      <name>google.golang.org/genproto</name>
+      <version>v0.0.0-20201110150050-8816d57aaa9a</version>
+      <cpe>cpe:2.3:a:google:genproto:v0.0.0-20201110150050-8816d57aaa9a:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/genproto@v0.0.0-20201110150050-8816d57aaa9a</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:pOwg4OoaRYScjmR4LlLgdtnyoHYTSAVhhqe5uPdpII8=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/grpc@v1.27.1?package-id=fc15cce04ae40c92" type="library">
+      <name>google.golang.org/grpc</name>
+      <version>v1.27.1</version>
+      <cpe>cpe:2.3:a:google:grpc:v1.27.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/grpc@v1.27.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:zvIju4sqAGvwKspUQOhwnpcqSbzi7/H6QomNNjTL4sk=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/protobuf@v1.26.0?package-id=d1d8db45b23086ac" type="library">
+      <name>google.golang.org/protobuf</name>
+      <version>v1.26.0</version>
+      <cpe>cpe:2.3:a:google:protobuf:v1.26.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/protobuf@v1.26.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:bxAC2xTBsZGibn2RTntX0oH50xLsqy1OxA9tTL3p/lk=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/inf.v0@v0.9.1?package-id=c14e1f709d481978" type="library">
+      <name>gopkg.in/inf.v0</name>
+      <version>v0.9.1</version>
+      <purl>pkg:golang/gopkg.in/inf.v0@v0.9.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:73M5CoZyi3ZLMOyDlQh031Cx6N9NDJ2Vvfl76EDAgDc=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/natefinch/lumberjack.v2@v2.0.0?package-id=3ac8ee27644cb3c" type="library">
+      <name>gopkg.in/natefinch/lumberjack.v2</name>
+      <version>v2.0.0</version>
+      <purl>pkg:golang/gopkg.in/natefinch/lumberjack.v2@v2.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:1Lc07Kr7qY4U2YPouBjpCLxpiyxIVoxqXgkXLknAOE8=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/yaml.v2@v2.4.0?package-id=10d1ce0a52360df" type="library">
+      <name>gopkg.in/yaml.v2</name>
+      <version>v2.4.0</version>
+      <purl>pkg:golang/gopkg.in/yaml.v2@v2.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:D8xgwECY7CYvx+Y2n4sBz93Jn9JRvxdiyyo8CTfuKaY=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/api@v0.21.5?package-id=917ff92ba3c0f764" type="library">
+      <name>k8s.io/api</name>
+      <version>v0.21.5</version>
+      <purl>pkg:golang/k8s.io/api@v0.21.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:9zp3SslPRB+rqxhGKqqTo6VsN3HX0Ype1nWV6UQQ+Sk=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/apimachinery@v0.21.5?package-id=c9b55bf8118fb5c7" type="library">
+      <name>k8s.io/apimachinery</name>
+      <version>v0.21.5</version>
+      <purl>pkg:golang/k8s.io/apimachinery@v0.21.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:56bnsHcUNboSCbD779GGi4Lh5kHTDFUoDrnHbhLTiaw=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/apiserver@v0.21.5?package-id=8d8cf82350ff803f" type="library">
+      <name>k8s.io/apiserver</name>
+      <version>v0.21.5</version>
+      <purl>pkg:golang/k8s.io/apiserver@v0.21.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:iEPvJ2uwmyb7C4eScOj1fgPKCyCUGgMQU5+UREE87vE=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/client-go@v0.21.5?package-id=3357b4f95e162959" type="library">
+      <name>k8s.io/client-go</name>
+      <version>v0.21.5</version>
+      <purl>pkg:golang/k8s.io/client-go@v0.21.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:zkVidiWVgciPKYqWpMFMjCUF+4rRXcfkKoyQS1Ue21k=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/component-base@v0.21.5?package-id=de02717ea2978f41" type="library">
+      <name>k8s.io/component-base</name>
+      <version>v0.21.5</version>
+      <purl>pkg:golang/k8s.io/component-base@v0.21.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:icFqcFDrO9S+FQpGohzVm6qce9vlo131K0r3NhElxiQ=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/klog/v2@v2.8.0?package-id=ced4773c17c0b8b4" type="library">
+      <name>k8s.io/klog/v2</name>
+      <version>v2.8.0</version>
+      <cpe>cpe:2.3:a:klog:v2:v2.8.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/k8s.io/klog/v2@v2.8.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:Q3gmuM9hKEjefWFFYF0Mat+YyFJvsUyYuwyNNJ5C9Ts=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/kube-openapi@v0.0.0-20210305001622-591a79e4bda7?package-id=d43901e15f4249c4" type="library">
+      <name>k8s.io/kube-openapi</name>
+      <version>v0.0.0-20210305001622-591a79e4bda7</version>
+      <purl>pkg:golang/k8s.io/kube-openapi@v0.0.0-20210305001622-591a79e4bda7</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:vEx13qjvaZ4yfObSSXW7BrMc/KQBBT/Jyee8XtLf4x0=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/metrics@v0.21.5?package-id=e697c9d7a2ddadf7" type="library">
+      <name>k8s.io/metrics</name>
+      <version>v0.21.5</version>
+      <purl>pkg:golang/k8s.io/metrics@v0.21.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:lcczsNOCbwG4OKUbxuklK9fv+WQA0rCxLH86rNdAgq4=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/utils@v0.0.0-20201110183641-67b214c5f920?package-id=6114f4580115bd76" type="library">
+      <name>k8s.io/utils</name>
+      <version>v0.0.0-20201110183641-67b214c5f920</version>
+      <purl>pkg:golang/k8s.io/utils@v0.0.0-20201110183641-67b214c5f920</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:CbnUZsM497iRC5QMVkHwyl8s2tB3g7yaSHkYPkpgelw=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:deb/debian/netbase@6.3?arch=all&amp;distro=debian-11&amp;package-id=913906225fd3778b" type="library">
+      <publisher>Marco d&#39;Itri &lt;md@linux.it&gt;</publisher>
+      <name>netbase</name>
+      <version>6.3</version>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:netbase:netbase:6.3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:deb/debian/netbase@6.3?arch=all&amp;distro=debian-11</purl>
+      <properties>
+        <property name="syft:package:foundBy">dpkgdb-cataloger</property>
+        <property name="syft:package:metadataType">DpkgMetadata</property>
+        <property name="syft:package:type">deb</property>
+        <property name="syft:location:0:layerID">sha256:6d75f23be3ddcb784b51ea7ef9b6a3a038f9e0b2f08f08628b226dba8b5161f8</property>
+        <property name="syft:location:0:path">/usr/share/doc/netbase/copyright</property>
+        <property name="syft:location:1:layerID">sha256:6d75f23be3ddcb784b51ea7ef9b6a3a038f9e0b2f08f08628b226dba8b5161f8</property>
+        <property name="syft:location:1:path">/var/lib/dpkg/status.d/netbase</property>
+        <property name="syft:metadata:installedSize">41</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/apiserver-network-proxy/konnectivity-client@v0.0.22?package-id=25ed487fdfa3b342" type="library">
+      <name>sigs.k8s.io/apiserver-network-proxy/konnectivity-client</name>
+      <version>v0.0.22</version>
+      <cpe>cpe:2.3:a:apiserver-network-proxy:konnectivity-client:v0.0.22:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/sigs.k8s.io/apiserver-network-proxy/konnectivity-client@v0.0.22</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:apiserver-network-proxy:konnectivity_client:v0.0.22:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apiserver_network_proxy:konnectivity-client:v0.0.22:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apiserver_network_proxy:konnectivity_client:v0.0.22:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apiserver-network:konnectivity-client:v0.0.22:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apiserver-network:konnectivity_client:v0.0.22:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apiserver_network:konnectivity-client:v0.0.22:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apiserver_network:konnectivity_client:v0.0.22:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apiserver:konnectivity-client:v0.0.22:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apiserver:konnectivity_client:v0.0.22:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:fmRfl9WJ4ApJn7LxNuED4m0t18qivVQOxP6aAYG9J6c=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/metrics-server@(devel)?package-id=553d9917c299c967" type="library">
+      <name>sigs.k8s.io/metrics-server</name>
+      <version>(devel)</version>
+      <purl>pkg:golang/sigs.k8s.io/metrics-server@(devel)</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.1.2?package-id=94741e16962eda3" type="library">
+      <name>sigs.k8s.io/structured-merge-diff/v4</name>
+      <version>v4.1.2</version>
+      <cpe>cpe:2.3:a:structured-merge-diff:v4:v4.1.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.1.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured_merge_diff:v4:v4.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured-merge:v4:v4.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured_merge:v4:v4.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured:v4:v4.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:Hr/htKFmJEbtMgS/UD0N+gtgctAqz81t3nu+sPzynno=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/yaml@v1.2.0?package-id=3f8395b7898e35a1" type="library">
+      <name>sigs.k8s.io/yaml</name>
+      <version>v1.2.0</version>
+      <purl>pkg:golang/sigs.k8s.io/yaml@v1.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:b2839a50be1a11e706241b88e955da733f228cffdcd3dcfb04900bd8f8562e1b</property>
+        <property name="syft:location:0:path">/metrics-server</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.8</property>
+        <property name="syft:metadata:h1Digest">h1:kr/MCeFWJWTwyaHoR9c8EjH9OumOmoF9YGiZd7lFm/Q=</property>
+        <property name="syft:metadata:mainModule">sigs.k8s.io/metrics-server</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:deb/debian/tzdata@2021a-1+deb11u2?arch=all&amp;distro=debian-11&amp;package-id=8fd3c33010c16bb6" type="library">
+      <publisher>GNU Libc Maintainers &lt;debian-glibc@lists.debian.org&gt;</publisher>
+      <name>tzdata</name>
+      <version>2021a-1+deb11u2</version>
+      <cpe>cpe:2.3:a:tzdata:tzdata:2021a-1\+deb11u2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:deb/debian/tzdata@2021a-1+deb11u2?arch=all&amp;distro=debian-11</purl>
+      <properties>
+        <property name="syft:package:foundBy">dpkgdb-cataloger</property>
+        <property name="syft:package:metadataType">DpkgMetadata</property>
+        <property name="syft:package:type">deb</property>
+        <property name="syft:location:0:layerID">sha256:6d75f23be3ddcb784b51ea7ef9b6a3a038f9e0b2f08f08628b226dba8b5161f8</property>
+        <property name="syft:location:0:path">/usr/share/doc/tzdata/copyright</property>
+        <property name="syft:location:1:layerID">sha256:6d75f23be3ddcb784b51ea7ef9b6a3a038f9e0b2f08f08628b226dba8b5161f8</property>
+        <property name="syft:location:1:path">/var/lib/dpkg/status.d/tzdata</property>
+        <property name="syft:metadata:installedSize">3409</property>
+      </properties>
+    </component>
+    <component type="operating-system">
+      <name>debian</name>
+      <version>11</version>
+      <description>Distroless</description>
+      <swid tagId="debian" name="debian" version="11"></swid>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/GoogleContainerTools/distroless/issues/new</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/GoogleContainerTools/distroless</url>
+        </reference>
+        <reference type="other">
+          <url>https://github.com/GoogleContainerTools/distroless/blob/master/README.md</url>
+          <comment>support</comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:distro:id">debian</property>
+        <property name="syft:distro:prettyName">Distroless</property>
+        <property name="syft:distro:versionID">11</property>
+      </properties>
+    </component>
+  </components>
+</bom>
