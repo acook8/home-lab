@@ -1,0 +1,975 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:09abcc9b-6ab8-49ac-8f7a-41b513924652" version="1">
+  <metadata>
+    <timestamp>2022-10-31T15:59:57Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>anchore</vendor>
+        <name>syft</name>
+        <version>v0.58.0</version>
+      </tool>
+    </tools>
+    <component bom-ref="61eb7862b231db68" type="container">
+      <name>/tmp/sha256_50c3cfd458fc8e0bf3c8c521eac39172009382fc66dc5044a330d137c6ed0b09.tar.gz</name>
+      <version>sha256:b661a4e771c7cb2e631cd86ea0f660d8e300093e06bc07996c51a583e9eabb23</version>
+    </component>
+  </metadata>
+  <components>
+    <component bom-ref="pkg:deb/debian/base-files@9.9+deb9u13?arch=amd64&amp;distro=debian-9&amp;package-id=c48fd807290c256d" type="library">
+      <publisher>Santiago Vila &lt;sanvila@debian.org&gt;</publisher>
+      <name>base-files</name>
+      <version>9.9+deb9u13</version>
+      <cpe>cpe:2.3:a:base-files:base-files:9.9\+deb9u13:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:deb/debian/base-files@9.9+deb9u13?arch=amd64&amp;distro=debian-9</purl>
+      <properties>
+        <property name="syft:package:foundBy">dpkgdb-cataloger</property>
+        <property name="syft:package:metadataType">DpkgMetadata</property>
+        <property name="syft:package:type">deb</property>
+        <property name="syft:cpe23">cpe:2.3:a:base-files:base_files:9.9\+deb9u13:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:base_files:base-files:9.9\+deb9u13:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:base_files:base_files:9.9\+deb9u13:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:base:base-files:9.9\+deb9u13:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:base:base_files:9.9\+deb9u13:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:7a5b9c0b4b140d0379ef710a07c3ecf963685b5236e3d0977b1aa96f209f7c5e</property>
+        <property name="syft:location:0:path">/usr/share/doc/base-files/copyright</property>
+        <property name="syft:location:1:layerID">sha256:7a5b9c0b4b140d0379ef710a07c3ecf963685b5236e3d0977b1aa96f209f7c5e</property>
+        <property name="syft:location:1:path">/var/lib/dpkg/status.d/base</property>
+        <property name="syft:metadata:installedSize">333</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/beorn7/perks@v1.0.1?package-id=5d73b48dd46fdd33" type="library">
+      <name>github.com/beorn7/perks</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:beorn7:perks:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/beorn7/perks@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/blang/semver@v3.5.1+incompatible?package-id=a8e7feecb7d1452f" type="library">
+      <name>github.com/blang/semver</name>
+      <version>v3.5.1+incompatible</version>
+      <cpe>cpe:2.3:a:blang:semver:v3.5.1\+incompatible:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/blang/semver@v3.5.1+incompatible</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/cespare/xxhash/v2@v2.1.1?package-id=cba811ce3b97250c" type="library">
+      <name>github.com/cespare/xxhash/v2</name>
+      <version>v2.1.1</version>
+      <cpe>cpe:2.3:a:cespare:xxhash\/v2:v2.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/cespare/xxhash/v2@v2.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/container-storage-interface/spec@v1.3.0?package-id=c597e941202aed94" type="library">
+      <name>github.com/container-storage-interface/spec</name>
+      <version>v1.3.0</version>
+      <cpe>cpe:2.3:a:container-storage-interface:spec:v1.3.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/container-storage-interface/spec@v1.3.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:container_storage_interface:spec:v1.3.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:container-storage:spec:v1.3.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:container_storage:spec:v1.3.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:container:spec:v1.3.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/davecgh/go-spew@v1.1.1?package-id=6c4a22f840ca802f" type="library">
+      <name>github.com/davecgh/go-spew</name>
+      <version>v1.1.1</version>
+      <cpe>cpe:2.3:a:davecgh:go-spew:v1.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/davecgh/go-spew@v1.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:davecgh:go_spew:v1.1.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/evanphx/json-patch@v4.9.0+incompatible?package-id=d9ce369525b5d993" type="library">
+      <name>github.com/evanphx/json-patch</name>
+      <version>v4.9.0+incompatible</version>
+      <cpe>cpe:2.3:a:evanphx:json-patch:v4.9.0\+incompatible:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/evanphx/json-patch@v4.9.0+incompatible</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:evanphx:json_patch:v4.9.0\+incompatible:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-logr/logr@v0.3.0?package-id=4fd4c67e2760925f" type="library">
+      <name>github.com/go-logr/logr</name>
+      <version>v0.3.0</version>
+      <cpe>cpe:2.3:a:go-logr:logr:v0.3.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-logr/logr@v0.3.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_logr:logr:v0.3.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:logr:v0.3.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/gogo/protobuf@v1.3.1?package-id=1e74dd3f68559a5b" type="library">
+      <name>github.com/gogo/protobuf</name>
+      <version>v1.3.1</version>
+      <cpe>cpe:2.3:a:gogo:protobuf:v1.3.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/gogo/protobuf@v1.3.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/golang/groupcache@v0.0.0-20200121045136-8c9f03a8e57e?package-id=60fec3e8bec86be3" type="library">
+      <name>github.com/golang/groupcache</name>
+      <version>v0.0.0-20200121045136-8c9f03a8e57e</version>
+      <cpe>cpe:2.3:a:golang:groupcache:v0.0.0-20200121045136-8c9f03a8e57e:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/golang/groupcache@v0.0.0-20200121045136-8c9f03a8e57e</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/golang/protobuf@v1.4.3?package-id=858ae5d73c93f90b" type="library">
+      <name>github.com/golang/protobuf</name>
+      <version>v1.4.3</version>
+      <cpe>cpe:2.3:a:golang:protobuf:v1.4.3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/golang/protobuf@v1.4.3</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/go-cmp@v0.5.4?package-id=9fdf5a71904cfb46" type="library">
+      <name>github.com/google/go-cmp</name>
+      <version>v0.5.4</version>
+      <cpe>cpe:2.3:a:google:go-cmp:v0.5.4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/go-cmp@v0.5.4</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:google:go_cmp:v0.5.4:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/gofuzz@v1.2.0?package-id=f6ecb121a6ff52da" type="library">
+      <name>github.com/google/gofuzz</name>
+      <version>v1.2.0</version>
+      <cpe>cpe:2.3:a:google:gofuzz:v1.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/gofuzz@v1.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/googleapis/gnostic@v0.5.3?package-id=369f5610fb22427a" type="library">
+      <name>github.com/googleapis/gnostic</name>
+      <version>v0.5.3</version>
+      <cpe>cpe:2.3:a:googleapis:gnostic:v0.5.3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/googleapis/gnostic@v0.5.3</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/hashicorp/golang-lru@v0.5.4?package-id=2afa198b28a65b06" type="library">
+      <name>github.com/hashicorp/golang-lru</name>
+      <version>v0.5.4</version>
+      <cpe>cpe:2.3:a:hashicorp:golang-lru:v0.5.4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/hashicorp/golang-lru@v0.5.4</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:hashicorp:golang_lru:v0.5.4:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/imdario/mergo@v0.3.11?package-id=e9b41c04defcf45f" type="library">
+      <name>github.com/imdario/mergo</name>
+      <version>v0.3.11</version>
+      <cpe>cpe:2.3:a:imdario:mergo:v0.3.11:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/imdario/mergo@v0.3.11</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/json-iterator/go@v1.1.10?package-id=97dcd87d9a325a6" type="library">
+      <name>github.com/json-iterator/go</name>
+      <version>v1.1.10</version>
+      <cpe>cpe:2.3:a:json-iterator:go:v1.1.10:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/json-iterator/go@v1.1.10</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:json_iterator:go:v1.1.10:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:json:go:v1.1.10:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/kubernetes-csi/csi-lib-utils@v0.9.0?package-id=897f8ed9277c0499" type="library">
+      <name>github.com/kubernetes-csi/csi-lib-utils</name>
+      <version>v0.9.0</version>
+      <cpe>cpe:2.3:a:kubernetes-csi:csi-lib-utils:v0.9.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/kubernetes-csi/csi-lib-utils@v0.9.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes-csi:csi_lib_utils:v0.9.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes_csi:csi-lib-utils:v0.9.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes_csi:csi_lib_utils:v0.9.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes:csi-lib-utils:v0.9.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes:csi_lib_utils:v0.9.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/kubernetes-csi/external-attacher@(devel)?package-id=4fea437c4958ee3b" type="library">
+      <name>github.com/kubernetes-csi/external-attacher</name>
+      <version>(devel)</version>
+      <cpe>cpe:2.3:a:kubernetes-csi:external-attacher:\(devel\):*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/kubernetes-csi/external-attacher@(devel)</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes-csi:external_attacher:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes_csi:external-attacher:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes_csi:external_attacher:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes:external-attacher:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes:external_attacher:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.2-0.20181231171920-c182affec369?package-id=813a52347ae2051a" type="library">
+      <name>github.com/matttproud/golang_protobuf_extensions</name>
+      <version>v1.0.2-0.20181231171920-c182affec369</version>
+      <cpe>cpe:2.3:a:matttproud:golang-protobuf-extensions:v1.0.2-0.20181231171920-c182affec369:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.2-0.20181231171920-c182affec369</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:matttproud:golang_protobuf_extensions:v1.0.2-0.20181231171920-c182affec369:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd?package-id=87570586fcc5a7f1" type="library">
+      <name>github.com/modern-go/concurrent</name>
+      <version>v0.0.0-20180306012644-bacd9c7ef1dd</version>
+      <cpe>cpe:2.3:a:modern-go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern_go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/modern-go/reflect2@v1.0.1?package-id=128b9ed63aa216f7" type="library">
+      <name>github.com/modern-go/reflect2</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:modern-go:reflect2:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/modern-go/reflect2@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern_go:reflect2:v1.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern:reflect2:v1.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/pkg/errors@v0.9.1?package-id=58bf4c6317b94596" type="library">
+      <name>github.com/pkg/errors</name>
+      <version>v0.9.1</version>
+      <cpe>cpe:2.3:a:pkg:errors:v0.9.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/pkg/errors@v0.9.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/client_golang@v1.8.0?package-id=d83e109c7235bfcc" type="library">
+      <name>github.com/prometheus/client_golang</name>
+      <version>v1.8.0</version>
+      <cpe>cpe:2.3:a:prometheus:client-golang:v1.8.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/client_golang@v1.8.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:client_golang:v1.8.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/client_model@v0.2.0?package-id=727eb0bc6f118b38" type="library">
+      <name>github.com/prometheus/client_model</name>
+      <version>v0.2.0</version>
+      <cpe>cpe:2.3:a:prometheus:client-model:v0.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/client_model@v0.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:client_model:v0.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/common@v0.15.0?package-id=64e6c9c2c73cec9" type="library">
+      <name>github.com/prometheus/common</name>
+      <version>v0.15.0</version>
+      <cpe>cpe:2.3:a:prometheus:common:v0.15.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/common@v0.15.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/procfs@v0.2.0?package-id=99ca8905b5162588" type="library">
+      <name>github.com/prometheus/procfs</name>
+      <version>v0.2.0</version>
+      <cpe>cpe:2.3:a:prometheus:procfs:v0.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/procfs@v0.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/spf13/pflag@v1.0.5?package-id=ecdf701316d8f4ec" type="library">
+      <name>github.com/spf13/pflag</name>
+      <version>v1.0.5</version>
+      <cpe>cpe:2.3:a:spf13:pflag:v1.0.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/spf13/pflag@v1.0.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/crypto@v0.0.0-20201208171446-5f87f3452ae9?package-id=528a23908f165ff5" type="library">
+      <name>golang.org/x/crypto</name>
+      <version>v0.0.0-20201208171446-5f87f3452ae9</version>
+      <cpe>cpe:2.3:a:golang:x\/crypto:v0.0.0-20201208171446-5f87f3452ae9:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/crypto@v0.0.0-20201208171446-5f87f3452ae9</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/net@v0.0.0-20201216054612-986b41b23924?package-id=38d7f6a8be8bf55b" type="library">
+      <name>golang.org/x/net</name>
+      <version>v0.0.0-20201216054612-986b41b23924</version>
+      <cpe>cpe:2.3:a:golang:x\/net:v0.0.0-20201216054612-986b41b23924:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/net@v0.0.0-20201216054612-986b41b23924</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/oauth2@v0.0.0-20201208152858-08078c50e5b5?package-id=b6875aeec1d5a9ab" type="library">
+      <name>golang.org/x/oauth2</name>
+      <version>v0.0.0-20201208152858-08078c50e5b5</version>
+      <cpe>cpe:2.3:a:golang:x\/oauth2:v0.0.0-20201208152858-08078c50e5b5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/oauth2@v0.0.0-20201208152858-08078c50e5b5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/sys@v0.0.0-20201214210602-f9fddec55a1e?package-id=4ff81320b31d9522" type="library">
+      <name>golang.org/x/sys</name>
+      <version>v0.0.0-20201214210602-f9fddec55a1e</version>
+      <cpe>cpe:2.3:a:golang:x\/sys:v0.0.0-20201214210602-f9fddec55a1e:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/sys@v0.0.0-20201214210602-f9fddec55a1e</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/term@v0.0.0-20201210144234-2321bbc49cbf?package-id=3f27397534e70648" type="library">
+      <name>golang.org/x/term</name>
+      <version>v0.0.0-20201210144234-2321bbc49cbf</version>
+      <cpe>cpe:2.3:a:golang:x\/term:v0.0.0-20201210144234-2321bbc49cbf:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/term@v0.0.0-20201210144234-2321bbc49cbf</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/text@v0.3.4?package-id=d21015b25a8efee5" type="library">
+      <name>golang.org/x/text</name>
+      <version>v0.3.4</version>
+      <cpe>cpe:2.3:a:golang:x\/text:v0.3.4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/text@v0.3.4</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/time@v0.0.0-20201208040808-7e3f01d25324?package-id=b1e6bd9cf1399232" type="library">
+      <name>golang.org/x/time</name>
+      <version>v0.0.0-20201208040808-7e3f01d25324</version>
+      <cpe>cpe:2.3:a:golang:x\/time:v0.0.0-20201208040808-7e3f01d25324:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/time@v0.0.0-20201208040808-7e3f01d25324</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/genproto@v0.0.0-20201214200347-8c77b98c765d?package-id=4f3da5c1595f6460" type="library">
+      <name>google.golang.org/genproto</name>
+      <version>v0.0.0-20201214200347-8c77b98c765d</version>
+      <cpe>cpe:2.3:a:google:genproto:v0.0.0-20201214200347-8c77b98c765d:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/genproto@v0.0.0-20201214200347-8c77b98c765d</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/grpc@v1.34.0?package-id=84aa7ca5785836c" type="library">
+      <name>google.golang.org/grpc</name>
+      <version>v1.34.0</version>
+      <cpe>cpe:2.3:a:google:grpc:v1.34.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/grpc@v1.34.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/protobuf@v1.25.0?package-id=f1c4abf727aeeb27" type="library">
+      <name>google.golang.org/protobuf</name>
+      <version>v1.25.0</version>
+      <cpe>cpe:2.3:a:google:protobuf:v1.25.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/protobuf@v1.25.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/inf.v0@v0.9.1?package-id=c2c233da8347b1e8" type="library">
+      <name>gopkg.in/inf.v0</name>
+      <version>v0.9.1</version>
+      <purl>pkg:golang/gopkg.in/inf.v0@v0.9.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/yaml.v2@v2.4.0?package-id=e4b4ab78d45e6c21" type="library">
+      <name>gopkg.in/yaml.v2</name>
+      <version>v2.4.0</version>
+      <purl>pkg:golang/gopkg.in/yaml.v2@v2.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/yaml.v3@v3.0.0-20200615113413-eeeca48fe776?package-id=d76368c554db686e" type="library">
+      <name>gopkg.in/yaml.v3</name>
+      <version>v3.0.0-20200615113413-eeeca48fe776</version>
+      <purl>pkg:golang/gopkg.in/yaml.v3@v3.0.0-20200615113413-eeeca48fe776</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/api@v0.20.0?package-id=470452a6bf4ef37c" type="library">
+      <name>k8s.io/api</name>
+      <version>v0.20.0</version>
+      <purl>pkg:golang/k8s.io/api@v0.20.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/apimachinery@v0.20.0?package-id=e2f68b0d739ab7b8" type="library">
+      <name>k8s.io/apimachinery</name>
+      <version>v0.20.0</version>
+      <purl>pkg:golang/k8s.io/apimachinery@v0.20.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/client-go@v0.20.0?package-id=b215250df7edbfd2" type="library">
+      <name>k8s.io/client-go</name>
+      <version>v0.20.0</version>
+      <purl>pkg:golang/k8s.io/client-go@v0.20.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/component-base@v0.20.0?package-id=3d55d484aee71089" type="library">
+      <name>k8s.io/component-base</name>
+      <version>v0.20.0</version>
+      <purl>pkg:golang/k8s.io/component-base@v0.20.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/csi-translation-lib@v0.20.0?package-id=942e0deade2403f0" type="library">
+      <name>k8s.io/csi-translation-lib</name>
+      <version>v0.20.0</version>
+      <purl>pkg:golang/k8s.io/csi-translation-lib@v0.20.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/klog/v2@v2.4.0?package-id=3fb115eb5bae4044" type="library">
+      <name>k8s.io/klog/v2</name>
+      <version>v2.4.0</version>
+      <cpe>cpe:2.3:a:klog:v2:v2.4.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/k8s.io/klog/v2@v2.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/kube-openapi@v0.0.0-20201113171705-d219536bb9fd?package-id=6626403667d642b3" type="library">
+      <name>k8s.io/kube-openapi</name>
+      <version>v0.0.0-20201113171705-d219536bb9fd</version>
+      <purl>pkg:golang/k8s.io/kube-openapi@v0.0.0-20201113171705-d219536bb9fd</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/utils@v0.0.0-20201110183641-67b214c5f920?package-id=6a688e561f3c9a8c" type="library">
+      <name>k8s.io/utils</name>
+      <version>v0.0.0-20201110183641-67b214c5f920</version>
+      <purl>pkg:golang/k8s.io/utils@v0.0.0-20201110183641-67b214c5f920</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:deb/debian/netbase@5.4?arch=all&amp;distro=debian-9&amp;package-id=f251c3f02e01d42" type="library">
+      <publisher>Marco d&#39;Itri &lt;md@linux.it&gt;</publisher>
+      <name>netbase</name>
+      <version>5.4</version>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:netbase:netbase:5.4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:deb/debian/netbase@5.4?arch=all&amp;distro=debian-9</purl>
+      <properties>
+        <property name="syft:package:foundBy">dpkgdb-cataloger</property>
+        <property name="syft:package:metadataType">DpkgMetadata</property>
+        <property name="syft:package:type">deb</property>
+        <property name="syft:location:0:layerID">sha256:7a5b9c0b4b140d0379ef710a07c3ecf963685b5236e3d0977b1aa96f209f7c5e</property>
+        <property name="syft:location:0:path">/usr/share/doc/netbase/copyright</property>
+        <property name="syft:location:1:layerID">sha256:7a5b9c0b4b140d0379ef710a07c3ecf963685b5236e3d0977b1aa96f209f7c5e</property>
+        <property name="syft:location:1:path">/var/lib/dpkg/status.d/netbase</property>
+        <property name="syft:metadata:installedSize">44</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.0.2?package-id=49c0e55df4d5db77" type="library">
+      <name>sigs.k8s.io/structured-merge-diff/v4</name>
+      <version>v4.0.2</version>
+      <cpe>cpe:2.3:a:structured-merge-diff:v4:v4.0.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.0.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured_merge_diff:v4:v4.0.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured-merge:v4:v4.0.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured_merge:v4:v4.0.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured:v4:v4.0.2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/yaml@v1.2.0?package-id=73db4a292e5e3ccf" type="library">
+      <name>sigs.k8s.io/yaml</name>
+      <version>v1.2.0</version>
+      <purl>pkg:golang/sigs.k8s.io/yaml@v1.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:2dfb3e2f276dea9aded45e44f29a680f43a444ca1d8845afde2e9709ff1c2e24</property>
+        <property name="syft:location:0:path">/csi-attacher</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-attacher</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:deb/debian/tzdata@2020d-0+deb9u1?arch=all&amp;distro=debian-9&amp;package-id=2e4bab419275c07c" type="library">
+      <publisher>GNU Libc Maintainers &lt;debian-glibc@lists.debian.org&gt;</publisher>
+      <name>tzdata</name>
+      <version>2020d-0+deb9u1</version>
+      <cpe>cpe:2.3:a:tzdata:tzdata:2020d-0\+deb9u1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:deb/debian/tzdata@2020d-0+deb9u1?arch=all&amp;distro=debian-9</purl>
+      <properties>
+        <property name="syft:package:foundBy">dpkgdb-cataloger</property>
+        <property name="syft:package:metadataType">DpkgMetadata</property>
+        <property name="syft:package:type">deb</property>
+        <property name="syft:location:0:layerID">sha256:7a5b9c0b4b140d0379ef710a07c3ecf963685b5236e3d0977b1aa96f209f7c5e</property>
+        <property name="syft:location:0:path">/usr/share/doc/tzdata/copyright</property>
+        <property name="syft:location:1:layerID">sha256:7a5b9c0b4b140d0379ef710a07c3ecf963685b5236e3d0977b1aa96f209f7c5e</property>
+        <property name="syft:location:1:path">/var/lib/dpkg/status.d/tzdata</property>
+        <property name="syft:metadata:installedSize">3034</property>
+      </properties>
+    </component>
+    <component type="operating-system">
+      <name>debian</name>
+      <version>9</version>
+      <description>Distroless</description>
+      <swid tagId="debian" name="debian" version="9"></swid>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/GoogleContainerTools/distroless/issues/new</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/GoogleContainerTools/distroless</url>
+        </reference>
+        <reference type="other">
+          <url>https://github.com/GoogleContainerTools/distroless/blob/master/README.md</url>
+          <comment>support</comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:distro:id">debian</property>
+        <property name="syft:distro:prettyName">Distroless</property>
+        <property name="syft:distro:versionID">9</property>
+      </properties>
+    </component>
+  </components>
+</bom>
