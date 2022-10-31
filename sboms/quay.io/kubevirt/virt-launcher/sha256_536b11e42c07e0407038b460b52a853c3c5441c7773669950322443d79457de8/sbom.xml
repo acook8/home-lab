@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:5d098f0a-251c-46d5-963a-a8891bd5e283" version="1">
+  <metadata>
+    <timestamp>2022-10-31T15:55:43Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>anchore</vendor>
+        <name>syft</name>
+        <version>v0.58.0</version>
+      </tool>
+    </tools>
+    <component bom-ref="8d70d0335179b3a3" type="container">
+      <name>/tmp/sha256_536b11e42c07e0407038b460b52a853c3c5441c7773669950322443d79457de8.tar.gz</name>
+      <version>sha256:47a226d79a73fe672884c2737364529993d042877e6d259ddf95aacbb65c1022</version>
+    </component>
+  </metadata>
+  <components>
+    <component type="operating-system">
+      <name>centos</name>
+      <version>8</version>
+      <description>CentOS Stream 8</description>
+      <cpe>cpe:/o:centos:centos:8</cpe>
+      <swid tagId="centos" name="centos" version="8"></swid>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://bugzilla.redhat.com/</url>
+        </reference>
+        <reference type="website">
+          <url>https://centos.org/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:distro:id">centos</property>
+        <property name="syft:distro:idLike:0">rhel</property>
+        <property name="syft:distro:idLike:1">fedora</property>
+        <property name="syft:distro:prettyName">CentOS Stream 8</property>
+        <property name="syft:distro:versionID">8</property>
+      </properties>
+    </component>
+  </components>
+</bom>
