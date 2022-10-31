@@ -1,0 +1,1435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:f05c506a-3719-4b3b-9ae7-d097ac0c5a51" version="1">
+  <metadata>
+    <timestamp>2022-10-31T16:07:03Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>anchore</vendor>
+        <name>syft</name>
+        <version>v0.58.0</version>
+      </tool>
+    </tools>
+    <component bom-ref="436b9956ba53af32" type="container">
+      <name>/tmp/sha256_5bac4b7a0d150dce71581dcdfc93775cef4a5c2f9205e38b64c673aef53426c2.tar.gz</name>
+      <version>sha256:3abc2032a3cdcdfd7cb3d614824fcf4035685d1284106d026d4a370e6137a649</version>
+    </component>
+  </metadata>
+  <components>
+    <component bom-ref="pkg:alpine/alpine-baselayout@3.2.0-r7?arch=x86_64&amp;upstream=alpine-baselayout&amp;distro=alpine-3.12.12&amp;package-id=ab971b290905df2" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>alpine-baselayout</name>
+      <version>3.2.0-r7</version>
+      <description>Alpine base dir structure and init scripts</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:alpine-baselayout:alpine-baselayout:3.2.0-r7:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/alpine-baselayout@3.2.0-r7?arch=x86_64&amp;upstream=alpine-baselayout&amp;distro=alpine-3.12.12</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://git.alpinelinux.org/cgit/aports/tree/main/alpine-baselayout</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine-baselayout:alpine_baselayout:3.2.0-r7:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine_baselayout:alpine-baselayout:3.2.0-r7:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine_baselayout:alpine_baselayout:3.2.0-r7:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine:alpine-baselayout:3.2.0-r7:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine:alpine_baselayout:3.2.0-r7:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:a2c6778c4332c34d37369e1439d849c857782cae3908351268d6f28962ead11c</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">c3ce4065bd8a69d20ad392d4cf006ed652c3f1a7</property>
+        <property name="syft:metadata:installedSize">409600</property>
+        <property name="syft:metadata:originPackage">alpine-baselayout</property>
+        <property name="syft:metadata:pullChecksum">Q1WGpU5dl4U99OvcQ2KILlb+d6DAk=</property>
+        <property name="syft:metadata:pullDependencies">/bin/sh so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">19912</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/alpine-keys@2.4-r0?arch=x86_64&amp;upstream=alpine-keys&amp;distro=alpine-3.12.12&amp;package-id=fdfd5687263b905c" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>alpine-keys</name>
+      <version>2.4-r0</version>
+      <description>Public keys for Alpine Linux packages</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:alpine-keys:alpine-keys:2.4-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/alpine-keys@2.4-r0?arch=x86_64&amp;upstream=alpine-keys&amp;distro=alpine-3.12.12</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://alpinelinux.org</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine-keys:alpine_keys:2.4-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine_keys:alpine-keys:2.4-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine_keys:alpine_keys:2.4-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine:alpine-keys:2.4-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine:alpine_keys:2.4-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:a2c6778c4332c34d37369e1439d849c857782cae3908351268d6f28962ead11c</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">ad113d7b2c64187bba3c3e1f71c2774a3246800e</property>
+        <property name="syft:metadata:installedSize">159744</property>
+        <property name="syft:metadata:originPackage">alpine-keys</property>
+        <property name="syft:metadata:pullChecksum">Q1C5NL8CplG17nGq+43IM0m8adzl8=</property>
+        <property name="syft:metadata:size">13095</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/apk-tools@2.10.8-r1?arch=x86_64&amp;upstream=apk-tools&amp;distro=alpine-3.12.12&amp;package-id=7609c21653a53e4f" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>apk-tools</name>
+      <version>2.10.8-r1</version>
+      <description>Alpine Package Keeper - package manager for alpine</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:apk-tools:apk-tools:2.10.8-r1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/apk-tools@2.10.8-r1?arch=x86_64&amp;upstream=apk-tools&amp;distro=alpine-3.12.12</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://gitlab.alpinelinux.org/alpine/apk-tools</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:apk-tools:apk_tools:2.10.8-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apk_tools:apk-tools:2.10.8-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apk_tools:apk_tools:2.10.8-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apk:apk-tools:2.10.8-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apk:apk_tools:2.10.8-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:a2c6778c4332c34d37369e1439d849c857782cae3908351268d6f28962ead11c</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">6a528d0bdbd1dc3aac4c1ec1f6c841765bc6ae75</property>
+        <property name="syft:metadata:installedSize">266240</property>
+        <property name="syft:metadata:originPackage">apk-tools</property>
+        <property name="syft:metadata:pullChecksum">Q1VsIloRQDeEkvn35FqpniZaTE34s=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1 so:libssl.so.1.1 so:libz.so.1</property>
+        <property name="syft:metadata:size">104014</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/busybox@1.31.1-r22?arch=x86_64&amp;upstream=busybox&amp;distro=alpine-3.12.12&amp;package-id=a2df16fe1b3cca11" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>busybox</name>
+      <version>1.31.1-r22</version>
+      <description>Size optimized toolbox of many common UNIX utilities</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:busybox:busybox:1.31.1-r22:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/busybox@1.31.1-r22?arch=x86_64&amp;upstream=busybox&amp;distro=alpine-3.12.12</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://busybox.net/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:a2c6778c4332c34d37369e1439d849c857782cae3908351268d6f28962ead11c</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">41c9e389fd1ebce7fc2e723a9074fa7f2a00e11a</property>
+        <property name="syft:metadata:installedSize">962560</property>
+        <property name="syft:metadata:originPackage">busybox</property>
+        <property name="syft:metadata:pullChecksum">Q1ONFY0GU7dj6i5jiZNrjWWf2Hjkw=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">505919</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/ca-certificates@20211220-r0?arch=x86_64&amp;upstream=ca-certificates&amp;distro=alpine-3.12.12&amp;package-id=37964d136f439ff1" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>ca-certificates</name>
+      <version>20211220-r0</version>
+      <description>Common CA certificates PEM files from Mozilla</description>
+      <licenses>
+        <license>
+          <id>MPL-2.0</id>
+        </license>
+        <license>
+          <id>GPL-2.0-or-later</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:ca-certificates:ca-certificates:20211220-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/ca-certificates@20211220-r0?arch=x86_64&amp;upstream=ca-certificates&amp;distro=alpine-3.12.12</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca-certificates:ca_certificates:20211220-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates:ca-certificates:20211220-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates:ca_certificates:20211220-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca:ca-certificates:20211220-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca:ca_certificates:20211220-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:a2c6778c4332c34d37369e1439d849c857782cae3908351268d6f28962ead11c</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">ff8801d22feefbb59c634f4e5bd3763869025a9f</property>
+        <property name="syft:metadata:installedSize">667648</property>
+        <property name="syft:metadata:originPackage">ca-certificates</property>
+        <property name="syft:metadata:pullChecksum">Q1MIYWbPWlP62CCNv6Z6bkFgoQr+A=</property>
+        <property name="syft:metadata:pullDependencies">/bin/sh so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1</property>
+        <property name="syft:metadata:size">149121</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/ca-certificates-bundle@20211220-r0?arch=x86_64&amp;upstream=ca-certificates&amp;distro=alpine-3.12.12&amp;package-id=d44f92f020efc258" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>ca-certificates-bundle</name>
+      <version>20211220-r0</version>
+      <description>Pre generated bundle of Mozilla certificates</description>
+      <licenses>
+        <license>
+          <id>MPL-2.0</id>
+        </license>
+        <license>
+          <id>GPL-2.0-or-later</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:ca-certificates-bundle:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/ca-certificates-bundle@20211220-r0?arch=x86_64&amp;upstream=ca-certificates&amp;distro=alpine-3.12.12</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca-certificates-bundle:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates_bundle:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates_bundle:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca-certificates:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca-certificates:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:a2c6778c4332c34d37369e1439d849c857782cae3908351268d6f28962ead11c</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">ff8801d22feefbb59c634f4e5bd3763869025a9f</property>
+        <property name="syft:metadata:installedSize">221184</property>
+        <property name="syft:metadata:originPackage">ca-certificates</property>
+        <property name="syft:metadata:pullChecksum">Q1ckrgfeS+UcgVnqO8Z9vY+tB/njQ=</property>
+        <property name="syft:metadata:size">119492</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/curl@7.79.1-r1?arch=x86_64&amp;upstream=curl&amp;distro=alpine-3.12.12&amp;package-id=40ab39beb3d999c7" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>curl</name>
+      <version>7.79.1-r1</version>
+      <description>URL retrival utility and library</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:curl:curl:7.79.1-r1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/curl@7.79.1-r1?arch=x86_64&amp;upstream=curl&amp;distro=alpine-3.12.12</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://curl.se/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:a2c6778c4332c34d37369e1439d849c857782cae3908351268d6f28962ead11c</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">730508d613dbbcc6e002193570b60a41e0a43f74</property>
+        <property name="syft:metadata:installedSize">253952</property>
+        <property name="syft:metadata:originPackage">curl</property>
+        <property name="syft:metadata:pullChecksum">Q10QqPXSjFre3Q8gRgwByYhV07ZmU=</property>
+        <property name="syft:metadata:pullDependencies">ca-certificates so:libc.musl-x86_64.so.1 so:libcurl.so.4 so:libz.so.1</property>
+        <property name="syft:metadata:size">132597</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/aws/aws-sdk-go@v1.42.18?package-id=bacb91982dc3c6a2" type="library">
+      <name>github.com/aws/aws-sdk-go</name>
+      <version>v1.42.18</version>
+      <cpe>cpe:2.3:a:aws:aws-sdk-go:v1.42.18:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/aws/aws-sdk-go@v1.42.18</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:aws:aws_sdk_go:v1.42.18:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:2f/cDNwQ3e+yHxtPn1si0to3GalbNHwkRm461IjwRiM=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/davecgh/go-spew@v1.1.1?package-id=50f5bb1627e6d69e" type="library">
+      <name>github.com/davecgh/go-spew</name>
+      <version>v1.1.1</version>
+      <cpe>cpe:2.3:a:davecgh:go-spew:v1.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/davecgh/go-spew@v1.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:davecgh:go_spew:v1.1.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-logr/logr@v0.4.0?package-id=88ba7337f16091aa" type="library">
+      <name>github.com/go-logr/logr</name>
+      <version>v0.4.0</version>
+      <cpe>cpe:2.3:a:go-logr:logr:v0.4.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-logr/logr@v0.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_logr:logr:v0.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:logr:v0.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:K7/B1jt6fIBQVd4Owv2MqGQClcgf0R266+7C/QjRcLc=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/gogo/protobuf@v1.3.2?package-id=8bc2a5ace5977e0b" type="library">
+      <name>github.com/gogo/protobuf</name>
+      <version>v1.3.2</version>
+      <cpe>cpe:2.3:a:gogo:protobuf:v1.3.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/gogo/protobuf@v1.3.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:Ov1cvc58UF3b5XjBnZv7+opcTcQFZebYjWzi34vdm4Q=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/golang/groupcache@v0.0.0-20210331224755-41bb18bfe9da?package-id=535ee6b28516ade5" type="library">
+      <name>github.com/golang/groupcache</name>
+      <version>v0.0.0-20210331224755-41bb18bfe9da</version>
+      <cpe>cpe:2.3:a:golang:groupcache:v0.0.0-20210331224755-41bb18bfe9da:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/golang/groupcache@v0.0.0-20210331224755-41bb18bfe9da</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:oI5xCqsCo564l8iNU+DwB5epxmsaqB+rhGL0m5jtYqE=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/golang/protobuf@v1.5.2?package-id=258b04f7ce6f91bd" type="library">
+      <name>github.com/golang/protobuf</name>
+      <version>v1.5.2</version>
+      <cpe>cpe:2.3:a:golang:protobuf:v1.5.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/golang/protobuf@v1.5.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:ROPKBNFfQgOUMifHyP+KYbvpjbdoFNs+aK7DXlji0Tw=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/go-cmp@v0.5.5?package-id=e01bef90841c496a" type="library">
+      <name>github.com/google/go-cmp</name>
+      <version>v0.5.5</version>
+      <cpe>cpe:2.3:a:google:go-cmp:v0.5.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/go-cmp@v0.5.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:google:go_cmp:v0.5.5:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:Khx7svrCpmxxtHBq5j2mp/xVjsi8hQMfNLvJFAlrGgU=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/gofuzz@v1.1.0?package-id=958258a70bc03ea2" type="library">
+      <name>github.com/google/gofuzz</name>
+      <version>v1.1.0</version>
+      <cpe>cpe:2.3:a:google:gofuzz:v1.1.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/gofuzz@v1.1.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:Hsa8mG0dQ46ij8Sl2AYJDUv1oA9/d6Vk+3LG99Oe02g=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/googleapis/gnostic@v0.5.5?package-id=3b60ec84670163ba" type="library">
+      <name>github.com/googleapis/gnostic</name>
+      <version>v0.5.5</version>
+      <cpe>cpe:2.3:a:googleapis:gnostic:v0.5.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/googleapis/gnostic@v0.5.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:9fHAtK0uDfpveeqqo1hkEZJcFvYXAiCN3UutL8F9xHw=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/imdario/mergo@v0.3.5?package-id=3ee53636d65841c" type="library">
+      <name>github.com/imdario/mergo</name>
+      <version>v0.3.5</version>
+      <cpe>cpe:2.3:a:imdario:mergo:v0.3.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/imdario/mergo@v0.3.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:JboBksRwiiAJWvIYJVo46AfV+IAIKZpfrSzVKj42R4Q=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/jmespath/go-jmespath@v0.4.0?package-id=ea46cd4e4ec714e7" type="library">
+      <name>github.com/jmespath/go-jmespath</name>
+      <version>v0.4.0</version>
+      <cpe>cpe:2.3:a:jmespath:go-jmespath:v0.4.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/jmespath/go-jmespath@v0.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:jmespath:go_jmespath:v0.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:BEgLn5cpjn8UN1mAw4NjwDrS35OdebyEtFe+9YPoQUg=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/json-iterator/go@v1.1.11?package-id=75114e22597f866f" type="library">
+      <name>github.com/json-iterator/go</name>
+      <version>v1.1.11</version>
+      <cpe>cpe:2.3:a:json-iterator:go:v1.1.11:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/json-iterator/go@v1.1.11</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:json_iterator:go:v1.1.11:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:json:go:v1.1.11:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:uVUAXhF2To8cbw/3xN3pxj6kk7TYKs98NIrTqPlMWAQ=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/kr/text@v0.2.0?package-id=55712e508660723b" type="library">
+      <name>github.com/kr/text</name>
+      <version>v0.2.0</version>
+      <cpe>cpe:2.3:a:kr:text:v0.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/kr/text@v0.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:5Nx0Ya0ZqY2ygV366QzturHI13Jq95ApcVaJBhpS+AY=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/lib/pq@v1.10.4?package-id=fba8eb9a7fa666f5" type="library">
+      <name>github.com/lib/pq</name>
+      <version>v1.10.4</version>
+      <cpe>cpe:2.3:a:lib:pq:v1.10.4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/lib/pq@v1.10.4</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:SO9z7FRPzA03QhHKJrH5BXA6HU1rS4V2nIVrrNC1iYk=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/moby/spdystream@v0.2.0?package-id=960be0cd55429b37" type="library">
+      <name>github.com/moby/spdystream</name>
+      <version>v0.2.0</version>
+      <cpe>cpe:2.3:a:moby:spdystream:v0.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/moby/spdystream@v0.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:cjW1zVyyoiM0T7b6UoySUFqzXMoqRckQtXwGPiBhOM8=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd?package-id=f5788fd73f28b199" type="library">
+      <name>github.com/modern-go/concurrent</name>
+      <version>v0.0.0-20180306012644-bacd9c7ef1dd</version>
+      <cpe>cpe:2.3:a:modern-go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern_go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:TRLaZ9cD/w8PVh93nsPXa1VrQ6jlwL5oN8l14QlcNfg=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/modern-go/reflect2@v1.0.1?package-id=ee157cfcc7cbd8d4" type="library">
+      <name>github.com/modern-go/reflect2</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:modern-go:reflect2:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/modern-go/reflect2@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern_go:reflect2:v1.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern:reflect2:v1.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:9f412s+6RmYXLWZSEzVVgPGK7C2PphHj5RJrvfx9AWI=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/motomux/pretty@v0.0.0-20161209205251-b2aad2c9a95d?package-id=dfc0aab7e3ca702" type="library">
+      <name>github.com/motomux/pretty</name>
+      <version>v0.0.0-20161209205251-b2aad2c9a95d</version>
+      <cpe>cpe:2.3:a:motomux:pretty:v0.0.0-20161209205251-b2aad2c9a95d:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/motomux/pretty@v0.0.0-20161209205251-b2aad2c9a95d</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:LznySqW8MqVeFh+pW6rOkFdld9QQ7jRydBKKM6jyPVI=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/pkg/errors@v0.9.1?package-id=d08b56c7f3cb6431" type="library">
+      <name>github.com/pkg/errors</name>
+      <version>v0.9.1</version>
+      <cpe>cpe:2.3:a:pkg:errors:v0.9.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/pkg/errors@v0.9.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/r3labs/diff@v1.1.0?package-id=f5d01a06555f932c" type="library">
+      <name>github.com/r3labs/diff</name>
+      <version>v1.1.0</version>
+      <cpe>cpe:2.3:a:r3labs:diff:v1.1.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/r3labs/diff@v1.1.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:V53xhrbTHrWFWq3gI4b94AjgEJOerO1+1l0xyHOBi8M=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/sirupsen/logrus@v1.8.1?package-id=99cc1edde1241477" type="library">
+      <name>github.com/sirupsen/logrus</name>
+      <version>v1.8.1</version>
+      <cpe>cpe:2.3:a:sirupsen:logrus:v1.8.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/sirupsen/logrus@v1.8.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:dJKuHgqk1NNQlqoA6BTlM1Wf9DOH3NBjQyu0h9+AZZE=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/spf13/pflag@v1.0.5?package-id=ddfd811cfb4d6b53" type="library">
+      <name>github.com/spf13/pflag</name>
+      <version>v1.0.5</version>
+      <cpe>cpe:2.3:a:spf13:pflag:v1.0.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/spf13/pflag@v1.0.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:iy+VFUOCP1a+8yFto/drg2CJ5u0yRoB7fZw3DKv/JXA=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/zalando/postgres-operator@(devel)?package-id=c51fb6e2054aae86" type="library">
+      <name>github.com/zalando/postgres-operator</name>
+      <version>(devel)</version>
+      <cpe>cpe:2.3:a:zalando:postgres-operator:\(devel\):*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/zalando/postgres-operator@(devel)</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:zalando:postgres_operator:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/crypto@v0.0.0-20211202192323-5770296d904e?package-id=b943d93fcfb5e619" type="library">
+      <name>golang.org/x/crypto</name>
+      <version>v0.0.0-20211202192323-5770296d904e</version>
+      <cpe>cpe:2.3:a:golang:x\/crypto:v0.0.0-20211202192323-5770296d904e:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/crypto@v0.0.0-20211202192323-5770296d904e</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:MUP6MR3rJ7Gk9LEia0LP2ytiH6MuCfs7qYz+47jGdD8=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/net@v0.0.0-20211112202133-69e39bad7dc2?package-id=79fbe46624b20d07" type="library">
+      <name>golang.org/x/net</name>
+      <version>v0.0.0-20211112202133-69e39bad7dc2</version>
+      <cpe>cpe:2.3:a:golang:x\/net:v0.0.0-20211112202133-69e39bad7dc2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/net@v0.0.0-20211112202133-69e39bad7dc2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:CIJ76btIcR3eFI5EgSo6k1qKw9KJexJuRLI9G7Hp5wE=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/oauth2@v0.0.0-20210402161424-2e8d93401602?package-id=42c2307f67c21413" type="library">
+      <name>golang.org/x/oauth2</name>
+      <version>v0.0.0-20210402161424-2e8d93401602</version>
+      <cpe>cpe:2.3:a:golang:x\/oauth2:v0.0.0-20210402161424-2e8d93401602:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/oauth2@v0.0.0-20210402161424-2e8d93401602</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:0Ja1LBD+yisY6RWM/BH7TJVXWsSjs2VwBSmvSX4HdBc=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/sys@v0.0.0-20211124211545-fe61309f8881?package-id=ad1300e21418f4fc" type="library">
+      <name>golang.org/x/sys</name>
+      <version>v0.0.0-20211124211545-fe61309f8881</version>
+      <cpe>cpe:2.3:a:golang:x\/sys:v0.0.0-20211124211545-fe61309f8881:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/sys@v0.0.0-20211124211545-fe61309f8881</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:TyHqChC80pFkXWraUUf6RuB5IqFdQieMLwwCJokV2pc=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/term@v0.0.0-20210220032956-6a3ed077a48d?package-id=5efb4a8199a21907" type="library">
+      <name>golang.org/x/term</name>
+      <version>v0.0.0-20210220032956-6a3ed077a48d</version>
+      <cpe>cpe:2.3:a:golang:x\/term:v0.0.0-20210220032956-6a3ed077a48d:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/term@v0.0.0-20210220032956-6a3ed077a48d</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:SZxvLBoTP5yHO3Frd4z4vrF+DBX9vMVanchswa69toE=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/text@v0.3.6?package-id=fbe1b4ad5d0ac8d9" type="library">
+      <name>golang.org/x/text</name>
+      <version>v0.3.6</version>
+      <cpe>cpe:2.3:a:golang:x\/text:v0.3.6:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/text@v0.3.6</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:aRYxNxv6iGQlyVaZmk6ZgYEDa+Jg18DxebPSrd6bg1M=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/time@v0.0.0-20210723032227-1f47c861a9ac?package-id=1562fead0d6ce742" type="library">
+      <name>golang.org/x/time</name>
+      <version>v0.0.0-20210723032227-1f47c861a9ac</version>
+      <cpe>cpe:2.3:a:golang:x\/time:v0.0.0-20210723032227-1f47c861a9ac:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/time@v0.0.0-20210723032227-1f47c861a9ac</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:7zkz7BUtwNFFqcowJ+RIgu2MaV/MapERkDIy+mwPyjs=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/protobuf@v1.26.0?package-id=fbeccc4be21c0111" type="library">
+      <name>google.golang.org/protobuf</name>
+      <version>v1.26.0</version>
+      <cpe>cpe:2.3:a:google:protobuf:v1.26.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/protobuf@v1.26.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:bxAC2xTBsZGibn2RTntX0oH50xLsqy1OxA9tTL3p/lk=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/inf.v0@v0.9.1?package-id=f0beccba494ac12c" type="library">
+      <name>gopkg.in/inf.v0</name>
+      <version>v0.9.1</version>
+      <purl>pkg:golang/gopkg.in/inf.v0@v0.9.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:73M5CoZyi3ZLMOyDlQh031Cx6N9NDJ2Vvfl76EDAgDc=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/yaml.v2@v2.4.0?package-id=b726e49e754c665d" type="library">
+      <name>gopkg.in/yaml.v2</name>
+      <version>v2.4.0</version>
+      <purl>pkg:golang/gopkg.in/yaml.v2@v2.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:D8xgwECY7CYvx+Y2n4sBz93Jn9JRvxdiyyo8CTfuKaY=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/yaml.v3@v3.0.0-20210107192922-496545a6307b?package-id=b856c84f8265d3c3" type="library">
+      <name>gopkg.in/yaml.v3</name>
+      <version>v3.0.0-20210107192922-496545a6307b</version>
+      <purl>pkg:golang/gopkg.in/yaml.v3@v3.0.0-20210107192922-496545a6307b</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:h8qDotaEPuJATrMmW04NCwg7v22aHH28wwpauUhK9Oo=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/api@v0.22.4?package-id=1858266741770be3" type="library">
+      <name>k8s.io/api</name>
+      <version>v0.22.4</version>
+      <purl>pkg:golang/k8s.io/api@v0.22.4</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:UvyHW0ezB2oIgHAxlYoo6UJQObYXU7awuNarwoHEOjw=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/apiextensions-apiserver@v0.22.4?package-id=fb488f6526a0113d" type="library">
+      <name>k8s.io/apiextensions-apiserver</name>
+      <version>v0.22.4</version>
+      <purl>pkg:golang/k8s.io/apiextensions-apiserver@v0.22.4</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:2iGpcVyw4MnAyyXVJU2Xg6ZsbIxAOfRHo0LF5A5J0RA=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/apimachinery@v0.22.4?package-id=9fbf26dbe9721da4" type="library">
+      <name>k8s.io/apimachinery</name>
+      <version>v0.22.4</version>
+      <purl>pkg:golang/k8s.io/apimachinery@v0.22.4</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:9uwcvPpukBw/Ri0EUmWz+49cnFtaoiyEhQTK+xOe7Ck=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/client-go@v0.22.4?package-id=680210cb059a1026" type="library">
+      <name>k8s.io/client-go</name>
+      <version>v0.22.4</version>
+      <purl>pkg:golang/k8s.io/client-go@v0.22.4</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:aAQ1Wk+I3bjCNk35YWUqbaueqrIonkfDPJSPDDe8Kfg=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/klog/v2@v2.9.0?package-id=aa6e76b221ed6570" type="library">
+      <name>k8s.io/klog/v2</name>
+      <version>v2.9.0</version>
+      <cpe>cpe:2.3:a:klog:v2:v2.9.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/k8s.io/klog/v2@v2.9.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:D7HV+n1V57XeZ0m6tdRkfknthUaM06VFbWldOFh8kzM=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/kube-openapi@v0.0.0-20211109043538-20434351676c?package-id=a2dbbfb924f18daf" type="library">
+      <name>k8s.io/kube-openapi</name>
+      <version>v0.0.0-20211109043538-20434351676c</version>
+      <purl>pkg:golang/k8s.io/kube-openapi@v0.0.0-20211109043538-20434351676c</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:jvamsI1tn9V0S8jicyX82qaFC0H/NKxv2e5mbqsgR80=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/utils@v0.0.0-20210819203725-bdf08cb9a70a?package-id=9f56df60dcaafb62" type="library">
+      <name>k8s.io/utils</name>
+      <version>v0.0.0-20210819203725-bdf08cb9a70a</version>
+      <purl>pkg:golang/k8s.io/utils@v0.0.0-20210819203725-bdf08cb9a70a</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:8dYfu/Fc9Gz2rNJKB9IQRGgQOh2clmRzNIPPY1xLY5g=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libc-utils@0.7.2-r3?arch=x86_64&amp;upstream=libc-dev&amp;distro=alpine-3.12.12&amp;package-id=f80d96baba263a29" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>libc-utils</name>
+      <version>0.7.2-r3</version>
+      <description>Meta package to pull in correct libc</description>
+      <licenses>
+        <license>
+          <id>BSD-2-Clause</id>
+        </license>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libc-utils:libc-utils:0.7.2-r3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libc-utils@0.7.2-r3?arch=x86_64&amp;upstream=libc-dev&amp;distro=alpine-3.12.12</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://alpinelinux.org</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc-utils:libc_utils:0.7.2-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc_utils:libc-utils:0.7.2-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc_utils:libc_utils:0.7.2-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc:libc-utils:0.7.2-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc:libc_utils:0.7.2-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:a2c6778c4332c34d37369e1439d849c857782cae3908351268d6f28962ead11c</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">60424133be2e79bbfeff3d58147a22886f817ce2</property>
+        <property name="syft:metadata:installedSize">4096</property>
+        <property name="syft:metadata:originPackage">libc-dev</property>
+        <property name="syft:metadata:pullChecksum">Q16xP1yRei7gsfFFF2So96SPZpw0c=</property>
+        <property name="syft:metadata:pullDependencies">musl-utils</property>
+        <property name="syft:metadata:size">1226</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libcrypto1.1@1.1.1n-r0?arch=x86_64&amp;upstream=openssl&amp;distro=alpine-3.12.12&amp;package-id=29dec83807252c4d" type="library">
+      <publisher>Timo Teras &lt;timo.teras@iki.fi&gt;</publisher>
+      <name>libcrypto1.1</name>
+      <version>1.1.1n-r0</version>
+      <description>Crypto library from openssl</description>
+      <licenses>
+        <license>
+          <id>OpenSSL</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libcrypto1.1:libcrypto1.1:1.1.1n-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libcrypto1.1@1.1.1n-r0?arch=x86_64&amp;upstream=openssl&amp;distro=alpine-3.12.12</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.openssl.org/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:a2c6778c4332c34d37369e1439d849c857782cae3908351268d6f28962ead11c</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">b759455d39ebc9606b4b980416c55aa87303ba5f</property>
+        <property name="syft:metadata:installedSize">2764800</property>
+        <property name="syft:metadata:originPackage">openssl</property>
+        <property name="syft:metadata:pullChecksum">Q1MC2DGhne+faPJKpms8itnmTcsqA=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">1210690</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libcurl@7.79.1-r1?arch=x86_64&amp;upstream=curl&amp;distro=alpine-3.12.12&amp;package-id=45e3407a0d11e6ad" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>libcurl</name>
+      <version>7.79.1-r1</version>
+      <description>The multiprotocol file transfer library</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libcurl:libcurl:7.79.1-r1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libcurl@7.79.1-r1?arch=x86_64&amp;upstream=curl&amp;distro=alpine-3.12.12</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://curl.se/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:a2c6778c4332c34d37369e1439d849c857782cae3908351268d6f28962ead11c</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">730508d613dbbcc6e002193570b60a41e0a43f74</property>
+        <property name="syft:metadata:installedSize">516096</property>
+        <property name="syft:metadata:originPackage">curl</property>
+        <property name="syft:metadata:pullChecksum">Q1BKJwm70AFAMmRWGdJru12rHof7Q=</property>
+        <property name="syft:metadata:pullDependencies">ca-certificates so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1 so:libnghttp2.so.14 so:libssl.so.1.1 so:libz.so.1</property>
+        <property name="syft:metadata:size">236452</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libssl1.1@1.1.1n-r0?arch=x86_64&amp;upstream=openssl&amp;distro=alpine-3.12.12&amp;package-id=7aa7a3e1413a8d52" type="library">
+      <publisher>Timo Teras &lt;timo.teras@iki.fi&gt;</publisher>
+      <name>libssl1.1</name>
+      <version>1.1.1n-r0</version>
+      <description>SSL shared libraries</description>
+      <licenses>
+        <license>
+          <id>OpenSSL</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libssl1.1:libssl1.1:1.1.1n-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libssl1.1@1.1.1n-r0?arch=x86_64&amp;upstream=openssl&amp;distro=alpine-3.12.12</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.openssl.org/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:a2c6778c4332c34d37369e1439d849c857782cae3908351268d6f28962ead11c</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">b759455d39ebc9606b4b980416c55aa87303ba5f</property>
+        <property name="syft:metadata:installedSize">540672</property>
+        <property name="syft:metadata:originPackage">openssl</property>
+        <property name="syft:metadata:pullChecksum">Q1UX1nrMda47otMPLa7B8as33eXjk=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1</property>
+        <property name="syft:metadata:size">212737</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libtls-standalone@2.9.1-r1?arch=x86_64&amp;upstream=libtls-standalone&amp;distro=alpine-3.12.12&amp;package-id=cb2f5162c15647c4" type="library">
+      <name>libtls-standalone</name>
+      <version>2.9.1-r1</version>
+      <description>libtls extricated from libressl sources</description>
+      <licenses>
+        <license>
+          <id>ISC</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libtls-standalone:libtls-standalone:2.9.1-r1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libtls-standalone@2.9.1-r1?arch=x86_64&amp;upstream=libtls-standalone&amp;distro=alpine-3.12.12</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.libressl.org/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:libtls-standalone:libtls_standalone:2.9.1-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libtls_standalone:libtls-standalone:2.9.1-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libtls_standalone:libtls_standalone:2.9.1-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libtls:libtls-standalone:2.9.1-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libtls:libtls_standalone:2.9.1-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:a2c6778c4332c34d37369e1439d849c857782cae3908351268d6f28962ead11c</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">7ebfa23b6119a24ca9b9375bdc55373259192da1</property>
+        <property name="syft:metadata:installedSize">110592</property>
+        <property name="syft:metadata:originPackage">libtls-standalone</property>
+        <property name="syft:metadata:pullChecksum">Q14BzqSsJ9wRYejKCBU++3I2VvzSs=</property>
+        <property name="syft:metadata:pullDependencies">ca-certificates-bundle so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1 so:libssl.so.1.1</property>
+        <property name="syft:metadata:size">33144</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/musl@1.1.24-r10?arch=x86_64&amp;upstream=musl&amp;distro=alpine-3.12.12&amp;package-id=8838e981d6f951d5" type="library">
+      <publisher>Timo Teräs &lt;timo.teras@iki.fi&gt;</publisher>
+      <name>musl</name>
+      <version>1.1.24-r10</version>
+      <description>the musl c library (libc) implementation</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:musl:musl:1.1.24-r10:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/musl@1.1.24-r10?arch=x86_64&amp;upstream=musl&amp;distro=alpine-3.12.12</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://musl.libc.org/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:a2c6778c4332c34d37369e1439d849c857782cae3908351268d6f28962ead11c</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">908046ad5f96c4c1df5541ff4b0251767e110c85</property>
+        <property name="syft:metadata:installedSize">614400</property>
+        <property name="syft:metadata:originPackage">musl</property>
+        <property name="syft:metadata:pullChecksum">Q1mGDXWUFVE+6oFGyj8OMl5cZrkkU=</property>
+        <property name="syft:metadata:size">377258</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/musl-utils@1.1.24-r10?arch=x86_64&amp;upstream=musl&amp;distro=alpine-3.12.12&amp;package-id=a9ea2a9f57787a19" type="library">
+      <publisher>Timo Teräs &lt;timo.teras@iki.fi&gt;</publisher>
+      <name>musl-utils</name>
+      <version>1.1.24-r10</version>
+      <description>the musl c library (libc) implementation</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:musl-utils:musl-utils:1.1.24-r10:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/musl-utils@1.1.24-r10?arch=x86_64&amp;upstream=musl&amp;distro=alpine-3.12.12</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://musl.libc.org/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:musl-utils:musl_utils:1.1.24-r10:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:musl_utils:musl-utils:1.1.24-r10:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:musl_utils:musl_utils:1.1.24-r10:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:musl:musl-utils:1.1.24-r10:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:musl:musl_utils:1.1.24-r10:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:a2c6778c4332c34d37369e1439d849c857782cae3908351268d6f28962ead11c</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">908046ad5f96c4c1df5541ff4b0251767e110c85</property>
+        <property name="syft:metadata:installedSize">151552</property>
+        <property name="syft:metadata:originPackage">musl</property>
+        <property name="syft:metadata:pullChecksum">Q1MFuIRwDYNC3UF1ZCaWGJAIXPy8k=</property>
+        <property name="syft:metadata:pullDependencies">scanelf so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">37724</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/nghttp2-libs@1.41.0-r0?arch=x86_64&amp;upstream=nghttp2&amp;distro=alpine-3.12.12&amp;package-id=496ebaafefe360d0" type="library">
+      <publisher>Francesco Colista &lt;fcolista@alpinelinux.org&gt;</publisher>
+      <name>nghttp2-libs</name>
+      <version>1.41.0-r0</version>
+      <description>Experimental HTTP/2 client, server and proxy (libraries)</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:nghttp2-libs:nghttp2-libs:1.41.0-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/nghttp2-libs@1.41.0-r0?arch=x86_64&amp;upstream=nghttp2&amp;distro=alpine-3.12.12</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://nghttp2.org</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:nghttp2-libs:nghttp2_libs:1.41.0-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:nghttp2_libs:nghttp2-libs:1.41.0-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:nghttp2_libs:nghttp2_libs:1.41.0-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:nghttp2:nghttp2-libs:1.41.0-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:nghttp2:nghttp2_libs:1.41.0-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:a2c6778c4332c34d37369e1439d849c857782cae3908351268d6f28962ead11c</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">fe7417f5c2fd0ea8b513ce1f1eeebf14f20eb56d</property>
+        <property name="syft:metadata:installedSize">159744</property>
+        <property name="syft:metadata:originPackage">nghttp2</property>
+        <property name="syft:metadata:pullChecksum">Q1VHTQ95nE4M4K4v0sha8ZYZrUH2c=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">65683</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/scanelf@1.2.6-r0?arch=x86_64&amp;upstream=pax-utils&amp;distro=alpine-3.12.12&amp;package-id=9bb2292736678189" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>scanelf</name>
+      <version>1.2.6-r0</version>
+      <description>Scan ELF binaries for stuff</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:scanelf:scanelf:1.2.6-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/scanelf@1.2.6-r0?arch=x86_64&amp;upstream=pax-utils&amp;distro=alpine-3.12.12</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:a2c6778c4332c34d37369e1439d849c857782cae3908351268d6f28962ead11c</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">753fa8d765c7a4edb76f11b1995f84cdcb45bce5</property>
+        <property name="syft:metadata:installedSize">94208</property>
+        <property name="syft:metadata:originPackage">pax-utils</property>
+        <property name="syft:metadata:pullChecksum">Q1jvYavRv99SdiT3M3Kv5gvpi8LXY=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">36446</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.1.2?package-id=80d2a3f284f82154" type="library">
+      <name>sigs.k8s.io/structured-merge-diff/v4</name>
+      <version>v4.1.2</version>
+      <cpe>cpe:2.3:a:structured-merge-diff:v4:v4.1.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.1.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured_merge_diff:v4:v4.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured-merge:v4:v4.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured_merge:v4:v4.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured:v4:v4.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:Hr/htKFmJEbtMgS/UD0N+gtgctAqz81t3nu+sPzynno=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/yaml@v1.2.0?package-id=c9a2398a74c10ef4" type="library">
+      <name>sigs.k8s.io/yaml</name>
+      <version>v1.2.0</version>
+      <purl>pkg:golang/sigs.k8s.io/yaml@v1.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:0ced77105f427fae3ade79fc6336744920dbd7d31011f588a29a3fbe11590eee</property>
+        <property name="syft:location:0:path">/postgres-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.4</property>
+        <property name="syft:metadata:h1Digest">h1:kr/MCeFWJWTwyaHoR9c8EjH9OumOmoF9YGiZd7lFm/Q=</property>
+        <property name="syft:metadata:mainModule">github.com/zalando/postgres-operator</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/ssl_client@1.31.1-r22?arch=x86_64&amp;upstream=busybox&amp;distro=alpine-3.12.12&amp;package-id=45ae35e9af81ecdf" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>ssl_client</name>
+      <version>1.31.1-r22</version>
+      <description>EXternal ssl_client for busybox wget</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:ssl-client:ssl-client:1.31.1-r22:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/ssl_client@1.31.1-r22?arch=x86_64&amp;upstream=busybox&amp;distro=alpine-3.12.12</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://busybox.net/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:ssl-client:ssl_client:1.31.1-r22:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ssl_client:ssl-client:1.31.1-r22:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ssl_client:ssl_client:1.31.1-r22:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ssl:ssl-client:1.31.1-r22:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ssl:ssl_client:1.31.1-r22:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:a2c6778c4332c34d37369e1439d849c857782cae3908351268d6f28962ead11c</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">41c9e389fd1ebce7fc2e723a9074fa7f2a00e11a</property>
+        <property name="syft:metadata:installedSize">28672</property>
+        <property name="syft:metadata:originPackage">busybox</property>
+        <property name="syft:metadata:pullChecksum">Q1mZvJZxoqoHTRXR3t9h1kro95CU0=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1 so:libtls-standalone.so.1</property>
+        <property name="syft:metadata:size">4305</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/zlib@1.2.12-r0?arch=x86_64&amp;upstream=zlib&amp;distro=alpine-3.12.12&amp;package-id=10b3990af8d43075" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>zlib</name>
+      <version>1.2.12-r0</version>
+      <description>A compression/decompression Library</description>
+      <licenses>
+        <license>
+          <id>Zlib</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:zlib:zlib:1.2.12-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/zlib@1.2.12-r0?arch=x86_64&amp;upstream=zlib&amp;distro=alpine-3.12.12</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://zlib.net/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:a2c6778c4332c34d37369e1439d849c857782cae3908351268d6f28962ead11c</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">370acac0e4514c90d8c4e33a9740a7c92254853a</property>
+        <property name="syft:metadata:installedSize">110592</property>
+        <property name="syft:metadata:originPackage">zlib</property>
+        <property name="syft:metadata:pullChecksum">Q14m+bQxS8qUChf5pcwhwDGmOBHAk=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">52922</property>
+      </properties>
+    </component>
+    <component type="operating-system">
+      <name>alpine</name>
+      <version>3.12.12</version>
+      <description>Alpine Linux v3.12</description>
+      <swid tagId="alpine" name="alpine" version="3.12.12"></swid>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://bugs.alpinelinux.org/</url>
+        </reference>
+        <reference type="website">
+          <url>https://alpinelinux.org/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:distro:id">alpine</property>
+        <property name="syft:distro:prettyName">Alpine Linux v3.12</property>
+        <property name="syft:distro:versionID">3.12.12</property>
+      </properties>
+    </component>
+  </components>
+</bom>
