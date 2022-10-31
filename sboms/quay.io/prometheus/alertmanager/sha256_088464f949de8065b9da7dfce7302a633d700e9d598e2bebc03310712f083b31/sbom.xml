@@ -1,0 +1,2555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:4761ad66-e4cc-4b8d-b2d2-629cbcb54199" version="1">
+  <metadata>
+    <timestamp>2022-10-31T16:01:59Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>anchore</vendor>
+        <name>syft</name>
+        <version>v0.58.0</version>
+      </tool>
+    </tools>
+    <component bom-ref="fc6c88f86d0aba0f" type="container">
+      <name>/tmp/sha256_088464f949de8065b9da7dfce7302a633d700e9d598e2bebc03310712f083b31.tar.gz</name>
+      <version>sha256:3fdcf7b47d6c199a1e4b7167aa36d3148d50d872e9e6ab171dd05f9369062bb3</version>
+    </component>
+  </metadata>
+  <components>
+    <component bom-ref="pkg:golang/github.com/puerkitobio/purell@v1.1.1?package-id=70261ffd59d20134" type="library">
+      <name>github.com/PuerkitoBio/purell</name>
+      <version>v1.1.1</version>
+      <cpe>cpe:2.3:a:PuerkitoBio:purell:v1.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/PuerkitoBio/purell@v1.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:WEQqlqaGbrPkxLJWfBwQmfEAE1Z7ONdDLqrN38tNFfI=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/puerkitobio/purell@v1.1.1?package-id=559bf0dd2af054ea" type="library">
+      <name>github.com/PuerkitoBio/purell</name>
+      <version>v1.1.1</version>
+      <cpe>cpe:2.3:a:PuerkitoBio:purell:v1.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/PuerkitoBio/purell@v1.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:WEQqlqaGbrPkxLJWfBwQmfEAE1Z7ONdDLqrN38tNFfI=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/puerkitobio/urlesc@v0.0.0-20170810143723-de5bf2ad4578?package-id=624e791ecfc0ab64" type="library">
+      <name>github.com/PuerkitoBio/urlesc</name>
+      <version>v0.0.0-20170810143723-de5bf2ad4578</version>
+      <cpe>cpe:2.3:a:PuerkitoBio:urlesc:v0.0.0-20170810143723-de5bf2ad4578:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/PuerkitoBio/urlesc@v0.0.0-20170810143723-de5bf2ad4578</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:d+Bc7a5rLufV/sSk/8dngufqelfh6jnri85riMAaF/M=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/puerkitobio/urlesc@v0.0.0-20170810143723-de5bf2ad4578?package-id=c27b49f163cc3a6f" type="library">
+      <name>github.com/PuerkitoBio/urlesc</name>
+      <version>v0.0.0-20170810143723-de5bf2ad4578</version>
+      <cpe>cpe:2.3:a:PuerkitoBio:urlesc:v0.0.0-20170810143723-de5bf2ad4578:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/PuerkitoBio/urlesc@v0.0.0-20170810143723-de5bf2ad4578</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:d+Bc7a5rLufV/sSk/8dngufqelfh6jnri85riMAaF/M=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/alecthomas/template@v0.0.0-20190718012654-fb15b899a751?package-id=b60416ee31d3b89a" type="library">
+      <name>github.com/alecthomas/template</name>
+      <version>v0.0.0-20190718012654-fb15b899a751</version>
+      <cpe>cpe:2.3:a:alecthomas:template:v0.0.0-20190718012654-fb15b899a751:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/alecthomas/template@v0.0.0-20190718012654-fb15b899a751</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:JYp7IbQjafoB+tBA3gMyHYHrpOtNuDiK/uB5uXxq5wM=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/alecthomas/template@v0.0.0-20190718012654-fb15b899a751?package-id=42ca8831efb13a5e" type="library">
+      <name>github.com/alecthomas/template</name>
+      <version>v0.0.0-20190718012654-fb15b899a751</version>
+      <cpe>cpe:2.3:a:alecthomas:template:v0.0.0-20190718012654-fb15b899a751:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/alecthomas/template@v0.0.0-20190718012654-fb15b899a751</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:JYp7IbQjafoB+tBA3gMyHYHrpOtNuDiK/uB5uXxq5wM=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/alecthomas/units@v0.0.0-20211218093645-b94a6e3cc137?package-id=30ec795a1bdf700d" type="library">
+      <name>github.com/alecthomas/units</name>
+      <version>v0.0.0-20211218093645-b94a6e3cc137</version>
+      <cpe>cpe:2.3:a:alecthomas:units:v0.0.0-20211218093645-b94a6e3cc137:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/alecthomas/units@v0.0.0-20211218093645-b94a6e3cc137</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:s6gZFSlWYmbqAuRjVTiNNhvNRfY2Wxp9nhfyel4rklc=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/alecthomas/units@v0.0.0-20211218093645-b94a6e3cc137?package-id=9a9099699946d707" type="library">
+      <name>github.com/alecthomas/units</name>
+      <version>v0.0.0-20211218093645-b94a6e3cc137</version>
+      <cpe>cpe:2.3:a:alecthomas:units:v0.0.0-20211218093645-b94a6e3cc137:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/alecthomas/units@v0.0.0-20211218093645-b94a6e3cc137</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:s6gZFSlWYmbqAuRjVTiNNhvNRfY2Wxp9nhfyel4rklc=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/armon/go-metrics@v0.0.0-20180917152333-f0300d1749da?package-id=70a4809bf281131c" type="library">
+      <name>github.com/armon/go-metrics</name>
+      <version>v0.0.0-20180917152333-f0300d1749da</version>
+      <cpe>cpe:2.3:a:armon:go-metrics:v0.0.0-20180917152333-f0300d1749da:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/armon/go-metrics@v0.0.0-20180917152333-f0300d1749da</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:armon:go_metrics:v0.0.0-20180917152333-f0300d1749da:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:8GUt8eRujhVEGZFFEjBj46YV4rDjvGrNxb0KMWYkL2I=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/armon/go-metrics@v0.0.0-20180917152333-f0300d1749da?package-id=b215479ce6ce8015" type="library">
+      <name>github.com/armon/go-metrics</name>
+      <version>v0.0.0-20180917152333-f0300d1749da</version>
+      <cpe>cpe:2.3:a:armon:go-metrics:v0.0.0-20180917152333-f0300d1749da:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/armon/go-metrics@v0.0.0-20180917152333-f0300d1749da</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:armon:go_metrics:v0.0.0-20180917152333-f0300d1749da:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:8GUt8eRujhVEGZFFEjBj46YV4rDjvGrNxb0KMWYkL2I=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/asaskevich/govalidator@v0.0.0-20210307081110-f21760c49a8d?package-id=4f32c5f4a2f8558f" type="library">
+      <name>github.com/asaskevich/govalidator</name>
+      <version>v0.0.0-20210307081110-f21760c49a8d</version>
+      <cpe>cpe:2.3:a:asaskevich:govalidator:v0.0.0-20210307081110-f21760c49a8d:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/asaskevich/govalidator@v0.0.0-20210307081110-f21760c49a8d</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:Byv0BzEl3/e6D5CLfI0j/7hiIEtvGVFPCZ7Ei2oq8iQ=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/asaskevich/govalidator@v0.0.0-20210307081110-f21760c49a8d?package-id=a9fea844588a6118" type="library">
+      <name>github.com/asaskevich/govalidator</name>
+      <version>v0.0.0-20210307081110-f21760c49a8d</version>
+      <cpe>cpe:2.3:a:asaskevich:govalidator:v0.0.0-20210307081110-f21760c49a8d:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/asaskevich/govalidator@v0.0.0-20210307081110-f21760c49a8d</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:Byv0BzEl3/e6D5CLfI0j/7hiIEtvGVFPCZ7Ei2oq8iQ=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/aws/aws-sdk-go@v1.43.11?package-id=9223603993468366" type="library">
+      <name>github.com/aws/aws-sdk-go</name>
+      <version>v1.43.11</version>
+      <cpe>cpe:2.3:a:aws:aws-sdk-go:v1.43.11:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/aws/aws-sdk-go@v1.43.11</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:aws:aws_sdk_go:v1.43.11:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:NebCNJ2QvsFCnsKT1ei98bfwTPEoO2qwtWT42tJ3N3Q=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/aws/aws-sdk-go@v1.43.11?package-id=bacd3cb2dff6b384" type="library">
+      <name>github.com/aws/aws-sdk-go</name>
+      <version>v1.43.11</version>
+      <cpe>cpe:2.3:a:aws:aws-sdk-go:v1.43.11:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/aws/aws-sdk-go@v1.43.11</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:aws:aws_sdk_go:v1.43.11:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:NebCNJ2QvsFCnsKT1ei98bfwTPEoO2qwtWT42tJ3N3Q=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/beorn7/perks@v1.0.1?package-id=4ed6a43d2027b2f1" type="library">
+      <name>github.com/beorn7/perks</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:beorn7:perks:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/beorn7/perks@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/beorn7/perks@v1.0.1?package-id=fd040a37f2a1d381" type="library">
+      <name>github.com/beorn7/perks</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:beorn7:perks:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/beorn7/perks@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/cenkalti/backoff/v4@v4.1.2?package-id=f5c87e4d734179c6" type="library">
+      <name>github.com/cenkalti/backoff/v4</name>
+      <version>v4.1.2</version>
+      <cpe>cpe:2.3:a:cenkalti:backoff\/v4:v4.1.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/cenkalti/backoff/v4@v4.1.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:6Yo7N8UP2K6LWZnW94DLVSSrbobcWdVzAYOisuDPIFo=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/cenkalti/backoff/v4@v4.1.2?package-id=68a17793e134ceeb" type="library">
+      <name>github.com/cenkalti/backoff/v4</name>
+      <version>v4.1.2</version>
+      <cpe>cpe:2.3:a:cenkalti:backoff\/v4:v4.1.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/cenkalti/backoff/v4@v4.1.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:6Yo7N8UP2K6LWZnW94DLVSSrbobcWdVzAYOisuDPIFo=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/cespare/xxhash/v2@v2.1.2?package-id=360c5ca4bce00c50" type="library">
+      <name>github.com/cespare/xxhash/v2</name>
+      <version>v2.1.2</version>
+      <cpe>cpe:2.3:a:cespare:xxhash\/v2:v2.1.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/cespare/xxhash/v2@v2.1.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:YRXhKfTDauu4ajMg1TPgFO5jnlC2HCbmLXMcTG5cbYE=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/cespare/xxhash/v2@v2.1.2?package-id=bb3ac826141851d8" type="library">
+      <name>github.com/cespare/xxhash/v2</name>
+      <version>v2.1.2</version>
+      <cpe>cpe:2.3:a:cespare:xxhash\/v2:v2.1.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/cespare/xxhash/v2@v2.1.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:YRXhKfTDauu4ajMg1TPgFO5jnlC2HCbmLXMcTG5cbYE=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/docker/go-units@v0.4.0?package-id=cf1b6ebcbdf82a94" type="library">
+      <name>github.com/docker/go-units</name>
+      <version>v0.4.0</version>
+      <cpe>cpe:2.3:a:docker:go-units:v0.4.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/docker/go-units@v0.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:docker:go_units:v0.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:3uh0PgVws3nIA0Q+MwDC8yjEPf9zjRfZZWXZYDct3Tw=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-kit/log@v0.2.0?package-id=88d7c12f6ff00f0e" type="library">
+      <name>github.com/go-kit/log</name>
+      <version>v0.2.0</version>
+      <cpe>cpe:2.3:a:go-kit:log:v0.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-kit/log@v0.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_kit:log:v0.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:log:v0.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:7i2K3eKTos3Vc0enKCfnVcgHh2olr/MyfboYq7cAcFw=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-kit/log@v0.2.0?package-id=9f5a125672daf914" type="library">
+      <name>github.com/go-kit/log</name>
+      <version>v0.2.0</version>
+      <cpe>cpe:2.3:a:go-kit:log:v0.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-kit/log@v0.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_kit:log:v0.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:log:v0.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:7i2K3eKTos3Vc0enKCfnVcgHh2olr/MyfboYq7cAcFw=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-logfmt/logfmt@v0.5.1?package-id=dfd6ca4c7a8eda96" type="library">
+      <name>github.com/go-logfmt/logfmt</name>
+      <version>v0.5.1</version>
+      <cpe>cpe:2.3:a:go-logfmt:logfmt:v0.5.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-logfmt/logfmt@v0.5.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_logfmt:logfmt:v0.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:logfmt:v0.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:otpy5pqBCBZ1ng9RQ0dPu4PN7ba75Y/aA+UpowDyNVA=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-logfmt/logfmt@v0.5.1?package-id=d347580b5b9df039" type="library">
+      <name>github.com/go-logfmt/logfmt</name>
+      <version>v0.5.1</version>
+      <cpe>cpe:2.3:a:go-logfmt:logfmt:v0.5.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-logfmt/logfmt@v0.5.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_logfmt:logfmt:v0.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:logfmt:v0.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:otpy5pqBCBZ1ng9RQ0dPu4PN7ba75Y/aA+UpowDyNVA=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/analysis@v0.21.2?package-id=b8ac90a7ca8d8a06" type="library">
+      <name>github.com/go-openapi/analysis</name>
+      <version>v0.21.2</version>
+      <cpe>cpe:2.3:a:go-openapi:analysis:v0.21.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/analysis@v0.21.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:analysis:v0.21.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:analysis:v0.21.2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:hXFrOYFHUAMQdu6zwAiKKJHJQ8kqZs1ux/ru1P1wLJU=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/analysis@v0.21.2?package-id=428b605538653e09" type="library">
+      <name>github.com/go-openapi/analysis</name>
+      <version>v0.21.2</version>
+      <cpe>cpe:2.3:a:go-openapi:analysis:v0.21.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/analysis@v0.21.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:analysis:v0.21.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:analysis:v0.21.2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:hXFrOYFHUAMQdu6zwAiKKJHJQ8kqZs1ux/ru1P1wLJU=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/errors@v0.20.2?package-id=51be8afcf03fc549" type="library">
+      <name>github.com/go-openapi/errors</name>
+      <version>v0.20.2</version>
+      <cpe>cpe:2.3:a:go-openapi:errors:v0.20.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/errors@v0.20.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:errors:v0.20.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:errors:v0.20.2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:dxy7PGTqEh94zj2E3h1cUmQQWiM1+aeCROfAr02EmK8=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/errors@v0.20.2?package-id=bf3c823c90aba8dd" type="library">
+      <name>github.com/go-openapi/errors</name>
+      <version>v0.20.2</version>
+      <cpe>cpe:2.3:a:go-openapi:errors:v0.20.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/errors@v0.20.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:errors:v0.20.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:errors:v0.20.2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:dxy7PGTqEh94zj2E3h1cUmQQWiM1+aeCROfAr02EmK8=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/jsonpointer@v0.19.5?package-id=2d833fe0f975d323" type="library">
+      <name>github.com/go-openapi/jsonpointer</name>
+      <version>v0.19.5</version>
+      <cpe>cpe:2.3:a:go-openapi:jsonpointer:v0.19.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/jsonpointer@v0.19.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:jsonpointer:v0.19.5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:jsonpointer:v0.19.5:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:gZr+CIYByUqjcgeLXnQu2gHYQC9o73G2XUeOFYEICuY=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/jsonpointer@v0.19.5?package-id=4412530e9a8d9bc0" type="library">
+      <name>github.com/go-openapi/jsonpointer</name>
+      <version>v0.19.5</version>
+      <cpe>cpe:2.3:a:go-openapi:jsonpointer:v0.19.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/jsonpointer@v0.19.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:jsonpointer:v0.19.5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:jsonpointer:v0.19.5:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:gZr+CIYByUqjcgeLXnQu2gHYQC9o73G2XUeOFYEICuY=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/jsonreference@v0.19.6?package-id=3f3ecca90f3beff0" type="library">
+      <name>github.com/go-openapi/jsonreference</name>
+      <version>v0.19.6</version>
+      <cpe>cpe:2.3:a:go-openapi:jsonreference:v0.19.6:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/jsonreference@v0.19.6</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:jsonreference:v0.19.6:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:jsonreference:v0.19.6:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:UBIxjkht+AWIgYzCDSv2GN+E/togfwXUJFRTWhl2Jjs=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/jsonreference@v0.19.6?package-id=2d2fe2f550e06e7f" type="library">
+      <name>github.com/go-openapi/jsonreference</name>
+      <version>v0.19.6</version>
+      <cpe>cpe:2.3:a:go-openapi:jsonreference:v0.19.6:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/jsonreference@v0.19.6</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:jsonreference:v0.19.6:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:jsonreference:v0.19.6:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:UBIxjkht+AWIgYzCDSv2GN+E/togfwXUJFRTWhl2Jjs=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/loads@v0.21.1?package-id=a815ba534256d347" type="library">
+      <name>github.com/go-openapi/loads</name>
+      <version>v0.21.1</version>
+      <cpe>cpe:2.3:a:go-openapi:loads:v0.21.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/loads@v0.21.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:loads:v0.21.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:loads:v0.21.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:Wb3nVZpdEzDTcly8S4HMkey6fjARRzb7iEaySimlDW0=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/loads@v0.21.1?package-id=e715334b41998634" type="library">
+      <name>github.com/go-openapi/loads</name>
+      <version>v0.21.1</version>
+      <cpe>cpe:2.3:a:go-openapi:loads:v0.21.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/loads@v0.21.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:loads:v0.21.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:loads:v0.21.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:Wb3nVZpdEzDTcly8S4HMkey6fjARRzb7iEaySimlDW0=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/runtime@v0.23.1?package-id=a23a80452a1cc75c" type="library">
+      <name>github.com/go-openapi/runtime</name>
+      <version>v0.23.1</version>
+      <cpe>cpe:2.3:a:go-openapi:runtime:v0.23.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/runtime@v0.23.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:runtime:v0.23.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:runtime:v0.23.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:/Drg9R96eMmgKJHVWZADz78XbE39/6QiIiB45mc+epo=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/runtime@v0.23.1?package-id=8cf4629d47a2aeb0" type="library">
+      <name>github.com/go-openapi/runtime</name>
+      <version>v0.23.1</version>
+      <cpe>cpe:2.3:a:go-openapi:runtime:v0.23.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/runtime@v0.23.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:runtime:v0.23.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:runtime:v0.23.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:/Drg9R96eMmgKJHVWZADz78XbE39/6QiIiB45mc+epo=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/spec@v0.20.4?package-id=86164807cb2b8534" type="library">
+      <name>github.com/go-openapi/spec</name>
+      <version>v0.20.4</version>
+      <cpe>cpe:2.3:a:go-openapi:spec:v0.20.4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/spec@v0.20.4</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:spec:v0.20.4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:spec:v0.20.4:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:O8hJrt0UMnhHcluhIdUgCLRWyM2x7QkBXRvOs7m+O1M=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/spec@v0.20.4?package-id=8c386cfc12862963" type="library">
+      <name>github.com/go-openapi/spec</name>
+      <version>v0.20.4</version>
+      <cpe>cpe:2.3:a:go-openapi:spec:v0.20.4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/spec@v0.20.4</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:spec:v0.20.4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:spec:v0.20.4:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:O8hJrt0UMnhHcluhIdUgCLRWyM2x7QkBXRvOs7m+O1M=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/strfmt@v0.21.2?package-id=408ad5b5dacb9400" type="library">
+      <name>github.com/go-openapi/strfmt</name>
+      <version>v0.21.2</version>
+      <cpe>cpe:2.3:a:go-openapi:strfmt:v0.21.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/strfmt@v0.21.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:strfmt:v0.21.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:strfmt:v0.21.2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:5NDNgadiX1Vhemth/TH4gCGopWSTdDjxl60H3B7f+os=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/strfmt@v0.21.2?package-id=77d4ee4c8eeb0816" type="library">
+      <name>github.com/go-openapi/strfmt</name>
+      <version>v0.21.2</version>
+      <cpe>cpe:2.3:a:go-openapi:strfmt:v0.21.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/strfmt@v0.21.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:strfmt:v0.21.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:strfmt:v0.21.2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:5NDNgadiX1Vhemth/TH4gCGopWSTdDjxl60H3B7f+os=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/swag@v0.21.1?package-id=d86a64e5d9a8ce9b" type="library">
+      <name>github.com/go-openapi/swag</name>
+      <version>v0.21.1</version>
+      <cpe>cpe:2.3:a:go-openapi:swag:v0.21.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/swag@v0.21.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:swag:v0.21.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:swag:v0.21.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:wm0rhTb5z7qpJRHBdPOMuY4QjVUMbF6/kwoYeRAOrKU=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/swag@v0.21.1?package-id=692a7c7e02504732" type="library">
+      <name>github.com/go-openapi/swag</name>
+      <version>v0.21.1</version>
+      <cpe>cpe:2.3:a:go-openapi:swag:v0.21.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/swag@v0.21.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:swag:v0.21.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:swag:v0.21.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:wm0rhTb5z7qpJRHBdPOMuY4QjVUMbF6/kwoYeRAOrKU=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/validate@v0.21.0?package-id=512d9d545dcd4c17" type="library">
+      <name>github.com/go-openapi/validate</name>
+      <version>v0.21.0</version>
+      <cpe>cpe:2.3:a:go-openapi:validate:v0.21.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/validate@v0.21.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:validate:v0.21.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:validate:v0.21.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:+Wqk39yKOhfpLqNLEC0/eViCkzM5FVXVqrvt526+wcI=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/validate@v0.21.0?package-id=7238c722139e42f0" type="library">
+      <name>github.com/go-openapi/validate</name>
+      <version>v0.21.0</version>
+      <cpe>cpe:2.3:a:go-openapi:validate:v0.21.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/validate@v0.21.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:validate:v0.21.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:validate:v0.21.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:+Wqk39yKOhfpLqNLEC0/eViCkzM5FVXVqrvt526+wcI=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-stack/stack@v1.8.1?package-id=e64e984aadbe7cac" type="library">
+      <name>github.com/go-stack/stack</name>
+      <version>v1.8.1</version>
+      <cpe>cpe:2.3:a:go-stack:stack:v1.8.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-stack/stack@v1.8.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_stack:stack:v1.8.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:stack:v1.8.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:ntEHSVwIt7PNXNpgPmVfMrNhLtgjlmnZha2kOpuRiDw=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-stack/stack@v1.8.1?package-id=5cc9e540aac10b02" type="library">
+      <name>github.com/go-stack/stack</name>
+      <version>v1.8.1</version>
+      <cpe>cpe:2.3:a:go-stack:stack:v1.8.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-stack/stack@v1.8.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_stack:stack:v1.8.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:stack:v1.8.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:ntEHSVwIt7PNXNpgPmVfMrNhLtgjlmnZha2kOpuRiDw=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/gofrs/uuid@v4.2.0+incompatible?package-id=f16686ee92e7cc73" type="library">
+      <name>github.com/gofrs/uuid</name>
+      <version>v4.2.0+incompatible</version>
+      <cpe>cpe:2.3:a:gofrs:uuid:v4.2.0\+incompatible:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/gofrs/uuid@v4.2.0+incompatible</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:yyYWMnhkhrKwwr8gAOcOCYxOOscHgDS9yZgBrnJfGa0=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/gofrs/uuid@v4.2.0+incompatible?package-id=54afa1bcc6ed130" type="library">
+      <name>github.com/gofrs/uuid</name>
+      <version>v4.2.0+incompatible</version>
+      <cpe>cpe:2.3:a:gofrs:uuid:v4.2.0\+incompatible:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/gofrs/uuid@v4.2.0+incompatible</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:yyYWMnhkhrKwwr8gAOcOCYxOOscHgDS9yZgBrnJfGa0=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/gogo/protobuf@v1.3.2?package-id=6f9af91c49193a7b" type="library">
+      <name>github.com/gogo/protobuf</name>
+      <version>v1.3.2</version>
+      <cpe>cpe:2.3:a:gogo:protobuf:v1.3.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/gogo/protobuf@v1.3.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:Ov1cvc58UF3b5XjBnZv7+opcTcQFZebYjWzi34vdm4Q=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/gogo/protobuf@v1.3.2?package-id=8e2322ef9ebc80" type="library">
+      <name>github.com/gogo/protobuf</name>
+      <version>v1.3.2</version>
+      <cpe>cpe:2.3:a:gogo:protobuf:v1.3.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/gogo/protobuf@v1.3.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:Ov1cvc58UF3b5XjBnZv7+opcTcQFZebYjWzi34vdm4Q=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/golang/protobuf@v1.5.2?package-id=f3aa77c364bd49d8" type="library">
+      <name>github.com/golang/protobuf</name>
+      <version>v1.5.2</version>
+      <cpe>cpe:2.3:a:golang:protobuf:v1.5.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/golang/protobuf@v1.5.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:ROPKBNFfQgOUMifHyP+KYbvpjbdoFNs+aK7DXlji0Tw=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/golang/protobuf@v1.5.2?package-id=78b93dd6b810caf1" type="library">
+      <name>github.com/golang/protobuf</name>
+      <version>v1.5.2</version>
+      <cpe>cpe:2.3:a:golang:protobuf:v1.5.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/golang/protobuf@v1.5.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:ROPKBNFfQgOUMifHyP+KYbvpjbdoFNs+aK7DXlji0Tw=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/btree@v1.0.0?package-id=5545a4d0d53e62c7" type="library">
+      <name>github.com/google/btree</name>
+      <version>v1.0.0</version>
+      <cpe>cpe:2.3:a:google:btree:v1.0.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/btree@v1.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:0udJVsspx3VBr5FwtLhQQtuAsVc79tTq0ocGIPAU6qo=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/btree@v1.0.0?package-id=4fb1db92106e8037" type="library">
+      <name>github.com/google/btree</name>
+      <version>v1.0.0</version>
+      <cpe>cpe:2.3:a:google:btree:v1.0.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/btree@v1.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:0udJVsspx3VBr5FwtLhQQtuAsVc79tTq0ocGIPAU6qo=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/hashicorp/errwrap@v1.0.0?package-id=e4f678a4602a466b" type="library">
+      <name>github.com/hashicorp/errwrap</name>
+      <version>v1.0.0</version>
+      <cpe>cpe:2.3:a:hashicorp:errwrap:v1.0.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/hashicorp/errwrap@v1.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:hLrqtEDnRye3+sgx6z4qVLNuviH3MR5aQ0ykNJa/UYA=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/hashicorp/errwrap@v1.0.0?package-id=16ff016b09bfeea" type="library">
+      <name>github.com/hashicorp/errwrap</name>
+      <version>v1.0.0</version>
+      <cpe>cpe:2.3:a:hashicorp:errwrap:v1.0.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/hashicorp/errwrap@v1.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:hLrqtEDnRye3+sgx6z4qVLNuviH3MR5aQ0ykNJa/UYA=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/hashicorp/go-immutable-radix@v1.0.0?package-id=1f7326449c543deb" type="library">
+      <name>github.com/hashicorp/go-immutable-radix</name>
+      <version>v1.0.0</version>
+      <cpe>cpe:2.3:a:hashicorp:go-immutable-radix:v1.0.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/hashicorp/go-immutable-radix@v1.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:hashicorp:go_immutable_radix:v1.0.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:AKDB1HM5PWEA7i4nhcpwOrO2byshxBjXVn/J/3+z5/0=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/hashicorp/go-immutable-radix@v1.0.0?package-id=4833c22c10fe646f" type="library">
+      <name>github.com/hashicorp/go-immutable-radix</name>
+      <version>v1.0.0</version>
+      <cpe>cpe:2.3:a:hashicorp:go-immutable-radix:v1.0.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/hashicorp/go-immutable-radix@v1.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:hashicorp:go_immutable_radix:v1.0.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:AKDB1HM5PWEA7i4nhcpwOrO2byshxBjXVn/J/3+z5/0=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/hashicorp/go-msgpack@v0.5.3?package-id=101ec01361c9ced2" type="library">
+      <name>github.com/hashicorp/go-msgpack</name>
+      <version>v0.5.3</version>
+      <cpe>cpe:2.3:a:hashicorp:go-msgpack:v0.5.3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/hashicorp/go-msgpack@v0.5.3</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:hashicorp:go_msgpack:v0.5.3:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:zKjpN5BK/P5lMYrLmBHdBULWbJ0XpYR+7NGzqkZzoD4=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/hashicorp/go-msgpack@v0.5.3?package-id=3a71ccaade846497" type="library">
+      <name>github.com/hashicorp/go-msgpack</name>
+      <version>v0.5.3</version>
+      <cpe>cpe:2.3:a:hashicorp:go-msgpack:v0.5.3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/hashicorp/go-msgpack@v0.5.3</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:hashicorp:go_msgpack:v0.5.3:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:zKjpN5BK/P5lMYrLmBHdBULWbJ0XpYR+7NGzqkZzoD4=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/hashicorp/go-multierror@v1.0.0?package-id=2cb8488f3c0ff2d6" type="library">
+      <name>github.com/hashicorp/go-multierror</name>
+      <version>v1.0.0</version>
+      <cpe>cpe:2.3:a:hashicorp:go-multierror:v1.0.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/hashicorp/go-multierror@v1.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:hashicorp:go_multierror:v1.0.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:iVjPR7a6H0tWELX5NxNe7bYopibicUzc7uPribsnS6o=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/hashicorp/go-multierror@v1.0.0?package-id=58d195522bb19f77" type="library">
+      <name>github.com/hashicorp/go-multierror</name>
+      <version>v1.0.0</version>
+      <cpe>cpe:2.3:a:hashicorp:go-multierror:v1.0.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/hashicorp/go-multierror@v1.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:hashicorp:go_multierror:v1.0.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:iVjPR7a6H0tWELX5NxNe7bYopibicUzc7uPribsnS6o=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/hashicorp/go-sockaddr@v1.0.2?package-id=5155301e2176bc58" type="library">
+      <name>github.com/hashicorp/go-sockaddr</name>
+      <version>v1.0.2</version>
+      <cpe>cpe:2.3:a:hashicorp:go-sockaddr:v1.0.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/hashicorp/go-sockaddr@v1.0.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:hashicorp:go_sockaddr:v1.0.2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:ztczhD1jLxIRjVejw8gFomI1BQZOe2WoVOu0SyteCQc=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/hashicorp/go-sockaddr@v1.0.2?package-id=794954db164f2aef" type="library">
+      <name>github.com/hashicorp/go-sockaddr</name>
+      <version>v1.0.2</version>
+      <cpe>cpe:2.3:a:hashicorp:go-sockaddr:v1.0.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/hashicorp/go-sockaddr@v1.0.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:hashicorp:go_sockaddr:v1.0.2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:ztczhD1jLxIRjVejw8gFomI1BQZOe2WoVOu0SyteCQc=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/hashicorp/golang-lru@v0.5.4?package-id=443567c0ad157fab" type="library">
+      <name>github.com/hashicorp/golang-lru</name>
+      <version>v0.5.4</version>
+      <cpe>cpe:2.3:a:hashicorp:golang-lru:v0.5.4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/hashicorp/golang-lru@v0.5.4</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:hashicorp:golang_lru:v0.5.4:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:YDjusn29QI/Das2iO9M0BHnIbxPeyuCHsjMW+lJfyTc=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/hashicorp/golang-lru@v0.5.4?package-id=ea40a76640fbfe1f" type="library">
+      <name>github.com/hashicorp/golang-lru</name>
+      <version>v0.5.4</version>
+      <cpe>cpe:2.3:a:hashicorp:golang-lru:v0.5.4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/hashicorp/golang-lru@v0.5.4</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:hashicorp:golang_lru:v0.5.4:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:YDjusn29QI/Das2iO9M0BHnIbxPeyuCHsjMW+lJfyTc=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/hashicorp/memberlist@v0.3.1?package-id=11c622b889d85a43" type="library">
+      <name>github.com/hashicorp/memberlist</name>
+      <version>v0.3.1</version>
+      <cpe>cpe:2.3:a:hashicorp:memberlist:v0.3.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/hashicorp/memberlist@v0.3.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:MXgUXLqva1QvpVEDQW1IQLG0wivQAtmFlHRQ+1vWZfM=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/hashicorp/memberlist@v0.3.1?package-id=6371661529535dae" type="library">
+      <name>github.com/hashicorp/memberlist</name>
+      <version>v0.3.1</version>
+      <cpe>cpe:2.3:a:hashicorp:memberlist:v0.3.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/hashicorp/memberlist@v0.3.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:MXgUXLqva1QvpVEDQW1IQLG0wivQAtmFlHRQ+1vWZfM=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/jessevdk/go-flags@v1.5.0?package-id=39ee6a7ade3be334" type="library">
+      <name>github.com/jessevdk/go-flags</name>
+      <version>v1.5.0</version>
+      <cpe>cpe:2.3:a:jessevdk:go-flags:v1.5.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/jessevdk/go-flags@v1.5.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:jessevdk:go_flags:v1.5.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:1jKYvbxEjfUl0fmqTCOfonvskHHXMjBySTLW4y9LFvc=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/jmespath/go-jmespath@v0.4.0?package-id=da9077daa96420a5" type="library">
+      <name>github.com/jmespath/go-jmespath</name>
+      <version>v0.4.0</version>
+      <cpe>cpe:2.3:a:jmespath:go-jmespath:v0.4.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/jmespath/go-jmespath@v0.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:jmespath:go_jmespath:v0.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:BEgLn5cpjn8UN1mAw4NjwDrS35OdebyEtFe+9YPoQUg=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/jmespath/go-jmespath@v0.4.0?package-id=64d54fef26d81939" type="library">
+      <name>github.com/jmespath/go-jmespath</name>
+      <version>v0.4.0</version>
+      <cpe>cpe:2.3:a:jmespath:go-jmespath:v0.4.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/jmespath/go-jmespath@v0.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:jmespath:go_jmespath:v0.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:BEgLn5cpjn8UN1mAw4NjwDrS35OdebyEtFe+9YPoQUg=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/josharian/intern@v1.0.0?package-id=ce0d71beccf4d56" type="library">
+      <name>github.com/josharian/intern</name>
+      <version>v1.0.0</version>
+      <cpe>cpe:2.3:a:josharian:intern:v1.0.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/josharian/intern@v1.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:vlS4z54oSdjm0bgjRigI+G1HpF+tI+9rE5LLzOg8HmY=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/josharian/intern@v1.0.0?package-id=99c114f669cb7ca6" type="library">
+      <name>github.com/josharian/intern</name>
+      <version>v1.0.0</version>
+      <cpe>cpe:2.3:a:josharian:intern:v1.0.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/josharian/intern@v1.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:vlS4z54oSdjm0bgjRigI+G1HpF+tI+9rE5LLzOg8HmY=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/jpillora/backoff@v1.0.0?package-id=8b813ff4657b845" type="library">
+      <name>github.com/jpillora/backoff</name>
+      <version>v1.0.0</version>
+      <cpe>cpe:2.3:a:jpillora:backoff:v1.0.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/jpillora/backoff@v1.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:uvFg412JmmHBHw7iwprIxkPMI+sGQ4kzOWsMeHnm2EA=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/jpillora/backoff@v1.0.0?package-id=80483f01905a7b9b" type="library">
+      <name>github.com/jpillora/backoff</name>
+      <version>v1.0.0</version>
+      <cpe>cpe:2.3:a:jpillora:backoff:v1.0.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/jpillora/backoff@v1.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:uvFg412JmmHBHw7iwprIxkPMI+sGQ4kzOWsMeHnm2EA=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/julienschmidt/httprouter@v1.3.0?package-id=7d1f4913f3d08d55" type="library">
+      <name>github.com/julienschmidt/httprouter</name>
+      <version>v1.3.0</version>
+      <cpe>cpe:2.3:a:julienschmidt:httprouter:v1.3.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/julienschmidt/httprouter@v1.3.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:U0609e9tgbseu3rBINet9P48AI/D3oJs4dN7jwJOQ1U=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/mailru/easyjson@v0.7.7?package-id=3bbb9aefed31c07d" type="library">
+      <name>github.com/mailru/easyjson</name>
+      <version>v0.7.7</version>
+      <cpe>cpe:2.3:a:mailru:easyjson:v0.7.7:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/mailru/easyjson@v0.7.7</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:UGYAvKxe3sBsEDzO8ZeWOSlIQfWFlxbzLZe7hwFURr0=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/mailru/easyjson@v0.7.7?package-id=4645b7f3c75b183f" type="library">
+      <name>github.com/mailru/easyjson</name>
+      <version>v0.7.7</version>
+      <cpe>cpe:2.3:a:mailru:easyjson:v0.7.7:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/mailru/easyjson@v0.7.7</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:UGYAvKxe3sBsEDzO8ZeWOSlIQfWFlxbzLZe7hwFURr0=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.1?package-id=ba5c4faeface003c" type="library">
+      <name>github.com/matttproud/golang_protobuf_extensions</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:matttproud:golang-protobuf-extensions:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:matttproud:golang_protobuf_extensions:v1.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:4hp9jkHxhMHkqkrB3Ix0jegS5sx/RkqARlsWZ6pIwiU=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.1?package-id=e2c1592376096694" type="library">
+      <name>github.com/matttproud/golang_protobuf_extensions</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:matttproud:golang-protobuf-extensions:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:matttproud:golang_protobuf_extensions:v1.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:4hp9jkHxhMHkqkrB3Ix0jegS5sx/RkqARlsWZ6pIwiU=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/miekg/dns@v1.1.26?package-id=efe3e7f3b80a6cf" type="library">
+      <name>github.com/miekg/dns</name>
+      <version>v1.1.26</version>
+      <cpe>cpe:2.3:a:miekg:dns:v1.1.26:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/miekg/dns@v1.1.26</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:gPxPSwALAeHJSjarOs00QjVdV9QoBvc1D2ujQUr5BzU=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/miekg/dns@v1.1.26?package-id=d0211713c37cc298" type="library">
+      <name>github.com/miekg/dns</name>
+      <version>v1.1.26</version>
+      <cpe>cpe:2.3:a:miekg:dns:v1.1.26:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/miekg/dns@v1.1.26</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:gPxPSwALAeHJSjarOs00QjVdV9QoBvc1D2ujQUr5BzU=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/mitchellh/mapstructure@v1.4.3?package-id=8815e4543cf85de8" type="library">
+      <name>github.com/mitchellh/mapstructure</name>
+      <version>v1.4.3</version>
+      <cpe>cpe:2.3:a:mitchellh:mapstructure:v1.4.3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/mitchellh/mapstructure@v1.4.3</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:OVowDSCllw/YjdLkam3/sm7wEtOy59d8ndGgCcyj8cs=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/mitchellh/mapstructure@v1.4.3?package-id=fbab11c768cabe92" type="library">
+      <name>github.com/mitchellh/mapstructure</name>
+      <version>v1.4.3</version>
+      <cpe>cpe:2.3:a:mitchellh:mapstructure:v1.4.3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/mitchellh/mapstructure@v1.4.3</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:OVowDSCllw/YjdLkam3/sm7wEtOy59d8ndGgCcyj8cs=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/mwitkow/go-conntrack@v0.0.0-20190716064945-2f068394615f?package-id=4661a7adc7b64920" type="library">
+      <name>github.com/mwitkow/go-conntrack</name>
+      <version>v0.0.0-20190716064945-2f068394615f</version>
+      <cpe>cpe:2.3:a:mwitkow:go-conntrack:v0.0.0-20190716064945-2f068394615f:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/mwitkow/go-conntrack@v0.0.0-20190716064945-2f068394615f</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:mwitkow:go_conntrack:v0.0.0-20190716064945-2f068394615f:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:KUppIJq7/+SVif2QVs3tOP0zanoHgBEVAwHxUSIzRqU=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/mwitkow/go-conntrack@v0.0.0-20190716064945-2f068394615f?package-id=1c6e599182122b64" type="library">
+      <name>github.com/mwitkow/go-conntrack</name>
+      <version>v0.0.0-20190716064945-2f068394615f</version>
+      <cpe>cpe:2.3:a:mwitkow:go-conntrack:v0.0.0-20190716064945-2f068394615f:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/mwitkow/go-conntrack@v0.0.0-20190716064945-2f068394615f</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:mwitkow:go_conntrack:v0.0.0-20190716064945-2f068394615f:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:KUppIJq7/+SVif2QVs3tOP0zanoHgBEVAwHxUSIzRqU=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/oklog/run@v1.1.0?package-id=1a2d21a4571c6dbb" type="library">
+      <name>github.com/oklog/run</name>
+      <version>v1.1.0</version>
+      <cpe>cpe:2.3:a:oklog:run:v1.1.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/oklog/run@v1.1.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:GEenZ1cK0+q0+wsJew9qUg/DyD8k3JzYsZAi5gYi2mA=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/oklog/run@v1.1.0?package-id=807c08f9f2e36d27" type="library">
+      <name>github.com/oklog/run</name>
+      <version>v1.1.0</version>
+      <cpe>cpe:2.3:a:oklog:run:v1.1.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/oklog/run@v1.1.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:GEenZ1cK0+q0+wsJew9qUg/DyD8k3JzYsZAi5gYi2mA=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/oklog/ulid@v1.3.1?package-id=3145bee4c053da87" type="library">
+      <name>github.com/oklog/ulid</name>
+      <version>v1.3.1</version>
+      <cpe>cpe:2.3:a:oklog:ulid:v1.3.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/oklog/ulid@v1.3.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:EGfNDEx6MqHz8B3uNV6QAib1UR2Lm97sHi3ocA6ESJ4=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/oklog/ulid@v1.3.1?package-id=c2ec734dea63e407" type="library">
+      <name>github.com/oklog/ulid</name>
+      <version>v1.3.1</version>
+      <cpe>cpe:2.3:a:oklog:ulid:v1.3.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/oklog/ulid@v1.3.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:EGfNDEx6MqHz8B3uNV6QAib1UR2Lm97sHi3ocA6ESJ4=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/opentracing/opentracing-go@v1.2.0?package-id=cb9ad3dee846cfd1" type="library">
+      <name>github.com/opentracing/opentracing-go</name>
+      <version>v1.2.0</version>
+      <cpe>cpe:2.3:a:opentracing:opentracing-go:v1.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/opentracing/opentracing-go@v1.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:opentracing:opentracing_go:v1.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:uEJPy/1a5RIPAJ0Ov+OIO8OxWu77jEv+1B0VhjKrZUs=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/pkg/errors@v0.9.1?package-id=7eafccedefc85cf9" type="library">
+      <name>github.com/pkg/errors</name>
+      <version>v0.9.1</version>
+      <cpe>cpe:2.3:a:pkg:errors:v0.9.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/pkg/errors@v0.9.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/pkg/errors@v0.9.1?package-id=9e44297a81b727cd" type="library">
+      <name>github.com/pkg/errors</name>
+      <version>v0.9.1</version>
+      <cpe>cpe:2.3:a:pkg:errors:v0.9.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/pkg/errors@v0.9.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/alertmanager@(devel)?package-id=e7c3be9f54942356" type="library">
+      <name>github.com/prometheus/alertmanager</name>
+      <version>(devel)</version>
+      <cpe>cpe:2.3:a:prometheus:alertmanager:\(devel\):*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/alertmanager@(devel)</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/alertmanager@(devel)?package-id=c4ca5a5e52606ef1" type="library">
+      <name>github.com/prometheus/alertmanager</name>
+      <version>(devel)</version>
+      <cpe>cpe:2.3:a:prometheus:alertmanager:\(devel\):*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/alertmanager@(devel)</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/client_golang@v1.12.1?package-id=bb4fa08bc5c0d558" type="library">
+      <name>github.com/prometheus/client_golang</name>
+      <version>v1.12.1</version>
+      <cpe>cpe:2.3:a:prometheus:client-golang:v1.12.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/client_golang@v1.12.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:client_golang:v1.12.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:ZiaPsmm9uiBeaSMRznKsCDNtPCS0T3JVDGF+06gjBzk=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/client_golang@v1.12.1?package-id=34a91afa1228035" type="library">
+      <name>github.com/prometheus/client_golang</name>
+      <version>v1.12.1</version>
+      <cpe>cpe:2.3:a:prometheus:client-golang:v1.12.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/client_golang@v1.12.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:client_golang:v1.12.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:ZiaPsmm9uiBeaSMRznKsCDNtPCS0T3JVDGF+06gjBzk=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/client_model@v0.2.0?package-id=38c2969b79bdf18e" type="library">
+      <name>github.com/prometheus/client_model</name>
+      <version>v0.2.0</version>
+      <cpe>cpe:2.3:a:prometheus:client-model:v0.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/client_model@v0.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:client_model:v0.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:uq5h0d+GuxiXLJLNABMgp2qUWDPiLvgCzz2dUR+/W/M=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/client_model@v0.2.0?package-id=a90078170b9113fa" type="library">
+      <name>github.com/prometheus/client_model</name>
+      <version>v0.2.0</version>
+      <cpe>cpe:2.3:a:prometheus:client-model:v0.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/client_model@v0.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:client_model:v0.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:uq5h0d+GuxiXLJLNABMgp2qUWDPiLvgCzz2dUR+/W/M=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/common@v0.32.1?package-id=bbe47da59a892473" type="library">
+      <name>github.com/prometheus/common</name>
+      <version>v0.32.1</version>
+      <cpe>cpe:2.3:a:prometheus:common:v0.32.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/common@v0.32.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:hWIdL3N2HoUx3B8j3YN9mWor0qhY/NlEKZEaXxuIRh4=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/common@v0.32.1?package-id=ed9dc3dda2d5b76" type="library">
+      <name>github.com/prometheus/common</name>
+      <version>v0.32.1</version>
+      <cpe>cpe:2.3:a:prometheus:common:v0.32.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/common@v0.32.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:hWIdL3N2HoUx3B8j3YN9mWor0qhY/NlEKZEaXxuIRh4=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/common/sigv4@v0.1.0?package-id=ea282948e7198a29" type="library">
+      <name>github.com/prometheus/common/sigv4</name>
+      <version>v0.1.0</version>
+      <cpe>cpe:2.3:a:prometheus:common\/sigv4:v0.1.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/common/sigv4@v0.1.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:qoVebwtwwEhS85Czm2dSROY5fTo2PAPEVdDeppTwGX4=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/common/sigv4@v0.1.0?package-id=10f26505e7caab9d" type="library">
+      <name>github.com/prometheus/common/sigv4</name>
+      <version>v0.1.0</version>
+      <cpe>cpe:2.3:a:prometheus:common\/sigv4:v0.1.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/common/sigv4@v0.1.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:qoVebwtwwEhS85Czm2dSROY5fTo2PAPEVdDeppTwGX4=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/exporter-toolkit@v0.7.1?package-id=cb3c59b6b540d868" type="library">
+      <name>github.com/prometheus/exporter-toolkit</name>
+      <version>v0.7.1</version>
+      <cpe>cpe:2.3:a:prometheus:exporter-toolkit:v0.7.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/exporter-toolkit@v0.7.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:exporter_toolkit:v0.7.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:c6RXaK8xBVercEeUQ4tRNL8UGWzDHfvj9dseo1FcK1Y=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/exporter-toolkit@v0.7.1?package-id=1b3bf2cc27ab34f4" type="library">
+      <name>github.com/prometheus/exporter-toolkit</name>
+      <version>v0.7.1</version>
+      <cpe>cpe:2.3:a:prometheus:exporter-toolkit:v0.7.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/exporter-toolkit@v0.7.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:exporter_toolkit:v0.7.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:c6RXaK8xBVercEeUQ4tRNL8UGWzDHfvj9dseo1FcK1Y=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/procfs@v0.7.3?package-id=1d76cd1134748017" type="library">
+      <name>github.com/prometheus/procfs</name>
+      <version>v0.7.3</version>
+      <cpe>cpe:2.3:a:prometheus:procfs:v0.7.3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/procfs@v0.7.3</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:4jVXhlkAyzOScmCkXBTOLRLTz8EeU+eyjrwB/EPq0VU=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/procfs@v0.7.3?package-id=70936730b4fdc00c" type="library">
+      <name>github.com/prometheus/procfs</name>
+      <version>v0.7.3</version>
+      <cpe>cpe:2.3:a:prometheus:procfs:v0.7.3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/procfs@v0.7.3</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:4jVXhlkAyzOScmCkXBTOLRLTz8EeU+eyjrwB/EPq0VU=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/rs/cors@v1.8.2?package-id=7b31f6912b87bc6b" type="library">
+      <name>github.com/rs/cors</name>
+      <version>v1.8.2</version>
+      <cpe>cpe:2.3:a:rs:cors:v1.8.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/rs/cors@v1.8.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:KCooALfAYGs415Cwu5ABvv9n9509fSiG5SQJn/AQo4U=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/sean-/seed@v0.0.0-20170313163322-e2103e2c3529?package-id=62e95f457260c1dd" type="library">
+      <name>github.com/sean-/seed</name>
+      <version>v0.0.0-20170313163322-e2103e2c3529</version>
+      <cpe>cpe:2.3:a:sean-:seed:v0.0.0-20170313163322-e2103e2c3529:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/sean-/seed@v0.0.0-20170313163322-e2103e2c3529</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:sean_:seed:v0.0.0-20170313163322-e2103e2c3529:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:sean:seed:v0.0.0-20170313163322-e2103e2c3529:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:nn5Wsu0esKSJiIVhscUtVbo7ada43DJhG55ua/hjS5I=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/sean-/seed@v0.0.0-20170313163322-e2103e2c3529?package-id=6cc6c30f9ab1e6f9" type="library">
+      <name>github.com/sean-/seed</name>
+      <version>v0.0.0-20170313163322-e2103e2c3529</version>
+      <cpe>cpe:2.3:a:sean-:seed:v0.0.0-20170313163322-e2103e2c3529:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/sean-/seed@v0.0.0-20170313163322-e2103e2c3529</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:sean_:seed:v0.0.0-20170313163322-e2103e2c3529:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:sean:seed:v0.0.0-20170313163322-e2103e2c3529:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:nn5Wsu0esKSJiIVhscUtVbo7ada43DJhG55ua/hjS5I=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/shurcool/httpfs@v0.0.0-20190707220628-8d4bc4ba7749?package-id=6010a986d1f951ce" type="library">
+      <name>github.com/shurcooL/httpfs</name>
+      <version>v0.0.0-20190707220628-8d4bc4ba7749</version>
+      <cpe>cpe:2.3:a:shurcooL:httpfs:v0.0.0-20190707220628-8d4bc4ba7749:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/shurcooL/httpfs@v0.0.0-20190707220628-8d4bc4ba7749</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:bUGsEnyNbVPw06Bs80sCeARAlK8lhwqGyi6UT8ymuGk=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/shurcool/httpfs@v0.0.0-20190707220628-8d4bc4ba7749?package-id=f8558d4379aacb25" type="library">
+      <name>github.com/shurcooL/httpfs</name>
+      <version>v0.0.0-20190707220628-8d4bc4ba7749</version>
+      <cpe>cpe:2.3:a:shurcooL:httpfs:v0.0.0-20190707220628-8d4bc4ba7749:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/shurcooL/httpfs@v0.0.0-20190707220628-8d4bc4ba7749</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:bUGsEnyNbVPw06Bs80sCeARAlK8lhwqGyi6UT8ymuGk=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/shurcool/vfsgen@v0.0.0-20200824052919-0d455de96546?package-id=563e4720a7d954f6" type="library">
+      <name>github.com/shurcooL/vfsgen</name>
+      <version>v0.0.0-20200824052919-0d455de96546</version>
+      <cpe>cpe:2.3:a:shurcooL:vfsgen:v0.0.0-20200824052919-0d455de96546:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/shurcooL/vfsgen@v0.0.0-20200824052919-0d455de96546</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:pXY9qYc/MP5zdvqWEUH6SjNiu7VhSjuVFTFiTcphaLU=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/shurcool/vfsgen@v0.0.0-20200824052919-0d455de96546?package-id=8dccf7a74a03d0dd" type="library">
+      <name>github.com/shurcooL/vfsgen</name>
+      <version>v0.0.0-20200824052919-0d455de96546</version>
+      <cpe>cpe:2.3:a:shurcooL:vfsgen:v0.0.0-20200824052919-0d455de96546:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/shurcooL/vfsgen@v0.0.0-20200824052919-0d455de96546</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:pXY9qYc/MP5zdvqWEUH6SjNiu7VhSjuVFTFiTcphaLU=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/xlab/treeprint@v1.1.0?package-id=a65e69dc2e1cfa80" type="library">
+      <name>github.com/xlab/treeprint</name>
+      <version>v1.1.0</version>
+      <cpe>cpe:2.3:a:xlab:treeprint:v1.1.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/xlab/treeprint@v1.1.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:G/1DjNkPpfZCFt9CSh6b5/nY4VimlbHF3Rh4obvtzDk=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/go.mongodb.org/mongo-driver@v1.8.3?package-id=cadae3845f0286fc" type="library">
+      <name>go.mongodb.org/mongo-driver</name>
+      <version>v1.8.3</version>
+      <purl>pkg:golang/go.mongodb.org/mongo-driver@v1.8.3</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:TDKlTkGDKm9kkJVUOAXDK5/fkqKHJVwYQSpoRfB43R4=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/go.mongodb.org/mongo-driver@v1.8.3?package-id=df2c671c9d395bc1" type="library">
+      <name>go.mongodb.org/mongo-driver</name>
+      <version>v1.8.3</version>
+      <purl>pkg:golang/go.mongodb.org/mongo-driver@v1.8.3</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:TDKlTkGDKm9kkJVUOAXDK5/fkqKHJVwYQSpoRfB43R4=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/crypto@v0.0.0-20210616213533-5ff15b29337e?package-id=304bc43a7e77cc7" type="library">
+      <name>golang.org/x/crypto</name>
+      <version>v0.0.0-20210616213533-5ff15b29337e</version>
+      <cpe>cpe:2.3:a:golang:x\/crypto:v0.0.0-20210616213533-5ff15b29337e:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/crypto@v0.0.0-20210616213533-5ff15b29337e</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:gsTQYXdTw2Gq7RBsWvlQ91b+aEQ6bXFUngBGuR8sPpI=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/crypto@v0.0.0-20210616213533-5ff15b29337e?package-id=c2ab59931cdfed1f" type="library">
+      <name>golang.org/x/crypto</name>
+      <version>v0.0.0-20210616213533-5ff15b29337e</version>
+      <cpe>cpe:2.3:a:golang:x\/crypto:v0.0.0-20210616213533-5ff15b29337e:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/crypto@v0.0.0-20210616213533-5ff15b29337e</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:gsTQYXdTw2Gq7RBsWvlQ91b+aEQ6bXFUngBGuR8sPpI=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/mod@v0.5.1?package-id=232d423457bda322" type="library">
+      <name>golang.org/x/mod</name>
+      <version>v0.5.1</version>
+      <cpe>cpe:2.3:a:golang:x\/mod:v0.5.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/mod@v0.5.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:OJxoQ/rynoF0dcCdI7cLPktw/hR2cueqYfjm43oqK38=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/net@v0.0.0-20220225172249-27dd8689420f?package-id=7021596a27b5bb71" type="library">
+      <name>golang.org/x/net</name>
+      <version>v0.0.0-20220225172249-27dd8689420f</version>
+      <cpe>cpe:2.3:a:golang:x\/net:v0.0.0-20220225172249-27dd8689420f:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/net@v0.0.0-20220225172249-27dd8689420f</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:oA4XRj0qtSt8Yo1Zms0CUlsT3KG69V2UGQWPBxujDmc=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/net@v0.0.0-20220225172249-27dd8689420f?package-id=5e68b8c694224de6" type="library">
+      <name>golang.org/x/net</name>
+      <version>v0.0.0-20220225172249-27dd8689420f</version>
+      <cpe>cpe:2.3:a:golang:x\/net:v0.0.0-20220225172249-27dd8689420f:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/net@v0.0.0-20220225172249-27dd8689420f</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:oA4XRj0qtSt8Yo1Zms0CUlsT3KG69V2UGQWPBxujDmc=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/oauth2@v0.0.0-20210514164344-f6687ab2804c?package-id=5d72c5878f08b5d6" type="library">
+      <name>golang.org/x/oauth2</name>
+      <version>v0.0.0-20210514164344-f6687ab2804c</version>
+      <cpe>cpe:2.3:a:golang:x\/oauth2:v0.0.0-20210514164344-f6687ab2804c:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/oauth2@v0.0.0-20210514164344-f6687ab2804c</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:pkQiBZBvdos9qq4wBAHqlzuZHEXo07pqV06ef90u1WI=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/oauth2@v0.0.0-20210514164344-f6687ab2804c?package-id=a22338c9da6cda67" type="library">
+      <name>golang.org/x/oauth2</name>
+      <version>v0.0.0-20210514164344-f6687ab2804c</version>
+      <cpe>cpe:2.3:a:golang:x\/oauth2:v0.0.0-20210514164344-f6687ab2804c:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/oauth2@v0.0.0-20210514164344-f6687ab2804c</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:pkQiBZBvdos9qq4wBAHqlzuZHEXo07pqV06ef90u1WI=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/sys@v0.0.0-20220114195835-da31bd327af9?package-id=8a742745d95de0a8" type="library">
+      <name>golang.org/x/sys</name>
+      <version>v0.0.0-20220114195835-da31bd327af9</version>
+      <cpe>cpe:2.3:a:golang:x\/sys:v0.0.0-20220114195835-da31bd327af9:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/sys@v0.0.0-20220114195835-da31bd327af9</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:XfKQ4OlFl8okEOr5UvAqFRVj8pY/4yfcXrddB8qAbU0=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/sys@v0.0.0-20220114195835-da31bd327af9?package-id=8f8154ba16b07263" type="library">
+      <name>golang.org/x/sys</name>
+      <version>v0.0.0-20220114195835-da31bd327af9</version>
+      <cpe>cpe:2.3:a:golang:x\/sys:v0.0.0-20220114195835-da31bd327af9:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/sys@v0.0.0-20220114195835-da31bd327af9</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:XfKQ4OlFl8okEOr5UvAqFRVj8pY/4yfcXrddB8qAbU0=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/text@v0.3.7?package-id=204c983cb8555403" type="library">
+      <name>golang.org/x/text</name>
+      <version>v0.3.7</version>
+      <cpe>cpe:2.3:a:golang:x\/text:v0.3.7:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/text@v0.3.7</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:olpwvP2KacW1ZWvsR7uQhoyTYvKAupfQrRGBFM352Gk=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/text@v0.3.7?package-id=1f909e8165e8d632" type="library">
+      <name>golang.org/x/text</name>
+      <version>v0.3.7</version>
+      <cpe>cpe:2.3:a:golang:x\/text:v0.3.7:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/text@v0.3.7</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:olpwvP2KacW1ZWvsR7uQhoyTYvKAupfQrRGBFM352Gk=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/protobuf@v1.26.0?package-id=74a0513ccae58c7b" type="library">
+      <name>google.golang.org/protobuf</name>
+      <version>v1.26.0</version>
+      <cpe>cpe:2.3:a:google:protobuf:v1.26.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/protobuf@v1.26.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:bxAC2xTBsZGibn2RTntX0oH50xLsqy1OxA9tTL3p/lk=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/protobuf@v1.26.0?package-id=d028063a10bde801" type="library">
+      <name>google.golang.org/protobuf</name>
+      <version>v1.26.0</version>
+      <cpe>cpe:2.3:a:google:protobuf:v1.26.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/protobuf@v1.26.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:bxAC2xTBsZGibn2RTntX0oH50xLsqy1OxA9tTL3p/lk=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/alecthomas/kingpin.v2@v2.2.6?package-id=96100e3d1c6321b5" type="library">
+      <name>gopkg.in/alecthomas/kingpin.v2</name>
+      <version>v2.2.6</version>
+      <purl>pkg:golang/gopkg.in/alecthomas/kingpin.v2@v2.2.6</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:jMFz6MfLP0/4fUyZle81rXUoxOBFi19VUFKVDOQfozc=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/alecthomas/kingpin.v2@v2.2.6?package-id=e4fe4d6261b077a9" type="library">
+      <name>gopkg.in/alecthomas/kingpin.v2</name>
+      <version>v2.2.6</version>
+      <purl>pkg:golang/gopkg.in/alecthomas/kingpin.v2@v2.2.6</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:jMFz6MfLP0/4fUyZle81rXUoxOBFi19VUFKVDOQfozc=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/telebot.v3@v3.0.0?package-id=42f0a82947bcf3d6" type="library">
+      <name>gopkg.in/telebot.v3</name>
+      <version>v3.0.0</version>
+      <purl>pkg:golang/gopkg.in/telebot.v3@v3.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:UgHIiE/RdjoDi6nf4xACM7PU3TqiPVV9vvTydCEnrTo=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/yaml.v2@v2.4.0?package-id=9dd997e842b3db2f" type="library">
+      <name>gopkg.in/yaml.v2</name>
+      <version>v2.4.0</version>
+      <purl>pkg:golang/gopkg.in/yaml.v2@v2.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ac410b5fc47e7689e6a028b7658f15e5a0a846c3cecedb96058751461bd1cd</property>
+        <property name="syft:location:0:path">/bin/amtool</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:D8xgwECY7CYvx+Y2n4sBz93Jn9JRvxdiyyo8CTfuKaY=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/yaml.v2@v2.4.0?package-id=719a5723fdde0149" type="library">
+      <name>gopkg.in/yaml.v2</name>
+      <version>v2.4.0</version>
+      <purl>pkg:golang/gopkg.in/yaml.v2@v2.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1fab62a9c3e2a608d838762e10844d7c277a855700f7b91c0aa73036209641ec</property>
+        <property name="syft:location:0:path">/bin/alertmanager</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:D8xgwECY7CYvx+Y2n4sBz93Jn9JRvxdiyyo8CTfuKaY=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/alertmanager</property>
+      </properties>
+    </component>
+    <component type="operating-system">
+      <name>busybox</name>
+      <version>1.34.1</version>
+      <description>BusyBox v1.34.1</description>
+      <swid tagId="busybox" name="busybox" version="1.34.1"></swid>
+      <properties>
+        <property name="syft:distro:id">busybox</property>
+        <property name="syft:distro:idLike:0">busybox</property>
+        <property name="syft:distro:prettyName">BusyBox v1.34.1</property>
+        <property name="syft:distro:versionID">1.34.1</property>
+      </properties>
+    </component>
+  </components>
+</bom>
