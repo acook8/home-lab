@@ -1,0 +1,15 @@
+sbom-operator:
+  args:
+    targets: git
+    format: cyclonedx
+    git-author-email: acook8@gmail.com
+    git-author-name: Alex
+    git-repository: https://github.com/acook8/home-lab.git
+    git-path: sboms
+    # git-fallback-clone: true
+  envVars:
+    - name: SBOM_GIT_ACCESS_TOKEN
+      valueFrom:
+        secretKeyRef:
+          name: "sbom-operator"
+          key: "pat"
