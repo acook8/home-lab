@@ -1,0 +1,2318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:f7725c69-fded-4847-a823-419e3c001d8d" version="1">
+  <metadata>
+    <timestamp>2022-10-31T16:06:45Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>anchore</vendor>
+        <name>syft</name>
+        <version>v0.58.0</version>
+      </tool>
+    </tools>
+    <component bom-ref="a39d4d43e6e33f93" type="container">
+      <name>/tmp/sha256_6a8671702d6f8651c11bee1cd9a24d3dde6a5a05e0972d91c35009c38b527616.tar.gz</name>
+      <version>sha256:87f0ffadf6f8d943dba3f7a9ba3f05499e2f7d2944c88d3a6145cb61458db1db</version>
+    </component>
+  </metadata>
+  <components>
+    <component bom-ref="pkg:alpine/.python-rundeps@20220607.192557?arch=noarch&amp;distro=alpine-3.16.0&amp;package-id=f8d37ceff2f3066d" type="library">
+      <name>.python-rundeps</name>
+      <version>20220607.192557</version>
+      <description>virtual meta package</description>
+      <cpe>cpe:2.3:a:.python-rundeps:.python-rundeps:20220607.192557:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/.python-rundeps@20220607.192557?arch=noarch&amp;distro=alpine-3.16.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:.python-rundeps:.python_rundeps:20220607.192557:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:.python_rundeps:.python-rundeps:20220607.192557:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:.python_rundeps:.python_rundeps:20220607.192557:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:.python:.python-rundeps:20220607.192557:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:.python:.python_rundeps:20220607.192557:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">Q16OhGWOj/fe1rHdH114KD2IT+5I8=</property>
+        <property name="syft:metadata:installedSize">0</property>
+        <property name="syft:metadata:pullChecksum">Q16OhGWOj/fe1rHdH114KD2IT+5I8=</property>
+        <property name="syft:metadata:pullDependencies">so:libbz2.so.1 so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1 so:libexpat.so.1 so:libffi.so.8 so:libgdbm.so.6 so:libgdbm_compat.so.4 so:liblzma.so.5 so:libncursesw.so.6 so:libnsl.so.3 so:libpanelw.so.6 so:libreadline.so.8 so:libsqlite3.so.0 so:libssl.so.1.1 so:libtirpc.so.3 so:libuuid.so.1 so:libz.so.1</property>
+        <property name="syft:metadata:size">0</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/pyyaml@6.0?package-id=b617d29d1caa2866" type="library">
+      <author>Kirill Simonov &lt;xi@resolvent.net&gt;</author>
+      <name>PyYAML</name>
+      <version>6.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:kirill_simonov:python-PyYAML:6.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/PyYAML@6.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-package-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:metadataType">PythonPackageMetadata</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:kirill_simonov:python_PyYAML:6.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-PyYAML:python-PyYAML:6.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-PyYAML:python_PyYAML:6.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_PyYAML:python-PyYAML:6.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_PyYAML:python_PyYAML:6.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kirill_simonov:PyYAML:6.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:PyYAML:python-PyYAML:6.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:PyYAML:python_PyYAML:6.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-PyYAML:PyYAML:6.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-PyYAML:6.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_PyYAML:6.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_PyYAML:PyYAML:6.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:xi:python-PyYAML:6.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:xi:python_PyYAML:6.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:PyYAML:PyYAML:6.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:PyYAML:6.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:xi:PyYAML:6.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:0:path">/app/.venv/lib/python3.10/site-packages/PyYAML-6.0.dist-info/METADATA</property>
+        <property name="syft:location:1:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:1:path">/app/.venv/lib/python3.10/site-packages/PyYAML-6.0.dist-info/RECORD</property>
+        <property name="syft:location:2:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:2:path">/app/.venv/lib/python3.10/site-packages/PyYAML-6.0.dist-info/top_level.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/alpine-baselayout@3.2.0-r20?arch=x86_64&amp;upstream=alpine-baselayout&amp;distro=alpine-3.16.0&amp;package-id=f94c5d5ad004b804" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>alpine-baselayout</name>
+      <version>3.2.0-r20</version>
+      <description>Alpine base dir structure and init scripts</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:alpine-baselayout:alpine-baselayout:3.2.0-r20:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/alpine-baselayout@3.2.0-r20?arch=x86_64&amp;upstream=alpine-baselayout&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://git.alpinelinux.org/cgit/aports/tree/main/alpine-baselayout</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine-baselayout:alpine_baselayout:3.2.0-r20:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine_baselayout:alpine-baselayout:3.2.0-r20:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine_baselayout:alpine_baselayout:3.2.0-r20:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine:alpine-baselayout:3.2.0-r20:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine:alpine_baselayout:3.2.0-r20:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">9ecba8a514827daf64521008306fb137b498ebf5</property>
+        <property name="syft:metadata:installedSize">348160</property>
+        <property name="syft:metadata:originPackage">alpine-baselayout</property>
+        <property name="syft:metadata:pullChecksum">Q1llRjFBOH6crFgn44TLpVDNItCjU=</property>
+        <property name="syft:metadata:pullDependencies">alpine-baselayout-data=3.2.0-r20 /bin/sh so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">11127</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/alpine-baselayout-data@3.2.0-r20?arch=x86_64&amp;upstream=alpine-baselayout&amp;distro=alpine-3.16.0&amp;package-id=fd4eac957249f9" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>alpine-baselayout-data</name>
+      <version>3.2.0-r20</version>
+      <description>Alpine base dir structure and init scripts</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:alpine-baselayout-data:alpine-baselayout-data:3.2.0-r20:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/alpine-baselayout-data@3.2.0-r20?arch=x86_64&amp;upstream=alpine-baselayout&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://git.alpinelinux.org/cgit/aports/tree/main/alpine-baselayout</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine-baselayout-data:alpine_baselayout_data:3.2.0-r20:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine_baselayout_data:alpine-baselayout-data:3.2.0-r20:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine_baselayout_data:alpine_baselayout_data:3.2.0-r20:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine-baselayout:alpine-baselayout-data:3.2.0-r20:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine-baselayout:alpine_baselayout_data:3.2.0-r20:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine_baselayout:alpine-baselayout-data:3.2.0-r20:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine_baselayout:alpine_baselayout_data:3.2.0-r20:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine:alpine-baselayout-data:3.2.0-r20:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine:alpine_baselayout_data:3.2.0-r20:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">9ecba8a514827daf64521008306fb137b498ebf5</property>
+        <property name="syft:metadata:installedSize">73728</property>
+        <property name="syft:metadata:originPackage">alpine-baselayout</property>
+        <property name="syft:metadata:pullChecksum">Q1sboUEnyV+bt26L3Nbb/SQi1JAmE=</property>
+        <property name="syft:metadata:pullDependencies">alpine-baselayout-data=3.2.0-r20</property>
+        <property name="syft:metadata:size">11455</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/alpine-keys@2.4-r1?arch=x86_64&amp;upstream=alpine-keys&amp;distro=alpine-3.16.0&amp;package-id=3f53edc3b14056c3" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>alpine-keys</name>
+      <version>2.4-r1</version>
+      <description>Public keys for Alpine Linux packages</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:alpine-keys:alpine-keys:2.4-r1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/alpine-keys@2.4-r1?arch=x86_64&amp;upstream=alpine-keys&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://alpinelinux.org</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine-keys:alpine_keys:2.4-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine_keys:alpine-keys:2.4-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine_keys:alpine_keys:2.4-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine:alpine-keys:2.4-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine:alpine_keys:2.4-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">aab68f8c9ab434a46710de8e12fb3206e2930a59</property>
+        <property name="syft:metadata:installedSize">159744</property>
+        <property name="syft:metadata:originPackage">alpine-keys</property>
+        <property name="syft:metadata:pullChecksum">Q1FBfIjtsEmvuqoNXpShXDcm/mjzE=</property>
+        <property name="syft:metadata:size">13359</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/apk-tools@2.12.9-r3?arch=x86_64&amp;upstream=apk-tools&amp;distro=alpine-3.16.0&amp;package-id=9bb9cb82a4ce72b1" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>apk-tools</name>
+      <version>2.12.9-r3</version>
+      <description>Alpine Package Keeper - package manager for alpine</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:apk-tools:apk-tools:2.12.9-r3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/apk-tools@2.12.9-r3?arch=x86_64&amp;upstream=apk-tools&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://gitlab.alpinelinux.org/alpine/apk-tools</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:apk-tools:apk_tools:2.12.9-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apk_tools:apk-tools:2.12.9-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apk_tools:apk_tools:2.12.9-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apk:apk-tools:2.12.9-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apk:apk_tools:2.12.9-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">34d90ac8388e88126893f5d27ea35d304e65e5ab</property>
+        <property name="syft:metadata:installedSize">307200</property>
+        <property name="syft:metadata:originPackage">apk-tools</property>
+        <property name="syft:metadata:pullChecksum">Q1VFFFWMKjB9aRkehIATc5kwgAhlU=</property>
+        <property name="syft:metadata:pullDependencies">musl&gt;=1.2 ca-certificates-bundle so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1 so:libssl.so.1.1 so:libz.so.1</property>
+        <property name="syft:metadata:size">120745</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/busybox@1.35.0-r13?arch=x86_64&amp;upstream=busybox&amp;distro=alpine-3.16.0&amp;package-id=7c2aa27c30c5de7b" type="library">
+      <publisher>Sören Tempel &lt;soeren+alpine@soeren-tempel.net&gt;</publisher>
+      <name>busybox</name>
+      <version>1.35.0-r13</version>
+      <description>Size optimized toolbox of many common UNIX utilities</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:busybox:busybox:1.35.0-r13:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/busybox@1.35.0-r13?arch=x86_64&amp;upstream=busybox&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://busybox.net/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">0c56dbbc237a3a32501c73338cfffcbeb31674ac</property>
+        <property name="syft:metadata:installedSize">958464</property>
+        <property name="syft:metadata:originPackage">busybox</property>
+        <property name="syft:metadata:pullChecksum">Q1ZsG5DDUmlPVaWIsLjIVbZVBFVGY=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">506043</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/ca-certificates@20211220-r0?arch=x86_64&amp;upstream=ca-certificates&amp;distro=alpine-3.16.0&amp;package-id=e54d0b20c16b4132" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>ca-certificates</name>
+      <version>20211220-r0</version>
+      <description>Common CA certificates PEM files from Mozilla</description>
+      <licenses>
+        <license>
+          <id>MPL-2.0</id>
+        </license>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:ca-certificates:ca-certificates:20211220-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/ca-certificates@20211220-r0?arch=x86_64&amp;upstream=ca-certificates&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca-certificates:ca_certificates:20211220-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates:ca-certificates:20211220-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates:ca_certificates:20211220-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca:ca-certificates:20211220-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca:ca_certificates:20211220-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">16988f3c77f035072956655194770e15cbc61257</property>
+        <property name="syft:metadata:installedSize">671744</property>
+        <property name="syft:metadata:originPackage">ca-certificates</property>
+        <property name="syft:metadata:pullChecksum">Q1JrWmTLkWI9uBRA99CjpbeL1w1ZY=</property>
+        <property name="syft:metadata:pullDependencies">/bin/sh so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1</property>
+        <property name="syft:metadata:size">149807</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/ca-certificates-bundle@20211220-r0?arch=x86_64&amp;upstream=ca-certificates&amp;distro=alpine-3.16.0&amp;package-id=461d8f29b121da62" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>ca-certificates-bundle</name>
+      <version>20211220-r0</version>
+      <description>Pre generated bundle of Mozilla certificates</description>
+      <licenses>
+        <license>
+          <id>MPL-2.0</id>
+        </license>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:ca-certificates-bundle:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/ca-certificates-bundle@20211220-r0?arch=x86_64&amp;upstream=ca-certificates&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca-certificates-bundle:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates_bundle:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates_bundle:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca-certificates:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca-certificates:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca:ca-certificates-bundle:20211220-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca:ca_certificates_bundle:20211220-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">16988f3c77f035072956655194770e15cbc61257</property>
+        <property name="syft:metadata:installedSize">221184</property>
+        <property name="syft:metadata:originPackage">ca-certificates</property>
+        <property name="syft:metadata:pullChecksum">Q1Y6JMDLyD6AZfUFV64PdXSKLsaX8=</property>
+        <property name="syft:metadata:size">119758</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/cachetools@5.2.0?package-id=d575a321efc9a581" type="library">
+      <author>Thomas Kemmer &lt;tkemmer@computer.org&gt;</author>
+      <name>cachetools</name>
+      <version>5.2.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:python-cachetools:python-cachetools:5.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/cachetools@5.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-package-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:metadataType">PythonPackageMetadata</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-cachetools:python_cachetools:5.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_cachetools:python-cachetools:5.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_cachetools:python_cachetools:5.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:thomas_kemmer:python-cachetools:5.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:thomas_kemmer:python_cachetools:5.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:cachetools:python-cachetools:5.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:cachetools:python_cachetools:5.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-cachetools:cachetools:5.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_cachetools:cachetools:5.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:tkemmer:python-cachetools:5.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:tkemmer:python_cachetools:5.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-cachetools:5.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_cachetools:5.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:thomas_kemmer:cachetools:5.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:cachetools:cachetools:5.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:tkemmer:cachetools:5.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:cachetools:5.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:0:path">/app/.venv/lib/python3.10/site-packages/cachetools-5.2.0.dist-info/METADATA</property>
+        <property name="syft:location:1:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:1:path">/app/.venv/lib/python3.10/site-packages/cachetools-5.2.0.dist-info/RECORD</property>
+        <property name="syft:location:2:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:2:path">/app/.venv/lib/python3.10/site-packages/cachetools-5.2.0.dist-info/top_level.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/certifi@2022.5.18.1?package-id=7047bd762726a672" type="library">
+      <author>Kenneth Reitz &lt;me@kennethreitz.com&gt;</author>
+      <name>certifi</name>
+      <version>2022.5.18.1</version>
+      <licenses>
+        <license>
+          <id>MPL-2.0</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:python-certifi:python-certifi:2022.5.18.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/certifi@2022.5.18.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-package-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:metadataType">PythonPackageMetadata</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-certifi:python_certifi:2022.5.18.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_certifi:python-certifi:2022.5.18.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_certifi:python_certifi:2022.5.18.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kenneth_reitz:python-certifi:2022.5.18.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kenneth_reitz:python_certifi:2022.5.18.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:certifi:python-certifi:2022.5.18.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:certifi:python_certifi:2022.5.18.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-certifi:certifi:2022.5.18.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_certifi:certifi:2022.5.18.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kenneth_reitz:certifi:2022.5.18.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-certifi:2022.5.18.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_certifi:2022.5.18.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:me:python-certifi:2022.5.18.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:me:python_certifi:2022.5.18.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:certifi:certifi:2022.5.18.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:certifi:2022.5.18.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:me:certifi:2022.5.18.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:0:path">/app/.venv/lib/python3.10/site-packages/certifi-2022.5.18.1.dist-info/METADATA</property>
+        <property name="syft:location:1:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:1:path">/app/.venv/lib/python3.10/site-packages/certifi-2022.5.18.1.dist-info/RECORD</property>
+        <property name="syft:location:2:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:2:path">/app/.venv/lib/python3.10/site-packages/certifi-2022.5.18.1.dist-info/top_level.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/charset-normalizer@2.0.12?package-id=89d4d1ac6d4f2669" type="library">
+      <author>Ahmed TAHRI @Ousret &lt;ahmed.tahri@cloudnursery.dev&gt;</author>
+      <name>charset-normalizer</name>
+      <version>2.0.12</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:python-charset-normalizer:python-charset-normalizer:2.0.12:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/charset-normalizer@2.0.12</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-package-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:metadataType">PythonPackageMetadata</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-charset-normalizer:python_charset_normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_charset_normalizer:python-charset-normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_charset_normalizer:python_charset_normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ahmed_tahri_\@ousret:python-charset-normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ahmed_tahri_\@ousret:python_charset_normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:charset-normalizer:python-charset-normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:charset-normalizer:python_charset_normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:charset_normalizer:python-charset-normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:charset_normalizer:python_charset_normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-charset-normalizer:charset-normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-charset-normalizer:charset_normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_charset_normalizer:charset-normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_charset_normalizer:charset_normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-charset:python-charset-normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-charset:python_charset_normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_charset:python-charset-normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_charset:python_charset_normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ahmed_tahri_\@ousret:charset-normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ahmed_tahri_\@ousret:charset_normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ahmed-tahri:python-charset-normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ahmed-tahri:python_charset_normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ahmed_tahri:python-charset-normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ahmed_tahri:python_charset_normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:charset-normalizer:charset-normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:charset-normalizer:charset_normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:charset_normalizer:charset-normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:charset_normalizer:charset_normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:charset:python-charset-normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:charset:python_charset_normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-charset:charset-normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-charset:charset_normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_charset:charset-normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_charset:charset_normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-charset-normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_charset_normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ahmed-tahri:charset-normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ahmed-tahri:charset_normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ahmed_tahri:charset-normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ahmed_tahri:charset_normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:charset:charset-normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:charset:charset_normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:charset-normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:charset_normalizer:2.0.12:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:0:path">/app/.venv/lib/python3.10/site-packages/charset_normalizer-2.0.12.dist-info/METADATA</property>
+        <property name="syft:location:1:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:1:path">/app/.venv/lib/python3.10/site-packages/charset_normalizer-2.0.12.dist-info/RECORD</property>
+        <property name="syft:location:2:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:2:path">/app/.venv/lib/python3.10/site-packages/charset_normalizer-2.0.12.dist-info/top_level.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/expat@2.4.8-r0?arch=x86_64&amp;upstream=expat&amp;distro=alpine-3.16.0&amp;package-id=ac25856e3537ee1b" type="library">
+      <publisher>Carlo Landmeter &lt;clandmeter@alpinelinux.org&gt;</publisher>
+      <name>expat</name>
+      <version>2.4.8-r0</version>
+      <description>XML Parser library written in C</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:expat:expat:2.4.8-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/expat@2.4.8-r0?arch=x86_64&amp;upstream=expat&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://libexpat.github.io/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">d567441d61d8cea94fdc111129ccf486d7547fc5</property>
+        <property name="syft:metadata:installedSize">196608</property>
+        <property name="syft:metadata:originPackage">expat</property>
+        <property name="syft:metadata:pullChecksum">Q1M+HrPah3AVu73CAyGSSa/H10lXw=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">71697</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/gdbm@1.23-r0?arch=x86_64&amp;upstream=gdbm&amp;distro=alpine-3.16.0&amp;package-id=4b4e90390840d4ba" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>gdbm</name>
+      <version>1.23-r0</version>
+      <description>GNU dbm is a set of database routines that use extensible hashing</description>
+      <licenses>
+        <license>
+          <id>GPL-3.0-or-later</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:gdbm:gdbm:1.23-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/gdbm@1.23-r0?arch=x86_64&amp;upstream=gdbm&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.gnu.org/software/gdbm/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">d197e00079e79f6ee295cbcfb6e4c34bd3c2911f</property>
+        <property name="syft:metadata:installedSize">90112</property>
+        <property name="syft:metadata:originPackage">gdbm</property>
+        <property name="syft:metadata:pullChecksum">Q1lRn+hKCr12W1Jrfw1p+oKDM2EFI=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">32764</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/google-auth@2.7.0?package-id=b9acbc44a16b0f35" type="library">
+      <author>Google Cloud Platform &lt;googleapis-packages@google.com&gt;</author>
+      <name>google-auth</name>
+      <version>2.7.0</version>
+      <cpe>cpe:2.3:a:google_cloud_platform:python-google-auth:2.7.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/google-auth@2.7.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-package-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:metadataType">PythonPackageMetadata</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:google_cloud_platform:python_google_auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:googleapis-packages:python-google-auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:googleapis-packages:python_google_auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:googleapis_packages:python-google-auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:googleapis_packages:python_google_auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-google-auth:python-google-auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-google-auth:python_google_auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_google_auth:python-google-auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_google_auth:python_google_auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:google_cloud_platform:google-auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:google_cloud_platform:google_auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-google:python-google-auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-google:python_google_auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_google:python-google-auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_google:python_google_auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:googleapis-packages:google-auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:googleapis-packages:google_auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:googleapis_packages:google-auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:googleapis_packages:google_auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:google-auth:python-google-auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:google-auth:python_google_auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:google_auth:python-google-auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:google_auth:python_google_auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-google-auth:google-auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-google-auth:google_auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_google_auth:google-auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_google_auth:google_auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:google:python-google-auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:google:python_google_auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-google:google-auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-google:google_auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-google-auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_google_auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_google:google-auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_google:google_auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:google-auth:google-auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:google-auth:google_auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:google_auth:google-auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:google_auth:google_auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:google:google-auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:google:google_auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:google-auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:google_auth:2.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:0:path">/app/.venv/lib/python3.10/site-packages/google_auth-2.7.0.dist-info/METADATA</property>
+        <property name="syft:location:1:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:1:path">/app/.venv/lib/python3.10/site-packages/google_auth-2.7.0.dist-info/RECORD</property>
+        <property name="syft:location:2:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:2:path">/app/.venv/lib/python3.10/site-packages/google_auth-2.7.0.dist-info/top_level.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/idna@3.3?package-id=ba515ce999e83350" type="library">
+      <author>Kim Davies &lt;kim@cynosure.com.au&gt;</author>
+      <name>idna</name>
+      <version>3.3</version>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:python-idna:python-idna:3.3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/idna@3.3</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-package-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:metadataType">PythonPackageMetadata</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-idna:python_idna:3.3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_idna:python-idna:3.3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_idna:python_idna:3.3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kim_davies:python-idna:3.3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kim_davies:python_idna:3.3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-idna:3.3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_idna:3.3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:idna:python-idna:3.3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:idna:python_idna:3.3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-idna:idna:3.3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_idna:idna:3.3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kim:python-idna:3.3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kim:python_idna:3.3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kim_davies:idna:3.3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:idna:3.3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:idna:idna:3.3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kim:idna:3.3:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:0:path">/app/.venv/lib/python3.10/site-packages/idna-3.3.dist-info/METADATA</property>
+        <property name="syft:location:1:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:1:path">/app/.venv/lib/python3.10/site-packages/idna-3.3.dist-info/RECORD</property>
+        <property name="syft:location:2:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:2:path">/app/.venv/lib/python3.10/site-packages/idna-3.3.dist-info/top_level.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/keyutils-libs@1.6.3-r1?arch=x86_64&amp;upstream=keyutils&amp;distro=alpine-3.16.0&amp;package-id=1ed70bfdfe603f9c" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>keyutils-libs</name>
+      <version>1.6.3-r1</version>
+      <description>Key utilities library</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-or-later</id>
+        </license>
+        <license>
+          <id>LGPL-2.0-or-later</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:keyutils-libs:keyutils-libs:1.6.3-r1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/keyutils-libs@1.6.3-r1?arch=x86_64&amp;upstream=keyutils&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://people.redhat.com/~dhowells/keyutils/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:keyutils-libs:keyutils_libs:1.6.3-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:keyutils_libs:keyutils-libs:1.6.3-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:keyutils_libs:keyutils_libs:1.6.3-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:keyutils:keyutils-libs:1.6.3-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:keyutils:keyutils_libs:1.6.3-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">091cff5c876c9610814a784a2af4fdf740e456c9</property>
+        <property name="syft:metadata:installedSize">36864</property>
+        <property name="syft:metadata:originPackage">keyutils</property>
+        <property name="syft:metadata:pullChecksum">Q1GetSPh1i2LkEMXY6owc9MOMoP7I=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">8032</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/krb5-conf@1.0-r2?arch=x86_64&amp;upstream=krb5-conf&amp;distro=alpine-3.16.0&amp;package-id=9fa3740ebab452cd" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>krb5-conf</name>
+      <version>1.0-r2</version>
+      <description>Shared krb5.conf for both MIT krb5 and heimdal</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:krb5-conf:krb5-conf:1.0-r2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/krb5-conf@1.0-r2?arch=x86_64&amp;upstream=krb5-conf&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://web.mit.edu/kerberos/www/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:krb5-conf:krb5_conf:1.0-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:krb5_conf:krb5-conf:1.0-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:krb5_conf:krb5_conf:1.0-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:krb5:krb5-conf:1.0-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:krb5:krb5_conf:1.0-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">4a46b2cb955e25fd6d6f913794d35bc6d876aea9</property>
+        <property name="syft:metadata:installedSize">12288</property>
+        <property name="syft:metadata:originPackage">krb5-conf</property>
+        <property name="syft:metadata:pullChecksum">Q1dM4T8vGYu1sqalUoXkhADS6rI0Y=</property>
+        <property name="syft:metadata:size">1769</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/krb5-libs@1.19.3-r0?arch=x86_64&amp;upstream=krb5&amp;distro=alpine-3.16.0&amp;package-id=3873ff62a7f7982d" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>krb5-libs</name>
+      <version>1.19.3-r0</version>
+      <description>The shared libraries used by Kerberos 5</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:krb5-libs:krb5-libs:1.19.3-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/krb5-libs@1.19.3-r0?arch=x86_64&amp;upstream=krb5&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://web.mit.edu/kerberos/www/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:krb5-libs:krb5_libs:1.19.3-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:krb5_libs:krb5-libs:1.19.3-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:krb5_libs:krb5_libs:1.19.3-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:krb5:krb5-libs:1.19.3-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:krb5:krb5_libs:1.19.3-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">6df46069ef5dcfaa7e00492bc163b57514c131a2</property>
+        <property name="syft:metadata:installedSize">2015232</property>
+        <property name="syft:metadata:originPackage">krb5</property>
+        <property name="syft:metadata:pullChecksum">Q1WiQhrurgxbqjEMrzih8GvuZLqJQ=</property>
+        <property name="syft:metadata:pullDependencies">krb5-conf so:libc.musl-x86_64.so.1 so:libcom_err.so.2 so:libcrypto.so.1.1 so:libkeyutils.so.1 so:libssl.so.1.1 so:libverto.so.1</property>
+        <property name="syft:metadata:size">811457</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/kubernetes@23.6.0?package-id=9a57afccdc45306e" type="library">
+      <author>Kubernetes</author>
+      <name>kubernetes</name>
+      <version>23.6.0</version>
+      <cpe>cpe:2.3:a:python-kubernetes:python-kubernetes:23.6.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/kubernetes@23.6.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-package-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:metadataType">PythonPackageMetadata</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-kubernetes:python_kubernetes:23.6.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_kubernetes:python-kubernetes:23.6.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_kubernetes:python_kubernetes:23.6.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes:python-kubernetes:23.6.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes:python_kubernetes:23.6.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-kubernetes:kubernetes:23.6.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_kubernetes:kubernetes:23.6.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-kubernetes:23.6.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_kubernetes:23.6.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes:kubernetes:23.6.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:kubernetes:23.6.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:0:path">/app/.venv/lib/python3.10/site-packages/kubernetes-23.6.0.dist-info/METADATA</property>
+        <property name="syft:location:1:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:1:path">/app/.venv/lib/python3.10/site-packages/kubernetes-23.6.0.dist-info/RECORD</property>
+        <property name="syft:location:2:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:2:path">/app/.venv/lib/python3.10/site-packages/kubernetes-23.6.0.dist-info/top_level.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libbz2@1.0.8-r1?arch=x86_64&amp;upstream=bzip2&amp;distro=alpine-3.16.0&amp;package-id=f74757b6b603e969" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>libbz2</name>
+      <version>1.0.8-r1</version>
+      <description>Shared library for bz2</description>
+      <licenses>
+        <license>
+          <id>bzip2-1.0.6</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libbz2:libbz2:1.0.8-r1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libbz2@1.0.8-r1?arch=x86_64&amp;upstream=bzip2&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>http://sources.redhat.com/bzip2</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">596cd15e692776222d49da2700c6041b39ffbea9</property>
+        <property name="syft:metadata:installedSize">73728</property>
+        <property name="syft:metadata:originPackage">bzip2</property>
+        <property name="syft:metadata:pullChecksum">Q1n7yd9034EvCCluHKeoNvh+KF4Iw=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">27057</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libc-utils@0.7.2-r3?arch=x86_64&amp;upstream=libc-dev&amp;distro=alpine-3.16.0&amp;package-id=ededb9e6ff708347" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>libc-utils</name>
+      <version>0.7.2-r3</version>
+      <description>Meta package to pull in correct libc</description>
+      <licenses>
+        <license>
+          <id>BSD-2-Clause</id>
+        </license>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libc-utils:libc-utils:0.7.2-r3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libc-utils@0.7.2-r3?arch=x86_64&amp;upstream=libc-dev&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://alpinelinux.org</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc-utils:libc_utils:0.7.2-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc_utils:libc-utils:0.7.2-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc_utils:libc_utils:0.7.2-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc:libc-utils:0.7.2-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc:libc_utils:0.7.2-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">60424133be2e79bbfeff3d58147a22886f817ce2</property>
+        <property name="syft:metadata:installedSize">4096</property>
+        <property name="syft:metadata:originPackage">libc-dev</property>
+        <property name="syft:metadata:pullChecksum">Q1O4GFJRvHz95tPjO84qpEvkNVwDw=</property>
+        <property name="syft:metadata:pullDependencies">musl-utils</property>
+        <property name="syft:metadata:size">1480</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libcom_err@1.46.5-r0?arch=x86_64&amp;upstream=e2fsprogs&amp;distro=alpine-3.16.0&amp;package-id=3d13490dc743aa72" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>libcom_err</name>
+      <version>1.46.5-r0</version>
+      <description>Common error description library</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-or-later</id>
+        </license>
+        <license>
+          <id>LGPL-2.0-or-later</id>
+        </license>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libcom-err:libcom-err:1.46.5-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libcom_err@1.46.5-r0?arch=x86_64&amp;upstream=e2fsprogs&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>http://e2fsprogs.sourceforge.net</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:libcom-err:libcom_err:1.46.5-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libcom_err:libcom-err:1.46.5-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libcom_err:libcom_err:1.46.5-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libcom:libcom-err:1.46.5-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libcom:libcom_err:1.46.5-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">8f85d6c045151b5fb8fa31d6554a5aaff59c3789</property>
+        <property name="syft:metadata:installedSize">24576</property>
+        <property name="syft:metadata:originPackage">e2fsprogs</property>
+        <property name="syft:metadata:pullChecksum">Q1NrnnJWq236/wUi6ucT4H33zZ8sI=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">6442</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libcrypto1.1@1.1.1o-r0?arch=x86_64&amp;upstream=openssl&amp;distro=alpine-3.16.0&amp;package-id=2f460756f640a2ed" type="library">
+      <publisher>Timo Teras &lt;timo.teras@iki.fi&gt;</publisher>
+      <name>libcrypto1.1</name>
+      <version>1.1.1o-r0</version>
+      <description>Crypto library from openssl</description>
+      <licenses>
+        <license>
+          <id>OpenSSL</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libcrypto1.1:libcrypto1.1:1.1.1o-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libcrypto1.1@1.1.1o-r0?arch=x86_64&amp;upstream=openssl&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.openssl.org/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">80367105780451813f9fb5633e82c261ee009a80</property>
+        <property name="syft:metadata:installedSize">2772992</property>
+        <property name="syft:metadata:originPackage">openssl</property>
+        <property name="syft:metadata:pullChecksum">Q1Dbj6khXAK5cV3H2N2lIHmpHC8QM=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">1212701</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libffi@3.4.2-r1?arch=x86_64&amp;upstream=libffi&amp;distro=alpine-3.16.0&amp;package-id=e1b839361c4bd434" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>libffi</name>
+      <version>3.4.2-r1</version>
+      <description>portable, high level programming interface to various calling conventions.</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libffi:libffi:3.4.2-r1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libffi@3.4.2-r1?arch=x86_64&amp;upstream=libffi&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://sourceware.org/libffi/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">d87acd2e2c2ef847a47d318ee427a919e822d8e9</property>
+        <property name="syft:metadata:installedSize">61440</property>
+        <property name="syft:metadata:originPackage">libffi</property>
+        <property name="syft:metadata:pullChecksum">Q15StTZ8BNWAe/+eE/4IL3SicCBxI=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">21726</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libintl@0.21-r2?arch=x86_64&amp;upstream=gettext&amp;distro=alpine-3.16.0&amp;package-id=48f97dc7fe8a84db" type="library">
+      <publisher>Carlo Landmeter &lt;clandmeter@alpinelinux.org&gt;</publisher>
+      <name>libintl</name>
+      <version>0.21-r2</version>
+      <description>GNU gettext runtime library</description>
+      <licenses>
+        <license>
+          <id>LGPL-2.1-or-later</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libintl:libintl:0.21-r2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libintl@0.21-r2?arch=x86_64&amp;upstream=gettext&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.gnu.org/software/gettext/gettext.html</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">ef26078ba9b6b7faa8ea8ac97be03c37b71aa35a</property>
+        <property name="syft:metadata:installedSize">57344</property>
+        <property name="syft:metadata:originPackage">gettext</property>
+        <property name="syft:metadata:pullChecksum">Q1B5EjZycm4zxHv68lgbgDSyy9aos=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">19683</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libnsl@2.0.0-r0?arch=x86_64&amp;upstream=libnsl&amp;distro=alpine-3.16.0&amp;package-id=2cebc701ad461fb5" type="library">
+      <publisher>Valery Kartel &lt;valery.kartel@gmail.com&gt;</publisher>
+      <name>libnsl</name>
+      <version>2.0.0-r0</version>
+      <description>Public client interface for NIS(YP) and NIS+ in a IPv6 ready version</description>
+      <licenses>
+        <license>
+          <id>LGPL-2.0-or-later</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libnsl:libnsl:2.0.0-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libnsl@2.0.0-r0?arch=x86_64&amp;upstream=libnsl&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://github.com/thkukuk/libnsl</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">ab22877711f517b9da6857f3d3d75a2821cbdcc3</property>
+        <property name="syft:metadata:installedSize">45056</property>
+        <property name="syft:metadata:originPackage">libnsl</property>
+        <property name="syft:metadata:pullChecksum">Q1yCYJ24Sw6KFOQAspYWaIUnKGQkc=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1 so:libintl.so.8 so:libtirpc.so.3</property>
+        <property name="syft:metadata:size">12171</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libssl1.1@1.1.1o-r0?arch=x86_64&amp;upstream=openssl&amp;distro=alpine-3.16.0&amp;package-id=ae8c1b04995ae93" type="library">
+      <publisher>Timo Teras &lt;timo.teras@iki.fi&gt;</publisher>
+      <name>libssl1.1</name>
+      <version>1.1.1o-r0</version>
+      <description>SSL shared libraries</description>
+      <licenses>
+        <license>
+          <id>OpenSSL</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libssl1.1:libssl1.1:1.1.1o-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libssl1.1@1.1.1o-r0?arch=x86_64&amp;upstream=openssl&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.openssl.org/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">80367105780451813f9fb5633e82c261ee009a80</property>
+        <property name="syft:metadata:installedSize">540672</property>
+        <property name="syft:metadata:originPackage">openssl</property>
+        <property name="syft:metadata:pullChecksum">Q1q2s18pXHMvE66AQ7HcAnSxP0xeE=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1</property>
+        <property name="syft:metadata:size">213137</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libtirpc@1.3.2-r0?arch=x86_64&amp;upstream=libtirpc&amp;distro=alpine-3.16.0&amp;package-id=26d66bbb04768115" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>libtirpc</name>
+      <version>1.3.2-r0</version>
+      <description>Transport Independent RPC library (SunRPC replacement)</description>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libtirpc:libtirpc:1.3.2-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libtirpc@1.3.2-r0?arch=x86_64&amp;upstream=libtirpc&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://sourceforge.net/projects/libtirpc</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">132cc3ff00dd538ed4a5d68d92a8a0e0fd0c683b</property>
+        <property name="syft:metadata:installedSize">184320</property>
+        <property name="syft:metadata:originPackage">libtirpc</property>
+        <property name="syft:metadata:pullChecksum">Q1mdFAa5GB4cAECH0a8Gh20s8r4YA=</property>
+        <property name="syft:metadata:pullDependencies">libtirpc-conf so:libc.musl-x86_64.so.1 so:libgssapi_krb5.so.2</property>
+        <property name="syft:metadata:size">78405</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libtirpc-conf@1.3.2-r0?arch=x86_64&amp;upstream=libtirpc&amp;distro=alpine-3.16.0&amp;package-id=20e61b8103170825" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>libtirpc-conf</name>
+      <version>1.3.2-r0</version>
+      <description>Configuration files for TI-RPC</description>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libtirpc-conf:libtirpc-conf:1.3.2-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libtirpc-conf@1.3.2-r0?arch=x86_64&amp;upstream=libtirpc&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://sourceforge.net/projects/libtirpc</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:libtirpc-conf:libtirpc_conf:1.3.2-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libtirpc_conf:libtirpc-conf:1.3.2-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libtirpc_conf:libtirpc_conf:1.3.2-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libtirpc:libtirpc-conf:1.3.2-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libtirpc:libtirpc_conf:1.3.2-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">132cc3ff00dd538ed4a5d68d92a8a0e0fd0c683b</property>
+        <property name="syft:metadata:installedSize">16384</property>
+        <property name="syft:metadata:originPackage">libtirpc</property>
+        <property name="syft:metadata:pullChecksum">Q1vMPZUUn8/AOzHmtLTdLaqjqYoXU=</property>
+        <property name="syft:metadata:size">2231</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libuuid@2.38-r1?arch=x86_64&amp;upstream=util-linux&amp;distro=alpine-3.16.0&amp;package-id=afc1426c1ea4fa0e" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>libuuid</name>
+      <version>2.38-r1</version>
+      <description>DCE compatible Universally Unique Identifier library</description>
+      <licenses>
+        <license>
+          <id>GPL-3.0-or-later</id>
+        </license>
+        <license>
+          <id>GPL-2.0-or-later</id>
+        </license>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libuuid:libuuid:2.38-r1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libuuid@2.38-r1?arch=x86_64&amp;upstream=util-linux&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://git.kernel.org/cgit/utils/util-linux/util-linux.git</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">3f28965a3ed74837435bd0d488463d10afe72f3f</property>
+        <property name="syft:metadata:installedSize">40960</property>
+        <property name="syft:metadata:originPackage">util-linux</property>
+        <property name="syft:metadata:pullChecksum">Q1aL1em4/plWY4firXt6RMjPCTZnM=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">13542</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libverto@0.3.2-r0?arch=x86_64&amp;upstream=libverto&amp;distro=alpine-3.16.0&amp;package-id=593b55125d969745" type="library">
+      <publisher>Francesco Colista &lt;fcolista@alpinelinux.org&gt;</publisher>
+      <name>libverto</name>
+      <version>0.3.2-r0</version>
+      <description>Main loop abstraction library</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libverto:libverto:0.3.2-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libverto@0.3.2-r0?arch=x86_64&amp;upstream=libverto&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://github.com/npmccallum/libverto</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">5e6e5d058668f74b1de5793d77c6dbf8bebfb548</property>
+        <property name="syft:metadata:installedSize">36864</property>
+        <property name="syft:metadata:originPackage">libverto</property>
+        <property name="syft:metadata:pullChecksum">Q1MuIUS0VqH29iEn/YVO5SYR3tiZY=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">9641</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/logfmter@0.0.6?package-id=246434f87b36a878" type="library">
+      <author>Joshua Taylor Eppinette &lt;jteppinette@jteppinette.com&gt;</author>
+      <name>logfmter</name>
+      <version>0.0.6</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:joshua_taylor_eppinette:python-logfmter:0.0.6:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/logfmter@0.0.6</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-package-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:metadataType">PythonPackageMetadata</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:joshua_taylor_eppinette:python_logfmter:0.0.6:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:joshua_taylor_eppinette:logfmter:0.0.6:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-logfmter:python-logfmter:0.0.6:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-logfmter:python_logfmter:0.0.6:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_logfmter:python-logfmter:0.0.6:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_logfmter:python_logfmter:0.0.6:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:jteppinette:python-logfmter:0.0.6:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:jteppinette:python_logfmter:0.0.6:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:logfmter:python-logfmter:0.0.6:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:logfmter:python_logfmter:0.0.6:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-logfmter:logfmter:0.0.6:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_logfmter:logfmter:0.0.6:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-logfmter:0.0.6:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_logfmter:0.0.6:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:jteppinette:logfmter:0.0.6:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:logfmter:logfmter:0.0.6:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:logfmter:0.0.6:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:0:path">/app/.venv/lib/python3.10/site-packages/logfmter-0.0.6.dist-info/METADATA</property>
+        <property name="syft:location:1:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:1:path">/app/.venv/lib/python3.10/site-packages/logfmter-0.0.6.dist-info/RECORD</property>
+        <property name="syft:location:2:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:2:path">/app/.venv/lib/python3.10/site-packages/logfmter-0.0.6.dist-info/top_level.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/musl@1.2.3-r0?arch=x86_64&amp;upstream=musl&amp;distro=alpine-3.16.0&amp;package-id=ec1d619a28263eb0" type="library">
+      <publisher>Timo Teräs &lt;timo.teras@iki.fi&gt;</publisher>
+      <name>musl</name>
+      <version>1.2.3-r0</version>
+      <description>the musl c library (libc) implementation</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:musl:musl:1.2.3-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/musl@1.2.3-r0?arch=x86_64&amp;upstream=musl&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://musl.libc.org/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">ee13d43a53938d8a04ba787b9423f3270a3c14a7</property>
+        <property name="syft:metadata:installedSize">622592</property>
+        <property name="syft:metadata:originPackage">musl</property>
+        <property name="syft:metadata:pullChecksum">Q1aCu0LmUDoAFSOX49uHvkYC1WasQ=</property>
+        <property name="syft:metadata:size">383304</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/musl-utils@1.2.3-r0?arch=x86_64&amp;upstream=musl&amp;distro=alpine-3.16.0&amp;package-id=b703a8e4e90dd6dc" type="library">
+      <publisher>Timo Teräs &lt;timo.teras@iki.fi&gt;</publisher>
+      <name>musl-utils</name>
+      <version>1.2.3-r0</version>
+      <description>the musl c library (libc) implementation</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:musl-utils:musl-utils:1.2.3-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/musl-utils@1.2.3-r0?arch=x86_64&amp;upstream=musl&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://musl.libc.org/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:musl-utils:musl_utils:1.2.3-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:musl_utils:musl-utils:1.2.3-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:musl_utils:musl_utils:1.2.3-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:musl:musl-utils:1.2.3-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:musl:musl_utils:1.2.3-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">ee13d43a53938d8a04ba787b9423f3270a3c14a7</property>
+        <property name="syft:metadata:installedSize">135168</property>
+        <property name="syft:metadata:originPackage">musl</property>
+        <property name="syft:metadata:pullChecksum">Q1VVfxM3uSO0X38HWpj1LN0E61fxo=</property>
+        <property name="syft:metadata:pullDependencies">scanelf so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">36938</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/ncurses-libs@6.3_p20220521-r0?arch=x86_64&amp;upstream=ncurses&amp;distro=alpine-3.16.0&amp;package-id=63d0b1634a663369" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>ncurses-libs</name>
+      <version>6.3_p20220521-r0</version>
+      <description>Ncurses libraries</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:ncurses-libs:ncurses-libs:6.3_p20220521-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/ncurses-libs@6.3_p20220521-r0?arch=x86_64&amp;upstream=ncurses&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://invisible-island.net/ncurses/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:ncurses-libs:ncurses_libs:6.3_p20220521-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ncurses_libs:ncurses-libs:6.3_p20220521-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ncurses_libs:ncurses_libs:6.3_p20220521-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ncurses:ncurses-libs:6.3_p20220521-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ncurses:ncurses_libs:6.3_p20220521-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">bce94233ff8618dcf52d30076710d791798b424c</property>
+        <property name="syft:metadata:installedSize">512000</property>
+        <property name="syft:metadata:originPackage">ncurses</property>
+        <property name="syft:metadata:pullChecksum">Q1HPWsUeVPAYCfRfHc1djIaWGVIUs=</property>
+        <property name="syft:metadata:pullDependencies">ncurses-terminfo-base=6.3_p20220521-r0 so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">211645</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/ncurses-terminfo-base@6.3_p20220521-r0?arch=x86_64&amp;upstream=ncurses&amp;distro=alpine-3.16.0&amp;package-id=42012080cb234fe9" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>ncurses-terminfo-base</name>
+      <version>6.3_p20220521-r0</version>
+      <description>Descriptions of common terminals</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:ncurses-terminfo-base:ncurses-terminfo-base:6.3_p20220521-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/ncurses-terminfo-base@6.3_p20220521-r0?arch=x86_64&amp;upstream=ncurses&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://invisible-island.net/ncurses/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:ncurses-terminfo-base:ncurses_terminfo_base:6.3_p20220521-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ncurses_terminfo_base:ncurses-terminfo-base:6.3_p20220521-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ncurses_terminfo_base:ncurses_terminfo_base:6.3_p20220521-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ncurses-terminfo:ncurses-terminfo-base:6.3_p20220521-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ncurses-terminfo:ncurses_terminfo_base:6.3_p20220521-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ncurses_terminfo:ncurses-terminfo-base:6.3_p20220521-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ncurses_terminfo:ncurses_terminfo_base:6.3_p20220521-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ncurses:ncurses-terminfo-base:6.3_p20220521-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ncurses:ncurses_terminfo_base:6.3_p20220521-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">bce94233ff8618dcf52d30076710d791798b424c</property>
+        <property name="syft:metadata:installedSize">221184</property>
+        <property name="syft:metadata:originPackage">ncurses</property>
+        <property name="syft:metadata:pullChecksum">Q14yhGqquVY7kPOTlrJXZog2NkIqo=</property>
+        <property name="syft:metadata:size">22433</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/oauthlib@3.2.0?package-id=2d5ffb62f2af22e2" type="library">
+      <author>The OAuthlib Community &lt;idan@gazit.me&gt;</author>
+      <name>oauthlib</name>
+      <version>3.2.0</version>
+      <cpe>cpe:2.3:a:oauthlib_community:python-oauthlib:3.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/oauthlib@3.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-package-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:metadataType">PythonPackageMetadata</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:oauthlib_community:python_oauthlib:3.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-oauthlib:python-oauthlib:3.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-oauthlib:python_oauthlib:3.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_oauthlib:python-oauthlib:3.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_oauthlib:python_oauthlib:3.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:oauthlib_community:oauthlib:3.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:oauthlib:python-oauthlib:3.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:oauthlib:python_oauthlib:3.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-oauthlib:oauthlib:3.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_oauthlib:oauthlib:3.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-oauthlib:3.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_oauthlib:3.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:idan:python-oauthlib:3.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:idan:python_oauthlib:3.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:oauthlib:oauthlib:3.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:oauthlib:3.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:idan:oauthlib:3.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:0:path">/app/.venv/lib/python3.10/site-packages/oauthlib-3.2.0.dist-info/METADATA</property>
+        <property name="syft:location:1:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:1:path">/app/.venv/lib/python3.10/site-packages/oauthlib-3.2.0.dist-info/RECORD</property>
+        <property name="syft:location:2:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:2:path">/app/.venv/lib/python3.10/site-packages/oauthlib-3.2.0.dist-info/top_level.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/pip@22.0.4?package-id=1dc3184c082792aa" type="library">
+      <author>The pip developers &lt;distutils-sig@python.org&gt;</author>
+      <name>pip</name>
+      <version>22.0.4</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:pip_developers:python-pip:22.0.4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/pip@22.0.4</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-package-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:metadataType">PythonPackageMetadata</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:pip_developers:python_pip:22.0.4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:distutils-sig:python-pip:22.0.4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:distutils-sig:python_pip:22.0.4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:distutils_sig:python-pip:22.0.4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:distutils_sig:python_pip:22.0.4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-pip:python-pip:22.0.4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-pip:python_pip:22.0.4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_pip:python-pip:22.0.4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_pip:python_pip:22.0.4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:pip_developers:pip:22.0.4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:distutils-sig:pip:22.0.4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:distutils_sig:pip:22.0.4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-pip:22.0.4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_pip:22.0.4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:pip:python-pip:22.0.4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:pip:python_pip:22.0.4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-pip:pip:22.0.4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_pip:pip:22.0.4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:pip:22.0.4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:pip:pip:22.0.4:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:87652a1ad873ada22950a4214f7b24abd04632ad1230d77a24ab2a56a13c83ee</property>
+        <property name="syft:location:0:path">/usr/local/lib/python3.10/site-packages/pip-22.0.4.dist-info/METADATA</property>
+        <property name="syft:location:1:layerID">sha256:87652a1ad873ada22950a4214f7b24abd04632ad1230d77a24ab2a56a13c83ee</property>
+        <property name="syft:location:1:path">/usr/local/lib/python3.10/site-packages/pip-22.0.4.dist-info/RECORD</property>
+        <property name="syft:location:2:layerID">sha256:87652a1ad873ada22950a4214f7b24abd04632ad1230d77a24ab2a56a13c83ee</property>
+        <property name="syft:location:2:path">/usr/local/lib/python3.10/site-packages/pip-22.0.4.dist-info/top_level.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/pip@22.1.2?package-id=1b9f37f3dd90b867" type="library">
+      <author>The pip developers &lt;distutils-sig@python.org&gt;</author>
+      <name>pip</name>
+      <version>22.1.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:pip_developers:python-pip:22.1.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/pip@22.1.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-package-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:metadataType">PythonPackageMetadata</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:pip_developers:python_pip:22.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:distutils-sig:python-pip:22.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:distutils-sig:python_pip:22.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:distutils_sig:python-pip:22.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:distutils_sig:python_pip:22.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-pip:python-pip:22.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-pip:python_pip:22.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_pip:python-pip:22.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_pip:python_pip:22.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:pip_developers:pip:22.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:distutils-sig:pip:22.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:distutils_sig:pip:22.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-pip:22.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_pip:22.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:pip:python-pip:22.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:pip:python_pip:22.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-pip:pip:22.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_pip:pip:22.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:pip:22.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:pip:pip:22.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:0:path">/app/.venv/lib/python3.10/site-packages/pip-22.1.2.dist-info/METADATA</property>
+        <property name="syft:location:1:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:1:path">/app/.venv/lib/python3.10/site-packages/pip-22.1.2.dist-info/RECORD</property>
+        <property name="syft:location:2:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:2:path">/app/.venv/lib/python3.10/site-packages/pip-22.1.2.dist-info/top_level.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/pyasn1@0.4.8?package-id=ae44e441007614d1" type="library">
+      <author>Ilya Etingof &lt;etingof@gmail.com&gt;</author>
+      <name>pyasn1</name>
+      <version>0.4.8</version>
+      <cpe>cpe:2.3:a:python-pyasn1:python-pyasn1:0.4.8:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/pyasn1@0.4.8</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-package-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:metadataType">PythonPackageMetadata</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-pyasn1:python_pyasn1:0.4.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_pyasn1:python-pyasn1:0.4.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_pyasn1:python_pyasn1:0.4.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ilya_etingof:python-pyasn1:0.4.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ilya_etingof:python_pyasn1:0.4.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:etingof:python-pyasn1:0.4.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:etingof:python_pyasn1:0.4.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:pyasn1:python-pyasn1:0.4.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:pyasn1:python_pyasn1:0.4.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-pyasn1:pyasn1:0.4.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-pyasn1:0.4.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_pyasn1:0.4.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_pyasn1:pyasn1:0.4.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ilya_etingof:pyasn1:0.4.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:etingof:pyasn1:0.4.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:pyasn1:pyasn1:0.4.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:pyasn1:0.4.8:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:0:path">/app/.venv/lib/python3.10/site-packages/pyasn1-0.4.8.dist-info/METADATA</property>
+        <property name="syft:location:1:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:1:path">/app/.venv/lib/python3.10/site-packages/pyasn1-0.4.8.dist-info/RECORD</property>
+        <property name="syft:location:2:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:2:path">/app/.venv/lib/python3.10/site-packages/pyasn1-0.4.8.dist-info/top_level.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/pyasn1-modules@0.2.8?package-id=c4f556b4a553822f" type="library">
+      <author>Ilya Etingof &lt;etingof@gmail.com&gt;</author>
+      <name>pyasn1-modules</name>
+      <version>0.2.8</version>
+      <licenses>
+        <license>
+          <id>BSD-2-Clause</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:python-pyasn1-modules:python-pyasn1-modules:0.2.8:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/pyasn1-modules@0.2.8</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-package-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:metadataType">PythonPackageMetadata</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-pyasn1-modules:python_pyasn1_modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_pyasn1_modules:python-pyasn1-modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_pyasn1_modules:python_pyasn1_modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:pyasn1-modules:python-pyasn1-modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:pyasn1-modules:python_pyasn1_modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:pyasn1_modules:python-pyasn1-modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:pyasn1_modules:python_pyasn1_modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-pyasn1-modules:pyasn1-modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-pyasn1-modules:pyasn1_modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_pyasn1_modules:pyasn1-modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_pyasn1_modules:pyasn1_modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-pyasn1:python-pyasn1-modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-pyasn1:python_pyasn1_modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_pyasn1:python-pyasn1-modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_pyasn1:python_pyasn1_modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ilya_etingof:python-pyasn1-modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ilya_etingof:python_pyasn1_modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:etingof:python-pyasn1-modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:etingof:python_pyasn1_modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:pyasn1-modules:pyasn1-modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:pyasn1-modules:pyasn1_modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:pyasn1_modules:pyasn1-modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:pyasn1_modules:pyasn1_modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:pyasn1:python-pyasn1-modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:pyasn1:python_pyasn1_modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-pyasn1:pyasn1-modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-pyasn1:pyasn1_modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-pyasn1-modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_pyasn1_modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_pyasn1:pyasn1-modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_pyasn1:pyasn1_modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ilya_etingof:pyasn1-modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ilya_etingof:pyasn1_modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:etingof:pyasn1-modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:etingof:pyasn1_modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:pyasn1:pyasn1-modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:pyasn1:pyasn1_modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:pyasn1-modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:pyasn1_modules:0.2.8:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:0:path">/app/.venv/lib/python3.10/site-packages/pyasn1_modules-0.2.8.dist-info/METADATA</property>
+        <property name="syft:location:1:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:1:path">/app/.venv/lib/python3.10/site-packages/pyasn1_modules-0.2.8.dist-info/RECORD</property>
+        <property name="syft:location:2:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:2:path">/app/.venv/lib/python3.10/site-packages/pyasn1_modules-0.2.8.dist-info/top_level.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/python-dateutil@2.8.2?package-id=15e3355d3842196a" type="library">
+      <author>Gustavo Niemeyer &lt;gustavo@niemeyer.net&gt;</author>
+      <name>python-dateutil</name>
+      <version>2.8.2</version>
+      <cpe>cpe:2.3:a:gustavo_niemeyer:python-dateutil:2.8.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/python-dateutil@2.8.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-package-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:metadataType">PythonPackageMetadata</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:gustavo_niemeyer:python_dateutil:2.8.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-dateutil:python-dateutil:2.8.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-dateutil:python_dateutil:2.8.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_dateutil:python-dateutil:2.8.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_dateutil:python_dateutil:2.8.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:gustavo:python-dateutil:2.8.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:gustavo:python_dateutil:2.8.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-dateutil:2.8.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_dateutil:2.8.2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:0:path">/app/.venv/lib/python3.10/site-packages/python_dateutil-2.8.2.dist-info/METADATA</property>
+        <property name="syft:location:1:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:1:path">/app/.venv/lib/python3.10/site-packages/python_dateutil-2.8.2.dist-info/RECORD</property>
+        <property name="syft:location:2:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:2:path">/app/.venv/lib/python3.10/site-packages/python_dateutil-2.8.2.dist-info/top_level.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/python-json-logger@2.0.2?package-id=113848a60bbc289d" type="library">
+      <author>Zakaria Zajac &lt;zak@madzak.com&gt;</author>
+      <name>python-json-logger</name>
+      <version>2.0.2</version>
+      <cpe>cpe:2.3:a:python-json-logger:python-json-logger:2.0.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/python-json-logger@2.0.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-package-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:metadataType">PythonPackageMetadata</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-json-logger:python_json_logger:2.0.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_json_logger:python-json-logger:2.0.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_json_logger:python_json_logger:2.0.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:zakaria_zajac:python-json-logger:2.0.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:zakaria_zajac:python_json_logger:2.0.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-json:python-json-logger:2.0.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-json:python_json_logger:2.0.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_json:python-json-logger:2.0.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_json:python_json_logger:2.0.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-json-logger:2.0.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_json_logger:2.0.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:zak:python-json-logger:2.0.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:zak:python_json_logger:2.0.2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:0:path">/app/.venv/lib/python3.10/site-packages/python_json_logger-2.0.2.dist-info/METADATA</property>
+        <property name="syft:location:1:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:1:path">/app/.venv/lib/python3.10/site-packages/python_json_logger-2.0.2.dist-info/RECORD</property>
+        <property name="syft:location:2:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:2:path">/app/.venv/lib/python3.10/site-packages/python_json_logger-2.0.2.dist-info/top_level.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/readline@8.1.2-r0?arch=x86_64&amp;upstream=readline&amp;distro=alpine-3.16.0&amp;package-id=2d2a2a459ffd46b" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>readline</name>
+      <version>8.1.2-r0</version>
+      <description>GNU readline library</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-or-later</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:readline:readline:8.1.2-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/readline@8.1.2-r0?arch=x86_64&amp;upstream=readline&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://tiswww.cwru.edu/php/chet/readline/rltop.html</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">1e263579cd918a2b19b06a4c2509aa7cfd9ef114</property>
+        <property name="syft:metadata:installedSize">311296</property>
+        <property name="syft:metadata:originPackage">readline</property>
+        <property name="syft:metadata:pullChecksum">Q19nYAczlTXiHeeaz/vnrnQ6H3Fow=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1 so:libncursesw.so.6</property>
+        <property name="syft:metadata:size">121801</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/requests@2.28.0?package-id=cdb5c57b4415ad22" type="library">
+      <author>Kenneth Reitz &lt;me@kennethreitz.org&gt;</author>
+      <name>requests</name>
+      <version>2.28.0</version>
+      <cpe>cpe:2.3:a:python-requests:python-requests:2.28.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/requests@2.28.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-package-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:metadataType">PythonPackageMetadata</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-requests:python_requests:2.28.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_requests:python-requests:2.28.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_requests:python_requests:2.28.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kenneth_reitz:python-requests:2.28.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kenneth_reitz:python_requests:2.28.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-requests:requests:2.28.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_requests:requests:2.28.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:requests:python-requests:2.28.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:requests:python_requests:2.28.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kenneth_reitz:requests:2.28.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-requests:2.28.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_requests:2.28.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:me:python-requests:2.28.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:me:python_requests:2.28.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:requests:requests:2.28.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:requests:2.28.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:me:requests:2.28.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:0:path">/app/.venv/lib/python3.10/site-packages/requests-2.28.0.dist-info/METADATA</property>
+        <property name="syft:location:1:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:1:path">/app/.venv/lib/python3.10/site-packages/requests-2.28.0.dist-info/RECORD</property>
+        <property name="syft:location:2:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:2:path">/app/.venv/lib/python3.10/site-packages/requests-2.28.0.dist-info/top_level.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/requests-oauthlib@1.3.1?package-id=33d6859ea8f44771" type="library">
+      <author>Kenneth Reitz &lt;me@kennethreitz.com&gt;</author>
+      <name>requests-oauthlib</name>
+      <version>1.3.1</version>
+      <licenses>
+        <license>
+          <id>ISC</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:python-requests-oauthlib:python-requests-oauthlib:1.3.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/requests-oauthlib@1.3.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-package-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:metadataType">PythonPackageMetadata</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-requests-oauthlib:python_requests_oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_requests_oauthlib:python-requests-oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_requests_oauthlib:python_requests_oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-requests-oauthlib:requests-oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-requests-oauthlib:requests_oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_requests_oauthlib:requests-oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_requests_oauthlib:requests_oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:requests-oauthlib:python-requests-oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:requests-oauthlib:python_requests_oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:requests_oauthlib:python-requests-oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:requests_oauthlib:python_requests_oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-requests:python-requests-oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-requests:python_requests_oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_requests:python-requests-oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_requests:python_requests_oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kenneth_reitz:python-requests-oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kenneth_reitz:python_requests_oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:requests-oauthlib:requests-oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:requests-oauthlib:requests_oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:requests_oauthlib:requests-oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:requests_oauthlib:requests_oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-requests:requests-oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-requests:requests_oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_requests:requests-oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_requests:requests_oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:requests:python-requests-oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:requests:python_requests_oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kenneth_reitz:requests-oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kenneth_reitz:requests_oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-requests-oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_requests_oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:me:python-requests-oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:me:python_requests_oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:requests:requests-oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:requests:requests_oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:requests-oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:requests_oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:me:requests-oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:me:requests_oauthlib:1.3.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:0:path">/app/.venv/lib/python3.10/site-packages/requests_oauthlib-1.3.1.dist-info/METADATA</property>
+        <property name="syft:location:1:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:1:path">/app/.venv/lib/python3.10/site-packages/requests_oauthlib-1.3.1.dist-info/RECORD</property>
+        <property name="syft:location:2:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:2:path">/app/.venv/lib/python3.10/site-packages/requests_oauthlib-1.3.1.dist-info/top_level.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/rsa@4.8?package-id=95af2a6a4fbb6d1e" type="library">
+      <author>Sybren A. Stüvel &lt;sybren@stuvel.eu&gt;</author>
+      <name>rsa</name>
+      <version>4.8</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:python-rsa:python-rsa:4.8:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/rsa@4.8</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-package-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:metadataType">PythonPackageMetadata</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-rsa:python_rsa:4.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_rsa:python-rsa:4.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_rsa:python_rsa:4.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-rsa:4.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_rsa:4.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:sybren:python-rsa:4.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:sybren:python_rsa:4.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-rsa:rsa:4.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_rsa:rsa:4.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:rsa:python-rsa:4.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:rsa:python_rsa:4.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:rsa:4.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:sybren:rsa:4.8:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:rsa:rsa:4.8:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:0:path">/app/.venv/lib/python3.10/site-packages/rsa-4.8.dist-info/METADATA</property>
+        <property name="syft:location:1:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:1:path">/app/.venv/lib/python3.10/site-packages/rsa-4.8.dist-info/RECORD</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/scanelf@1.3.4-r0?arch=x86_64&amp;upstream=pax-utils&amp;distro=alpine-3.16.0&amp;package-id=7514a98b23f9928c" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>scanelf</name>
+      <version>1.3.4-r0</version>
+      <description>Scan ELF binaries for stuff</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:scanelf:scanelf:1.3.4-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/scanelf@1.3.4-r0?arch=x86_64&amp;upstream=pax-utils&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">d7ae612a3cc5f827289d915783b4cbf8c7207947</property>
+        <property name="syft:metadata:installedSize">94208</property>
+        <property name="syft:metadata:originPackage">pax-utils</property>
+        <property name="syft:metadata:pullChecksum">Q1Gcqe+ND8DFOlhM3R0o5KyZjR2oE=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">36745</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/setuptools@58.1.0?package-id=adde401b2f2be606" type="library">
+      <author>Python Packaging Authority &lt;distutils-sig@python.org&gt;</author>
+      <name>setuptools</name>
+      <version>58.1.0</version>
+      <cpe>cpe:2.3:a:python_packaging_authority:python-setuptools:58.1.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/setuptools@58.1.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-package-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:metadataType">PythonPackageMetadata</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_packaging_authority:python_setuptools:58.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_packaging_authority:setuptools:58.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-setuptools:python-setuptools:58.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-setuptools:python_setuptools:58.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_setuptools:python-setuptools:58.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_setuptools:python_setuptools:58.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:distutils-sig:python-setuptools:58.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:distutils-sig:python_setuptools:58.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:distutils_sig:python-setuptools:58.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:distutils_sig:python_setuptools:58.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-setuptools:setuptools:58.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_setuptools:setuptools:58.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:setuptools:python-setuptools:58.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:setuptools:python_setuptools:58.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:distutils-sig:setuptools:58.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:distutils_sig:setuptools:58.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-setuptools:58.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_setuptools:58.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:setuptools:setuptools:58.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:setuptools:58.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:87652a1ad873ada22950a4214f7b24abd04632ad1230d77a24ab2a56a13c83ee</property>
+        <property name="syft:location:0:path">/usr/local/lib/python3.10/site-packages/setuptools-58.1.0.dist-info/METADATA</property>
+        <property name="syft:location:1:layerID">sha256:87652a1ad873ada22950a4214f7b24abd04632ad1230d77a24ab2a56a13c83ee</property>
+        <property name="syft:location:1:path">/usr/local/lib/python3.10/site-packages/setuptools-58.1.0.dist-info/RECORD</property>
+        <property name="syft:location:2:layerID">sha256:87652a1ad873ada22950a4214f7b24abd04632ad1230d77a24ab2a56a13c83ee</property>
+        <property name="syft:location:2:path">/usr/local/lib/python3.10/site-packages/setuptools-58.1.0.dist-info/top_level.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/setuptools@62.4.0?package-id=9537229dff5b2f0f" type="library">
+      <author>Python Packaging Authority &lt;distutils-sig@python.org&gt;</author>
+      <name>setuptools</name>
+      <version>62.4.0</version>
+      <cpe>cpe:2.3:a:python_packaging_authority:python-setuptools:62.4.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/setuptools@62.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-package-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:metadataType">PythonPackageMetadata</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_packaging_authority:python_setuptools:62.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_packaging_authority:setuptools:62.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-setuptools:python-setuptools:62.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-setuptools:python_setuptools:62.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_setuptools:python-setuptools:62.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_setuptools:python_setuptools:62.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:distutils-sig:python-setuptools:62.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:distutils-sig:python_setuptools:62.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:distutils_sig:python-setuptools:62.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:distutils_sig:python_setuptools:62.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-setuptools:setuptools:62.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_setuptools:setuptools:62.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:setuptools:python-setuptools:62.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:setuptools:python_setuptools:62.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:distutils-sig:setuptools:62.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:distutils_sig:setuptools:62.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-setuptools:62.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_setuptools:62.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:setuptools:setuptools:62.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:setuptools:62.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:0:path">/app/.venv/lib/python3.10/site-packages/setuptools-62.4.0.dist-info/METADATA</property>
+        <property name="syft:location:1:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:1:path">/app/.venv/lib/python3.10/site-packages/setuptools-62.4.0.dist-info/RECORD</property>
+        <property name="syft:location:2:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:2:path">/app/.venv/lib/python3.10/site-packages/setuptools-62.4.0.dist-info/top_level.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/six@1.16.0?package-id=4c3b069f5bfb2653" type="library">
+      <author>Benjamin Peterson &lt;benjamin@python.org&gt;</author>
+      <name>six</name>
+      <version>1.16.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:benjamin_peterson:python-six:1.16.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/six@1.16.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-package-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:metadataType">PythonPackageMetadata</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:benjamin_peterson:python_six:1.16.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:benjamin_peterson:six:1.16.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-six:python-six:1.16.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-six:python_six:1.16.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_six:python-six:1.16.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_six:python_six:1.16.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:benjamin:python-six:1.16.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:benjamin:python_six:1.16.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-six:1.16.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_six:1.16.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-six:six:1.16.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_six:six:1.16.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:six:python-six:1.16.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:six:python_six:1.16.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:benjamin:six:1.16.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:six:1.16.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:six:six:1.16.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:0:path">/app/.venv/lib/python3.10/site-packages/six-1.16.0.dist-info/METADATA</property>
+        <property name="syft:location:1:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:1:path">/app/.venv/lib/python3.10/site-packages/six-1.16.0.dist-info/RECORD</property>
+        <property name="syft:location:2:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:2:path">/app/.venv/lib/python3.10/site-packages/six-1.16.0.dist-info/top_level.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/sqlite-libs@3.38.5-r0?arch=x86_64&amp;upstream=sqlite&amp;distro=alpine-3.16.0&amp;package-id=e999d3fd9687dc27" type="library">
+      <publisher>Carlo Landmeter &lt;clandmeter@alpinelinux.org&gt;</publisher>
+      <name>sqlite-libs</name>
+      <version>3.38.5-r0</version>
+      <description>Sqlite3 library</description>
+      <licenses>
+        <license>
+          <id>blessing</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:sqlite-libs:sqlite-libs:3.38.5-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/sqlite-libs@3.38.5-r0?arch=x86_64&amp;upstream=sqlite&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.sqlite.org/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:sqlite-libs:sqlite_libs:3.38.5-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:sqlite_libs:sqlite-libs:3.38.5-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:sqlite_libs:sqlite_libs:3.38.5-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:sqlite:sqlite-libs:3.38.5-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:sqlite:sqlite_libs:3.38.5-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">f796162b1714f2dcc7180ef69eb6cb35d59f7cd7</property>
+        <property name="syft:metadata:installedSize">1015808</property>
+        <property name="syft:metadata:originPackage">sqlite</property>
+        <property name="syft:metadata:pullChecksum">Q1uL3gsE48NsOEl3I2qDhRfuMX4hc=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">532062</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/ssl_client@1.35.0-r13?arch=x86_64&amp;upstream=busybox&amp;distro=alpine-3.16.0&amp;package-id=281d128ab12de2d5" type="library">
+      <publisher>Sören Tempel &lt;soeren+alpine@soeren-tempel.net&gt;</publisher>
+      <name>ssl_client</name>
+      <version>1.35.0-r13</version>
+      <description>EXternal ssl_client for busybox wget</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:ssl-client:ssl-client:1.35.0-r13:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/ssl_client@1.35.0-r13?arch=x86_64&amp;upstream=busybox&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://busybox.net/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:ssl-client:ssl_client:1.35.0-r13:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ssl_client:ssl-client:1.35.0-r13:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ssl_client:ssl_client:1.35.0-r13:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ssl:ssl-client:1.35.0-r13:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ssl:ssl_client:1.35.0-r13:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">0c56dbbc237a3a32501c73338cfffcbeb31674ac</property>
+        <property name="syft:metadata:installedSize">28672</property>
+        <property name="syft:metadata:originPackage">busybox</property>
+        <property name="syft:metadata:pullChecksum">Q1OMXCzz8+XIkhSoAbBmVEPrmWKRk=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1 so:libssl.so.1.1</property>
+        <property name="syft:metadata:size">5007</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/tzdata@2022a-r0?arch=x86_64&amp;upstream=tzdata&amp;distro=alpine-3.16.0&amp;package-id=3b6bfbda41e3b226" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>tzdata</name>
+      <version>2022a-r0</version>
+      <description>Timezone data</description>
+      <cpe>cpe:2.3:a:tzdata:tzdata:2022a-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/tzdata@2022a-r0?arch=x86_64&amp;upstream=tzdata&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.iana.org/time-zones</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">c13d8fdd4a03568cd6e8fda45f7f85881ac0c828</property>
+        <property name="syft:metadata:installedSize">3457024</property>
+        <property name="syft:metadata:originPackage">tzdata</property>
+        <property name="syft:metadata:pullChecksum">Q1TvBawYV6J2JGjT6qw9yGVeelrGI=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">463135</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/urllib3@1.26.9?package-id=6cd1e676334c4bc5" type="library">
+      <author>Andrey Petrov &lt;andrey.petrov@shazow.net&gt;</author>
+      <name>urllib3</name>
+      <version>1.26.9</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:python-urllib3:python-urllib3:1.26.9:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/urllib3@1.26.9</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-package-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:metadataType">PythonPackageMetadata</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-urllib3:python_urllib3:1.26.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_urllib3:python-urllib3:1.26.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_urllib3:python_urllib3:1.26.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:andrey-petrov:python-urllib3:1.26.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:andrey-petrov:python_urllib3:1.26.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:andrey_petrov:python-urllib3:1.26.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:andrey_petrov:python_urllib3:1.26.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-urllib3:urllib3:1.26.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_urllib3:urllib3:1.26.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:urllib3:python-urllib3:1.26.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:urllib3:python_urllib3:1.26.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:andrey-petrov:urllib3:1.26.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:andrey_petrov:urllib3:1.26.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-urllib3:1.26.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_urllib3:1.26.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:urllib3:urllib3:1.26.9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:urllib3:1.26.9:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:0:path">/app/.venv/lib/python3.10/site-packages/urllib3-1.26.9.dist-info/METADATA</property>
+        <property name="syft:location:1:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:1:path">/app/.venv/lib/python3.10/site-packages/urllib3-1.26.9.dist-info/RECORD</property>
+        <property name="syft:location:2:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:2:path">/app/.venv/lib/python3.10/site-packages/urllib3-1.26.9.dist-info/top_level.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/websocket-client@1.3.2?package-id=50d63ac5934de00b" type="library">
+      <author>liris &lt;liris.pp@gmail.com&gt;</author>
+      <name>websocket-client</name>
+      <version>1.3.2</version>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:python-websocket-client:python-websocket-client:1.3.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/websocket-client@1.3.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-package-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:metadataType">PythonPackageMetadata</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-websocket-client:python_websocket_client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_websocket_client:python-websocket-client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_websocket_client:python_websocket_client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-websocket-client:websocket-client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-websocket-client:websocket_client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-websocket:python-websocket-client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-websocket:python_websocket_client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_websocket:python-websocket-client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_websocket:python_websocket_client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_websocket_client:websocket-client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_websocket_client:websocket_client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:websocket-client:python-websocket-client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:websocket-client:python_websocket_client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:websocket_client:python-websocket-client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:websocket_client:python_websocket_client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-websocket:websocket-client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-websocket:websocket_client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_websocket:websocket-client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_websocket:websocket_client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:websocket-client:websocket-client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:websocket-client:websocket_client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:websocket:python-websocket-client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:websocket:python_websocket_client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:websocket_client:websocket-client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:websocket_client:websocket_client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:liris-pp:python-websocket-client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:liris-pp:python_websocket_client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:liris_pp:python-websocket-client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:liris_pp:python_websocket_client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-websocket-client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_websocket_client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:liris:python-websocket-client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:liris:python_websocket_client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:websocket:websocket-client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:websocket:websocket_client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:liris-pp:websocket-client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:liris-pp:websocket_client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:liris_pp:websocket-client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:liris_pp:websocket_client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:websocket-client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:websocket_client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:liris:websocket-client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:liris:websocket_client:1.3.2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:0:path">/app/.venv/lib/python3.10/site-packages/websocket_client-1.3.2.dist-info/METADATA</property>
+        <property name="syft:location:1:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:1:path">/app/.venv/lib/python3.10/site-packages/websocket_client-1.3.2.dist-info/RECORD</property>
+        <property name="syft:location:2:layerID">sha256:e8a4ba31302033d6d1fc042553b26d0d53f16b035fd0b92a92c507966093156d</property>
+        <property name="syft:location:2:path">/app/.venv/lib/python3.10/site-packages/websocket_client-1.3.2.dist-info/top_level.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:pypi/wheel@0.37.1?package-id=89345a4528ec4e7a" type="library">
+      <author>Daniel Holth &lt;dholth@fastmail.fm&gt;</author>
+      <name>wheel</name>
+      <version>0.37.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:daniel_holth:python-wheel:0.37.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:pypi/wheel@0.37.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">python-package-cataloger</property>
+        <property name="syft:package:language">python</property>
+        <property name="syft:package:metadataType">PythonPackageMetadata</property>
+        <property name="syft:package:type">python</property>
+        <property name="syft:cpe23">cpe:2.3:a:daniel_holth:python_wheel:0.37.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-wheel:python-wheel:0.37.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-wheel:python_wheel:0.37.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_wheel:python-wheel:0.37.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_wheel:python_wheel:0.37.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:dholth:python-wheel:0.37.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:dholth:python_wheel:0.37.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python-wheel:0.37.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:python_wheel:0.37.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:daniel_holth:wheel:0.37.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python-wheel:wheel:0.37.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python_wheel:wheel:0.37.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:wheel:python-wheel:0.37.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:wheel:python_wheel:0.37.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:dholth:wheel:0.37.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:python:wheel:0.37.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:wheel:wheel:0.37.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:87652a1ad873ada22950a4214f7b24abd04632ad1230d77a24ab2a56a13c83ee</property>
+        <property name="syft:location:0:path">/usr/local/lib/python3.10/site-packages/wheel-0.37.1.dist-info/METADATA</property>
+        <property name="syft:location:1:layerID">sha256:87652a1ad873ada22950a4214f7b24abd04632ad1230d77a24ab2a56a13c83ee</property>
+        <property name="syft:location:1:path">/usr/local/lib/python3.10/site-packages/wheel-0.37.1.dist-info/RECORD</property>
+        <property name="syft:location:2:layerID">sha256:87652a1ad873ada22950a4214f7b24abd04632ad1230d77a24ab2a56a13c83ee</property>
+        <property name="syft:location:2:path">/usr/local/lib/python3.10/site-packages/wheel-0.37.1.dist-info/top_level.txt</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/xz-libs@5.2.5-r1?arch=x86_64&amp;upstream=xz&amp;distro=alpine-3.16.0&amp;package-id=9f15cd1be74f305" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>xz-libs</name>
+      <version>5.2.5-r1</version>
+      <description>Library and CLI tools for XZ and LZMA compressed files (libraries)</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-or-later</id>
+        </license>
+        <license>
+          <id>LGPL-2.1-or-later</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:xz-libs:xz-libs:5.2.5-r1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/xz-libs@5.2.5-r1?arch=x86_64&amp;upstream=xz&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://tukaani.org/xz</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:xz-libs:xz_libs:5.2.5-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:xz_libs:xz-libs:5.2.5-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:xz_libs:xz_libs:5.2.5-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:xz:xz-libs:5.2.5-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:xz:xz_libs:5.2.5-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">19973607c3be1e7fa01d284c613b478889d2eba6</property>
+        <property name="syft:metadata:installedSize">151552</property>
+        <property name="syft:metadata:originPackage">xz</property>
+        <property name="syft:metadata:pullChecksum">Q1pjpuijtU9xmW2TvONNtMSuoRLkk=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">73848</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/zlib@1.2.12-r1?arch=x86_64&amp;upstream=zlib&amp;distro=alpine-3.16.0&amp;package-id=5d594c861402c5a6" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>zlib</name>
+      <version>1.2.12-r1</version>
+      <description>A compression/decompression Library</description>
+      <licenses>
+        <license>
+          <id>Zlib</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:zlib:zlib:1.2.12-r1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/zlib@1.2.12-r1?arch=x86_64&amp;upstream=zlib&amp;distro=alpine-3.16.0</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://zlib.net/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:24a6c9301506c6e5964a2b908a7d03d1c731d6d29a24cda57c9d1ec42cf436ad</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">6754a9005594de4243aad9b2744546971078c6c7</property>
+        <property name="syft:metadata:installedSize">110592</property>
+        <property name="syft:metadata:originPackage">zlib</property>
+        <property name="syft:metadata:pullChecksum">Q1/uqp2EhUUGWFZvyCfd2oq7g4YwY=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">53330</property>
+      </properties>
+    </component>
+    <component type="operating-system">
+      <name>alpine</name>
+      <version>3.16.0</version>
+      <description>Alpine Linux v3.16</description>
+      <swid tagId="alpine" name="alpine" version="3.16.0"></swid>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://gitlab.alpinelinux.org/alpine/aports/-/issues</url>
+        </reference>
+        <reference type="website">
+          <url>https://alpinelinux.org/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:distro:id">alpine</property>
+        <property name="syft:distro:prettyName">Alpine Linux v3.16</property>
+        <property name="syft:distro:versionID">3.16.0</property>
+      </properties>
+    </component>
+  </components>
+</bom>
