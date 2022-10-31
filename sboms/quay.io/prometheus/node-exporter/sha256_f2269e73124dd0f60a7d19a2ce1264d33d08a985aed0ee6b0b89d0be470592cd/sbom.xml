@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:ad38dd48-7275-4952-8540-80e4b2735503" version="1">
+  <metadata>
+    <timestamp>2022-10-31T16:05:11Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>anchore</vendor>
+        <name>syft</name>
+        <version>v0.58.0</version>
+      </tool>
+    </tools>
+    <component bom-ref="e7d012e4d5b23d19" type="container">
+      <name>/tmp/sha256_f2269e73124dd0f60a7d19a2ce1264d33d08a985aed0ee6b0b89d0be470592cd.tar.gz</name>
+      <version>sha256:19505d85d1316d6b647e0aab3d5f133d534b82f11daf0a8d492fd85bad525240</version>
+    </component>
+  </metadata>
+  <components>
+    <component bom-ref="pkg:golang/github.com/alecthomas/template@v0.0.0-20190718012654-fb15b899a751?package-id=14fc1cd9eab52047" type="library">
+      <name>github.com/alecthomas/template</name>
+      <version>v0.0.0-20190718012654-fb15b899a751</version>
+      <cpe>cpe:2.3:a:alecthomas:template:v0.0.0-20190718012654-fb15b899a751:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/alecthomas/template@v0.0.0-20190718012654-fb15b899a751</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:JYp7IbQjafoB+tBA3gMyHYHrpOtNuDiK/uB5uXxq5wM=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/alecthomas/units@v0.0.0-20190924025748-f65c72e2690d?package-id=cefb035bd46efc91" type="library">
+      <name>github.com/alecthomas/units</name>
+      <version>v0.0.0-20190924025748-f65c72e2690d</version>
+      <cpe>cpe:2.3:a:alecthomas:units:v0.0.0-20190924025748-f65c72e2690d:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/alecthomas/units@v0.0.0-20190924025748-f65c72e2690d</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:UQZhZ2O0vMHr2cI+DC1Mbh0TJxzA3RcLoMsFw+aXw7E=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/beevik/ntp@v0.3.0?package-id=9547d27f48b46e2f" type="library">
+      <name>github.com/beevik/ntp</name>
+      <version>v0.3.0</version>
+      <cpe>cpe:2.3:a:beevik:ntp:v0.3.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/beevik/ntp@v0.3.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:xzVrPrE4ziasFXgBVBZJDP0Wg/KpMwk2KHJ4Ba8GrDw=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/beorn7/perks@v1.0.1?package-id=255b0eb202244954" type="library">
+      <name>github.com/beorn7/perks</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:beorn7:perks:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/beorn7/perks@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/cespare/xxhash/v2@v2.1.1?package-id=e92fefc7e649adfd" type="library">
+      <name>github.com/cespare/xxhash/v2</name>
+      <version>v2.1.1</version>
+      <cpe>cpe:2.3:a:cespare:xxhash\/v2:v2.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/cespare/xxhash/v2@v2.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:6MnRN8NT7+YBpUIWxHtefFZOKTAPgGjpQSxqLNn0+qY=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/coreos/go-systemd@v0.0.0-20191104093116-d3cd4ed1dbcf?package-id=857787704bd7a557" type="library">
+      <name>github.com/coreos/go-systemd</name>
+      <version>v0.0.0-20191104093116-d3cd4ed1dbcf</version>
+      <cpe>cpe:2.3:a:coreos:go-systemd:v0.0.0-20191104093116-d3cd4ed1dbcf:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/coreos/go-systemd@v0.0.0-20191104093116-d3cd4ed1dbcf</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:coreos:go_systemd:v0.0.0-20191104093116-d3cd4ed1dbcf:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:iW4rZ826su+pqaw19uhpSCzhj44qo35pNgKFGqzDKkU=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/ema/qdisc@v0.0.0-20200603082823-62d0308e3e00?package-id=107cf76c947aadab" type="library">
+      <name>github.com/ema/qdisc</name>
+      <version>v0.0.0-20200603082823-62d0308e3e00</version>
+      <cpe>cpe:2.3:a:ema:qdisc:v0.0.0-20200603082823-62d0308e3e00:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/ema/qdisc@v0.0.0-20200603082823-62d0308e3e00</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:0GHzegkDz/zSrt+Zph1OueNImPdUxoToypnkhhRYTjI=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-kit/log@v0.2.0?package-id=757ad6d94a4f1ed2" type="library">
+      <name>github.com/go-kit/log</name>
+      <version>v0.2.0</version>
+      <cpe>cpe:2.3:a:go-kit:log:v0.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-kit/log@v0.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_kit:log:v0.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:log:v0.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:7i2K3eKTos3Vc0enKCfnVcgHh2olr/MyfboYq7cAcFw=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-logfmt/logfmt@v0.5.1?package-id=1c77834f4f2e1fbe" type="library">
+      <name>github.com/go-logfmt/logfmt</name>
+      <version>v0.5.1</version>
+      <cpe>cpe:2.3:a:go-logfmt:logfmt:v0.5.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-logfmt/logfmt@v0.5.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_logfmt:logfmt:v0.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:logfmt:v0.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:otpy5pqBCBZ1ng9RQ0dPu4PN7ba75Y/aA+UpowDyNVA=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/godbus/dbus@v0.0.0-20190402143921-271e53dc4968?package-id=42a9faf3c627b6a7" type="library">
+      <name>github.com/godbus/dbus</name>
+      <version>v0.0.0-20190402143921-271e53dc4968</version>
+      <cpe>cpe:2.3:a:godbus:dbus:v0.0.0-20190402143921-271e53dc4968:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/godbus/dbus@v0.0.0-20190402143921-271e53dc4968</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:s+PDl6lozQ+dEUtUtQnO7+A2iPG3sK1pI4liU+jxn90=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/golang/protobuf@v1.4.3?package-id=7332cf6360ca28ee" type="library">
+      <name>github.com/golang/protobuf</name>
+      <version>v1.4.3</version>
+      <cpe>cpe:2.3:a:golang:protobuf:v1.4.3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/golang/protobuf@v1.4.3</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:JjCZWpVbqXDqFVmTfYWEVTMIYrL/NPdPSCHPJ0T/raM=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/hashicorp/go-envparse@v0.0.0-20200406174449-d9cfd743a15e?package-id=a25c741efd4c779b" type="library">
+      <name>github.com/hashicorp/go-envparse</name>
+      <version>v0.0.0-20200406174449-d9cfd743a15e</version>
+      <cpe>cpe:2.3:a:hashicorp:go-envparse:v0.0.0-20200406174449-d9cfd743a15e:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/hashicorp/go-envparse@v0.0.0-20200406174449-d9cfd743a15e</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:hashicorp:go_envparse:v0.0.0-20200406174449-d9cfd743a15e:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:v1d9+AJMP6i4p8BSKNU0InuvmIAdZjQLNN19V86AG4Q=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/hodgesds/perf-utils@v0.4.0?package-id=b2f311d5dc545014" type="library">
+      <name>github.com/hodgesds/perf-utils</name>
+      <version>v0.4.0</version>
+      <cpe>cpe:2.3:a:hodgesds:perf-utils:v0.4.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/hodgesds/perf-utils@v0.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:hodgesds:perf_utils:v0.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:onWrAGy6RYr7938qNXtSsTr54K4BLx8Hh3EXAr+xy+U=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/josharian/native@v0.0.0-20200817173448-b6b71def0850?package-id=2a75bb5589c5aa17" type="library">
+      <name>github.com/josharian/native</name>
+      <version>v0.0.0-20200817173448-b6b71def0850</version>
+      <cpe>cpe:2.3:a:josharian:native:v0.0.0-20200817173448-b6b71def0850:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/josharian/native@v0.0.0-20200817173448-b6b71def0850</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:uhL5Gw7BINiiPAo24A2sxkcDI0Jt/sqp1v5xQCniEFA=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/jpillora/backoff@v1.0.0?package-id=35a9d3998865d35c" type="library">
+      <name>github.com/jpillora/backoff</name>
+      <version>v1.0.0</version>
+      <cpe>cpe:2.3:a:jpillora:backoff:v1.0.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/jpillora/backoff@v1.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:uvFg412JmmHBHw7iwprIxkPMI+sGQ4kzOWsMeHnm2EA=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/jsimonetti/rtnetlink@v0.0.0-20211022192332-93da33804786?package-id=9b9e34bbb3eee4ff" type="library">
+      <name>github.com/jsimonetti/rtnetlink</name>
+      <version>v0.0.0-20211022192332-93da33804786</version>
+      <cpe>cpe:2.3:a:jsimonetti:rtnetlink:v0.0.0-20211022192332-93da33804786:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/jsimonetti/rtnetlink@v0.0.0-20211022192332-93da33804786</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:N527AHMa793TP5z5GNAn/VLPzlc0ewzWdeP/25gDfgQ=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/mattn/go-xmlrpc@v0.0.3?package-id=457a10a019ff135c" type="library">
+      <name>github.com/mattn/go-xmlrpc</name>
+      <version>v0.0.3</version>
+      <cpe>cpe:2.3:a:mattn:go-xmlrpc:v0.0.3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/mattn/go-xmlrpc@v0.0.3</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:mattn:go_xmlrpc:v0.0.3:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:Y6WEMLEsqs3RviBrAa1/7qmbGB7DVD3brZIbqMbQdGY=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.1?package-id=f3269f8b96198c4d" type="library">
+      <name>github.com/matttproud/golang_protobuf_extensions</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:matttproud:golang-protobuf-extensions:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:matttproud:golang_protobuf_extensions:v1.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:4hp9jkHxhMHkqkrB3Ix0jegS5sx/RkqARlsWZ6pIwiU=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/mdlayher/genetlink@v1.0.0?package-id=3bd8abe601cc5c4c" type="library">
+      <name>github.com/mdlayher/genetlink</name>
+      <version>v1.0.0</version>
+      <cpe>cpe:2.3:a:mdlayher:genetlink:v1.0.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/mdlayher/genetlink@v1.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:OoHN1OdyEIkScEmRgxLEe2M9U8ClMytqA5niynLtfj0=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/mdlayher/netlink@v1.4.1?package-id=4262778c3f0eabc1" type="library">
+      <name>github.com/mdlayher/netlink</name>
+      <version>v1.4.1</version>
+      <cpe>cpe:2.3:a:mdlayher:netlink:v1.4.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/mdlayher/netlink@v1.4.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:I154BCU+mKlIf7BgcAJB2r7QjveNPty6uNY1g9ChVfI=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/mdlayher/socket@v0.0.0-20210307095302-262dc9984e00?package-id=37bdedc9572ce2f3" type="library">
+      <name>github.com/mdlayher/socket</name>
+      <version>v0.0.0-20210307095302-262dc9984e00</version>
+      <cpe>cpe:2.3:a:mdlayher:socket:v0.0.0-20210307095302-262dc9984e00:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/mdlayher/socket@v0.0.0-20210307095302-262dc9984e00</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:qEtkL8n1DAHpi5/AOgAckwGQUlMe4+jhL/GMt+GKIks=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/mdlayher/wifi@v0.0.0-20200527114002-84f0b9457fdd?package-id=50dac91e11682593" type="library">
+      <name>github.com/mdlayher/wifi</name>
+      <version>v0.0.0-20200527114002-84f0b9457fdd</version>
+      <cpe>cpe:2.3:a:mdlayher:wifi:v0.0.0-20200527114002-84f0b9457fdd:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/mdlayher/wifi@v0.0.0-20200527114002-84f0b9457fdd</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:50p1vPNK43pzCVX10+5MmiOerbBzC1vR6+sLB3FZewE=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/mwitkow/go-conntrack@v0.0.0-20190716064945-2f068394615f?package-id=aae6d64f18bc03ac" type="library">
+      <name>github.com/mwitkow/go-conntrack</name>
+      <version>v0.0.0-20190716064945-2f068394615f</version>
+      <cpe>cpe:2.3:a:mwitkow:go-conntrack:v0.0.0-20190716064945-2f068394615f:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/mwitkow/go-conntrack@v0.0.0-20190716064945-2f068394615f</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:mwitkow:go_conntrack:v0.0.0-20190716064945-2f068394615f:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:KUppIJq7/+SVif2QVs3tOP0zanoHgBEVAwHxUSIzRqU=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/pkg/errors@v0.9.1?package-id=7d7edf7fc32d36e7" type="library">
+      <name>github.com/pkg/errors</name>
+      <version>v0.9.1</version>
+      <cpe>cpe:2.3:a:pkg:errors:v0.9.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/pkg/errors@v0.9.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/client_golang@v1.11.0?package-id=ee58fa8e42ba3fee" type="library">
+      <name>github.com/prometheus/client_golang</name>
+      <version>v1.11.0</version>
+      <cpe>cpe:2.3:a:prometheus:client-golang:v1.11.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/client_golang@v1.11.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:client_golang:v1.11.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:HNkLOAEQMIDv/K+04rukrLx6ch7msSRwf3/SASFAGtQ=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/client_model@v0.2.0?package-id=97817e7e487646d0" type="library">
+      <name>github.com/prometheus/client_model</name>
+      <version>v0.2.0</version>
+      <cpe>cpe:2.3:a:prometheus:client-model:v0.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/client_model@v0.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:client_model:v0.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:uq5h0d+GuxiXLJLNABMgp2qUWDPiLvgCzz2dUR+/W/M=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/common@v0.32.1?package-id=966ceadcf6bcb311" type="library">
+      <name>github.com/prometheus/common</name>
+      <version>v0.32.1</version>
+      <cpe>cpe:2.3:a:prometheus:common:v0.32.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/common@v0.32.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:hWIdL3N2HoUx3B8j3YN9mWor0qhY/NlEKZEaXxuIRh4=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/exporter-toolkit@v0.7.0?package-id=4252e2e9e3359e5d" type="library">
+      <name>github.com/prometheus/exporter-toolkit</name>
+      <version>v0.7.0</version>
+      <cpe>cpe:2.3:a:prometheus:exporter-toolkit:v0.7.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/exporter-toolkit@v0.7.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:exporter_toolkit:v0.7.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:XtYeVeeC5daG4txbc9+mieKq+/AK4gtIBLl9Mulrjnk=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/node_exporter@(devel)?package-id=4203d3de7d9ebaf9" type="library">
+      <name>github.com/prometheus/node_exporter</name>
+      <version>(devel)</version>
+      <cpe>cpe:2.3:a:prometheus:node-exporter:\(devel\):*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/node_exporter@(devel)</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:node_exporter:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/procfs@v0.7.4-0.20211011103944-1a7a2bd3279f?package-id=a917657562ebb47c" type="library">
+      <name>github.com/prometheus/procfs</name>
+      <version>v0.7.4-0.20211011103944-1a7a2bd3279f</version>
+      <cpe>cpe:2.3:a:prometheus:procfs:v0.7.4-0.20211011103944-1a7a2bd3279f:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/procfs@v0.7.4-0.20211011103944-1a7a2bd3279f</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:ncXqc93eJV1Ncr3f6GA3MrIDNkNHvcPonRC2QgZaVkQ=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/safchain/ethtool@v0.1.0?package-id=9de7a4b9350e64ae" type="library">
+      <name>github.com/safchain/ethtool</name>
+      <version>v0.1.0</version>
+      <cpe>cpe:2.3:a:safchain:ethtool:v0.1.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/safchain/ethtool@v0.1.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:SsRnt87qssm3RltLJze6kM+4fs32twq6mZEcBxbDMVg=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/soundcloud/go-runit@v0.0.0-20150630195641-06ad41a06c4a?package-id=757d7ad2d507b5fa" type="library">
+      <name>github.com/soundcloud/go-runit</name>
+      <version>v0.0.0-20150630195641-06ad41a06c4a</version>
+      <cpe>cpe:2.3:a:soundcloud:go-runit:v0.0.0-20150630195641-06ad41a06c4a:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/soundcloud/go-runit@v0.0.0-20150630195641-06ad41a06c4a</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:soundcloud:go_runit:v0.0.0-20150630195641-06ad41a06c4a:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:os5OBNhwOwybXZMNLqT96XqtjdTtwRFw2w08uluvNeI=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/go.uber.org/atomic@v1.7.0?package-id=659b2f0eb1b8b4a7" type="library">
+      <name>go.uber.org/atomic</name>
+      <version>v1.7.0</version>
+      <purl>pkg:golang/go.uber.org/atomic@v1.7.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:ADUqmZGgLDDfbSL9ZmPxKTybcoEYHgpYfELNoN+7hsw=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/go.uber.org/multierr@v1.6.0?package-id=912483bf818a512" type="library">
+      <name>go.uber.org/multierr</name>
+      <version>v1.6.0</version>
+      <purl>pkg:golang/go.uber.org/multierr@v1.6.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:y6IPFStTAIT5Ytl7/XYmHvzXQ7S3g/IeZW9hyZ5thw4=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/crypto@v0.0.0-20210616213533-5ff15b29337e?package-id=f8b0d60f017a085a" type="library">
+      <name>golang.org/x/crypto</name>
+      <version>v0.0.0-20210616213533-5ff15b29337e</version>
+      <cpe>cpe:2.3:a:golang:x\/crypto:v0.0.0-20210616213533-5ff15b29337e:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/crypto@v0.0.0-20210616213533-5ff15b29337e</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:gsTQYXdTw2Gq7RBsWvlQ91b+aEQ6bXFUngBGuR8sPpI=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/net@v0.0.0-20210525063256-abc453219eb5?package-id=c15ac9a17ab03000" type="library">
+      <name>golang.org/x/net</name>
+      <version>v0.0.0-20210525063256-abc453219eb5</version>
+      <cpe>cpe:2.3:a:golang:x\/net:v0.0.0-20210525063256-abc453219eb5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/net@v0.0.0-20210525063256-abc453219eb5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:wjuX4b5yYQnEQHzd+CBcrcC6OVR2J1CN6mUy0oSxIPo=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/oauth2@v0.0.0-20210514164344-f6687ab2804c?package-id=f79b4246064c6185" type="library">
+      <name>golang.org/x/oauth2</name>
+      <version>v0.0.0-20210514164344-f6687ab2804c</version>
+      <cpe>cpe:2.3:a:golang:x\/oauth2:v0.0.0-20210514164344-f6687ab2804c:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/oauth2@v0.0.0-20210514164344-f6687ab2804c</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:pkQiBZBvdos9qq4wBAHqlzuZHEXo07pqV06ef90u1WI=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/sync@v0.0.0-20201207232520-09787c993a3a?package-id=a0ed72aab89eb152" type="library">
+      <name>golang.org/x/sync</name>
+      <version>v0.0.0-20201207232520-09787c993a3a</version>
+      <cpe>cpe:2.3:a:golang:x\/sync:v0.0.0-20201207232520-09787c993a3a:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/sync@v0.0.0-20201207232520-09787c993a3a</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:DcqTD9SDLc+1P/r1EmRBwnVsrOwW+kk2vWf9n+1sGhs=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/sys@v0.0.0-20211117180635-dee7805ff2e1?package-id=2876e0c9e556583e" type="library">
+      <name>golang.org/x/sys</name>
+      <version>v0.0.0-20211117180635-dee7805ff2e1</version>
+      <cpe>cpe:2.3:a:golang:x\/sys:v0.0.0-20211117180635-dee7805ff2e1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/sys@v0.0.0-20211117180635-dee7805ff2e1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:kwrAHlwJ0DUBZwQ238v+Uod/3eZ8B2K5rYsUHBQvzmI=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/text@v0.3.6?package-id=ba69566bfa9bc6f3" type="library">
+      <name>golang.org/x/text</name>
+      <version>v0.3.6</version>
+      <cpe>cpe:2.3:a:golang:x\/text:v0.3.6:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/text@v0.3.6</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:aRYxNxv6iGQlyVaZmk6ZgYEDa+Jg18DxebPSrd6bg1M=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/protobuf@v1.26.0-rc.1?package-id=6000747173435183" type="library">
+      <name>google.golang.org/protobuf</name>
+      <version>v1.26.0-rc.1</version>
+      <cpe>cpe:2.3:a:google:protobuf:v1.26.0-rc.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/protobuf@v1.26.0-rc.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:7QnIQpGRHE5RnLKnESfDoxm2dTapTZua5a0kS0A+VXQ=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/alecthomas/kingpin.v2@v2.2.6?package-id=3a81e771a82296f2" type="library">
+      <name>gopkg.in/alecthomas/kingpin.v2</name>
+      <version>v2.2.6</version>
+      <purl>pkg:golang/gopkg.in/alecthomas/kingpin.v2@v2.2.6</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:jMFz6MfLP0/4fUyZle81rXUoxOBFi19VUFKVDOQfozc=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/yaml.v2@v2.4.0?package-id=c7cd328f3a2e91f6" type="library">
+      <name>gopkg.in/yaml.v2</name>
+      <version>v2.4.0</version>
+      <purl>pkg:golang/gopkg.in/yaml.v2@v2.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5f6d9bc8e23d6f480ba204f5c5fd26aaf9e46eecc9b56d91f400b9a7de97cf2d</property>
+        <property name="syft:location:0:path">/bin/node_exporter</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.3</property>
+        <property name="syft:metadata:h1Digest">h1:D8xgwECY7CYvx+Y2n4sBz93Jn9JRvxdiyyo8CTfuKaY=</property>
+        <property name="syft:metadata:mainModule">github.com/prometheus/node_exporter</property>
+      </properties>
+    </component>
+    <component type="operating-system">
+      <name>busybox</name>
+      <version>1.33.1</version>
+      <description>BusyBox v1.33.1</description>
+      <swid tagId="busybox" name="busybox" version="1.33.1"></swid>
+      <properties>
+        <property name="syft:distro:id">busybox</property>
+        <property name="syft:distro:idLike:0">busybox</property>
+        <property name="syft:distro:prettyName">BusyBox v1.33.1</property>
+        <property name="syft:distro:versionID">1.33.1</property>
+      </properties>
+    </component>
+  </components>
+</bom>
