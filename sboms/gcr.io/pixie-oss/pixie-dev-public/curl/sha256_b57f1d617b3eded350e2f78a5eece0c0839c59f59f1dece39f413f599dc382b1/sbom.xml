@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:aa591538-ac94-472d-955c-d27dff6793dc" version="1">
+  <metadata>
+    <timestamp>2022-10-31T15:55:10Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>anchore</vendor>
+        <name>syft</name>
+        <version>v0.58.0</version>
+      </tool>
+    </tools>
+    <component bom-ref="c3a147c0a977d42e" type="container">
+      <name>/tmp/sha256_b57f1d617b3eded350e2f78a5eece0c0839c59f59f1dece39f413f599dc382b1.tar.gz</name>
+      <version>sha256:05505b45ba4de0eb07bce56dd6a4d597a6d3c559965d08d5d76ca2614096e360</version>
+    </component>
+  </metadata>
+  <components>
+    <component bom-ref="pkg:alpine/alpine-baselayout@3.2.0-r16?arch=x86_64&amp;upstream=alpine-baselayout&amp;distro=alpine-3.14.3&amp;package-id=ed18f2a986e77aab" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>alpine-baselayout</name>
+      <version>3.2.0-r16</version>
+      <description>Alpine base dir structure and init scripts</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:alpine-baselayout:alpine-baselayout:3.2.0-r16:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/alpine-baselayout@3.2.0-r16?arch=x86_64&amp;upstream=alpine-baselayout&amp;distro=alpine-3.14.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://git.alpinelinux.org/cgit/aports/tree/main/alpine-baselayout</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine-baselayout:alpine_baselayout:3.2.0-r16:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine_baselayout:alpine-baselayout:3.2.0-r16:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine_baselayout:alpine_baselayout:3.2.0-r16:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine:alpine-baselayout:3.2.0-r16:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine:alpine_baselayout:3.2.0-r16:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:ae45591adb78abe41c6a2091b230c4d559cc0774c138b61c23bcbe6e4ba2c7da</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">8a8c96a0ea2fcd824c361aa4438763fa33ee8ca0</property>
+        <property name="syft:metadata:installedSize">413696</property>
+        <property name="syft:metadata:originPackage">alpine-baselayout</property>
+        <property name="syft:metadata:pullChecksum">Q1UJtB9cNV4r+/VbxySkEei++qbho=</property>
+        <property name="syft:metadata:pullDependencies">/bin/sh so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">20716</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/alpine-keys@2.4-r0?arch=x86_64&amp;upstream=alpine-keys&amp;distro=alpine-3.14.3&amp;package-id=221b0243981db766" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>alpine-keys</name>
+      <version>2.4-r0</version>
+      <description>Public keys for Alpine Linux packages</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:alpine-keys:alpine-keys:2.4-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/alpine-keys@2.4-r0?arch=x86_64&amp;upstream=alpine-keys&amp;distro=alpine-3.14.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://alpinelinux.org</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine-keys:alpine_keys:2.4-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine_keys:alpine-keys:2.4-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine_keys:alpine_keys:2.4-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine:alpine-keys:2.4-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine:alpine_keys:2.4-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:ae45591adb78abe41c6a2091b230c4d559cc0774c138b61c23bcbe6e4ba2c7da</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">29fef454d1503e98d1ba5c928d539a4d5c988d13</property>
+        <property name="syft:metadata:installedSize">159744</property>
+        <property name="syft:metadata:originPackage">alpine-keys</property>
+        <property name="syft:metadata:pullChecksum">Q1WrbOrvWIwuQgSQypNNmmmF0srUw=</property>
+        <property name="syft:metadata:size">13096</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/apk-tools@2.12.7-r0?arch=x86_64&amp;upstream=apk-tools&amp;distro=alpine-3.14.3&amp;package-id=9ccd9ae0ec561b1b" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>apk-tools</name>
+      <version>2.12.7-r0</version>
+      <description>Alpine Package Keeper - package manager for alpine</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:apk-tools:apk-tools:2.12.7-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/apk-tools@2.12.7-r0?arch=x86_64&amp;upstream=apk-tools&amp;distro=alpine-3.14.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://gitlab.alpinelinux.org/alpine/apk-tools</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:apk-tools:apk_tools:2.12.7-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apk_tools:apk-tools:2.12.7-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apk_tools:apk_tools:2.12.7-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apk:apk-tools:2.12.7-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apk:apk_tools:2.12.7-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:ae45591adb78abe41c6a2091b230c4d559cc0774c138b61c23bcbe6e4ba2c7da</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">03c6b1b0ec20f417cee0f3c1d56795b27871b1c5</property>
+        <property name="syft:metadata:installedSize">311296</property>
+        <property name="syft:metadata:originPackage">apk-tools</property>
+        <property name="syft:metadata:pullChecksum">Q1VnSoy5XasRtvFODOZ9P0pZG4Hxs=</property>
+        <property name="syft:metadata:pullDependencies">musl&gt;=1.2 so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1 so:libssl.so.1.1 so:libz.so.1</property>
+        <property name="syft:metadata:size">119979</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/brotli-libs@1.0.9-r5?arch=x86_64&amp;upstream=brotli&amp;distro=alpine-3.14.3&amp;package-id=f4245ec4ca6b0f70" type="library">
+      <publisher>prspkt &lt;prspkt@protonmail.com&gt;</publisher>
+      <name>brotli-libs</name>
+      <version>1.0.9-r5</version>
+      <description>Generic lossless compressor (libraries)</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:brotli-libs:brotli-libs:1.0.9-r5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/brotli-libs@1.0.9-r5?arch=x86_64&amp;upstream=brotli&amp;distro=alpine-3.14.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://github.com/google/brotli</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:brotli-libs:brotli_libs:1.0.9-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:brotli_libs:brotli-libs:1.0.9-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:brotli_libs:brotli_libs:1.0.9-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:brotli:brotli-libs:1.0.9-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:brotli:brotli_libs:1.0.9-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:ae45591adb78abe41c6a2091b230c4d559cc0774c138b61c23bcbe6e4ba2c7da</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">0d9c3ba888a9b9dac1591e70b1ac19dab6b19df4</property>
+        <property name="syft:metadata:installedSize">737280</property>
+        <property name="syft:metadata:originPackage">brotli</property>
+        <property name="syft:metadata:pullChecksum">Q1r/hbUGL60pytm7T+JDV9kzGrvc8=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">319278</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/busybox@1.33.1-r6?arch=x86_64&amp;upstream=busybox&amp;distro=alpine-3.14.3&amp;package-id=2e6ff2f476650c74" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>busybox</name>
+      <version>1.33.1-r6</version>
+      <description>Size optimized toolbox of many common UNIX utilities</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:busybox:busybox:1.33.1-r6:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/busybox@1.33.1-r6?arch=x86_64&amp;upstream=busybox&amp;distro=alpine-3.14.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://busybox.net/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:ae45591adb78abe41c6a2091b230c4d559cc0774c138b61c23bcbe6e4ba2c7da</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">b08c19fd29b302ab411d43e52855cec047fd3803</property>
+        <property name="syft:metadata:installedSize">950272</property>
+        <property name="syft:metadata:originPackage">busybox</property>
+        <property name="syft:metadata:pullChecksum">Q1dgtiXUOjvBmrjmjNI1P/d9kQxBw=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">499566</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/ca-certificates@20191127-r5?arch=x86_64&amp;upstream=ca-certificates&amp;distro=alpine-3.14.3&amp;package-id=8c989717a8ace926" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>ca-certificates</name>
+      <version>20191127-r5</version>
+      <description>Common CA certificates PEM files from Mozilla</description>
+      <licenses>
+        <license>
+          <id>MPL-2.0</id>
+        </license>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:ca-certificates:ca-certificates:20191127-r5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/ca-certificates@20191127-r5?arch=x86_64&amp;upstream=ca-certificates&amp;distro=alpine-3.14.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca-certificates:ca_certificates:20191127-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates:ca-certificates:20191127-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates:ca_certificates:20191127-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca:ca-certificates:20191127-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca:ca_certificates:20191127-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:ae45591adb78abe41c6a2091b230c4d559cc0774c138b61c23bcbe6e4ba2c7da</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">51999ab9304ec11c68c4ea9e99350ac7570e7f21</property>
+        <property name="syft:metadata:installedSize">688128</property>
+        <property name="syft:metadata:originPackage">ca-certificates</property>
+        <property name="syft:metadata:pullChecksum">Q1+3SNr5R52GfBxkXj9gkEr6QAWZw=</property>
+        <property name="syft:metadata:pullDependencies">/bin/sh so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1</property>
+        <property name="syft:metadata:size">155106</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/ca-certificates-bundle@20191127-r5?arch=x86_64&amp;upstream=ca-certificates&amp;distro=alpine-3.14.3&amp;package-id=19c1efdb3a7e8f3a" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>ca-certificates-bundle</name>
+      <version>20191127-r5</version>
+      <description>Pre generated bundle of Mozilla certificates</description>
+      <licenses>
+        <license>
+          <id>MPL-2.0</id>
+        </license>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:ca-certificates-bundle:ca-certificates-bundle:20191127-r5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/ca-certificates-bundle@20191127-r5?arch=x86_64&amp;upstream=ca-certificates&amp;distro=alpine-3.14.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca-certificates-bundle:ca_certificates_bundle:20191127-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates_bundle:ca-certificates-bundle:20191127-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates_bundle:ca_certificates_bundle:20191127-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca-certificates:ca-certificates-bundle:20191127-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca-certificates:ca_certificates_bundle:20191127-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates:ca-certificates-bundle:20191127-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates:ca_certificates_bundle:20191127-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca:ca-certificates-bundle:20191127-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca:ca_certificates_bundle:20191127-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:ae45591adb78abe41c6a2091b230c4d559cc0774c138b61c23bcbe6e4ba2c7da</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">51999ab9304ec11c68c4ea9e99350ac7570e7f21</property>
+        <property name="syft:metadata:installedSize">233472</property>
+        <property name="syft:metadata:originPackage">ca-certificates</property>
+        <property name="syft:metadata:pullChecksum">Q1bQ4InxwFIUUNl11tjOwqrqAeAIA=</property>
+        <property name="syft:metadata:size">124473</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/curl@7.79.1-r0?arch=x86_64&amp;upstream=curl&amp;distro=alpine-3.14.3&amp;package-id=4b21b95d1cd6c178" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>curl</name>
+      <version>7.79.1-r0</version>
+      <description>URL retrival utility and library</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:curl:curl:7.79.1-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/curl@7.79.1-r0?arch=x86_64&amp;upstream=curl&amp;distro=alpine-3.14.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://curl.se/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:ae45591adb78abe41c6a2091b230c4d559cc0774c138b61c23bcbe6e4ba2c7da</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">922bf2dee7d4ca2e87e8f64b12312359e197c933</property>
+        <property name="syft:metadata:installedSize">253952</property>
+        <property name="syft:metadata:originPackage">curl</property>
+        <property name="syft:metadata:pullChecksum">Q1avlSRGgCYFfQTu0eNCg3WqqjY3c=</property>
+        <property name="syft:metadata:pullDependencies">ca-certificates so:libc.musl-x86_64.so.1 so:libcurl.so.4 so:libz.so.1</property>
+        <property name="syft:metadata:size">132447</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libc-utils@0.7.2-r3?arch=x86_64&amp;upstream=libc-dev&amp;distro=alpine-3.14.3&amp;package-id=b5e6c6f96461e57e" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>libc-utils</name>
+      <version>0.7.2-r3</version>
+      <description>Meta package to pull in correct libc</description>
+      <licenses>
+        <license>
+          <id>BSD-2-Clause</id>
+        </license>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libc-utils:libc-utils:0.7.2-r3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libc-utils@0.7.2-r3?arch=x86_64&amp;upstream=libc-dev&amp;distro=alpine-3.14.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://alpinelinux.org</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc-utils:libc_utils:0.7.2-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc_utils:libc-utils:0.7.2-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc_utils:libc_utils:0.7.2-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc:libc-utils:0.7.2-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc:libc_utils:0.7.2-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:ae45591adb78abe41c6a2091b230c4d559cc0774c138b61c23bcbe6e4ba2c7da</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">60424133be2e79bbfeff3d58147a22886f817ce2</property>
+        <property name="syft:metadata:installedSize">4096</property>
+        <property name="syft:metadata:originPackage">libc-dev</property>
+        <property name="syft:metadata:pullChecksum">Q1UsLZaz0/Go44hd4Vw49UCt40Vp8=</property>
+        <property name="syft:metadata:pullDependencies">musl-utils</property>
+        <property name="syft:metadata:size">1228</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libcrypto1.1@1.1.1l-r0?arch=x86_64&amp;upstream=openssl&amp;distro=alpine-3.14.3&amp;package-id=6ea7d2ae6d0a393e" type="library">
+      <publisher>Timo Teras &lt;timo.teras@iki.fi&gt;</publisher>
+      <name>libcrypto1.1</name>
+      <version>1.1.1l-r0</version>
+      <description>Crypto library from openssl</description>
+      <licenses>
+        <license>
+          <id>OpenSSL</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libcrypto1.1:libcrypto1.1:1.1.1l-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libcrypto1.1@1.1.1l-r0?arch=x86_64&amp;upstream=openssl&amp;distro=alpine-3.14.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.openssl.org/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:ae45591adb78abe41c6a2091b230c4d559cc0774c138b61c23bcbe6e4ba2c7da</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">3ef1965150d5b1de4af88dc51cf407e11b20b848</property>
+        <property name="syft:metadata:installedSize">2768896</property>
+        <property name="syft:metadata:originPackage">openssl</property>
+        <property name="syft:metadata:pullChecksum">Q1Sywj1TEYEdvX0+MuqC+ea+zXxR0=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">1211998</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libcurl@7.79.1-r0?arch=x86_64&amp;upstream=curl&amp;distro=alpine-3.14.3&amp;package-id=16e06b4de9342e61" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>libcurl</name>
+      <version>7.79.1-r0</version>
+      <description>The multiprotocol file transfer library</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libcurl:libcurl:7.79.1-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libcurl@7.79.1-r0?arch=x86_64&amp;upstream=curl&amp;distro=alpine-3.14.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://curl.se/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:ae45591adb78abe41c6a2091b230c4d559cc0774c138b61c23bcbe6e4ba2c7da</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">922bf2dee7d4ca2e87e8f64b12312359e197c933</property>
+        <property name="syft:metadata:installedSize">512000</property>
+        <property name="syft:metadata:originPackage">curl</property>
+        <property name="syft:metadata:pullChecksum">Q1dWkUDf7dLXGaAW1svNnMWE/aSd8=</property>
+        <property name="syft:metadata:pullDependencies">ca-certificates so:libbrotlidec.so.1 so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1 so:libnghttp2.so.14 so:libssl.so.1.1 so:libz.so.1</property>
+        <property name="syft:metadata:size">236308</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libretls@3.3.3p1-r2?arch=x86_64&amp;upstream=libretls&amp;distro=alpine-3.14.3&amp;package-id=c9a930478ea2d899" type="library">
+      <publisher>Ariadne Conill &lt;ariadne@dereferenced.org&gt;</publisher>
+      <name>libretls</name>
+      <version>3.3.3p1-r2</version>
+      <description>port of libtls from libressl to openssl</description>
+      <licenses>
+        <license>
+          <id>ISC</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libretls:libretls:3.3.3p1-r2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libretls@3.3.3p1-r2?arch=x86_64&amp;upstream=libretls&amp;distro=alpine-3.14.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://git.causal.agency/libretls/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:ae45591adb78abe41c6a2091b230c4d559cc0774c138b61c23bcbe6e4ba2c7da</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">161d02ee8c48f3c3cae1d2b4b5d008fa318da0e1</property>
+        <property name="syft:metadata:installedSize">86016</property>
+        <property name="syft:metadata:originPackage">libretls</property>
+        <property name="syft:metadata:pullChecksum">Q1mKL75PNQ3352oQUtXLS8GfI+37M=</property>
+        <property name="syft:metadata:pullDependencies">ca-certificates-bundle so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1 so:libssl.so.1.1</property>
+        <property name="syft:metadata:size">28872</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libssl1.1@1.1.1l-r0?arch=x86_64&amp;upstream=openssl&amp;distro=alpine-3.14.3&amp;package-id=42d44d38bc0f8feb" type="library">
+      <publisher>Timo Teras &lt;timo.teras@iki.fi&gt;</publisher>
+      <name>libssl1.1</name>
+      <version>1.1.1l-r0</version>
+      <description>SSL shared libraries</description>
+      <licenses>
+        <license>
+          <id>OpenSSL</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libssl1.1:libssl1.1:1.1.1l-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libssl1.1@1.1.1l-r0?arch=x86_64&amp;upstream=openssl&amp;distro=alpine-3.14.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.openssl.org/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:ae45591adb78abe41c6a2091b230c4d559cc0774c138b61c23bcbe6e4ba2c7da</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">3ef1965150d5b1de4af88dc51cf407e11b20b848</property>
+        <property name="syft:metadata:installedSize">540672</property>
+        <property name="syft:metadata:originPackage">openssl</property>
+        <property name="syft:metadata:pullChecksum">Q1Fgsc0DiapwjaJHbihB9ZrLQhr7Q=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1</property>
+        <property name="syft:metadata:size">212918</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/musl@1.2.2-r3?arch=x86_64&amp;upstream=musl&amp;distro=alpine-3.14.3&amp;package-id=304c2239a7d1d6b7" type="library">
+      <publisher>Timo Teräs &lt;timo.teras@iki.fi&gt;</publisher>
+      <name>musl</name>
+      <version>1.2.2-r3</version>
+      <description>the musl c library (libc) implementation</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:musl:musl:1.2.2-r3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/musl@1.2.2-r3?arch=x86_64&amp;upstream=musl&amp;distro=alpine-3.14.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://musl.libc.org/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:ae45591adb78abe41c6a2091b230c4d559cc0774c138b61c23bcbe6e4ba2c7da</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">1e9cba35059e3bb4635f12ee7e10dfe687df31ad</property>
+        <property name="syft:metadata:installedSize">622592</property>
+        <property name="syft:metadata:originPackage">musl</property>
+        <property name="syft:metadata:pullChecksum">Q1n4yypJ4tpU5g+jxI7oHT0Bm4Xjo=</property>
+        <property name="syft:metadata:size">382765</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/musl-utils@1.2.2-r3?arch=x86_64&amp;upstream=musl&amp;distro=alpine-3.14.3&amp;package-id=4925c680bf6bc138" type="library">
+      <publisher>Timo Teräs &lt;timo.teras@iki.fi&gt;</publisher>
+      <name>musl-utils</name>
+      <version>1.2.2-r3</version>
+      <description>the musl c library (libc) implementation</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:musl-utils:musl-utils:1.2.2-r3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/musl-utils@1.2.2-r3?arch=x86_64&amp;upstream=musl&amp;distro=alpine-3.14.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://musl.libc.org/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:musl-utils:musl_utils:1.2.2-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:musl_utils:musl-utils:1.2.2-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:musl_utils:musl_utils:1.2.2-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:musl:musl-utils:1.2.2-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:musl:musl_utils:1.2.2-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:ae45591adb78abe41c6a2091b230c4d559cc0774c138b61c23bcbe6e4ba2c7da</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">1e9cba35059e3bb4635f12ee7e10dfe687df31ad</property>
+        <property name="syft:metadata:installedSize">147456</property>
+        <property name="syft:metadata:originPackage">musl</property>
+        <property name="syft:metadata:pullChecksum">Q1WNvvoHVxRySUmjgvqQie71lLRd8=</property>
+        <property name="syft:metadata:pullDependencies">scanelf so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">36662</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/nghttp2-libs@1.43.0-r0?arch=x86_64&amp;upstream=nghttp2&amp;distro=alpine-3.14.3&amp;package-id=8438191542da7830" type="library">
+      <publisher>Francesco Colista &lt;fcolista@alpinelinux.org&gt;</publisher>
+      <name>nghttp2-libs</name>
+      <version>1.43.0-r0</version>
+      <description>Experimental HTTP/2 client, server and proxy (libraries)</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:nghttp2-libs:nghttp2-libs:1.43.0-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/nghttp2-libs@1.43.0-r0?arch=x86_64&amp;upstream=nghttp2&amp;distro=alpine-3.14.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://nghttp2.org</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:nghttp2-libs:nghttp2_libs:1.43.0-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:nghttp2_libs:nghttp2-libs:1.43.0-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:nghttp2_libs:nghttp2_libs:1.43.0-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:nghttp2:nghttp2-libs:1.43.0-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:nghttp2:nghttp2_libs:1.43.0-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:ae45591adb78abe41c6a2091b230c4d559cc0774c138b61c23bcbe6e4ba2c7da</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">ecd7f7f66ea746074bfd000480a90e667c6b3e22</property>
+        <property name="syft:metadata:installedSize">172032</property>
+        <property name="syft:metadata:originPackage">nghttp2</property>
+        <property name="syft:metadata:pullChecksum">Q17RwTmVcuzwF/2lqyip859L0jOg0=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">69951</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/scanelf@1.3.2-r0?arch=x86_64&amp;upstream=pax-utils&amp;distro=alpine-3.14.3&amp;package-id=843de7b28c17c5d7" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>scanelf</name>
+      <version>1.3.2-r0</version>
+      <description>Scan ELF binaries for stuff</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:scanelf:scanelf:1.3.2-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/scanelf@1.3.2-r0?arch=x86_64&amp;upstream=pax-utils&amp;distro=alpine-3.14.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:ae45591adb78abe41c6a2091b230c4d559cc0774c138b61c23bcbe6e4ba2c7da</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">4c7f72840f5052bc63af1796c3ad0021f97949f2</property>
+        <property name="syft:metadata:installedSize">94208</property>
+        <property name="syft:metadata:originPackage">pax-utils</property>
+        <property name="syft:metadata:pullChecksum">Q1OWKo0fmUbClrhW0CPNjwA8AMLWo=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">36511</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/ssl_client@1.33.1-r6?arch=x86_64&amp;upstream=busybox&amp;distro=alpine-3.14.3&amp;package-id=6ba28b4e9b4af8db" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>ssl_client</name>
+      <version>1.33.1-r6</version>
+      <description>EXternal ssl_client for busybox wget</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:ssl-client:ssl-client:1.33.1-r6:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/ssl_client@1.33.1-r6?arch=x86_64&amp;upstream=busybox&amp;distro=alpine-3.14.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://busybox.net/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:ssl-client:ssl_client:1.33.1-r6:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ssl_client:ssl-client:1.33.1-r6:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ssl_client:ssl_client:1.33.1-r6:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ssl:ssl-client:1.33.1-r6:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ssl:ssl_client:1.33.1-r6:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:ae45591adb78abe41c6a2091b230c4d559cc0774c138b61c23bcbe6e4ba2c7da</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">b08c19fd29b302ab411d43e52855cec047fd3803</property>
+        <property name="syft:metadata:installedSize">28672</property>
+        <property name="syft:metadata:originPackage">busybox</property>
+        <property name="syft:metadata:pullChecksum">Q1/SQVtc2JBIZBAN4fAVbG1AyqZT4=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1 so:libtls.so.2</property>
+        <property name="syft:metadata:size">4388</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/zlib@1.2.11-r3?arch=x86_64&amp;upstream=zlib&amp;distro=alpine-3.14.3&amp;package-id=771dacfc945d5a95" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>zlib</name>
+      <version>1.2.11-r3</version>
+      <description>A compression/decompression Library</description>
+      <licenses>
+        <license>
+          <id>Zlib</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:zlib:zlib:1.2.11-r3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/zlib@1.2.11-r3?arch=x86_64&amp;upstream=zlib&amp;distro=alpine-3.14.3</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://zlib.net/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:ae45591adb78abe41c6a2091b230c4d559cc0774c138b61c23bcbe6e4ba2c7da</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">388a4fb3640f8ccbd18e105df3ad741dca4247e1</property>
+        <property name="syft:metadata:installedSize">110592</property>
+        <property name="syft:metadata:originPackage">zlib</property>
+        <property name="syft:metadata:pullChecksum">Q1Sc/5gG4ey/zvnyPPQ/Au7bXqc08=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">51398</property>
+      </properties>
+    </component>
+    <component type="operating-system">
+      <name>alpine</name>
+      <version>3.14.3</version>
+      <description>Alpine Linux v3.14</description>
+      <swid tagId="alpine" name="alpine" version="3.14.3"></swid>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://bugs.alpinelinux.org/</url>
+        </reference>
+        <reference type="website">
+          <url>https://alpinelinux.org/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:distro:id">alpine</property>
+        <property name="syft:distro:prettyName">Alpine Linux v3.14</property>
+        <property name="syft:distro:versionID">3.14.3</property>
+      </properties>
+    </component>
+  </components>
+</bom>
