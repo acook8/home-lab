@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:9e7bc552-1c09-41e8-9314-5b557421a12f" version="1">
+  <metadata>
+    <timestamp>2022-10-31T15:56:56Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>anchore</vendor>
+        <name>syft</name>
+        <version>v0.58.0</version>
+      </tool>
+    </tools>
+    <component bom-ref="bada66ce7f127538" type="container">
+      <name>/tmp/sha256_9d331736392af853da7a82ee00b7358008d47488bf383563d5910753018a1164.tar.gz</name>
+      <version>sha256:d2b7070fa432fa9629b7c2098cde9efd1bdf300c6230d0fbe144390a1b392a81</version>
+    </component>
+  </metadata>
+  <components>
+    <component bom-ref="pkg:deb/debian/base-files@9.9+deb9u13?arch=amd64&amp;distro=debian-9&amp;package-id=c48fd807290c256d" type="library">
+      <publisher>Santiago Vila &lt;sanvila@debian.org&gt;</publisher>
+      <name>base-files</name>
+      <version>9.9+deb9u13</version>
+      <cpe>cpe:2.3:a:base-files:base-files:9.9\+deb9u13:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:deb/debian/base-files@9.9+deb9u13?arch=amd64&amp;distro=debian-9</purl>
+      <properties>
+        <property name="syft:package:foundBy">dpkgdb-cataloger</property>
+        <property name="syft:package:metadataType">DpkgMetadata</property>
+        <property name="syft:package:type">deb</property>
+        <property name="syft:cpe23">cpe:2.3:a:base-files:base_files:9.9\+deb9u13:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:base_files:base-files:9.9\+deb9u13:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:base_files:base_files:9.9\+deb9u13:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:base:base-files:9.9\+deb9u13:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:base:base_files:9.9\+deb9u13:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:728501c5607d0e0cc38b1484e7727b937ccf5a9b03df9cca3c8392471e61eb9e</property>
+        <property name="syft:location:0:path">/usr/share/doc/base-files/copyright</property>
+        <property name="syft:location:1:layerID">sha256:728501c5607d0e0cc38b1484e7727b937ccf5a9b03df9cca3c8392471e61eb9e</property>
+        <property name="syft:location:1:path">/var/lib/dpkg/status.d/base</property>
+        <property name="syft:metadata:installedSize">333</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:deb/debian/libc6@2.24-11+deb9u4?arch=amd64&amp;upstream=glibc&amp;distro=debian-9&amp;package-id=a6afa69cee3af8e7" type="library">
+      <publisher>GNU Libc Maintainers &lt;debian-glibc@lists.debian.org&gt;</publisher>
+      <name>libc6</name>
+      <version>2.24-11+deb9u4</version>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+        <license>
+          <id>LGPL-2.1-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libc6:libc6:2.24-11\+deb9u4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:deb/debian/libc6@2.24-11+deb9u4?arch=amd64&amp;upstream=glibc&amp;distro=debian-9</purl>
+      <properties>
+        <property name="syft:package:foundBy">dpkgdb-cataloger</property>
+        <property name="syft:package:metadataType">DpkgMetadata</property>
+        <property name="syft:package:type">deb</property>
+        <property name="syft:location:0:layerID">sha256:e2db5f1bf240f4ae526cc7118a4d386bc7215d80f30434588390aa063a03959b</property>
+        <property name="syft:location:0:path">/usr/share/doc/libc6/copyright</property>
+        <property name="syft:location:1:layerID">sha256:e2db5f1bf240f4ae526cc7118a4d386bc7215d80f30434588390aa063a03959b</property>
+        <property name="syft:location:1:path">/var/lib/dpkg/status.d/libc6</property>
+        <property name="syft:metadata:installedSize">10686</property>
+        <property name="syft:metadata:source">glibc</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:deb/debian/libssl1.1@1.1.0l-1~deb9u2?arch=amd64&amp;upstream=openssl&amp;distro=debian-9&amp;package-id=aa6ce668251e1927" type="library">
+      <publisher>Debian OpenSSL Team &lt;pkg-openssl-devel@lists.alioth.debian.org&gt;</publisher>
+      <name>libssl1.1</name>
+      <version>1.1.0l-1~deb9u2</version>
+      <cpe>cpe:2.3:a:libssl1.1:libssl1.1:1.1.0l-1\~deb9u2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:deb/debian/libssl1.1@1.1.0l-1~deb9u2?arch=amd64&amp;upstream=openssl&amp;distro=debian-9</purl>
+      <properties>
+        <property name="syft:package:foundBy">dpkgdb-cataloger</property>
+        <property name="syft:package:metadataType">DpkgMetadata</property>
+        <property name="syft:package:type">deb</property>
+        <property name="syft:location:0:layerID">sha256:e2db5f1bf240f4ae526cc7118a4d386bc7215d80f30434588390aa063a03959b</property>
+        <property name="syft:location:0:path">/usr/share/doc/libssl1.1/copyright</property>
+        <property name="syft:location:1:layerID">sha256:e2db5f1bf240f4ae526cc7118a4d386bc7215d80f30434588390aa063a03959b</property>
+        <property name="syft:location:1:path">/var/lib/dpkg/status.d/libssl1</property>
+        <property name="syft:metadata:installedSize">3561</property>
+        <property name="syft:metadata:source">openssl</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:deb/debian/netbase@5.4?arch=all&amp;distro=debian-9&amp;package-id=f251c3f02e01d42" type="library">
+      <publisher>Marco d&#39;Itri &lt;md@linux.it&gt;</publisher>
+      <name>netbase</name>
+      <version>5.4</version>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:netbase:netbase:5.4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:deb/debian/netbase@5.4?arch=all&amp;distro=debian-9</purl>
+      <properties>
+        <property name="syft:package:foundBy">dpkgdb-cataloger</property>
+        <property name="syft:package:metadataType">DpkgMetadata</property>
+        <property name="syft:package:type">deb</property>
+        <property name="syft:location:0:layerID">sha256:728501c5607d0e0cc38b1484e7727b937ccf5a9b03df9cca3c8392471e61eb9e</property>
+        <property name="syft:location:0:path">/usr/share/doc/netbase/copyright</property>
+        <property name="syft:location:1:layerID">sha256:728501c5607d0e0cc38b1484e7727b937ccf5a9b03df9cca3c8392471e61eb9e</property>
+        <property name="syft:location:1:path">/var/lib/dpkg/status.d/netbase</property>
+        <property name="syft:metadata:installedSize">44</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:deb/debian/openssl@1.1.0l-1~deb9u2?arch=amd64&amp;distro=debian-9&amp;package-id=317b08bd3422ebd8" type="library">
+      <publisher>Debian OpenSSL Team &lt;pkg-openssl-devel@lists.alioth.debian.org&gt;</publisher>
+      <name>openssl</name>
+      <version>1.1.0l-1~deb9u2</version>
+      <cpe>cpe:2.3:a:openssl:openssl:1.1.0l-1\~deb9u2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:deb/debian/openssl@1.1.0l-1~deb9u2?arch=amd64&amp;distro=debian-9</purl>
+      <properties>
+        <property name="syft:package:foundBy">dpkgdb-cataloger</property>
+        <property name="syft:package:metadataType">DpkgMetadata</property>
+        <property name="syft:package:type">deb</property>
+        <property name="syft:location:0:layerID">sha256:e2db5f1bf240f4ae526cc7118a4d386bc7215d80f30434588390aa063a03959b</property>
+        <property name="syft:location:0:path">/usr/share/doc/openssl/copyright</property>
+        <property name="syft:location:1:layerID">sha256:e2db5f1bf240f4ae526cc7118a4d386bc7215d80f30434588390aa063a03959b</property>
+        <property name="syft:location:1:path">/var/lib/dpkg/status.d/openssl</property>
+        <property name="syft:metadata:installedSize">1315</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:deb/debian/tzdata@2020e-0+deb9u1?arch=all&amp;distro=debian-9&amp;package-id=67b7302e2397b627" type="library">
+      <publisher>GNU Libc Maintainers &lt;debian-glibc@lists.debian.org&gt;</publisher>
+      <name>tzdata</name>
+      <version>2020e-0+deb9u1</version>
+      <cpe>cpe:2.3:a:tzdata:tzdata:2020e-0\+deb9u1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:deb/debian/tzdata@2020e-0+deb9u1?arch=all&amp;distro=debian-9</purl>
+      <properties>
+        <property name="syft:package:foundBy">dpkgdb-cataloger</property>
+        <property name="syft:package:metadataType">DpkgMetadata</property>
+        <property name="syft:package:type">deb</property>
+        <property name="syft:location:0:layerID">sha256:728501c5607d0e0cc38b1484e7727b937ccf5a9b03df9cca3c8392471e61eb9e</property>
+        <property name="syft:location:0:path">/usr/share/doc/tzdata/copyright</property>
+        <property name="syft:location:1:layerID">sha256:728501c5607d0e0cc38b1484e7727b937ccf5a9b03df9cca3c8392471e61eb9e</property>
+        <property name="syft:location:1:path">/var/lib/dpkg/status.d/tzdata</property>
+        <property name="syft:metadata:installedSize">3036</property>
+      </properties>
+    </component>
+    <component type="operating-system">
+      <name>debian</name>
+      <version>9</version>
+      <description>Distroless</description>
+      <swid tagId="debian" name="debian" version="9"></swid>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/GoogleContainerTools/distroless/issues/new</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/GoogleContainerTools/distroless</url>
+        </reference>
+        <reference type="other">
+          <url>https://github.com/GoogleContainerTools/distroless/blob/master/README.md</url>
+          <comment>support</comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:distro:id">debian</property>
+        <property name="syft:distro:prettyName">Distroless</property>
+        <property name="syft:distro:versionID">9</property>
+      </properties>
+    </component>
+  </components>
+</bom>
