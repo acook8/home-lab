@@ -1,0 +1,1158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:4beb2b6c-135b-475b-92ab-952417e831f2" version="1">
+  <metadata>
+    <timestamp>2022-10-31T15:57:00Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>anchore</vendor>
+        <name>syft</name>
+        <version>v0.58.0</version>
+      </tool>
+    </tools>
+    <component bom-ref="40631d8632f5dda6" type="container">
+      <name>/tmp/sha256_c0c6f8655f9c855bc6e10c9a9975413d253b91063e91732021f07eca140797eb.tar.gz</name>
+      <version>sha256:72758ef82c78ff7ecb10a356daaa5b93bbf4cd07048166a4cffac55fcac3d321</version>
+    </component>
+  </metadata>
+  <components>
+    <component bom-ref="pkg:alpine/alpine-baselayout@3.2.0-r3?arch=x86_64&amp;upstream=alpine-baselayout&amp;distro=alpine-3.11.5&amp;package-id=edbdc71c217140cd" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>alpine-baselayout</name>
+      <version>3.2.0-r3</version>
+      <description>Alpine base dir structure and init scripts</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:alpine-baselayout:alpine-baselayout:3.2.0-r3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/alpine-baselayout@3.2.0-r3?arch=x86_64&amp;upstream=alpine-baselayout&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://git.alpinelinux.org/cgit/aports/tree/main/alpine-baselayout</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine-baselayout:alpine_baselayout:3.2.0-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine_baselayout:alpine-baselayout:3.2.0-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine_baselayout:alpine_baselayout:3.2.0-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine:alpine-baselayout:3.2.0-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine:alpine_baselayout:3.2.0-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:beee9f30bc1f711043e78d4a2be0668955d4b761d587d6f60c2c8dc081efb203</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">55464083de768e34737154e10544bb0be12bcf04</property>
+        <property name="syft:metadata:installedSize">413696</property>
+        <property name="syft:metadata:originPackage">alpine-baselayout</property>
+        <property name="syft:metadata:pullChecksum">Q1jzc/WzKcOq8TbrMMY6OHZh7g89A=</property>
+        <property name="syft:metadata:pullDependencies">/bin/sh so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">26599</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/alpine-keys@2.1-r2?arch=x86_64&amp;upstream=alpine-keys&amp;distro=alpine-3.11.5&amp;package-id=212b435cb0ef638f" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>alpine-keys</name>
+      <version>2.1-r2</version>
+      <description>Public keys for Alpine Linux packages</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:alpine-keys:alpine-keys:2.1-r2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/alpine-keys@2.1-r2?arch=x86_64&amp;upstream=alpine-keys&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://alpinelinux.org</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine-keys:alpine_keys:2.1-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine_keys:alpine-keys:2.1-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine_keys:alpine_keys:2.1-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine:alpine-keys:2.1-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine:alpine_keys:2.1-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:beee9f30bc1f711043e78d4a2be0668955d4b761d587d6f60c2c8dc081efb203</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">bdc861e495d33e961b7b9884324bea64a16d2b91</property>
+        <property name="syft:metadata:installedSize">98304</property>
+        <property name="syft:metadata:originPackage">alpine-keys</property>
+        <property name="syft:metadata:pullChecksum">Q1ZJKfhbf4tK27Zk2QVBAxKTa3nZs=</property>
+        <property name="syft:metadata:size">5020</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/apk-tools@2.10.4-r3?arch=x86_64&amp;upstream=apk-tools&amp;distro=alpine-3.11.5&amp;package-id=7d50021a2cd37fa6" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>apk-tools</name>
+      <version>2.10.4-r3</version>
+      <description>Alpine Package Keeper - package manager for alpine</description>
+      <cpe>cpe:2.3:a:apk-tools:apk-tools:2.10.4-r3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/apk-tools@2.10.4-r3?arch=x86_64&amp;upstream=apk-tools&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://git.alpinelinux.org/cgit/apk-tools/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:apk-tools:apk_tools:2.10.4-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apk_tools:apk-tools:2.10.4-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apk_tools:apk_tools:2.10.4-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apk:apk-tools:2.10.4-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apk:apk_tools:2.10.4-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:beee9f30bc1f711043e78d4a2be0668955d4b761d587d6f60c2c8dc081efb203</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">72048e01f0eef23b1300eb4c7d8eb2afb601f156</property>
+        <property name="syft:metadata:installedSize">262144</property>
+        <property name="syft:metadata:originPackage">apk-tools</property>
+        <property name="syft:metadata:pullChecksum">Q1sVrQyQ5Ek9/clI1rkKjgINqJNu8=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1 so:libssl.so.1.1 so:libz.so.1</property>
+        <property name="syft:metadata:size">103084</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/busybox@1.31.1-r9?arch=x86_64&amp;upstream=busybox&amp;distro=alpine-3.11.5&amp;package-id=e597b08571c751e1" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>busybox</name>
+      <version>1.31.1-r9</version>
+      <description>Size optimized toolbox of many common UNIX utilities</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:busybox:busybox:1.31.1-r9:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/busybox@1.31.1-r9?arch=x86_64&amp;upstream=busybox&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://busybox.net/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:beee9f30bc1f711043e78d4a2be0668955d4b761d587d6f60c2c8dc081efb203</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">e5c984f68aabb28de623a7e3ada5a223c2b66d77</property>
+        <property name="syft:metadata:installedSize">962560</property>
+        <property name="syft:metadata:originPackage">busybox</property>
+        <property name="syft:metadata:pullChecksum">Q1pFdwPXFlSBHqKNjSelz8SeziezQ=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">507134</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/ca-certificates-cacert@20191127-r1?arch=x86_64&amp;upstream=ca-certificates&amp;distro=alpine-3.11.5&amp;package-id=237526e52b87adcd" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>ca-certificates-cacert</name>
+      <version>20191127-r1</version>
+      <description>Mozilla bundled certificates</description>
+      <licenses>
+        <license>
+          <id>MPL-2.0</id>
+        </license>
+        <license>
+          <id>GPL-2.0-or-later</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:ca-certificates-cacert:ca-certificates-cacert:20191127-r1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/ca-certificates-cacert@20191127-r1?arch=x86_64&amp;upstream=ca-certificates&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca-certificates-cacert:ca_certificates_cacert:20191127-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates_cacert:ca-certificates-cacert:20191127-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates_cacert:ca_certificates_cacert:20191127-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca-certificates:ca-certificates-cacert:20191127-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca-certificates:ca_certificates_cacert:20191127-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates:ca-certificates-cacert:20191127-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates:ca_certificates_cacert:20191127-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca:ca-certificates-cacert:20191127-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca:ca_certificates_cacert:20191127-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:beee9f30bc1f711043e78d4a2be0668955d4b761d587d6f60c2c8dc081efb203</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">6b9965ff9509f1c16ca9ab79eba317016c663b43</property>
+        <property name="syft:metadata:installedSize">245760</property>
+        <property name="syft:metadata:originPackage">ca-certificates</property>
+        <property name="syft:metadata:pullChecksum">Q1OuuKkNcXnSoYd4LpgKlkSU4Ixfs=</property>
+        <property name="syft:metadata:size">133617</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/beorn7/perks@v1.0.0?package-id=1f97c3a22a1d5bcb" type="library">
+      <name>github.com/beorn7/perks</name>
+      <version>v1.0.0</version>
+      <cpe>cpe:2.3:a:beorn7:perks:v1.0.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/beorn7/perks@v1.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:HWo1m869IqiPhD389kmkxeTalrjNbbJTC8LXupb+sl0=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/davecgh/go-spew@v1.1.1?package-id=968184e16a78da05" type="library">
+      <name>github.com/davecgh/go-spew</name>
+      <version>v1.1.1</version>
+      <cpe>cpe:2.3:a:davecgh:go-spew:v1.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/davecgh/go-spew@v1.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:davecgh:go_spew:v1.1.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-kit/kit@v0.9.0?package-id=564060c1bfdc1504" type="library">
+      <name>github.com/go-kit/kit</name>
+      <version>v0.9.0</version>
+      <cpe>cpe:2.3:a:go-kit:kit:v0.9.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-kit/kit@v0.9.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_kit:kit:v0.9.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:kit:v0.9.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:wDJmvq38kDhkVxi50ni9ykkdUr1PKgqKOoi01fa0Mdk=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-logfmt/logfmt@v0.3.0?package-id=58a74250af058892" type="library">
+      <name>github.com/go-logfmt/logfmt</name>
+      <version>v0.3.0</version>
+      <cpe>cpe:2.3:a:go-logfmt:logfmt:v0.3.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-logfmt/logfmt@v0.3.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_logfmt:logfmt:v0.3.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:logfmt:v0.3.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:8HUsc87TaSWLKwrnumgC8/YconD2fJQsRJAsWaPg2ic=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/gogo/protobuf@v1.1.1?package-id=a56ace2b53a46431" type="library">
+      <name>github.com/gogo/protobuf</name>
+      <version>v1.1.1</version>
+      <cpe>cpe:2.3:a:gogo:protobuf:v1.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/gogo/protobuf@v1.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:72R+M5VuhED/KujmZVcIquuo8mBgX4oVda//DQb3PXo=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/golang/groupcache@v0.0.0-20160516000752-02826c3e7903?package-id=b0dc87abde55dfa9" type="library">
+      <name>github.com/golang/groupcache</name>
+      <version>v0.0.0-20160516000752-02826c3e7903</version>
+      <cpe>cpe:2.3:a:golang:groupcache:v0.0.0-20160516000752-02826c3e7903:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/golang/groupcache@v0.0.0-20160516000752-02826c3e7903</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:LbsanbbD6LieFkXbj9YNNBupiGHJgFeLpO0j0Fza1h8=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/golang/protobuf@v1.3.1?package-id=82c2180703edf21" type="library">
+      <name>github.com/golang/protobuf</name>
+      <version>v1.3.1</version>
+      <cpe>cpe:2.3:a:golang:protobuf:v1.3.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/golang/protobuf@v1.3.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:YF8+flBXS5eO826T4nzqPrxfhQThhXl0YzfuUPu4SBg=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/go-cmp@v0.3.0?package-id=544e058160ab587e" type="library">
+      <name>github.com/google/go-cmp</name>
+      <version>v0.3.0</version>
+      <cpe>cpe:2.3:a:google:go-cmp:v0.3.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/go-cmp@v0.3.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:google:go_cmp:v0.3.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:crn/baboCvb5fXaQ0IJ1SGTsTVrWpDsCWC8EGETZijY=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/gofuzz@v0.0.0-20170612174753-24818f796faf?package-id=56692c5dc37fb260" type="library">
+      <name>github.com/google/gofuzz</name>
+      <version>v0.0.0-20170612174753-24818f796faf</version>
+      <cpe>cpe:2.3:a:google:gofuzz:v0.0.0-20170612174753-24818f796faf:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/gofuzz@v0.0.0-20170612174753-24818f796faf</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:+RRA9JqSOZFfKrOeqr2z77+8R2RKyh8PG66dcu1V0ck=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/googleapis/gnostic@v0.2.0?package-id=8af592235be52efa" type="library">
+      <name>github.com/googleapis/gnostic</name>
+      <version>v0.2.0</version>
+      <cpe>cpe:2.3:a:googleapis:gnostic:v0.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/googleapis/gnostic@v0.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:l6N3VoaVzTncYYW+9yOz2LJJammFZGBO13sqgEhpy9g=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/hashicorp/golang-lru@v0.5.0?package-id=a77e037f24bac94d" type="library">
+      <name>github.com/hashicorp/golang-lru</name>
+      <version>v0.5.0</version>
+      <cpe>cpe:2.3:a:hashicorp:golang-lru:v0.5.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/hashicorp/golang-lru@v0.5.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:hashicorp:golang_lru:v0.5.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:CL2msUPvZTLb5O648aiLNJw3hnBxN2+1Jq8rCOH9wdo=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/json-iterator/go@v1.1.6?package-id=5064e2a77b120b34" type="library">
+      <name>github.com/json-iterator/go</name>
+      <version>v1.1.6</version>
+      <cpe>cpe:2.3:a:json-iterator:go:v1.1.6:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/json-iterator/go@v1.1.6</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:json_iterator:go:v1.1.6:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:json:go:v1.1.6:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:MrUvLMLTMxbqFJ9kzlvat/rYZqZnW3u4wkLzWTaFwKs=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.1?package-id=160b47de5f8941be" type="library">
+      <name>github.com/matttproud/golang_protobuf_extensions</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:matttproud:golang-protobuf-extensions:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:matttproud:golang_protobuf_extensions:v1.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:4hp9jkHxhMHkqkrB3Ix0jegS5sx/RkqARlsWZ6pIwiU=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/mikioh/ipaddr@v0.0.0-20190404000644-d465c8ab6721?package-id=bf4d4479a084096" type="library">
+      <name>github.com/mikioh/ipaddr</name>
+      <version>v0.0.0-20190404000644-d465c8ab6721</version>
+      <cpe>cpe:2.3:a:mikioh:ipaddr:v0.0.0-20190404000644-d465c8ab6721:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/mikioh/ipaddr@v0.0.0-20190404000644-d465c8ab6721</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:RlZweED6sbSArvlE924+mUcZuXKLBHA35U7LN621Bws=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd?package-id=e68e411ea99a398a" type="library">
+      <name>github.com/modern-go/concurrent</name>
+      <version>v0.0.0-20180306012644-bacd9c7ef1dd</version>
+      <cpe>cpe:2.3:a:modern-go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern_go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:TRLaZ9cD/w8PVh93nsPXa1VrQ6jlwL5oN8l14QlcNfg=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/modern-go/reflect2@v1.0.1?package-id=b4e17b19c480ff12" type="library">
+      <name>github.com/modern-go/reflect2</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:modern-go:reflect2:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/modern-go/reflect2@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern_go:reflect2:v1.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern:reflect2:v1.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:9f412s+6RmYXLWZSEzVVgPGK7C2PphHj5RJrvfx9AWI=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/client_golang@v1.0.0?package-id=112f4c87bc05a53a" type="library">
+      <name>github.com/prometheus/client_golang</name>
+      <version>v1.0.0</version>
+      <cpe>cpe:2.3:a:prometheus:client-golang:v1.0.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/client_golang@v1.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:client_golang:v1.0.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:vrDKnkGzuGvhNAL56c7DBz29ZL+KxnoR0x7enabFceM=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/client_model@v0.0.0-20190129233127-fd36f4220a90?package-id=4c99ceba4f186df0" type="library">
+      <name>github.com/prometheus/client_model</name>
+      <version>v0.0.0-20190129233127-fd36f4220a90</version>
+      <cpe>cpe:2.3:a:prometheus:client-model:v0.0.0-20190129233127-fd36f4220a90:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/client_model@v0.0.0-20190129233127-fd36f4220a90</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:client_model:v0.0.0-20190129233127-fd36f4220a90:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:S/YWwWx/RA8rT8tKFRuGUZhuA90OyIBpPCXkcbwU8DE=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/common@v0.4.1?package-id=ab9cb5e0dd8e90e6" type="library">
+      <name>github.com/prometheus/common</name>
+      <version>v0.4.1</version>
+      <cpe>cpe:2.3:a:prometheus:common:v0.4.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/common@v0.4.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:K0MGApIoQvMw27RTdJkPbr3JZ7DNbtxQNyi5STVM6Kw=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/procfs@v0.0.2?package-id=bd19c05e528d3a7e" type="library">
+      <name>github.com/prometheus/procfs</name>
+      <version>v0.0.2</version>
+      <cpe>cpe:2.3:a:prometheus:procfs:v0.0.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/procfs@v0.0.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:6LJUbpNm42llc4HRCuvApCSWB/WfhuNo9K98Q9sNGfs=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/go.universe.tf/metallb@(devel)?package-id=dffa8761f7e635ff" type="library">
+      <name>go.universe.tf/metallb</name>
+      <version>(devel)</version>
+      <purl>pkg:golang/go.universe.tf/metallb@(devel)</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/crypto@v0.0.0-20190923035154-9ee001bba392?package-id=254415bb6ae73f53" type="library">
+      <name>golang.org/x/crypto</name>
+      <version>v0.0.0-20190923035154-9ee001bba392</version>
+      <cpe>cpe:2.3:a:golang:x\/crypto:v0.0.0-20190923035154-9ee001bba392:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/crypto@v0.0.0-20190923035154-9ee001bba392</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:ACG4HJsFiNMf47Y4PeRoebLNy/2lXT9EtprMuTFWt1M=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/net@v0.0.0-20190923162816-aa69164e4478?package-id=211fd8b0e22fa971" type="library">
+      <name>golang.org/x/net</name>
+      <version>v0.0.0-20190923162816-aa69164e4478</version>
+      <cpe>cpe:2.3:a:golang:x\/net:v0.0.0-20190923162816-aa69164e4478:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/net@v0.0.0-20190923162816-aa69164e4478</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:l5EDrHhldLYb3ZRHDUhXF7Om7MvYXnkV9/iQNo1lX6g=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/oauth2@v0.0.0-20190402181905-9f3314589c9a?package-id=af5b9984b97fc74d" type="library">
+      <name>golang.org/x/oauth2</name>
+      <version>v0.0.0-20190402181905-9f3314589c9a</version>
+      <cpe>cpe:2.3:a:golang:x\/oauth2:v0.0.0-20190402181905-9f3314589c9a:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/oauth2@v0.0.0-20190402181905-9f3314589c9a</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:tImsplftrFpALCYumobsd0K86vlAs/eXGFms2txfJfA=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/sys@v0.0.0-20190924154521-2837fb4f24fe?package-id=6f227a4e852c4f1e" type="library">
+      <name>golang.org/x/sys</name>
+      <version>v0.0.0-20190924154521-2837fb4f24fe</version>
+      <cpe>cpe:2.3:a:golang:x\/sys:v0.0.0-20190924154521-2837fb4f24fe:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/sys@v0.0.0-20190924154521-2837fb4f24fe</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:6fAMxZRR6sl1Uq8U61gxU+kPTs2tR8uOySCbBP7BN/M=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/text@v0.3.2?package-id=d97f567b2dfaf1c8" type="library">
+      <name>golang.org/x/text</name>
+      <version>v0.3.2</version>
+      <cpe>cpe:2.3:a:golang:x\/text:v0.3.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/text@v0.3.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:tW2bmiBqwgJj/UpqtC8EpXEZVYOwU0yG4iWbprSVAcs=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/time@v0.0.0-20181108054448-85acf8d2951c?package-id=6518443aa98d6c75" type="library">
+      <name>golang.org/x/time</name>
+      <version>v0.0.0-20181108054448-85acf8d2951c</version>
+      <cpe>cpe:2.3:a:golang:x\/time:v0.0.0-20181108054448-85acf8d2951c:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/time@v0.0.0-20181108054448-85acf8d2951c</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:fqgJT0MGcGpPgpWU7VRdRjuArfcOvC4AoJmILihzhDg=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/inf.v0@v0.9.1?package-id=cf1d0d7586e81031" type="library">
+      <name>gopkg.in/inf.v0</name>
+      <version>v0.9.1</version>
+      <purl>pkg:golang/gopkg.in/inf.v0@v0.9.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:73M5CoZyi3ZLMOyDlQh031Cx6N9NDJ2Vvfl76EDAgDc=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/yaml.v2@v2.2.2?package-id=7680aaa6c5b1b1" type="library">
+      <name>gopkg.in/yaml.v2</name>
+      <version>v2.2.2</version>
+      <purl>pkg:golang/gopkg.in/yaml.v2@v2.2.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:ZCJp+EgiOT7lHqUV2J862kp8Qj64Jo6az82+3Td9dZw=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/api@v0.0.0-20190620084959-7cf5895f2711?package-id=28bb5d4363ca5126" type="library">
+      <name>k8s.io/api</name>
+      <version>v0.0.0-20190620084959-7cf5895f2711</version>
+      <purl>pkg:golang/k8s.io/api@v0.0.0-20190620084959-7cf5895f2711</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:BblVYz/wE5WtBsD/Gvu54KyBUTJMflolzc5I2DTvh50=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/apimachinery@v0.0.0-20190612205821-1799e75a0719?package-id=cf730dcb7c2f65ec" type="library">
+      <name>k8s.io/apimachinery</name>
+      <version>v0.0.0-20190612205821-1799e75a0719</version>
+      <purl>pkg:golang/k8s.io/apimachinery@v0.0.0-20190612205821-1799e75a0719</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:uV4S5IB5g4Nvi+TBVNf3e9L4wrirlwYJ6w88jUQxTUw=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/client-go@v0.0.0-20190620085101-78d2af792bab?package-id=8fb6403a05de69d7" type="library">
+      <name>k8s.io/client-go</name>
+      <version>v0.0.0-20190620085101-78d2af792bab</version>
+      <purl>pkg:golang/k8s.io/client-go@v0.0.0-20190620085101-78d2af792bab</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:E8Fecph0qbNsAbijJJQryKu4Oi9QTp5cVpjTE+nqg6g=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/klog@v0.3.1?package-id=57999d63520fe396" type="library">
+      <name>k8s.io/klog</name>
+      <version>v0.3.1</version>
+      <purl>pkg:golang/k8s.io/klog@v0.3.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:RVgyDHY/kFKtLqh67NvEWIgkMneNoIrdkN0CxDSQc68=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/kube-openapi@v0.0.0-20190228160746-b3a7cee44a30?package-id=819285d94831ebeb" type="library">
+      <name>k8s.io/kube-openapi</name>
+      <version>v0.0.0-20190228160746-b3a7cee44a30</version>
+      <purl>pkg:golang/k8s.io/kube-openapi@v0.0.0-20190228160746-b3a7cee44a30</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:TRb4wNWoBVrH9plmkp2q86FIDppkbrEXdXlxU3a3BMI=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/utils@v0.0.0-20190221042446-c2654d5206da?package-id=2874b2fe28fc665b" type="library">
+      <name>k8s.io/utils</name>
+      <version>v0.0.0-20190221042446-c2654d5206da</version>
+      <purl>pkg:golang/k8s.io/utils@v0.0.0-20190221042446-c2654d5206da</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:ElyM7RPonbKnQqOcw7dG2IK5uvQQn3b/WPHqD5mBvP4=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libc-utils@0.7.2-r0?arch=x86_64&amp;upstream=libc-dev&amp;distro=alpine-3.11.5&amp;package-id=826e44d7b8683da7" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>libc-utils</name>
+      <version>0.7.2-r0</version>
+      <description>Meta package to pull in correct libc</description>
+      <cpe>cpe:2.3:a:libc-utils:libc-utils:0.7.2-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libc-utils@0.7.2-r0?arch=x86_64&amp;upstream=libc-dev&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>http://alpinelinux.org</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc-utils:libc_utils:0.7.2-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc_utils:libc-utils:0.7.2-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc_utils:libc_utils:0.7.2-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc:libc-utils:0.7.2-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc:libc_utils:0.7.2-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:beee9f30bc1f711043e78d4a2be0668955d4b761d587d6f60c2c8dc081efb203</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">97b1c2842faa3bfa30f5811ffbf16d5ff9f1a479</property>
+        <property name="syft:metadata:installedSize">4096</property>
+        <property name="syft:metadata:originPackage">libc-dev</property>
+        <property name="syft:metadata:pullChecksum">Q1p78yvTLG094tHE1+dToJGbmYzQE=</property>
+        <property name="syft:metadata:pullDependencies">musl-utils</property>
+        <property name="syft:metadata:size">1175</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libcrypto1.1@1.1.1d-r3?arch=x86_64&amp;upstream=openssl&amp;distro=alpine-3.11.5&amp;package-id=751b5f10c9919263" type="library">
+      <publisher>Timo Teras &lt;timo.teras@iki.fi&gt;</publisher>
+      <name>libcrypto1.1</name>
+      <version>1.1.1d-r3</version>
+      <description>Crypto library from openssl</description>
+      <licenses>
+        <license>
+          <id>OpenSSL</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libcrypto1.1:libcrypto1.1:1.1.1d-r3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libcrypto1.1@1.1.1d-r3?arch=x86_64&amp;upstream=openssl&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.openssl.org</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:beee9f30bc1f711043e78d4a2be0668955d4b761d587d6f60c2c8dc081efb203</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">d5cdcefa208fa600971caccebd3ab1c7304fec16</property>
+        <property name="syft:metadata:installedSize">2748416</property>
+        <property name="syft:metadata:originPackage">openssl</property>
+        <property name="syft:metadata:pullChecksum">Q13Y+5o8znsrz5VCcdpi+4XawrEGo=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">1198107</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libssl1.1@1.1.1d-r3?arch=x86_64&amp;upstream=openssl&amp;distro=alpine-3.11.5&amp;package-id=5bddf55b66992982" type="library">
+      <publisher>Timo Teras &lt;timo.teras@iki.fi&gt;</publisher>
+      <name>libssl1.1</name>
+      <version>1.1.1d-r3</version>
+      <description>SSL shared libraries</description>
+      <licenses>
+        <license>
+          <id>OpenSSL</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libssl1.1:libssl1.1:1.1.1d-r3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libssl1.1@1.1.1d-r3?arch=x86_64&amp;upstream=openssl&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.openssl.org</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:beee9f30bc1f711043e78d4a2be0668955d4b761d587d6f60c2c8dc081efb203</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">d5cdcefa208fa600971caccebd3ab1c7304fec16</property>
+        <property name="syft:metadata:installedSize">536576</property>
+        <property name="syft:metadata:originPackage">openssl</property>
+        <property name="syft:metadata:pullChecksum">Q1k41G5Bs+VrM5o66y0C+tPXVyjzU=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1</property>
+        <property name="syft:metadata:size">210892</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libtls-standalone@2.9.1-r0?arch=x86_64&amp;upstream=libtls-standalone&amp;distro=alpine-3.11.5&amp;package-id=3e2320ba27551280" type="library">
+      <name>libtls-standalone</name>
+      <version>2.9.1-r0</version>
+      <description>libtls extricated from libressl sources</description>
+      <licenses>
+        <license>
+          <id>ISC</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libtls-standalone:libtls-standalone:2.9.1-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libtls-standalone@2.9.1-r0?arch=x86_64&amp;upstream=libtls-standalone&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.libressl.org/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:libtls-standalone:libtls_standalone:2.9.1-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libtls_standalone:libtls-standalone:2.9.1-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libtls_standalone:libtls_standalone:2.9.1-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libtls:libtls-standalone:2.9.1-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libtls:libtls_standalone:2.9.1-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:beee9f30bc1f711043e78d4a2be0668955d4b761d587d6f60c2c8dc081efb203</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">981bf8f8fb3cbbc210ee4f2a2fb5b55d0132e02a</property>
+        <property name="syft:metadata:installedSize">110592</property>
+        <property name="syft:metadata:originPackage">libtls-standalone</property>
+        <property name="syft:metadata:pullChecksum">Q1suVielY3jqbuuWKo8zci35OTwcU=</property>
+        <property name="syft:metadata:pullDependencies">ca-certificates-cacert so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1 so:libssl.so.1.1</property>
+        <property name="syft:metadata:size">33334</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/musl@1.1.24-r2?arch=x86_64&amp;upstream=musl&amp;distro=alpine-3.11.5&amp;package-id=fb6349f6c7a40a5" type="library">
+      <publisher>Timo Teräs &lt;timo.teras@iki.fi&gt;</publisher>
+      <name>musl</name>
+      <version>1.1.24-r2</version>
+      <description>the musl c library (libc) implementation</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:musl:musl:1.1.24-r2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/musl@1.1.24-r2?arch=x86_64&amp;upstream=musl&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://musl.libc.org/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:beee9f30bc1f711043e78d4a2be0668955d4b761d587d6f60c2c8dc081efb203</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">4024cc3b29ad4c65544ad068b8f59172b5494306</property>
+        <property name="syft:metadata:installedSize">614400</property>
+        <property name="syft:metadata:originPackage">musl</property>
+        <property name="syft:metadata:pullChecksum">Q1yyMWoYnr7lKCxKm9mHlMwkd6dMY=</property>
+        <property name="syft:metadata:size">377123</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/musl-utils@1.1.24-r2?arch=x86_64&amp;upstream=musl&amp;distro=alpine-3.11.5&amp;package-id=c821ea78c744980d" type="library">
+      <publisher>Timo Teräs &lt;timo.teras@iki.fi&gt;</publisher>
+      <name>musl-utils</name>
+      <version>1.1.24-r2</version>
+      <description>the musl c library (libc) implementation</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:musl-utils:musl-utils:1.1.24-r2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/musl-utils@1.1.24-r2?arch=x86_64&amp;upstream=musl&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://musl.libc.org/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:musl-utils:musl_utils:1.1.24-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:musl_utils:musl-utils:1.1.24-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:musl_utils:musl_utils:1.1.24-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:musl:musl-utils:1.1.24-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:musl:musl_utils:1.1.24-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:beee9f30bc1f711043e78d4a2be0668955d4b761d587d6f60c2c8dc081efb203</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">4024cc3b29ad4c65544ad068b8f59172b5494306</property>
+        <property name="syft:metadata:installedSize">151552</property>
+        <property name="syft:metadata:originPackage">musl</property>
+        <property name="syft:metadata:pullChecksum">Q1bTtF5526tETKfL+lnigzIDvm+2o=</property>
+        <property name="syft:metadata:pullDependencies">scanelf so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">37944</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/scanelf@1.2.4-r0?arch=x86_64&amp;upstream=pax-utils&amp;distro=alpine-3.11.5&amp;package-id=8e6dfd5275ea5da1" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>scanelf</name>
+      <version>1.2.4-r0</version>
+      <description>Scan ELF binaries for stuff</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:scanelf:scanelf:1.2.4-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/scanelf@1.2.4-r0?arch=x86_64&amp;upstream=pax-utils&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:beee9f30bc1f711043e78d4a2be0668955d4b761d587d6f60c2c8dc081efb203</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">c2bc0a44e12b8015a83e04a9881714deb3526d80</property>
+        <property name="syft:metadata:installedSize">94208</property>
+        <property name="syft:metadata:originPackage">pax-utils</property>
+        <property name="syft:metadata:pullChecksum">Q11hR76zK/+AO12fg6O+x6sxkIcYU=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">36418</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/yaml@v1.1.0?package-id=c51638693bc2feb" type="library">
+      <name>sigs.k8s.io/yaml</name>
+      <version>v1.1.0</version>
+      <purl>pkg:golang/sigs.k8s.io/yaml@v1.1.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:73092bd80cad818b5732e82df5f48e30155d2c3ab686b3962c4f30fa46b462a4</property>
+        <property name="syft:location:0:path">/controller</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.9</property>
+        <property name="syft:metadata:h1Digest">h1:4A07+ZFc2wgJwo8YNlQpr1rVlgUDlxXHhPJciaPY5gs=</property>
+        <property name="syft:metadata:mainModule">go.universe.tf/metallb</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/ssl_client@1.31.1-r9?arch=x86_64&amp;upstream=busybox&amp;distro=alpine-3.11.5&amp;package-id=71a7428dd9847eb7" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>ssl_client</name>
+      <version>1.31.1-r9</version>
+      <description>EXternal ssl_client for busybox wget</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:ssl-client:ssl-client:1.31.1-r9:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/ssl_client@1.31.1-r9?arch=x86_64&amp;upstream=busybox&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://busybox.net/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:ssl-client:ssl_client:1.31.1-r9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ssl_client:ssl-client:1.31.1-r9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ssl_client:ssl_client:1.31.1-r9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ssl:ssl-client:1.31.1-r9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ssl:ssl_client:1.31.1-r9:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:beee9f30bc1f711043e78d4a2be0668955d4b761d587d6f60c2c8dc081efb203</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">e5c984f68aabb28de623a7e3ada5a223c2b66d77</property>
+        <property name="syft:metadata:installedSize">28672</property>
+        <property name="syft:metadata:originPackage">busybox</property>
+        <property name="syft:metadata:pullChecksum">Q1O2hRUq8yASCuiUHHQNM3a1TkPBA=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1 so:libtls-standalone.so.1</property>
+        <property name="syft:metadata:size">4291</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/zlib@1.2.11-r3?arch=x86_64&amp;upstream=zlib&amp;distro=alpine-3.11.5&amp;package-id=a9e4a0d4cee79b9d" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>zlib</name>
+      <version>1.2.11-r3</version>
+      <description>A compression/decompression Library</description>
+      <licenses>
+        <license>
+          <id>Zlib</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:zlib:zlib:1.2.11-r3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/zlib@1.2.11-r3?arch=x86_64&amp;upstream=zlib&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://zlib.net/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:beee9f30bc1f711043e78d4a2be0668955d4b761d587d6f60c2c8dc081efb203</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">388a4fb3640f8ccbd18e105df3ad741dca4247e1</property>
+        <property name="syft:metadata:installedSize">110592</property>
+        <property name="syft:metadata:originPackage">zlib</property>
+        <property name="syft:metadata:pullChecksum">Q1rMoHjui6qT4AX1ey+uNZwe/UQ80=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">51482</property>
+      </properties>
+    </component>
+    <component type="operating-system">
+      <name>alpine</name>
+      <version>3.11.5</version>
+      <description>Alpine Linux v3.11</description>
+      <swid tagId="alpine" name="alpine" version="3.11.5"></swid>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://bugs.alpinelinux.org/</url>
+        </reference>
+        <reference type="website">
+          <url>https://alpinelinux.org/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:distro:id">alpine</property>
+        <property name="syft:distro:prettyName">Alpine Linux v3.11</property>
+        <property name="syft:distro:versionID">3.11.5</property>
+      </properties>
+    </component>
+  </components>
+</bom>
