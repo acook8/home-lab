@@ -1,0 +1,1633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:e1020cbf-9e15-407a-888a-7168cdb57531" version="1">
+  <metadata>
+    <timestamp>2022-10-31T16:07:41Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>anchore</vendor>
+        <name>syft</name>
+        <version>v0.58.0</version>
+      </tool>
+    </tools>
+    <component bom-ref="8efff2b96186520c" type="container">
+      <name>/tmp/sha256_f71a293e43f66c8f3d2435a3d56ed53cbb1bcf539dcfe7fe2cc64d4258f4f792.tar.gz</name>
+      <version>sha256:8868069363e3ef5e4f9a78b24fc892870c2d78370ee164760ae5bda84ce043f0</version>
+    </component>
+  </metadata>
+  <components>
+    <component bom-ref="pkg:golang/./api?package-id=806f30616d46b999" type="library">
+      <name>./api</name>
+      <purl>pkg:golang/./api</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/cloud.google.com/go@v0.65.0?package-id=6816a894c0d8ccc5" type="library">
+      <name>cloud.google.com/go</name>
+      <version>v0.65.0</version>
+      <purl>pkg:golang/cloud.google.com/go@v0.65.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:Dg9iHVQfrhq82rUNu9ZxUDrJLaxFUe/HlCVaLyRruq8=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/azure/go-autorest/autorest@v0.11.12?package-id=fec3a5f966e4409c" type="library">
+      <name>github.com/Azure/go-autorest/autorest</name>
+      <version>v0.11.12</version>
+      <cpe>cpe:2.3:a:Azure:go-autorest\/autorest:v0.11.12:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/Azure/go-autorest/autorest@v0.11.12</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:Azure:go_autorest\/autorest:v0.11.12:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:gI8ytXbxMfI+IVbI9mP2JGCTXIuhHLgRlvQ9X4PsnHE=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/azure/go-autorest/autorest/adal@v0.9.5?package-id=186bd75ae26e79ad" type="library">
+      <name>github.com/Azure/go-autorest/autorest/adal</name>
+      <version>v0.9.5</version>
+      <cpe>cpe:2.3:a:Azure:go-autorest\/autorest\/adal:v0.9.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/Azure/go-autorest/autorest/adal@v0.9.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:Azure:go_autorest\/autorest\/adal:v0.9.5:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:Y3bBUV4rTuxenJJs41HU3qmqsb+auo+a3Lz+PlJPpL0=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/azure/go-autorest/autorest/date@v0.3.0?package-id=a0ad53f66981dbc5" type="library">
+      <name>github.com/Azure/go-autorest/autorest/date</name>
+      <version>v0.3.0</version>
+      <cpe>cpe:2.3:a:Azure:go-autorest\/autorest\/date:v0.3.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/Azure/go-autorest/autorest/date@v0.3.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:Azure:go_autorest\/autorest\/date:v0.3.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:7gUk1U5M/CQbp9WoqinNzJar+8KY+LPI6wiWrP/myHw=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/azure/go-autorest/logger@v0.2.0?package-id=af788395693037e7" type="library">
+      <name>github.com/Azure/go-autorest/logger</name>
+      <version>v0.2.0</version>
+      <cpe>cpe:2.3:a:Azure:go-autorest\/logger:v0.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/Azure/go-autorest/logger@v0.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:Azure:go_autorest\/logger:v0.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:e4RVHVZKC5p6UANLJHkM4OfR1UKZPj8Wt8Pcx+3oqrE=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/azure/go-autorest/tracing@v0.6.0?package-id=8462d431aaa374e" type="library">
+      <name>github.com/Azure/go-autorest/tracing</name>
+      <version>v0.6.0</version>
+      <cpe>cpe:2.3:a:Azure:go-autorest\/tracing:v0.6.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/Azure/go-autorest/tracing@v0.6.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:Azure:go_autorest\/tracing:v0.6.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:TYi4+3m5t6K48TGI9AUdb+IzbnSxvnvUMfuitfgcfuo=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/puerkitobio/purell@v1.1.1?package-id=5cce79dd8ebb4351" type="library">
+      <name>github.com/PuerkitoBio/purell</name>
+      <version>v1.1.1</version>
+      <cpe>cpe:2.3:a:PuerkitoBio:purell:v1.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/PuerkitoBio/purell@v1.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:WEQqlqaGbrPkxLJWfBwQmfEAE1Z7ONdDLqrN38tNFfI=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/puerkitobio/urlesc@v0.0.0-20170810143723-de5bf2ad4578?package-id=42233a6d2a21a564" type="library">
+      <name>github.com/PuerkitoBio/urlesc</name>
+      <version>v0.0.0-20170810143723-de5bf2ad4578</version>
+      <cpe>cpe:2.3:a:PuerkitoBio:urlesc:v0.0.0-20170810143723-de5bf2ad4578:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/PuerkitoBio/urlesc@v0.0.0-20170810143723-de5bf2ad4578</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:d+Bc7a5rLufV/sSk/8dngufqelfh6jnri85riMAaF/M=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/beorn7/perks@v1.0.1?package-id=de750fdba1abc034" type="library">
+      <name>github.com/beorn7/perks</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:beorn7:perks:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/beorn7/perks@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/blang/semver@v3.5.1+incompatible?package-id=9f71d4c4ba1507ee" type="library">
+      <name>github.com/blang/semver</name>
+      <version>v3.5.1+incompatible</version>
+      <cpe>cpe:2.3:a:blang:semver:v3.5.1\+incompatible:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/blang/semver@v3.5.1+incompatible</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:cQNTCjp13qL8KC3Nbxr/y2Bqb63oX6wdnnjpJbkM4JQ=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/cespare/xxhash/v2@v2.1.1?package-id=61c4b820e0929654" type="library">
+      <name>github.com/cespare/xxhash/v2</name>
+      <version>v2.1.1</version>
+      <cpe>cpe:2.3:a:cespare:xxhash\/v2:v2.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/cespare/xxhash/v2@v2.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:6MnRN8NT7+YBpUIWxHtefFZOKTAPgGjpQSxqLNn0+qY=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/coreos/go-semver@v0.3.0?package-id=328c456a8f3d803b" type="library">
+      <name>github.com/coreos/go-semver</name>
+      <version>v0.3.0</version>
+      <cpe>cpe:2.3:a:coreos:go-semver:v0.3.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/coreos/go-semver@v0.3.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:coreos:go_semver:v0.3.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:wkHLiw0WNATZnSG7epLsujiMCgPAc9xhjJ4tgnAxmfM=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/coreos/go-systemd@v0.0.0-20190719114852-fd7a80b32e1f?package-id=7708b229c58a6dd3" type="library">
+      <name>github.com/coreos/go-systemd</name>
+      <version>v0.0.0-20190719114852-fd7a80b32e1f</version>
+      <cpe>cpe:2.3:a:coreos:go-systemd:v0.0.0-20190719114852-fd7a80b32e1f:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/coreos/go-systemd@v0.0.0-20190719114852-fd7a80b32e1f</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:coreos:go_systemd:v0.0.0-20190719114852-fd7a80b32e1f:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:JOrtw2xFKzlg+cbHpyrpLDmnN1HqhBfnX7WDiW7eG2c=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/coreos/pkg@v0.0.0-20180928190104-399ea9e2e55f?package-id=9caec0cbfb80e073" type="library">
+      <name>github.com/coreos/pkg</name>
+      <version>v0.0.0-20180928190104-399ea9e2e55f</version>
+      <cpe>cpe:2.3:a:coreos:pkg:v0.0.0-20180928190104-399ea9e2e55f:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/coreos/pkg@v0.0.0-20180928190104-399ea9e2e55f</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:lBNOc5arjvs8E5mO2tbpBpLoyyu8B6e44T7hJy6potg=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/davecgh/go-spew@v1.1.1?package-id=f07e96d1a6551659" type="library">
+      <name>github.com/davecgh/go-spew</name>
+      <version>v1.1.1</version>
+      <cpe>cpe:2.3:a:davecgh:go-spew:v1.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/davecgh/go-spew@v1.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:davecgh:go_spew:v1.1.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/emicklei/go-restful@v2.11.2-0.20200112161605-a7c079c43d51+incompatible?package-id=6c5f234517957e1c" type="library">
+      <name>github.com/emicklei/go-restful</name>
+      <version>v2.11.2-0.20200112161605-a7c079c43d51+incompatible</version>
+      <cpe>cpe:2.3:a:emicklei:go-restful:v2.11.2-0.20200112161605-a7c079c43d51\+incompatible:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/emicklei/go-restful@v2.11.2-0.20200112161605-a7c079c43d51+incompatible</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:emicklei:go_restful:v2.11.2-0.20200112161605-a7c079c43d51\+incompatible:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:+fJW2EnKiYk9OFmYBJosMlm4NsBFyIpIOY8fvGL0xXU=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/form3tech-oss/jwt-go@v3.2.2+incompatible?package-id=cce5bb4f87e27fac" type="library">
+      <name>github.com/form3tech-oss/jwt-go</name>
+      <version>v3.2.2+incompatible</version>
+      <cpe>cpe:2.3:a:form3tech-oss:jwt-go:v3.2.2\+incompatible:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/form3tech-oss/jwt-go@v3.2.2+incompatible</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:form3tech-oss:jwt_go:v3.2.2\+incompatible:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:form3tech_oss:jwt-go:v3.2.2\+incompatible:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:form3tech_oss:jwt_go:v3.2.2\+incompatible:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:form3tech:jwt-go:v3.2.2\+incompatible:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:form3tech:jwt_go:v3.2.2\+incompatible:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:TcekIExNqud5crz4xD2pavyTgWiPvpYe4Xau31I0PRk=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-logr/logr@v0.4.0?package-id=1ea6852a77c87c21" type="library">
+      <name>github.com/go-logr/logr</name>
+      <version>v0.4.0</version>
+      <cpe>cpe:2.3:a:go-logr:logr:v0.4.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-logr/logr@v0.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_logr:logr:v0.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:logr:v0.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:K7/B1jt6fIBQVd4Owv2MqGQClcgf0R266+7C/QjRcLc=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/jsonpointer@v0.19.5?package-id=da3d5a9cdba1b542" type="library">
+      <name>github.com/go-openapi/jsonpointer</name>
+      <version>v0.19.5</version>
+      <cpe>cpe:2.3:a:go-openapi:jsonpointer:v0.19.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/jsonpointer@v0.19.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:jsonpointer:v0.19.5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:jsonpointer:v0.19.5:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:gZr+CIYByUqjcgeLXnQu2gHYQC9o73G2XUeOFYEICuY=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/jsonreference@v0.19.5?package-id=9b72693696089d34" type="library">
+      <name>github.com/go-openapi/jsonreference</name>
+      <version>v0.19.5</version>
+      <cpe>cpe:2.3:a:go-openapi:jsonreference:v0.19.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/jsonreference@v0.19.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:jsonreference:v0.19.5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:jsonreference:v0.19.5:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:1WJP/wi4OjB4iV8KVbH73rQaoialJrqv8gitZLxGLtM=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/spec@v0.19.5?package-id=ac25c6cbbe089309" type="library">
+      <name>github.com/go-openapi/spec</name>
+      <version>v0.19.5</version>
+      <cpe>cpe:2.3:a:go-openapi:spec:v0.19.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/spec@v0.19.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:spec:v0.19.5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:spec:v0.19.5:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:Xm0Ao53uqnk9QE/LlYV5DEU09UAgpliA85QoT9LzqPw=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/swag@v0.19.14?package-id=98067ec0d4416ce2" type="library">
+      <name>github.com/go-openapi/swag</name>
+      <version>v0.19.14</version>
+      <cpe>cpe:2.3:a:go-openapi:swag:v0.19.14:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/swag@v0.19.14</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:swag:v0.19.14:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:swag:v0.19.14:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:gm3vOOXfiuw5i9p5N9xJvfjvuofpyvLA9Wr6QfK5Fng=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-playground/locales@v0.12.1?package-id=a77ec3fbfdc93271" type="library">
+      <name>github.com/go-playground/locales</name>
+      <version>v0.12.1</version>
+      <cpe>cpe:2.3:a:go-playground:locales:v0.12.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-playground/locales@v0.12.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_playground:locales:v0.12.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:locales:v0.12.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:2FITxuFt/xuCNP1Acdhv62OzaCiviiE4kotfhkmOqEc=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-playground/universal-translator@v0.0.0-20170327191703-71201497bace?package-id=b7eda1418afed59d" type="library">
+      <name>github.com/go-playground/universal-translator</name>
+      <version>v0.0.0-20170327191703-71201497bace</version>
+      <cpe>cpe:2.3:a:go-playground:universal-translator:v0.0.0-20170327191703-71201497bace:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-playground/universal-translator@v0.0.0-20170327191703-71201497bace</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go-playground:universal_translator:v0.0.0-20170327191703-71201497bace:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_playground:universal-translator:v0.0.0-20170327191703-71201497bace:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_playground:universal_translator:v0.0.0-20170327191703-71201497bace:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:universal-translator:v0.0.0-20170327191703-71201497bace:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:universal_translator:v0.0.0-20170327191703-71201497bace:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:vfBaUX49VsqTxXGADDIWvTPvaU4AbQyX/yENHE0f7AY=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/gogo/protobuf@v1.3.2?package-id=6e25f9bac5f8450d" type="library">
+      <name>github.com/gogo/protobuf</name>
+      <version>v1.3.2</version>
+      <cpe>cpe:2.3:a:gogo:protobuf:v1.3.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/gogo/protobuf@v1.3.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:Ov1cvc58UF3b5XjBnZv7+opcTcQFZebYjWzi34vdm4Q=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/golang/protobuf@v1.5.2?package-id=baf29772245061a2" type="library">
+      <name>github.com/golang/protobuf</name>
+      <version>v1.5.2</version>
+      <cpe>cpe:2.3:a:golang:protobuf:v1.5.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/golang/protobuf@v1.5.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:ROPKBNFfQgOUMifHyP+KYbvpjbdoFNs+aK7DXlji0Tw=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/go-cmp@v0.5.6?package-id=f92deff32b653616" type="library">
+      <name>github.com/google/go-cmp</name>
+      <version>v0.5.6</version>
+      <cpe>cpe:2.3:a:google:go-cmp:v0.5.6:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/go-cmp@v0.5.6</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:google:go_cmp:v0.5.6:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:BKbKCqvP6I+rmFHt06ZmyQtvB8xAkWdhFyr0ZUNZcxQ=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/gofuzz@v1.2.0?package-id=96062bc7a0fc29d2" type="library">
+      <name>github.com/google/gofuzz</name>
+      <version>v1.2.0</version>
+      <cpe>cpe:2.3:a:google:gofuzz:v1.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/gofuzz@v1.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:xRy4A+RhZaiKjJ1bPfwQ8sedCA+YS2YcCHW6ec7JMi0=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/uuid@v1.2.0?package-id=710bef2f801356fa" type="library">
+      <name>github.com/google/uuid</name>
+      <version>v1.2.0</version>
+      <cpe>cpe:2.3:a:google:uuid:v1.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/uuid@v1.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:qJYtXnJRWmpe7m/3XlyhrsLrEURqHRM2kxzoxXqyUDs=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/googleapis/gnostic@v0.4.1?package-id=13c0bcfe8272adb9" type="library">
+      <name>github.com/googleapis/gnostic</name>
+      <version>v0.4.1</version>
+      <cpe>cpe:2.3:a:googleapis:gnostic:v0.4.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/googleapis/gnostic@v0.4.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:DLJCy1n/vrD4HPjOvYcT8aYQXpPIzoRZONaYwyycI+I=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/hashicorp/golang-lru@v0.5.4?package-id=40f6c29efd2a6ca6" type="library">
+      <name>github.com/hashicorp/golang-lru</name>
+      <version>v0.5.4</version>
+      <cpe>cpe:2.3:a:hashicorp:golang-lru:v0.5.4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/hashicorp/golang-lru@v0.5.4</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:hashicorp:golang_lru:v0.5.4:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:YDjusn29QI/Das2iO9M0BHnIbxPeyuCHsjMW+lJfyTc=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/imdario/mergo@v0.3.8?package-id=a88390dc394190bf" type="library">
+      <name>github.com/imdario/mergo</name>
+      <version>v0.3.8</version>
+      <cpe>cpe:2.3:a:imdario:mergo:v0.3.8:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/imdario/mergo@v0.3.8</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:CGgOkSJeqMRmt0D9XLWExdT4m4F1vd3FV3VPt+0VxkQ=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/joho/godotenv@v1.4.0?package-id=95e8682b4e975279" type="library">
+      <name>github.com/joho/godotenv</name>
+      <version>v1.4.0</version>
+      <cpe>cpe:2.3:a:joho:godotenv:v1.4.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/joho/godotenv@v1.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:3l4+N6zfMWnkbPEXKng2o2/MR5mSwTrBih4ZEkkz1lg=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/josharian/intern@v1.0.0?package-id=1f9d4f220bd7ad53" type="library">
+      <name>github.com/josharian/intern</name>
+      <version>v1.0.0</version>
+      <cpe>cpe:2.3:a:josharian:intern:v1.0.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/josharian/intern@v1.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:vlS4z54oSdjm0bgjRigI+G1HpF+tI+9rE5LLzOg8HmY=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/json-iterator/go@v1.1.10?package-id=72071f2c38009353" type="library">
+      <name>github.com/json-iterator/go</name>
+      <version>v1.1.10</version>
+      <cpe>cpe:2.3:a:json-iterator:go:v1.1.10:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/json-iterator/go@v1.1.10</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:json_iterator:go:v1.1.10:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:json:go:v1.1.10:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:Kz6Cvnvv2wGdaG/V8yMvfkmNiXq9Ya2KUv4rouJJr68=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/kelseyhightower/envconfig@v0.0.0-20180517194557-dd1402a4d99d?package-id=d09cb6bcc1d39616" type="library">
+      <name>github.com/kelseyhightower/envconfig</name>
+      <version>v0.0.0-20180517194557-dd1402a4d99d</version>
+      <cpe>cpe:2.3:a:kelseyhightower:envconfig:v0.0.0-20180517194557-dd1402a4d99d:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/kelseyhightower/envconfig@v0.0.0-20180517194557-dd1402a4d99d</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:Tqg6yg0as+P38tbKytv9/yk+ifNq0CrvjlgADEniKog=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/leodido/go-urn@v0.0.0-20181204092800-a67a23e1c1af?package-id=972d64666c03cf5b" type="library">
+      <name>github.com/leodido/go-urn</name>
+      <version>v0.0.0-20181204092800-a67a23e1c1af</version>
+      <cpe>cpe:2.3:a:leodido:go-urn:v0.0.0-20181204092800-a67a23e1c1af:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/leodido/go-urn@v0.0.0-20181204092800-a67a23e1c1af</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:leodido:go_urn:v0.0.0-20181204092800-a67a23e1c1af:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:EhEGUQX36JFkvSWzrwGjjTJxrx7atfJdxv8cxFzmaB0=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/mailru/easyjson@v0.7.6?package-id=62bd148b348e3a00" type="library">
+      <name>github.com/mailru/easyjson</name>
+      <version>v0.7.6</version>
+      <cpe>cpe:2.3:a:mailru:easyjson:v0.7.6:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/mailru/easyjson@v0.7.6</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:8yTIVnZgCoiM1TgqoeTl+LfU5Jg6/xL3QhGQnimLYnA=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.2-0.20181231171920-c182affec369?package-id=7d6312f65561eb" type="library">
+      <name>github.com/matttproud/golang_protobuf_extensions</name>
+      <version>v1.0.2-0.20181231171920-c182affec369</version>
+      <cpe>cpe:2.3:a:matttproud:golang-protobuf-extensions:v1.0.2-0.20181231171920-c182affec369:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.2-0.20181231171920-c182affec369</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:matttproud:golang_protobuf_extensions:v1.0.2-0.20181231171920-c182affec369:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:I0XW9+e1XWDxdcEniV4rQAIOPUGDq67JSCiRCgGCZLI=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd?package-id=238c68208a8ddbcd" type="library">
+      <name>github.com/modern-go/concurrent</name>
+      <version>v0.0.0-20180306012644-bacd9c7ef1dd</version>
+      <cpe>cpe:2.3:a:modern-go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern_go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:TRLaZ9cD/w8PVh93nsPXa1VrQ6jlwL5oN8l14QlcNfg=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/modern-go/reflect2@v1.0.1?package-id=3199ab26fe588852" type="library">
+      <name>github.com/modern-go/reflect2</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:modern-go:reflect2:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/modern-go/reflect2@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern_go:reflect2:v1.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern:reflect2:v1.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:9f412s+6RmYXLWZSEzVVgPGK7C2PphHj5RJrvfx9AWI=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/patrickmn/go-cache@v2.1.0+incompatible?package-id=11676c4ecb7d0202" type="library">
+      <name>github.com/patrickmn/go-cache</name>
+      <version>v2.1.0+incompatible</version>
+      <cpe>cpe:2.3:a:patrickmn:go-cache:v2.1.0\+incompatible:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/patrickmn/go-cache@v2.1.0+incompatible</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:patrickmn:go_cache:v2.1.0\+incompatible:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:HRMgzkcYKYpi3C8ajMPV8OFXaaRUnok+kx1WdO15EQc=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/projectcalico/calico@(devel)?package-id=691b33ee2cf12767" type="library">
+      <name>github.com/projectcalico/calico</name>
+      <version>(devel)</version>
+      <cpe>cpe:2.3:a:projectcalico:calico:\(devel\):*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/projectcalico/calico@(devel)</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/projectcalico/calico@(devel)?package-id=9e408a92d9defb0f" type="library">
+      <name>github.com/projectcalico/calico</name>
+      <version>(devel)</version>
+      <cpe>cpe:2.3:a:projectcalico:calico:\(devel\):*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/projectcalico/calico@(devel)</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1a8f48edc1466be40d54640e3be7d70d26bb781cdaf4754f86537bfe2fd49a92</property>
+        <property name="syft:location:0:path">/usr/bin/check-status</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/projectcalico/go-json@v0.0.0-20161128004156-6219dc7339ba?package-id=ee690e872ab74166" type="library">
+      <name>github.com/projectcalico/go-json</name>
+      <version>v0.0.0-20161128004156-6219dc7339ba</version>
+      <cpe>cpe:2.3:a:projectcalico:go-json:v0.0.0-20161128004156-6219dc7339ba:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/projectcalico/go-json@v0.0.0-20161128004156-6219dc7339ba</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:projectcalico:go_json:v0.0.0-20161128004156-6219dc7339ba:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:aaF2byUCZhzszHsfPEr2M3qcU4ibtD/yk/il2R7T1PU=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/projectcalico/go-yaml-wrapper@v0.0.0-20191112210931-090425220c54?package-id=d9a800168f651521" type="library">
+      <name>github.com/projectcalico/go-yaml-wrapper</name>
+      <version>v0.0.0-20191112210931-090425220c54</version>
+      <cpe>cpe:2.3:a:projectcalico:go-yaml-wrapper:v0.0.0-20191112210931-090425220c54:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/projectcalico/go-yaml-wrapper@v0.0.0-20191112210931-090425220c54</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:projectcalico:go_yaml_wrapper:v0.0.0-20191112210931-090425220c54:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:Jt2Pic9dxgJisekm8q2WV9FaWxUJhhRfwHSP640drww=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/projectcalico/k8s-client-go@v0.21.9-0.20220104180519-6bd7ec39553f?package-id=829a12e7585a8bc6" type="library">
+      <name>github.com/projectcalico/k8s-client-go</name>
+      <version>v0.21.9-0.20220104180519-6bd7ec39553f</version>
+      <cpe>cpe:2.3:a:projectcalico:k8s-client-go:v0.21.9-0.20220104180519-6bd7ec39553f:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/projectcalico/k8s-client-go@v0.21.9-0.20220104180519-6bd7ec39553f</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:projectcalico:k8s_client_go:v0.21.9-0.20220104180519-6bd7ec39553f:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:uaF0FyAe9Gvv7Zy93ex+lWdu6Tw6fokqjwer+Uj880A=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/projectcalico/logrus@v1.0.4-calico?package-id=391582ad212df384" type="library">
+      <name>github.com/projectcalico/logrus</name>
+      <version>v1.0.4-calico</version>
+      <cpe>cpe:2.3:a:projectcalico:logrus:v1.0.4-calico:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/projectcalico/logrus@v1.0.4-calico</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:bHJ2KLGTFzoWpRISe13CO7HVxxrKunDjyUz/wFiBY8c=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/projectcalico/logrus@v1.0.4-calico?package-id=3d806999a7a7cac0" type="library">
+      <name>github.com/projectcalico/logrus</name>
+      <version>v1.0.4-calico</version>
+      <cpe>cpe:2.3:a:projectcalico:logrus:v1.0.4-calico:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/projectcalico/logrus@v1.0.4-calico</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1a8f48edc1466be40d54640e3be7d70d26bb781cdaf4754f86537bfe2fd49a92</property>
+        <property name="syft:location:0:path">/usr/bin/check-status</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:bHJ2KLGTFzoWpRISe13CO7HVxxrKunDjyUz/wFiBY8c=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/client_golang@v1.7.1?package-id=d1c5a12a402b0f03" type="library">
+      <name>github.com/prometheus/client_golang</name>
+      <version>v1.7.1</version>
+      <cpe>cpe:2.3:a:prometheus:client-golang:v1.7.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/client_golang@v1.7.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:client_golang:v1.7.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:NTGy1Ja9pByO+xAeH/qiWnLrKtr3hJPNjaVUwnjpdpA=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/client_model@v0.2.0?package-id=a40c6aedd0a979e1" type="library">
+      <name>github.com/prometheus/client_model</name>
+      <version>v0.2.0</version>
+      <cpe>cpe:2.3:a:prometheus:client-model:v0.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/client_model@v0.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:client_model:v0.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:uq5h0d+GuxiXLJLNABMgp2qUWDPiLvgCzz2dUR+/W/M=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/common@v0.10.0?package-id=7c32c6773fccfbac" type="library">
+      <name>github.com/prometheus/common</name>
+      <version>v0.10.0</version>
+      <cpe>cpe:2.3:a:prometheus:common:v0.10.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/common@v0.10.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:RyRA7RzGXQZiW+tGMr7sxa85G1z0yOpM1qq5c8lNawc=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/procfs@v0.2.0?package-id=f8ed9c1034bfaf0" type="library">
+      <name>github.com/prometheus/procfs</name>
+      <version>v0.2.0</version>
+      <cpe>cpe:2.3:a:prometheus:procfs:v0.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/procfs@v0.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:wH4vA7pcjKuZzjF7lM8awk4fnuJO6idemZXoKnULUx4=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/spf13/pflag@v1.0.5?package-id=225ac7f94193cae0" type="library">
+      <name>github.com/spf13/pflag</name>
+      <version>v1.0.5</version>
+      <cpe>cpe:2.3:a:spf13:pflag:v1.0.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/spf13/pflag@v1.0.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:iy+VFUOCP1a+8yFto/drg2CJ5u0yRoB7fZw3DKv/JXA=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/spf13/pflag@v1.0.5?package-id=fc0235dbb2d56b69" type="library">
+      <name>github.com/spf13/pflag</name>
+      <version>v1.0.5</version>
+      <cpe>cpe:2.3:a:spf13:pflag:v1.0.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/spf13/pflag@v1.0.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1a8f48edc1466be40d54640e3be7d70d26bb781cdaf4754f86537bfe2fd49a92</property>
+        <property name="syft:location:0:path">/usr/bin/check-status</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:iy+VFUOCP1a+8yFto/drg2CJ5u0yRoB7fZw3DKv/JXA=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/go.etcd.io/etcd@v0.5.0-alpha.5.0.20201125193152-8a03d2e9614b?package-id=e0058b7c1d348f" type="library">
+      <name>go.etcd.io/etcd</name>
+      <version>v0.5.0-alpha.5.0.20201125193152-8a03d2e9614b</version>
+      <purl>pkg:golang/go.etcd.io/etcd@v0.5.0-alpha.5.0.20201125193152-8a03d2e9614b</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:PLwvCoe5rvpuo9Un6/hlNRMAfOMVb7zBsOOeKAjV81g=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/go.uber.org/atomic@v1.5.0?package-id=b596d71de1d7c345" type="library">
+      <name>go.uber.org/atomic</name>
+      <version>v1.5.0</version>
+      <purl>pkg:golang/go.uber.org/atomic@v1.5.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:OI5t8sDa1Or+q8AeE+yKeB/SDYioSHAgcVljj9JIETY=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/go.uber.org/multierr@v1.3.0?package-id=795c27a205f372d8" type="library">
+      <name>go.uber.org/multierr</name>
+      <version>v1.3.0</version>
+      <purl>pkg:golang/go.uber.org/multierr@v1.3.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:sFPn2GLc3poCkfrpIXGhBD2X0CMIo4Q/zSULXrj/+uc=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/go.uber.org/zap@v1.13.0?package-id=85e58bbc18340239" type="library">
+      <name>go.uber.org/zap</name>
+      <version>v1.13.0</version>
+      <purl>pkg:golang/go.uber.org/zap@v1.13.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:nR6NoDBgAf67s68NhaXbsojM+2gxp3S1hWkHDl27pVU=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/crypto@v0.0.0-20210220033148-5ea612d1eb83?package-id=b652858afbbbe123" type="library">
+      <name>golang.org/x/crypto</name>
+      <version>v0.0.0-20210220033148-5ea612d1eb83</version>
+      <cpe>cpe:2.3:a:golang:x\/crypto:v0.0.0-20210220033148-5ea612d1eb83:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/crypto@v0.0.0-20210220033148-5ea612d1eb83</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:/ZScEX8SfEmUGRHs0gxpqteO5nfNW6axyZbBdw9A12g=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/crypto@v0.0.0-20210220033148-5ea612d1eb83?package-id=107fef0c4f6b737e" type="library">
+      <name>golang.org/x/crypto</name>
+      <version>v0.0.0-20210220033148-5ea612d1eb83</version>
+      <cpe>cpe:2.3:a:golang:x\/crypto:v0.0.0-20210220033148-5ea612d1eb83:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/crypto@v0.0.0-20210220033148-5ea612d1eb83</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1a8f48edc1466be40d54640e3be7d70d26bb781cdaf4754f86537bfe2fd49a92</property>
+        <property name="syft:location:0:path">/usr/bin/check-status</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:/ZScEX8SfEmUGRHs0gxpqteO5nfNW6axyZbBdw9A12g=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/net@v0.0.0-20211216030914-fe4d6282115f?package-id=204efbf8ed2fa3a4" type="library">
+      <name>golang.org/x/net</name>
+      <version>v0.0.0-20211216030914-fe4d6282115f</version>
+      <cpe>cpe:2.3:a:golang:x\/net:v0.0.0-20211216030914-fe4d6282115f:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/net@v0.0.0-20211216030914-fe4d6282115f</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:hEYJvxw1lSnWIl8X9ofsYMklzaDs90JI2az5YMd4fPM=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/oauth2@v0.0.0-20210514164344-f6687ab2804c?package-id=21c77860a2b86f17" type="library">
+      <name>golang.org/x/oauth2</name>
+      <version>v0.0.0-20210514164344-f6687ab2804c</version>
+      <cpe>cpe:2.3:a:golang:x\/oauth2:v0.0.0-20210514164344-f6687ab2804c:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/oauth2@v0.0.0-20210514164344-f6687ab2804c</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:pkQiBZBvdos9qq4wBAHqlzuZHEXo07pqV06ef90u1WI=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/sync@v0.0.0-20210220032951-036812b2e83c?package-id=d05bc9caaa0e6991" type="library">
+      <name>golang.org/x/sync</name>
+      <version>v0.0.0-20210220032951-036812b2e83c</version>
+      <cpe>cpe:2.3:a:golang:x\/sync:v0.0.0-20210220032951-036812b2e83c:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/sync@v0.0.0-20210220032951-036812b2e83c</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:5KslGYwFpkhGh+Q16bwMP3cOontH8FOep7tGV86Y7SQ=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/sys@v0.0.0-20210816074244-15123e1e1f71?package-id=e7ebdbbec7f060f2" type="library">
+      <name>golang.org/x/sys</name>
+      <version>v0.0.0-20210816074244-15123e1e1f71</version>
+      <cpe>cpe:2.3:a:golang:x\/sys:v0.0.0-20210816074244-15123e1e1f71:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/sys@v0.0.0-20210816074244-15123e1e1f71</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:ikCpsnYR+Ew0vu99XlDp55lGgDJdIMx3f4a18jfse/s=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/sys@v0.0.0-20210816074244-15123e1e1f71?package-id=d069f752bb9b2ede" type="library">
+      <name>golang.org/x/sys</name>
+      <version>v0.0.0-20210816074244-15123e1e1f71</version>
+      <cpe>cpe:2.3:a:golang:x\/sys:v0.0.0-20210816074244-15123e1e1f71:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/sys@v0.0.0-20210816074244-15123e1e1f71</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1a8f48edc1466be40d54640e3be7d70d26bb781cdaf4754f86537bfe2fd49a92</property>
+        <property name="syft:location:0:path">/usr/bin/check-status</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:ikCpsnYR+Ew0vu99XlDp55lGgDJdIMx3f4a18jfse/s=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/term@v0.0.0-20210220032956-6a3ed077a48d?package-id=c4c25c5fb9967c25" type="library">
+      <name>golang.org/x/term</name>
+      <version>v0.0.0-20210220032956-6a3ed077a48d</version>
+      <cpe>cpe:2.3:a:golang:x\/term:v0.0.0-20210220032956-6a3ed077a48d:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/term@v0.0.0-20210220032956-6a3ed077a48d</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:SZxvLBoTP5yHO3Frd4z4vrF+DBX9vMVanchswa69toE=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/term@v0.0.0-20210220032956-6a3ed077a48d?package-id=a60b98fb28ae8ed2" type="library">
+      <name>golang.org/x/term</name>
+      <version>v0.0.0-20210220032956-6a3ed077a48d</version>
+      <cpe>cpe:2.3:a:golang:x\/term:v0.0.0-20210220032956-6a3ed077a48d:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/term@v0.0.0-20210220032956-6a3ed077a48d</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:1a8f48edc1466be40d54640e3be7d70d26bb781cdaf4754f86537bfe2fd49a92</property>
+        <property name="syft:location:0:path">/usr/bin/check-status</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:SZxvLBoTP5yHO3Frd4z4vrF+DBX9vMVanchswa69toE=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/text@v0.3.6?package-id=d50510910d72b3ab" type="library">
+      <name>golang.org/x/text</name>
+      <version>v0.3.6</version>
+      <cpe>cpe:2.3:a:golang:x\/text:v0.3.6:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/text@v0.3.6</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:aRYxNxv6iGQlyVaZmk6ZgYEDa+Jg18DxebPSrd6bg1M=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/time@v0.0.0-20210220033141-f8bda1e9f3ba?package-id=6829bcbf891e186f" type="library">
+      <name>golang.org/x/time</name>
+      <version>v0.0.0-20210220033141-f8bda1e9f3ba</version>
+      <cpe>cpe:2.3:a:golang:x\/time:v0.0.0-20210220033141-f8bda1e9f3ba:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/time@v0.0.0-20210220033141-f8bda1e9f3ba</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:O8mE0/t419eoIwhTFpKVkHiTs/Igowgfkj25AcZrtiE=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.zx2c4.com/wireguard/wgctrl@v0.0.0-20200324154536-ceff61240acf?package-id=b2633a3f2a8fc1eb" type="library">
+      <name>golang.zx2c4.com/wireguard/wgctrl</name>
+      <version>v0.0.0-20200324154536-ceff61240acf</version>
+      <cpe>cpe:2.3:a:wireguard:wgctrl:v0.0.0-20200324154536-ceff61240acf:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.zx2c4.com/wireguard/wgctrl@v0.0.0-20200324154536-ceff61240acf</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:rWUZHukj3poXegPQMZOXgxjTGIBe3mLNHNVvL5DsHus=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/genproto@v0.0.0-20201110150050-8816d57aaa9a?package-id=b812ac59756b7f6d" type="library">
+      <name>google.golang.org/genproto</name>
+      <version>v0.0.0-20201110150050-8816d57aaa9a</version>
+      <cpe>cpe:2.3:a:google:genproto:v0.0.0-20201110150050-8816d57aaa9a:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/genproto@v0.0.0-20201110150050-8816d57aaa9a</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:pOwg4OoaRYScjmR4LlLgdtnyoHYTSAVhhqe5uPdpII8=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/grpc@v1.29.1?package-id=496931d425b12b37" type="library">
+      <name>google.golang.org/grpc</name>
+      <version>v1.29.1</version>
+      <cpe>cpe:2.3:a:google:grpc:v1.29.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/grpc@v1.29.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:EC2SB8S04d2r73uptxphDSUG+kTKVgjRPF+N3xpxRB4=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/protobuf@v1.26.0?package-id=62ac121fbd83924b" type="library">
+      <name>google.golang.org/protobuf</name>
+      <version>v1.26.0</version>
+      <cpe>cpe:2.3:a:google:protobuf:v1.26.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/protobuf@v1.26.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:bxAC2xTBsZGibn2RTntX0oH50xLsqy1OxA9tTL3p/lk=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/go-playground/validator.v9@v9.27.0?package-id=7d4046cf21e4a899" type="library">
+      <name>gopkg.in/go-playground/validator.v9</name>
+      <version>v9.27.0</version>
+      <purl>pkg:golang/gopkg.in/go-playground/validator.v9@v9.27.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:wCg/0hk9RzcB0CYw8pYV6FiBYug1on0cpco9YZF8jqA=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/inf.v0@v0.9.1?package-id=8dd71c596280e60e" type="library">
+      <name>gopkg.in/inf.v0</name>
+      <version>v0.9.1</version>
+      <purl>pkg:golang/gopkg.in/inf.v0@v0.9.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:73M5CoZyi3ZLMOyDlQh031Cx6N9NDJ2Vvfl76EDAgDc=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/yaml.v2@v2.4.0?package-id=a39d544b634a65da" type="library">
+      <name>gopkg.in/yaml.v2</name>
+      <version>v2.4.0</version>
+      <purl>pkg:golang/gopkg.in/yaml.v2@v2.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:D8xgwECY7CYvx+Y2n4sBz93Jn9JRvxdiyyo8CTfuKaY=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/api@v0.21.8?package-id=8aa39ae68ffb0e1b" type="library">
+      <name>k8s.io/api</name>
+      <version>v0.21.8</version>
+      <purl>pkg:golang/k8s.io/api@v0.21.8</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:wVK5Jr4RnUIpjejuFnslXminUMdxa31bxi6zaUOILI4=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/apimachinery@v0.21.8?package-id=c77abd5250f2c838" type="library">
+      <name>k8s.io/apimachinery</name>
+      <version>v0.21.8</version>
+      <purl>pkg:golang/k8s.io/apimachinery@v0.21.8</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:crvdCfg/ueRHOPWReO+DukFvtGBoxyJdV61xkO6RhJU=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/apiserver@v0.21.8?package-id=a019d6fb5ed654ed" type="library">
+      <name>k8s.io/apiserver</name>
+      <version>v0.21.8</version>
+      <purl>pkg:golang/k8s.io/apiserver@v0.21.8</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:JeBpbz0Hf4/zDCn8X6bZ5d2WOgIVHm84ImaA4SNfJzw=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/component-base@v0.21.8?package-id=e1745750b5401e87" type="library">
+      <name>k8s.io/component-base</name>
+      <version>v0.21.8</version>
+      <purl>pkg:golang/k8s.io/component-base@v0.21.8</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:BwNeUkb6oeRFm1hQVpI2EWW1DtPO0VIAQ4ZUVUT6Rqc=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/klog@v1.0.0?package-id=f7f6a97a9fb1e756" type="library">
+      <name>k8s.io/klog</name>
+      <version>v1.0.0</version>
+      <purl>pkg:golang/k8s.io/klog@v1.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:Pt+yjF5aB1xDSVbau4VsWe+dQNzA0qv1LlXdC2dF6Q8=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/klog/v2@v2.9.0?package-id=62a887c877ea2346" type="library">
+      <name>k8s.io/klog/v2</name>
+      <version>v2.9.0</version>
+      <cpe>cpe:2.3:a:klog:v2:v2.9.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/k8s.io/klog/v2@v2.9.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:D7HV+n1V57XeZ0m6tdRkfknthUaM06VFbWldOFh8kzM=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/kube-openapi@v0.0.0-20210305001622-591a79e4bda7?package-id=3e7dfc08c385e346" type="library">
+      <name>k8s.io/kube-openapi</name>
+      <version>v0.0.0-20210305001622-591a79e4bda7</version>
+      <purl>pkg:golang/k8s.io/kube-openapi@v0.0.0-20210305001622-591a79e4bda7</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:vEx13qjvaZ4yfObSSXW7BrMc/KQBBT/Jyee8XtLf4x0=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/utils@v0.0.0-20210521133846-da695404a2bc?package-id=6980aeaa868596bf" type="library">
+      <name>k8s.io/utils</name>
+      <version>v0.0.0-20210521133846-da695404a2bc</version>
+      <purl>pkg:golang/k8s.io/utils@v0.0.0-20210521133846-da695404a2bc</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:dx6VGe+PnOW/kD/2UV4aUSsRfJGd7+lcqgJ6Xg0HwUs=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.1.2?package-id=5beb751eb80e407d" type="library">
+      <name>sigs.k8s.io/structured-merge-diff/v4</name>
+      <version>v4.1.2</version>
+      <cpe>cpe:2.3:a:structured-merge-diff:v4:v4.1.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.1.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured_merge_diff:v4:v4.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured-merge:v4:v4.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured_merge:v4:v4.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured:v4:v4.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:Hr/htKFmJEbtMgS/UD0N+gtgctAqz81t3nu+sPzynno=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/yaml@v1.2.0?package-id=93c2388c83d7d1af" type="library">
+      <name>sigs.k8s.io/yaml</name>
+      <version>v1.2.0</version>
+      <purl>pkg:golang/sigs.k8s.io/yaml@v1.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:53ef79489dc5f1fa635e24d68700dedec6dc38782701faab5d64c9002770a320</property>
+        <property name="syft:location:0:path">/usr/bin/kube-controllers</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.5b7</property>
+        <property name="syft:metadata:h1Digest">h1:kr/MCeFWJWTwyaHoR9c8EjH9OumOmoF9YGiZd7lFm/Q=</property>
+        <property name="syft:metadata:mainModule">github.com/projectcalico/calico</property>
+      </properties>
+    </component>
+  </components>
+</bom>
