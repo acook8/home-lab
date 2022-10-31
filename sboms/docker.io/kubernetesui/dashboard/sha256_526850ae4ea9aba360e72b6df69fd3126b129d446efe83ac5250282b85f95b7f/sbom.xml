@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:4cb13a52-795a-4eae-a5fa-f5e04423aaa3" version="1">
+  <metadata>
+    <timestamp>2022-10-31T15:57:14Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>anchore</vendor>
+        <name>syft</name>
+        <version>v0.58.0</version>
+      </tool>
+    </tools>
+    <component bom-ref="405193be02cda05a" type="container">
+      <name>/tmp/sha256_526850ae4ea9aba360e72b6df69fd3126b129d446efe83ac5250282b85f95b7f.tar.gz</name>
+      <version>sha256:c8522e59ae28794491625afb1c9a1d7c6f8c7e9c9e6d4cb34cbc96bdeaf7a2bd</version>
+    </component>
+  </metadata>
+  <components>
+    <component bom-ref="pkg:golang/github.com/beorn7/perks@v1.0.1?package-id=36bf578405c78799" type="library">
+      <name>github.com/beorn7/perks</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:beorn7:perks:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/beorn7/perks@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/cespare/xxhash/v2@v2.1.1?package-id=83694e5604b144db" type="library">
+      <name>github.com/cespare/xxhash/v2</name>
+      <version>v2.1.1</version>
+      <cpe>cpe:2.3:a:cespare:xxhash\/v2:v2.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/cespare/xxhash/v2@v2.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:6MnRN8NT7+YBpUIWxHtefFZOKTAPgGjpQSxqLNn0+qY=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/davecgh/go-spew@v1.1.1?package-id=f454513d2e115705" type="library">
+      <name>github.com/davecgh/go-spew</name>
+      <version>v1.1.1</version>
+      <cpe>cpe:2.3:a:davecgh:go-spew:v1.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/davecgh/go-spew@v1.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:davecgh:go_spew:v1.1.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/docker/distribution@v2.7.1+incompatible?package-id=5220d1c630d7bb4b" type="library">
+      <name>github.com/docker/distribution</name>
+      <version>v2.7.1+incompatible</version>
+      <cpe>cpe:2.3:a:docker:distribution:v2.7.1\+incompatible:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/docker/distribution@v2.7.1+incompatible</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:a5mlkVzth6W5A4fOsS3D2EO5BUmsJpcB+cRlLU7cSug=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/emicklei/go-restful/v3@v3.3.3?package-id=5d7e9dcb564c428" type="library">
+      <name>github.com/emicklei/go-restful/v3</name>
+      <version>v3.3.3</version>
+      <cpe>cpe:2.3:a:emicklei:go-restful\/v3:v3.3.3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/emicklei/go-restful/v3@v3.3.3</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:emicklei:go_restful\/v3:v3.3.3:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:2WxjFb4b+Eik8vJ1saz3jbhKnt4xaFVn3N9uU3WXfLE=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-logr/logr@v0.4.0?package-id=685a95896b3e9f7f" type="library">
+      <name>github.com/go-logr/logr</name>
+      <version>v0.4.0</version>
+      <cpe>cpe:2.3:a:go-logr:logr:v0.4.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-logr/logr@v0.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_logr:logr:v0.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:logr:v0.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:K7/B1jt6fIBQVd4Owv2MqGQClcgf0R266+7C/QjRcLc=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/gogo/protobuf@v1.3.2?package-id=c5a5aacab6bf5a23" type="library">
+      <name>github.com/gogo/protobuf</name>
+      <version>v1.3.2</version>
+      <cpe>cpe:2.3:a:gogo:protobuf:v1.3.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/gogo/protobuf@v1.3.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:Ov1cvc58UF3b5XjBnZv7+opcTcQFZebYjWzi34vdm4Q=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/golang/glog@v0.0.0-20160126235308-23def4e6c14b?package-id=237887b65b3ea6b5" type="library">
+      <name>github.com/golang/glog</name>
+      <version>v0.0.0-20160126235308-23def4e6c14b</version>
+      <cpe>cpe:2.3:a:golang:glog:v0.0.0-20160126235308-23def4e6c14b:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/golang/glog@v0.0.0-20160126235308-23def4e6c14b</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:VKtxabqXZkF25pY9ekfRL6a582T4P37/31XEstQ5p58=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/golang/protobuf@v1.5.2?package-id=7d13be1a526fde2d" type="library">
+      <name>github.com/golang/protobuf</name>
+      <version>v1.5.2</version>
+      <cpe>cpe:2.3:a:golang:protobuf:v1.5.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/golang/protobuf@v1.5.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:ROPKBNFfQgOUMifHyP+KYbvpjbdoFNs+aK7DXlji0Tw=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/go-cmp@v0.5.5?package-id=865dffe11cf67f18" type="library">
+      <name>github.com/google/go-cmp</name>
+      <version>v0.5.5</version>
+      <cpe>cpe:2.3:a:google:go-cmp:v0.5.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/go-cmp@v0.5.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:google:go_cmp:v0.5.5:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:Khx7svrCpmxxtHBq5j2mp/xVjsi8hQMfNLvJFAlrGgU=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/gofuzz@v1.1.0?package-id=d1759cdcf35ff63d" type="library">
+      <name>github.com/google/gofuzz</name>
+      <version>v1.1.0</version>
+      <cpe>cpe:2.3:a:google:gofuzz:v1.1.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/gofuzz@v1.1.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:Hsa8mG0dQ46ij8Sl2AYJDUv1oA9/d6Vk+3LG99Oe02g=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/googleapis/gnostic@v0.5.5?package-id=c1157e2e3c9a1485" type="library">
+      <name>github.com/googleapis/gnostic</name>
+      <version>v0.5.5</version>
+      <cpe>cpe:2.3:a:googleapis:gnostic:v0.5.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/googleapis/gnostic@v0.5.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:9fHAtK0uDfpveeqqo1hkEZJcFvYXAiCN3UutL8F9xHw=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/gorilla/websocket@v1.4.2?package-id=5ddc848b57bda6bf" type="library">
+      <name>github.com/gorilla/websocket</name>
+      <version>v1.4.2</version>
+      <cpe>cpe:2.3:a:gorilla:websocket:v1.4.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/gorilla/websocket@v1.4.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:+/TMaTYc4QFitKJxsQ7Yye35DkWvkdLcvGKqM+x0Ufc=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/imdario/mergo@v0.3.5?package-id=3f6d7dcd517539bb" type="library">
+      <name>github.com/imdario/mergo</name>
+      <version>v0.3.5</version>
+      <cpe>cpe:2.3:a:imdario:mergo:v0.3.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/imdario/mergo@v0.3.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:JboBksRwiiAJWvIYJVo46AfV+IAIKZpfrSzVKj42R4Q=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/json-iterator/go@v1.1.11?package-id=8cec715d4db226ed" type="library">
+      <name>github.com/json-iterator/go</name>
+      <version>v1.1.11</version>
+      <cpe>cpe:2.3:a:json-iterator:go:v1.1.11:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/json-iterator/go@v1.1.11</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:json_iterator:go:v1.1.11:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:json:go:v1.1.11:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:uVUAXhF2To8cbw/3xN3pxj6kk7TYKs98NIrTqPlMWAQ=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/kubernetes/dashboard@(devel)?package-id=eb02ef6d8b7fd762" type="library">
+      <name>github.com/kubernetes/dashboard</name>
+      <version>(devel)</version>
+      <cpe>cpe:2.3:a:kubernetes:dashboard:\(devel\):*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/kubernetes/dashboard@(devel)</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.2-0.20181231171920-c182affec369?package-id=913f78b6e2ad5170" type="library">
+      <name>github.com/matttproud/golang_protobuf_extensions</name>
+      <version>v1.0.2-0.20181231171920-c182affec369</version>
+      <cpe>cpe:2.3:a:matttproud:golang-protobuf-extensions:v1.0.2-0.20181231171920-c182affec369:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.2-0.20181231171920-c182affec369</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:matttproud:golang_protobuf_extensions:v1.0.2-0.20181231171920-c182affec369:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:I0XW9+e1XWDxdcEniV4rQAIOPUGDq67JSCiRCgGCZLI=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/moby/spdystream@v0.2.0?package-id=2a7056129fb7d8aa" type="library">
+      <name>github.com/moby/spdystream</name>
+      <version>v0.2.0</version>
+      <cpe>cpe:2.3:a:moby:spdystream:v0.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/moby/spdystream@v0.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:cjW1zVyyoiM0T7b6UoySUFqzXMoqRckQtXwGPiBhOM8=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd?package-id=d572062a1ceacdcf" type="library">
+      <name>github.com/modern-go/concurrent</name>
+      <version>v0.0.0-20180306012644-bacd9c7ef1dd</version>
+      <cpe>cpe:2.3:a:modern-go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern_go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:TRLaZ9cD/w8PVh93nsPXa1VrQ6jlwL5oN8l14QlcNfg=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/modern-go/reflect2@v1.0.1?package-id=bc601bbe125fe5f4" type="library">
+      <name>github.com/modern-go/reflect2</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:modern-go:reflect2:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/modern-go/reflect2@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern_go:reflect2:v1.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern:reflect2:v1.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:9f412s+6RmYXLWZSEzVVgPGK7C2PphHj5RJrvfx9AWI=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/opencontainers/go-digest@v1.0.0?package-id=162fe4d78c2f5626" type="library">
+      <name>github.com/opencontainers/go-digest</name>
+      <version>v1.0.0</version>
+      <cpe>cpe:2.3:a:opencontainers:go-digest:v1.0.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/opencontainers/go-digest@v1.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:opencontainers:go_digest:v1.0.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:apOUWs51W5PlhuyGyz9FCeeBIOUDA/6nW8Oi/yOhh5U=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/client_golang@v1.11.0?package-id=dd115a22695f9a3" type="library">
+      <name>github.com/prometheus/client_golang</name>
+      <version>v1.11.0</version>
+      <cpe>cpe:2.3:a:prometheus:client-golang:v1.11.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/client_golang@v1.11.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:client_golang:v1.11.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:HNkLOAEQMIDv/K+04rukrLx6ch7msSRwf3/SASFAGtQ=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/client_model@v0.2.0?package-id=53fc8601a9566cad" type="library">
+      <name>github.com/prometheus/client_model</name>
+      <version>v0.2.0</version>
+      <cpe>cpe:2.3:a:prometheus:client-model:v0.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/client_model@v0.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:client_model:v0.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:uq5h0d+GuxiXLJLNABMgp2qUWDPiLvgCzz2dUR+/W/M=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/common@v0.26.0?package-id=5160708635cc6fb8" type="library">
+      <name>github.com/prometheus/common</name>
+      <version>v0.26.0</version>
+      <cpe>cpe:2.3:a:prometheus:common:v0.26.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/common@v0.26.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:iMAkS2TDoNWnKM+Kopnx/8tnEStIfpYA0ur0xQzzhMQ=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/procfs@v0.6.0?package-id=3e6f8a200e242a26" type="library">
+      <name>github.com/prometheus/procfs</name>
+      <version>v0.6.0</version>
+      <cpe>cpe:2.3:a:prometheus:procfs:v0.6.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/procfs@v0.6.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:mxy4L2jP6qMonqmq+aTtOx1ifVWUgG/TAmntgbh3xv4=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/spf13/pflag@v1.0.5?package-id=8f156cd2c0da6ebf" type="library">
+      <name>github.com/spf13/pflag</name>
+      <version>v1.0.5</version>
+      <cpe>cpe:2.3:a:spf13:pflag:v1.0.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/spf13/pflag@v1.0.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:iy+VFUOCP1a+8yFto/drg2CJ5u0yRoB7fZw3DKv/JXA=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/crypto@v0.0.0-20210220033148-5ea612d1eb83?package-id=b7a4406833f42016" type="library">
+      <name>golang.org/x/crypto</name>
+      <version>v0.0.0-20210220033148-5ea612d1eb83</version>
+      <cpe>cpe:2.3:a:golang:x\/crypto:v0.0.0-20210220033148-5ea612d1eb83:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/crypto@v0.0.0-20210220033148-5ea612d1eb83</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:/ZScEX8SfEmUGRHs0gxpqteO5nfNW6axyZbBdw9A12g=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/net@v0.0.0-20210716203947-853a461950ff?package-id=ad67b14aec9280ff" type="library">
+      <name>golang.org/x/net</name>
+      <version>v0.0.0-20210716203947-853a461950ff</version>
+      <cpe>cpe:2.3:a:golang:x\/net:v0.0.0-20210716203947-853a461950ff:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/net@v0.0.0-20210716203947-853a461950ff</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:j2EK/QoxYNBsXI4R7fQkkRUk8y6wnOBI+6hgPdP/6Ds=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/oauth2@v0.0.0-20200107190931-bf48bf16ab8d?package-id=60a9b6981f4b0a7d" type="library">
+      <name>golang.org/x/oauth2</name>
+      <version>v0.0.0-20200107190931-bf48bf16ab8d</version>
+      <cpe>cpe:2.3:a:golang:x\/oauth2:v0.0.0-20200107190931-bf48bf16ab8d:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/oauth2@v0.0.0-20200107190931-bf48bf16ab8d</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:TzXSXBo42m9gQenoE3b9BGiEpg5IG2JkU5FkPIawgtw=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/sys@v0.0.0-20210616094352-59db8d763f22?package-id=2a53a5580cc65a6e" type="library">
+      <name>golang.org/x/sys</name>
+      <version>v0.0.0-20210616094352-59db8d763f22</version>
+      <cpe>cpe:2.3:a:golang:x\/sys:v0.0.0-20210616094352-59db8d763f22:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/sys@v0.0.0-20210616094352-59db8d763f22</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:RqytpXGR1iVNX7psjB3ff8y7sNFinVFvkx1c8SjBkio=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/term@v0.0.0-20210220032956-6a3ed077a48d?package-id=968f02b0d5a84729" type="library">
+      <name>golang.org/x/term</name>
+      <version>v0.0.0-20210220032956-6a3ed077a48d</version>
+      <cpe>cpe:2.3:a:golang:x\/term:v0.0.0-20210220032956-6a3ed077a48d:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/term@v0.0.0-20210220032956-6a3ed077a48d</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:SZxvLBoTP5yHO3Frd4z4vrF+DBX9vMVanchswa69toE=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/text@v0.3.6?package-id=abba09b764fe13ee" type="library">
+      <name>golang.org/x/text</name>
+      <version>v0.3.6</version>
+      <cpe>cpe:2.3:a:golang:x\/text:v0.3.6:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/text@v0.3.6</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:aRYxNxv6iGQlyVaZmk6ZgYEDa+Jg18DxebPSrd6bg1M=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/time@v0.0.0-20210723032227-1f47c861a9ac?package-id=43e6ecdffa1176a1" type="library">
+      <name>golang.org/x/time</name>
+      <version>v0.0.0-20210723032227-1f47c861a9ac</version>
+      <cpe>cpe:2.3:a:golang:x\/time:v0.0.0-20210723032227-1f47c861a9ac:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/time@v0.0.0-20210723032227-1f47c861a9ac</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:7zkz7BUtwNFFqcowJ+RIgu2MaV/MapERkDIy+mwPyjs=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/protobuf@v1.26.0?package-id=410c3a11dbfe4d0d" type="library">
+      <name>google.golang.org/protobuf</name>
+      <version>v1.26.0</version>
+      <cpe>cpe:2.3:a:google:protobuf:v1.26.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/protobuf@v1.26.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:bxAC2xTBsZGibn2RTntX0oH50xLsqy1OxA9tTL3p/lk=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/igm/sockjs-go.v2@v2.1.0?package-id=22285890bd15a42f" type="library">
+      <name>gopkg.in/igm/sockjs-go.v2</name>
+      <version>v2.1.0</version>
+      <purl>pkg:golang/gopkg.in/igm/sockjs-go.v2@v2.1.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:Ehqymxnfkkwi8R7SZIUARn77M0slA8vki0VgcfOdALw=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/inf.v0@v0.9.1?package-id=b41d765aa1e493d0" type="library">
+      <name>gopkg.in/inf.v0</name>
+      <version>v0.9.1</version>
+      <purl>pkg:golang/gopkg.in/inf.v0@v0.9.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:73M5CoZyi3ZLMOyDlQh031Cx6N9NDJ2Vvfl76EDAgDc=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/square/go-jose.v2@v2.4.1?package-id=9c2fafe52472b49e" type="library">
+      <name>gopkg.in/square/go-jose.v2</name>
+      <version>v2.4.1</version>
+      <purl>pkg:golang/gopkg.in/square/go-jose.v2@v2.4.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:H0TmLt7/KmzlrDOpa1F+zr0Tk90PbJYBfsVUmRLrf9Y=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/yaml.v2@v2.4.0?package-id=b54d56b80452219" type="library">
+      <name>gopkg.in/yaml.v2</name>
+      <version>v2.4.0</version>
+      <purl>pkg:golang/gopkg.in/yaml.v2@v2.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:D8xgwECY7CYvx+Y2n4sBz93Jn9JRvxdiyyo8CTfuKaY=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/yaml.v3@v3.0.0-20210107192922-496545a6307b?package-id=1a4fdf9254939476" type="library">
+      <name>gopkg.in/yaml.v3</name>
+      <version>v3.0.0-20210107192922-496545a6307b</version>
+      <purl>pkg:golang/gopkg.in/yaml.v3@v3.0.0-20210107192922-496545a6307b</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:h8qDotaEPuJATrMmW04NCwg7v22aHH28wwpauUhK9Oo=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/api@v0.22.2?package-id=7d4edae995d59cde" type="library">
+      <name>k8s.io/api</name>
+      <version>v0.22.2</version>
+      <purl>pkg:golang/k8s.io/api@v0.22.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:M8ZzAD0V6725Fjg53fKeTJxGsJvRbk4TEm/fexHMtfw=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/apiextensions-apiserver@v0.22.2?package-id=481d2ccdc5e4c1ce" type="library">
+      <name>k8s.io/apiextensions-apiserver</name>
+      <version>v0.22.2</version>
+      <purl>pkg:golang/k8s.io/apiextensions-apiserver@v0.22.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:zK7qI8Ery7j2CaN23UCFaC1hj7dMiI87n01+nKuewd4=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/apimachinery@v0.22.2?package-id=76f6e6f47edc7c75" type="library">
+      <name>k8s.io/apimachinery</name>
+      <version>v0.22.2</version>
+      <purl>pkg:golang/k8s.io/apimachinery@v0.22.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:ejz6y/zNma8clPVfNDLnPbleBo6MpoFy/HBiBqCouVk=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/client-go@v0.22.2?package-id=51ff38c363ffd80d" type="library">
+      <name>k8s.io/client-go</name>
+      <version>v0.22.2</version>
+      <purl>pkg:golang/k8s.io/client-go@v0.22.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:DaSQgs02aCC1QcwUdkKZWOeaVsQjYvWv8ZazcZ6JcHc=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/heapster@v1.5.4?package-id=d69c7e7c170168db" type="library">
+      <name>k8s.io/heapster</name>
+      <version>v1.5.4</version>
+      <purl>pkg:golang/k8s.io/heapster@v1.5.4</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:lH2GCZdqRmUKDoyqRgiXbRmIcevaPYTvkguOuYUl8gQ=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/klog/v2@v2.9.0?package-id=2fd6f4eaeb138468" type="library">
+      <name>k8s.io/klog/v2</name>
+      <version>v2.9.0</version>
+      <cpe>cpe:2.3:a:klog:v2:v2.9.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/k8s.io/klog/v2@v2.9.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:D7HV+n1V57XeZ0m6tdRkfknthUaM06VFbWldOFh8kzM=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/utils@v0.0.0-20210819203725-bdf08cb9a70a?package-id=2b31de8f85e6fdcc" type="library">
+      <name>k8s.io/utils</name>
+      <version>v0.0.0-20210819203725-bdf08cb9a70a</version>
+      <purl>pkg:golang/k8s.io/utils@v0.0.0-20210819203725-bdf08cb9a70a</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:8dYfu/Fc9Gz2rNJKB9IQRGgQOh2clmRzNIPPY1xLY5g=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.1.2?package-id=90ab3b34d010b410" type="library">
+      <name>sigs.k8s.io/structured-merge-diff/v4</name>
+      <version>v4.1.2</version>
+      <cpe>cpe:2.3:a:structured-merge-diff:v4:v4.1.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.1.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured_merge_diff:v4:v4.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured-merge:v4:v4.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured_merge:v4:v4.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured:v4:v4.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:Hr/htKFmJEbtMgS/UD0N+gtgctAqz81t3nu+sPzynno=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/yaml@v1.2.0?package-id=3e0d7be163054ba3" type="library">
+      <name>sigs.k8s.io/yaml</name>
+      <version>v1.2.0</version>
+      <purl>pkg:golang/sigs.k8s.io/yaml@v1.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:e9e41e0a10f53c29320a313b4b6d67e34827ad8bc1ad6752efdd8ea4540f5156</property>
+        <property name="syft:location:0:path">/dashboard</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17</property>
+        <property name="syft:metadata:h1Digest">h1:kr/MCeFWJWTwyaHoR9c8EjH9OumOmoF9YGiZd7lFm/Q=</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes/dashboard</property>
+      </properties>
+    </component>
+  </components>
+</bom>
