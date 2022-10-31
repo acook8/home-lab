@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:ef6717d1-e51a-4f20-b900-83929226217c" version="1">
+  <metadata>
+    <timestamp>2022-10-31T15:57:23Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>anchore</vendor>
+        <name>syft</name>
+        <version>v0.58.0</version>
+      </tool>
+    </tools>
+    <component bom-ref="e84908bb360c5421" type="container">
+      <name>/tmp/sha256_f9bcee63734b7b01555ee8fc8fb01ac2922478b2c8934bf8d468dd2916edc405.tar.gz</name>
+      <version>sha256:4814e8a87e54e280d5dcb345c9025505813ccf1565e6c5f77fc96405640137ca</version>
+    </component>
+  </metadata>
+  <components>
+    <component bom-ref="pkg:deb/debian/base-files@10.3+deb10u10?arch=amd64&amp;distro=debian-10&amp;package-id=20cfdabbc6f45b4d" type="library">
+      <publisher>Santiago Vila &lt;sanvila@debian.org&gt;</publisher>
+      <name>base-files</name>
+      <version>10.3+deb10u10</version>
+      <cpe>cpe:2.3:a:base-files:base-files:10.3\+deb10u10:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:deb/debian/base-files@10.3+deb10u10?arch=amd64&amp;distro=debian-10</purl>
+      <properties>
+        <property name="syft:package:foundBy">dpkgdb-cataloger</property>
+        <property name="syft:package:metadataType">DpkgMetadata</property>
+        <property name="syft:package:type">deb</property>
+        <property name="syft:cpe23">cpe:2.3:a:base-files:base_files:10.3\+deb10u10:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:base_files:base-files:10.3\+deb10u10:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:base_files:base_files:10.3\+deb10u10:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:base:base-files:10.3\+deb10u10:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:base:base_files:10.3\+deb10u10:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:07363fa8421000ad294c2881d17b0535aabdd17ced2a874eb354a9d8514d3d59</property>
+        <property name="syft:location:0:path">/usr/share/doc/base-files/copyright</property>
+        <property name="syft:location:1:layerID">sha256:07363fa8421000ad294c2881d17b0535aabdd17ced2a874eb354a9d8514d3d59</property>
+        <property name="syft:location:1:path">/var/lib/dpkg/status.d/YmFzZS1maWxlcw==</property>
+        <property name="syft:metadata:installedSize">340</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/beorn7/perks@v1.0.1?package-id=25203143c9ab5ed9" type="library">
+      <name>github.com/beorn7/perks</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:beorn7:perks:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/beorn7/perks@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:54d86b4865da959181d95c3590cbc8fcf529af0c68a7249445880daa7af5815f</property>
+        <property name="syft:location:0:path">/csi-node-driver-registrar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/node-driver-registrar</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/blang/semver@v3.5.1+incompatible?package-id=ac3868c44d39de32" type="library">
+      <name>github.com/blang/semver</name>
+      <version>v3.5.1+incompatible</version>
+      <cpe>cpe:2.3:a:blang:semver:v3.5.1\+incompatible:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/blang/semver@v3.5.1+incompatible</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:54d86b4865da959181d95c3590cbc8fcf529af0c68a7249445880daa7af5815f</property>
+        <property name="syft:location:0:path">/csi-node-driver-registrar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/node-driver-registrar</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/cespare/xxhash/v2@v2.1.1?package-id=eefdf2976f66f3ea" type="library">
+      <name>github.com/cespare/xxhash/v2</name>
+      <version>v2.1.1</version>
+      <cpe>cpe:2.3:a:cespare:xxhash\/v2:v2.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/cespare/xxhash/v2@v2.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:54d86b4865da959181d95c3590cbc8fcf529af0c68a7249445880daa7af5815f</property>
+        <property name="syft:location:0:path">/csi-node-driver-registrar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/node-driver-registrar</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/container-storage-interface/spec@v1.5.0?package-id=77f9fa87674dcbfe" type="library">
+      <name>github.com/container-storage-interface/spec</name>
+      <version>v1.5.0</version>
+      <cpe>cpe:2.3:a:container-storage-interface:spec:v1.5.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/container-storage-interface/spec@v1.5.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:container_storage_interface:spec:v1.5.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:container-storage:spec:v1.5.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:container_storage:spec:v1.5.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:container:spec:v1.5.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:54d86b4865da959181d95c3590cbc8fcf529af0c68a7249445880daa7af5815f</property>
+        <property name="syft:location:0:path">/csi-node-driver-registrar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/node-driver-registrar</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-logr/logr@v0.4.0?package-id=2a1db7fd461a47e0" type="library">
+      <name>github.com/go-logr/logr</name>
+      <version>v0.4.0</version>
+      <cpe>cpe:2.3:a:go-logr:logr:v0.4.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-logr/logr@v0.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_logr:logr:v0.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:logr:v0.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:54d86b4865da959181d95c3590cbc8fcf529af0c68a7249445880daa7af5815f</property>
+        <property name="syft:location:0:path">/csi-node-driver-registrar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/node-driver-registrar</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/gogo/protobuf@v1.3.2?package-id=b5e4ab205ac58b43" type="library">
+      <name>github.com/gogo/protobuf</name>
+      <version>v1.3.2</version>
+      <cpe>cpe:2.3:a:gogo:protobuf:v1.3.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/gogo/protobuf@v1.3.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:54d86b4865da959181d95c3590cbc8fcf529af0c68a7249445880daa7af5815f</property>
+        <property name="syft:location:0:path">/csi-node-driver-registrar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/node-driver-registrar</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/golang/protobuf@v1.5.2?package-id=bad4d2fc309d55d" type="library">
+      <name>github.com/golang/protobuf</name>
+      <version>v1.5.2</version>
+      <cpe>cpe:2.3:a:golang:protobuf:v1.5.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/golang/protobuf@v1.5.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:54d86b4865da959181d95c3590cbc8fcf529af0c68a7249445880daa7af5815f</property>
+        <property name="syft:location:0:path">/csi-node-driver-registrar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/node-driver-registrar</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/kubernetes-csi/csi-lib-utils@v0.10.0?package-id=df0b141fba7fdbcb" type="library">
+      <name>github.com/kubernetes-csi/csi-lib-utils</name>
+      <version>v0.10.0</version>
+      <cpe>cpe:2.3:a:kubernetes-csi:csi-lib-utils:v0.10.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/kubernetes-csi/csi-lib-utils@v0.10.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes-csi:csi_lib_utils:v0.10.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes_csi:csi-lib-utils:v0.10.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes_csi:csi_lib_utils:v0.10.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes:csi-lib-utils:v0.10.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes:csi_lib_utils:v0.10.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:54d86b4865da959181d95c3590cbc8fcf529af0c68a7249445880daa7af5815f</property>
+        <property name="syft:location:0:path">/csi-node-driver-registrar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/node-driver-registrar</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/kubernetes-csi/node-driver-registrar@(devel)?package-id=3c492023adfa3b8d" type="library">
+      <name>github.com/kubernetes-csi/node-driver-registrar</name>
+      <version>(devel)</version>
+      <cpe>cpe:2.3:a:kubernetes-csi:node-driver-registrar:\(devel\):*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/kubernetes-csi/node-driver-registrar@(devel)</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes-csi:node_driver_registrar:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes_csi:node-driver-registrar:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes_csi:node_driver_registrar:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes:node-driver-registrar:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes:node_driver_registrar:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:54d86b4865da959181d95c3590cbc8fcf529af0c68a7249445880daa7af5815f</property>
+        <property name="syft:location:0:path">/csi-node-driver-registrar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/node-driver-registrar</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.2-0.20181231171920-c182affec369?package-id=8feb00c621103212" type="library">
+      <name>github.com/matttproud/golang_protobuf_extensions</name>
+      <version>v1.0.2-0.20181231171920-c182affec369</version>
+      <cpe>cpe:2.3:a:matttproud:golang-protobuf-extensions:v1.0.2-0.20181231171920-c182affec369:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.2-0.20181231171920-c182affec369</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:matttproud:golang_protobuf_extensions:v1.0.2-0.20181231171920-c182affec369:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:54d86b4865da959181d95c3590cbc8fcf529af0c68a7249445880daa7af5815f</property>
+        <property name="syft:location:0:path">/csi-node-driver-registrar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/node-driver-registrar</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/client_golang@v1.11.0?package-id=ec1742383cbfb81" type="library">
+      <name>github.com/prometheus/client_golang</name>
+      <version>v1.11.0</version>
+      <cpe>cpe:2.3:a:prometheus:client-golang:v1.11.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/client_golang@v1.11.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:client_golang:v1.11.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:54d86b4865da959181d95c3590cbc8fcf529af0c68a7249445880daa7af5815f</property>
+        <property name="syft:location:0:path">/csi-node-driver-registrar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/node-driver-registrar</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/client_model@v0.2.0?package-id=5dbdefa4d46246c8" type="library">
+      <name>github.com/prometheus/client_model</name>
+      <version>v0.2.0</version>
+      <cpe>cpe:2.3:a:prometheus:client-model:v0.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/client_model@v0.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:client_model:v0.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:54d86b4865da959181d95c3590cbc8fcf529af0c68a7249445880daa7af5815f</property>
+        <property name="syft:location:0:path">/csi-node-driver-registrar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/node-driver-registrar</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/common@v0.26.0?package-id=912365fcbfa4ae29" type="library">
+      <name>github.com/prometheus/common</name>
+      <version>v0.26.0</version>
+      <cpe>cpe:2.3:a:prometheus:common:v0.26.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/common@v0.26.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:54d86b4865da959181d95c3590cbc8fcf529af0c68a7249445880daa7af5815f</property>
+        <property name="syft:location:0:path">/csi-node-driver-registrar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/node-driver-registrar</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/procfs@v0.6.0?package-id=3ebff82ac3d805f8" type="library">
+      <name>github.com/prometheus/procfs</name>
+      <version>v0.6.0</version>
+      <cpe>cpe:2.3:a:prometheus:procfs:v0.6.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/procfs@v0.6.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:54d86b4865da959181d95c3590cbc8fcf529af0c68a7249445880daa7af5815f</property>
+        <property name="syft:location:0:path">/csi-node-driver-registrar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/node-driver-registrar</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/spf13/pflag@v1.0.5?package-id=d094c153995d9305" type="library">
+      <name>github.com/spf13/pflag</name>
+      <version>v1.0.5</version>
+      <cpe>cpe:2.3:a:spf13:pflag:v1.0.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/spf13/pflag@v1.0.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:54d86b4865da959181d95c3590cbc8fcf529af0c68a7249445880daa7af5815f</property>
+        <property name="syft:location:0:path">/csi-node-driver-registrar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/node-driver-registrar</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/net@v0.0.0-20210520170846-37e1c6afe023?package-id=1b06a5a10a3e19f8" type="library">
+      <name>golang.org/x/net</name>
+      <version>v0.0.0-20210520170846-37e1c6afe023</version>
+      <cpe>cpe:2.3:a:golang:x\/net:v0.0.0-20210520170846-37e1c6afe023:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/net@v0.0.0-20210520170846-37e1c6afe023</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:54d86b4865da959181d95c3590cbc8fcf529af0c68a7249445880daa7af5815f</property>
+        <property name="syft:location:0:path">/csi-node-driver-registrar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/node-driver-registrar</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/sys@v0.0.0-20210616094352-59db8d763f22?package-id=339d72e3afda66d5" type="library">
+      <name>golang.org/x/sys</name>
+      <version>v0.0.0-20210616094352-59db8d763f22</version>
+      <cpe>cpe:2.3:a:golang:x\/sys:v0.0.0-20210616094352-59db8d763f22:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/sys@v0.0.0-20210616094352-59db8d763f22</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:54d86b4865da959181d95c3590cbc8fcf529af0c68a7249445880daa7af5815f</property>
+        <property name="syft:location:0:path">/csi-node-driver-registrar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/node-driver-registrar</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/text@v0.3.6?package-id=f342842c7cfd32a" type="library">
+      <name>golang.org/x/text</name>
+      <version>v0.3.6</version>
+      <cpe>cpe:2.3:a:golang:x\/text:v0.3.6:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/text@v0.3.6</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:54d86b4865da959181d95c3590cbc8fcf529af0c68a7249445880daa7af5815f</property>
+        <property name="syft:location:0:path">/csi-node-driver-registrar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/node-driver-registrar</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/genproto@v0.0.0-20210602131652-f16073e35f0c?package-id=5bb96c933e649c1e" type="library">
+      <name>google.golang.org/genproto</name>
+      <version>v0.0.0-20210602131652-f16073e35f0c</version>
+      <cpe>cpe:2.3:a:google:genproto:v0.0.0-20210602131652-f16073e35f0c:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/genproto@v0.0.0-20210602131652-f16073e35f0c</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:54d86b4865da959181d95c3590cbc8fcf529af0c68a7249445880daa7af5815f</property>
+        <property name="syft:location:0:path">/csi-node-driver-registrar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/node-driver-registrar</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/grpc@v1.38.0?package-id=c2224e9b4d6cd610" type="library">
+      <name>google.golang.org/grpc</name>
+      <version>v1.38.0</version>
+      <cpe>cpe:2.3:a:google:grpc:v1.38.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/grpc@v1.38.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:54d86b4865da959181d95c3590cbc8fcf529af0c68a7249445880daa7af5815f</property>
+        <property name="syft:location:0:path">/csi-node-driver-registrar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/node-driver-registrar</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/protobuf@v1.26.0?package-id=854598cfcea8379a" type="library">
+      <name>google.golang.org/protobuf</name>
+      <version>v1.26.0</version>
+      <cpe>cpe:2.3:a:google:protobuf:v1.26.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/protobuf@v1.26.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:54d86b4865da959181d95c3590cbc8fcf529af0c68a7249445880daa7af5815f</property>
+        <property name="syft:location:0:path">/csi-node-driver-registrar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/node-driver-registrar</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/apimachinery@v0.22.0?package-id=4154063fb6dd84b6" type="library">
+      <name>k8s.io/apimachinery</name>
+      <version>v0.22.0</version>
+      <purl>pkg:golang/k8s.io/apimachinery@v0.22.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:54d86b4865da959181d95c3590cbc8fcf529af0c68a7249445880daa7af5815f</property>
+        <property name="syft:location:0:path">/csi-node-driver-registrar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/node-driver-registrar</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/component-base@v0.22.0?package-id=f806134f23ff0f9b" type="library">
+      <name>k8s.io/component-base</name>
+      <version>v0.22.0</version>
+      <purl>pkg:golang/k8s.io/component-base@v0.22.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:54d86b4865da959181d95c3590cbc8fcf529af0c68a7249445880daa7af5815f</property>
+        <property name="syft:location:0:path">/csi-node-driver-registrar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/node-driver-registrar</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/klog/v2@v2.9.0?package-id=e657322c0d222cde" type="library">
+      <name>k8s.io/klog/v2</name>
+      <version>v2.9.0</version>
+      <cpe>cpe:2.3:a:klog:v2:v2.9.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/k8s.io/klog/v2@v2.9.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:54d86b4865da959181d95c3590cbc8fcf529af0c68a7249445880daa7af5815f</property>
+        <property name="syft:location:0:path">/csi-node-driver-registrar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/node-driver-registrar</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/kubelet@v0.22.0?package-id=83b622e4aa82fa97" type="library">
+      <name>k8s.io/kubelet</name>
+      <version>v0.22.0</version>
+      <purl>pkg:golang/k8s.io/kubelet@v0.22.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:54d86b4865da959181d95c3590cbc8fcf529af0c68a7249445880daa7af5815f</property>
+        <property name="syft:location:0:path">/csi-node-driver-registrar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/node-driver-registrar</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:deb/debian/netbase@5.6?arch=all&amp;distro=debian-10&amp;package-id=df080a0158baa6af" type="library">
+      <publisher>Marco d&#39;Itri &lt;md@linux.it&gt;</publisher>
+      <name>netbase</name>
+      <version>5.6</version>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:netbase:netbase:5.6:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:deb/debian/netbase@5.6?arch=all&amp;distro=debian-10</purl>
+      <properties>
+        <property name="syft:package:foundBy">dpkgdb-cataloger</property>
+        <property name="syft:package:metadataType">DpkgMetadata</property>
+        <property name="syft:package:type">deb</property>
+        <property name="syft:location:0:layerID">sha256:07363fa8421000ad294c2881d17b0535aabdd17ced2a874eb354a9d8514d3d59</property>
+        <property name="syft:location:0:path">/usr/share/doc/netbase/copyright</property>
+        <property name="syft:location:1:layerID">sha256:07363fa8421000ad294c2881d17b0535aabdd17ced2a874eb354a9d8514d3d59</property>
+        <property name="syft:location:1:path">/var/lib/dpkg/status.d/bmV0YmFzZQ==</property>
+        <property name="syft:metadata:installedSize">44</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:deb/debian/tzdata@2021a-0+deb10u1?arch=all&amp;distro=debian-10&amp;package-id=fbc3c5694749a583" type="library">
+      <publisher>GNU Libc Maintainers &lt;debian-glibc@lists.debian.org&gt;</publisher>
+      <name>tzdata</name>
+      <version>2021a-0+deb10u1</version>
+      <cpe>cpe:2.3:a:tzdata:tzdata:2021a-0\+deb10u1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:deb/debian/tzdata@2021a-0+deb10u1?arch=all&amp;distro=debian-10</purl>
+      <properties>
+        <property name="syft:package:foundBy">dpkgdb-cataloger</property>
+        <property name="syft:package:metadataType">DpkgMetadata</property>
+        <property name="syft:package:type">deb</property>
+        <property name="syft:location:0:layerID">sha256:07363fa8421000ad294c2881d17b0535aabdd17ced2a874eb354a9d8514d3d59</property>
+        <property name="syft:location:0:path">/usr/share/doc/tzdata/copyright</property>
+        <property name="syft:location:1:layerID">sha256:07363fa8421000ad294c2881d17b0535aabdd17ced2a874eb354a9d8514d3d59</property>
+        <property name="syft:location:1:path">/var/lib/dpkg/status.d/dHpkYXRh</property>
+        <property name="syft:metadata:installedSize">3040</property>
+      </properties>
+    </component>
+    <component type="operating-system">
+      <name>debian</name>
+      <version>10</version>
+      <description>Distroless</description>
+      <swid tagId="debian" name="debian" version="10"></swid>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/GoogleContainerTools/distroless/issues/new</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/GoogleContainerTools/distroless</url>
+        </reference>
+        <reference type="other">
+          <url>https://github.com/GoogleContainerTools/distroless/blob/master/README.md</url>
+          <comment>support</comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:distro:id">debian</property>
+        <property name="syft:distro:prettyName">Distroless</property>
+        <property name="syft:distro:versionID">10</property>
+      </properties>
+    </component>
+  </components>
+</bom>
