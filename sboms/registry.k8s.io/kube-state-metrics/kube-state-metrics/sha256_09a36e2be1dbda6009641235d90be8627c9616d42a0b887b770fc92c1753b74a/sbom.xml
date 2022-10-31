@@ -1,0 +1,1343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:fcb2882b-8289-4dc4-878d-6619cb8bbf83" version="1">
+  <metadata>
+    <timestamp>2022-10-31T15:56:50Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>anchore</vendor>
+        <name>syft</name>
+        <version>v0.58.0</version>
+      </tool>
+    </tools>
+    <component bom-ref="23862a93659f74d4" type="container">
+      <name>/tmp/sha256_09a36e2be1dbda6009641235d90be8627c9616d42a0b887b770fc92c1753b74a.tar.gz</name>
+      <version>sha256:0cf9cb00b6f5ea093ddf22c561a6f3b9588f75abdab0ce468dd6d8be59d753be</version>
+    </component>
+  </metadata>
+  <components>
+    <component bom-ref="pkg:deb/debian/base-files@11.1+deb11u3?arch=amd64&amp;distro=debian-11&amp;package-id=e1f961694bdff5b0" type="library">
+      <publisher>Santiago Vila &lt;sanvila@debian.org&gt;</publisher>
+      <name>base-files</name>
+      <version>11.1+deb11u3</version>
+      <cpe>cpe:2.3:a:base-files:base-files:11.1\+deb11u3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:deb/debian/base-files@11.1+deb11u3?arch=amd64&amp;distro=debian-11</purl>
+      <properties>
+        <property name="syft:package:foundBy">dpkgdb-cataloger</property>
+        <property name="syft:package:metadataType">DpkgMetadata</property>
+        <property name="syft:package:type">deb</property>
+        <property name="syft:cpe23">cpe:2.3:a:base-files:base_files:11.1\+deb11u3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:base_files:base-files:11.1\+deb11u3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:base_files:base_files:11.1\+deb11u3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:base:base-files:11.1\+deb11u3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:base:base_files:11.1\+deb11u3:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:0b031aac65698c8794dc6bc317a45589e07bc2db1421178f30a2c7f69a4a2cf5</property>
+        <property name="syft:location:0:path">/usr/share/doc/base-files/copyright</property>
+        <property name="syft:location:1:layerID">sha256:0b031aac65698c8794dc6bc317a45589e07bc2db1421178f30a2c7f69a4a2cf5</property>
+        <property name="syft:location:1:path">/var/lib/dpkg/status.d/base</property>
+        <property name="syft:metadata:installedSize">340</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/cloud.google.com/go@v0.81.0?package-id=c85197226a854bbd" type="library">
+      <name>cloud.google.com/go</name>
+      <version>v0.81.0</version>
+      <purl>pkg:golang/cloud.google.com/go@v0.81.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:at8Tk2zUz63cLPR0JPWm5vp77pEZmzxEQBEfRKn1VV8=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/azure/go-autorest/autorest@v0.11.18?package-id=d07d908d8b797583" type="library">
+      <name>github.com/Azure/go-autorest/autorest</name>
+      <version>v0.11.18</version>
+      <cpe>cpe:2.3:a:Azure:go-autorest\/autorest:v0.11.18:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/Azure/go-autorest/autorest@v0.11.18</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:Azure:go_autorest\/autorest:v0.11.18:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:90Y4srNYrwOtAgVo3ndrQkTYn6kf1Eg/AjTFJ8Is2aM=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/azure/go-autorest/autorest/adal@v0.9.13?package-id=9275eb3fc86ab226" type="library">
+      <name>github.com/Azure/go-autorest/autorest/adal</name>
+      <version>v0.9.13</version>
+      <cpe>cpe:2.3:a:Azure:go-autorest\/autorest\/adal:v0.9.13:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/Azure/go-autorest/autorest/adal@v0.9.13</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:Azure:go_autorest\/autorest\/adal:v0.9.13:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:Mp5hbtOePIzM8pJVRa3YLrWWmZtoxRXqUEzCfJt3+/Q=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/azure/go-autorest/autorest/date@v0.3.0?package-id=b205e7fc603d4b40" type="library">
+      <name>github.com/Azure/go-autorest/autorest/date</name>
+      <version>v0.3.0</version>
+      <cpe>cpe:2.3:a:Azure:go-autorest\/autorest\/date:v0.3.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/Azure/go-autorest/autorest/date@v0.3.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:Azure:go_autorest\/autorest\/date:v0.3.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:7gUk1U5M/CQbp9WoqinNzJar+8KY+LPI6wiWrP/myHw=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/azure/go-autorest/logger@v0.2.1?package-id=91799efe6eaea9b2" type="library">
+      <name>github.com/Azure/go-autorest/logger</name>
+      <version>v0.2.1</version>
+      <cpe>cpe:2.3:a:Azure:go-autorest\/logger:v0.2.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/Azure/go-autorest/logger@v0.2.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:Azure:go_autorest\/logger:v0.2.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:IG7i4p/mDa2Ce4TRyAO8IHnVhAVF3RFU+ZtXWSmf4Tg=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/azure/go-autorest/tracing@v0.6.0?package-id=af2d562215551d78" type="library">
+      <name>github.com/Azure/go-autorest/tracing</name>
+      <version>v0.6.0</version>
+      <cpe>cpe:2.3:a:Azure:go-autorest\/tracing:v0.6.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/Azure/go-autorest/tracing@v0.6.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:Azure:go_autorest\/tracing:v0.6.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:TYi4+3m5t6K48TGI9AUdb+IzbnSxvnvUMfuitfgcfuo=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/puerkitobio/purell@v1.1.1?package-id=30740d3d5b241787" type="library">
+      <name>github.com/PuerkitoBio/purell</name>
+      <version>v1.1.1</version>
+      <cpe>cpe:2.3:a:PuerkitoBio:purell:v1.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/PuerkitoBio/purell@v1.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:WEQqlqaGbrPkxLJWfBwQmfEAE1Z7ONdDLqrN38tNFfI=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/puerkitobio/urlesc@v0.0.0-20170810143723-de5bf2ad4578?package-id=7d0a84f836026a0b" type="library">
+      <name>github.com/PuerkitoBio/urlesc</name>
+      <version>v0.0.0-20170810143723-de5bf2ad4578</version>
+      <cpe>cpe:2.3:a:PuerkitoBio:urlesc:v0.0.0-20170810143723-de5bf2ad4578:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/PuerkitoBio/urlesc@v0.0.0-20170810143723-de5bf2ad4578</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:d+Bc7a5rLufV/sSk/8dngufqelfh6jnri85riMAaF/M=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/beorn7/perks@v1.0.1?package-id=5d23f5adb5736b84" type="library">
+      <name>github.com/beorn7/perks</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:beorn7:perks:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/beorn7/perks@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/cespare/xxhash/v2@v2.1.2?package-id=8f463373ed60afc3" type="library">
+      <name>github.com/cespare/xxhash/v2</name>
+      <version>v2.1.2</version>
+      <cpe>cpe:2.3:a:cespare:xxhash\/v2:v2.1.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/cespare/xxhash/v2@v2.1.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:YRXhKfTDauu4ajMg1TPgFO5jnlC2HCbmLXMcTG5cbYE=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/davecgh/go-spew@v1.1.1?package-id=4813557198256b9c" type="library">
+      <name>github.com/davecgh/go-spew</name>
+      <version>v1.1.1</version>
+      <cpe>cpe:2.3:a:davecgh:go-spew:v1.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/davecgh/go-spew@v1.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:davecgh:go_spew:v1.1.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/dgryski/go-jump@v0.0.0-20211018200510-ba001c3ffce0?package-id=f76b8698cf8da0dc" type="library">
+      <name>github.com/dgryski/go-jump</name>
+      <version>v0.0.0-20211018200510-ba001c3ffce0</version>
+      <cpe>cpe:2.3:a:dgryski:go-jump:v0.0.0-20211018200510-ba001c3ffce0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/dgryski/go-jump@v0.0.0-20211018200510-ba001c3ffce0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:dgryski:go_jump:v0.0.0-20211018200510-ba001c3ffce0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:0wH6nO9QEa02Qx8sIQGw6ieKdz+BXjpccSOo9vXNl4U=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/emicklei/go-restful@v2.9.5+incompatible?package-id=937a1c0cabacd8b3" type="library">
+      <name>github.com/emicklei/go-restful</name>
+      <version>v2.9.5+incompatible</version>
+      <cpe>cpe:2.3:a:emicklei:go-restful:v2.9.5\+incompatible:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/emicklei/go-restful@v2.9.5+incompatible</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:emicklei:go_restful:v2.9.5\+incompatible:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:spTtZBk5DYEvbxMVutUuTyh1Ao2r4iyvLdACqsl/Ljk=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/form3tech-oss/jwt-go@v3.2.3+incompatible?package-id=4d8e82fbb29e2d88" type="library">
+      <name>github.com/form3tech-oss/jwt-go</name>
+      <version>v3.2.3+incompatible</version>
+      <cpe>cpe:2.3:a:form3tech-oss:jwt-go:v3.2.3\+incompatible:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/form3tech-oss/jwt-go@v3.2.3+incompatible</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:form3tech-oss:jwt_go:v3.2.3\+incompatible:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:form3tech_oss:jwt-go:v3.2.3\+incompatible:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:form3tech_oss:jwt_go:v3.2.3\+incompatible:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:form3tech:jwt-go:v3.2.3\+incompatible:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:form3tech:jwt_go:v3.2.3\+incompatible:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:7ZaBxOI7TMoYBfyA3cQHErNNyAWIKUMIwqxEtgHOs5c=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-kit/log@v0.2.1?package-id=da02d644e267c11b" type="library">
+      <name>github.com/go-kit/log</name>
+      <version>v0.2.1</version>
+      <cpe>cpe:2.3:a:go-kit:log:v0.2.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-kit/log@v0.2.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_kit:log:v0.2.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:log:v0.2.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:MRVx0/zhvdseW+Gza6N9rVzU/IVzaeE1SFI4raAhmBU=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-logfmt/logfmt@v0.5.1?package-id=2968b4b71d7fd567" type="library">
+      <name>github.com/go-logfmt/logfmt</name>
+      <version>v0.5.1</version>
+      <cpe>cpe:2.3:a:go-logfmt:logfmt:v0.5.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-logfmt/logfmt@v0.5.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_logfmt:logfmt:v0.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:logfmt:v0.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:otpy5pqBCBZ1ng9RQ0dPu4PN7ba75Y/aA+UpowDyNVA=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-logr/logr@v1.2.0?package-id=1097da76ced08257" type="library">
+      <name>github.com/go-logr/logr</name>
+      <version>v1.2.0</version>
+      <cpe>cpe:2.3:a:go-logr:logr:v1.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-logr/logr@v1.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_logr:logr:v1.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:logr:v1.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:QK40JKJyMdUDz+h+xvCsru/bJhvG0UxvePV0ufL/AcE=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/jsonpointer@v0.19.5?package-id=293f69a60d78451a" type="library">
+      <name>github.com/go-openapi/jsonpointer</name>
+      <version>v0.19.5</version>
+      <cpe>cpe:2.3:a:go-openapi:jsonpointer:v0.19.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/jsonpointer@v0.19.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:jsonpointer:v0.19.5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:jsonpointer:v0.19.5:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:gZr+CIYByUqjcgeLXnQu2gHYQC9o73G2XUeOFYEICuY=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/jsonreference@v0.19.5?package-id=3bfc84e8b5170d30" type="library">
+      <name>github.com/go-openapi/jsonreference</name>
+      <version>v0.19.5</version>
+      <cpe>cpe:2.3:a:go-openapi:jsonreference:v0.19.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/jsonreference@v0.19.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:jsonreference:v0.19.5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:jsonreference:v0.19.5:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:1WJP/wi4OjB4iV8KVbH73rQaoialJrqv8gitZLxGLtM=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/swag@v0.19.14?package-id=b233a8714b5e17ce" type="library">
+      <name>github.com/go-openapi/swag</name>
+      <version>v0.19.14</version>
+      <cpe>cpe:2.3:a:go-openapi:swag:v0.19.14:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/swag@v0.19.14</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:swag:v0.19.14:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:swag:v0.19.14:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:gm3vOOXfiuw5i9p5N9xJvfjvuofpyvLA9Wr6QfK5Fng=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/gobuffalo/flect@v0.2.5?package-id=3d79a800ba6f2072" type="library">
+      <name>github.com/gobuffalo/flect</name>
+      <version>v0.2.5</version>
+      <cpe>cpe:2.3:a:gobuffalo:flect:v0.2.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/gobuffalo/flect@v0.2.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:H6vvsv2an0lalEaCDRThvtBfmg44W/QHXBCYUXf/6S4=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/gogo/protobuf@v1.3.2?package-id=cc2d3b058efb8004" type="library">
+      <name>github.com/gogo/protobuf</name>
+      <version>v1.3.2</version>
+      <cpe>cpe:2.3:a:gogo:protobuf:v1.3.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/gogo/protobuf@v1.3.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:Ov1cvc58UF3b5XjBnZv7+opcTcQFZebYjWzi34vdm4Q=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/golang/protobuf@v1.5.2?package-id=578cfc4caf2e7e76" type="library">
+      <name>github.com/golang/protobuf</name>
+      <version>v1.5.2</version>
+      <cpe>cpe:2.3:a:golang:protobuf:v1.5.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/golang/protobuf@v1.5.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:ROPKBNFfQgOUMifHyP+KYbvpjbdoFNs+aK7DXlji0Tw=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/gnostic@v0.5.7-v3refs?package-id=7fb0096f52a5e799" type="library">
+      <name>github.com/google/gnostic</name>
+      <version>v0.5.7-v3refs</version>
+      <cpe>cpe:2.3:a:google:gnostic:v0.5.7-v3refs:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/gnostic@v0.5.7-v3refs</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:FhTMOKj2VhjpouxvWJAV1TL304uMlb9zcDqkl6cEI54=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/go-cmp@v0.5.8?package-id=220a1e9749ead66" type="library">
+      <name>github.com/google/go-cmp</name>
+      <version>v0.5.8</version>
+      <cpe>cpe:2.3:a:google:go-cmp:v0.5.8:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/go-cmp@v0.5.8</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:google:go_cmp:v0.5.8:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:e6P7q2lk1O+qJJb4BtCQXlK8vWEO8V1ZeuEdJNOqZyg=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/gofuzz@v1.1.0?package-id=2c10ae785426c275" type="library">
+      <name>github.com/google/gofuzz</name>
+      <version>v1.1.0</version>
+      <cpe>cpe:2.3:a:google:gofuzz:v1.1.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/gofuzz@v1.1.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:Hsa8mG0dQ46ij8Sl2AYJDUv1oA9/d6Vk+3LG99Oe02g=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/imdario/mergo@v0.3.5?package-id=54e79a56e88b5308" type="library">
+      <name>github.com/imdario/mergo</name>
+      <version>v0.3.5</version>
+      <cpe>cpe:2.3:a:imdario:mergo:v0.3.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/imdario/mergo@v0.3.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:JboBksRwiiAJWvIYJVo46AfV+IAIKZpfrSzVKj42R4Q=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/josharian/intern@v1.0.0?package-id=144e6f258bcaf77c" type="library">
+      <name>github.com/josharian/intern</name>
+      <version>v1.0.0</version>
+      <cpe>cpe:2.3:a:josharian:intern:v1.0.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/josharian/intern@v1.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:vlS4z54oSdjm0bgjRigI+G1HpF+tI+9rE5LLzOg8HmY=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/jpillora/backoff@v1.0.0?package-id=a52ecb3a3a78ee2e" type="library">
+      <name>github.com/jpillora/backoff</name>
+      <version>v1.0.0</version>
+      <cpe>cpe:2.3:a:jpillora:backoff:v1.0.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/jpillora/backoff@v1.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:uvFg412JmmHBHw7iwprIxkPMI+sGQ4kzOWsMeHnm2EA=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/json-iterator/go@v1.1.12?package-id=a8fa48b7d9873d87" type="library">
+      <name>github.com/json-iterator/go</name>
+      <version>v1.1.12</version>
+      <cpe>cpe:2.3:a:json-iterator:go:v1.1.12:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/json-iterator/go@v1.1.12</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:json_iterator:go:v1.1.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:json:go:v1.1.12:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:PV8peI4a0ysnczrg+LtxykD8LfKY9ML6u2jnxaEnrnM=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/mailru/easyjson@v0.7.6?package-id=28916fd4f9699613" type="library">
+      <name>github.com/mailru/easyjson</name>
+      <version>v0.7.6</version>
+      <cpe>cpe:2.3:a:mailru:easyjson:v0.7.6:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/mailru/easyjson@v0.7.6</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:8yTIVnZgCoiM1TgqoeTl+LfU5Jg6/xL3QhGQnimLYnA=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.2-0.20181231171920-c182affec369?package-id=6950cc317b15c9c2" type="library">
+      <name>github.com/matttproud/golang_protobuf_extensions</name>
+      <version>v1.0.2-0.20181231171920-c182affec369</version>
+      <cpe>cpe:2.3:a:matttproud:golang-protobuf-extensions:v1.0.2-0.20181231171920-c182affec369:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.2-0.20181231171920-c182affec369</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:matttproud:golang_protobuf_extensions:v1.0.2-0.20181231171920-c182affec369:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:I0XW9+e1XWDxdcEniV4rQAIOPUGDq67JSCiRCgGCZLI=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd?package-id=d9bea75a195cf22f" type="library">
+      <name>github.com/modern-go/concurrent</name>
+      <version>v0.0.0-20180306012644-bacd9c7ef1dd</version>
+      <cpe>cpe:2.3:a:modern-go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern_go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:TRLaZ9cD/w8PVh93nsPXa1VrQ6jlwL5oN8l14QlcNfg=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/modern-go/reflect2@v1.0.2?package-id=919caf839d224aae" type="library">
+      <name>github.com/modern-go/reflect2</name>
+      <version>v1.0.2</version>
+      <cpe>cpe:2.3:a:modern-go:reflect2:v1.0.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/modern-go/reflect2@v1.0.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern_go:reflect2:v1.0.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern:reflect2:v1.0.2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:xBagoLtFs94CBntxluKeaWgTMpvLxC4ur3nMaC9Gz0M=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/munnerz/goautoneg@v0.0.0-20191010083416-a7dc8b61c822?package-id=a94aea0358ff3ef0" type="library">
+      <name>github.com/munnerz/goautoneg</name>
+      <version>v0.0.0-20191010083416-a7dc8b61c822</version>
+      <cpe>cpe:2.3:a:munnerz:goautoneg:v0.0.0-20191010083416-a7dc8b61c822:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/munnerz/goautoneg@v0.0.0-20191010083416-a7dc8b61c822</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:C3w9PqII01/Oq1c1nUAm88MOHcQC9l5mIlSMApZMrHA=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/mwitkow/go-conntrack@v0.0.0-20190716064945-2f068394615f?package-id=b9565ad0a0046efc" type="library">
+      <name>github.com/mwitkow/go-conntrack</name>
+      <version>v0.0.0-20190716064945-2f068394615f</version>
+      <cpe>cpe:2.3:a:mwitkow:go-conntrack:v0.0.0-20190716064945-2f068394615f:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/mwitkow/go-conntrack@v0.0.0-20190716064945-2f068394615f</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:mwitkow:go_conntrack:v0.0.0-20190716064945-2f068394615f:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:KUppIJq7/+SVif2QVs3tOP0zanoHgBEVAwHxUSIzRqU=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/oklog/run@v1.1.0?package-id=9260cfd6f9a8af9d" type="library">
+      <name>github.com/oklog/run</name>
+      <version>v1.1.0</version>
+      <cpe>cpe:2.3:a:oklog:run:v1.1.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/oklog/run@v1.1.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:GEenZ1cK0+q0+wsJew9qUg/DyD8k3JzYsZAi5gYi2mA=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/pkg/errors@v0.9.1?package-id=300eea32620a549a" type="library">
+      <name>github.com/pkg/errors</name>
+      <version>v0.9.1</version>
+      <cpe>cpe:2.3:a:pkg:errors:v0.9.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/pkg/errors@v0.9.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/client_golang@v1.12.2?package-id=bea55f22dca45e5d" type="library">
+      <name>github.com/prometheus/client_golang</name>
+      <version>v1.12.2</version>
+      <cpe>cpe:2.3:a:prometheus:client-golang:v1.12.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/client_golang@v1.12.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:client_golang:v1.12.2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:51L9cDoUHVrXx4zWYlcLQIZ+d+VXHgqnYKkIuq4g/34=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/client_model@v0.2.0?package-id=803124dd560290e6" type="library">
+      <name>github.com/prometheus/client_model</name>
+      <version>v0.2.0</version>
+      <cpe>cpe:2.3:a:prometheus:client-model:v0.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/client_model@v0.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:client_model:v0.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:uq5h0d+GuxiXLJLNABMgp2qUWDPiLvgCzz2dUR+/W/M=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/common@v0.34.0?package-id=f5575cdedc28487" type="library">
+      <name>github.com/prometheus/common</name>
+      <version>v0.34.0</version>
+      <cpe>cpe:2.3:a:prometheus:common:v0.34.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/common@v0.34.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:RBmGO9d/FVjqHT0yUGQwBJhkwKV+wPCn7KGpvfab0uE=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/exporter-toolkit@v0.7.1?package-id=eb272d8ae9f76c40" type="library">
+      <name>github.com/prometheus/exporter-toolkit</name>
+      <version>v0.7.1</version>
+      <cpe>cpe:2.3:a:prometheus:exporter-toolkit:v0.7.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/exporter-toolkit@v0.7.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:exporter_toolkit:v0.7.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:c6RXaK8xBVercEeUQ4tRNL8UGWzDHfvj9dseo1FcK1Y=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/procfs@v0.7.3?package-id=44551190eaed1bdd" type="library">
+      <name>github.com/prometheus/procfs</name>
+      <version>v0.7.3</version>
+      <cpe>cpe:2.3:a:prometheus:procfs:v0.7.3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/procfs@v0.7.3</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:4jVXhlkAyzOScmCkXBTOLRLTz8EeU+eyjrwB/EPq0VU=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/robfig/cron/v3@v3.0.1?package-id=6ee004e9bd13d6d5" type="library">
+      <name>github.com/robfig/cron/v3</name>
+      <version>v3.0.1</version>
+      <cpe>cpe:2.3:a:robfig:cron\/v3:v3.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/robfig/cron/v3@v3.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:WdRxkvbJztn8LMz/QEvLN5sBU+xKpSqwwUO1Pjr4qDs=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/spf13/pflag@v1.0.5?package-id=b563f418ab190917" type="library">
+      <name>github.com/spf13/pflag</name>
+      <version>v1.0.5</version>
+      <cpe>cpe:2.3:a:spf13:pflag:v1.0.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/spf13/pflag@v1.0.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:iy+VFUOCP1a+8yFto/drg2CJ5u0yRoB7fZw3DKv/JXA=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/crypto@v0.0.0-20220315160706-3147a52a75dd?package-id=738d450a96b1fa4" type="library">
+      <name>golang.org/x/crypto</name>
+      <version>v0.0.0-20220315160706-3147a52a75dd</version>
+      <cpe>cpe:2.3:a:golang:x\/crypto:v0.0.0-20220315160706-3147a52a75dd:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/crypto@v0.0.0-20220315160706-3147a52a75dd</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:XcWmESyNjXJMLahc3mqVQJcgSTDxFxhETVlfk9uGc38=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/net@v0.0.0-20220225172249-27dd8689420f?package-id=f216b3168a8de176" type="library">
+      <name>golang.org/x/net</name>
+      <version>v0.0.0-20220225172249-27dd8689420f</version>
+      <cpe>cpe:2.3:a:golang:x\/net:v0.0.0-20220225172249-27dd8689420f:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/net@v0.0.0-20220225172249-27dd8689420f</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:oA4XRj0qtSt8Yo1Zms0CUlsT3KG69V2UGQWPBxujDmc=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/oauth2@v0.0.0-20220223155221-ee480838109b?package-id=42b8d902a30bcfb5" type="library">
+      <name>golang.org/x/oauth2</name>
+      <version>v0.0.0-20220223155221-ee480838109b</version>
+      <cpe>cpe:2.3:a:golang:x\/oauth2:v0.0.0-20220223155221-ee480838109b:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/oauth2@v0.0.0-20220223155221-ee480838109b</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:clP8eMhB30EHdc0bd2Twtq6kgU7yl5ub2cQLSdrv1Dg=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/sys@v0.0.0-20220209214540-3681064d5158?package-id=f4678ec02167f90a" type="library">
+      <name>golang.org/x/sys</name>
+      <version>v0.0.0-20220209214540-3681064d5158</version>
+      <cpe>cpe:2.3:a:golang:x\/sys:v0.0.0-20220209214540-3681064d5158:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/sys@v0.0.0-20220209214540-3681064d5158</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:rm+CHSpPEEW2IsXUib1ThaHIjuBVZjxNgSKmBLFfD4c=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/term@v0.0.0-20210927222741-03fcf44c2211?package-id=87ce30158a4cb319" type="library">
+      <name>golang.org/x/term</name>
+      <version>v0.0.0-20210927222741-03fcf44c2211</version>
+      <cpe>cpe:2.3:a:golang:x\/term:v0.0.0-20210927222741-03fcf44c2211:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/term@v0.0.0-20210927222741-03fcf44c2211</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:JGgROgKl9N8DuW20oFS5gxc+lE67/N3FcwmBPMe7ArY=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/text@v0.3.7?package-id=7aaa79e81ab5130b" type="library">
+      <name>golang.org/x/text</name>
+      <version>v0.3.7</version>
+      <cpe>cpe:2.3:a:golang:x\/text:v0.3.7:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/text@v0.3.7</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:olpwvP2KacW1ZWvsR7uQhoyTYvKAupfQrRGBFM352Gk=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/time@v0.0.0-20220210224613-90d013bbcef8?package-id=5db90937b8f06400" type="library">
+      <name>golang.org/x/time</name>
+      <version>v0.0.0-20220210224613-90d013bbcef8</version>
+      <cpe>cpe:2.3:a:golang:x\/time:v0.0.0-20220210224613-90d013bbcef8:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/time@v0.0.0-20220210224613-90d013bbcef8</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:vVKdlvoWBphwdxWKrFZEuM0kGgGLxUOYcY4U/2Vjg44=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/protobuf@v1.28.0?package-id=a7d64ba789e2378" type="library">
+      <name>google.golang.org/protobuf</name>
+      <version>v1.28.0</version>
+      <cpe>cpe:2.3:a:google:protobuf:v1.28.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/protobuf@v1.28.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:w43yiav+6bVFTBQFZX0r7ipe9JQ1QsbMgHwbBziscLw=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/inf.v0@v0.9.1?package-id=4b2e297a4211cf3" type="library">
+      <name>gopkg.in/inf.v0</name>
+      <version>v0.9.1</version>
+      <purl>pkg:golang/gopkg.in/inf.v0@v0.9.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:73M5CoZyi3ZLMOyDlQh031Cx6N9NDJ2Vvfl76EDAgDc=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/yaml.v2@v2.4.0?package-id=d8ceb643c44e988f" type="library">
+      <name>gopkg.in/yaml.v2</name>
+      <version>v2.4.0</version>
+      <purl>pkg:golang/gopkg.in/yaml.v2@v2.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:D8xgwECY7CYvx+Y2n4sBz93Jn9JRvxdiyyo8CTfuKaY=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/yaml.v3@v3.0.1?package-id=3e2b29ef0a4fe16e" type="library">
+      <name>gopkg.in/yaml.v3</name>
+      <version>v3.0.1</version>
+      <purl>pkg:golang/gopkg.in/yaml.v3@v3.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:fxVm/GzAzEWqLHuvctI91KS9hhNmmWOoWu0XTYJS7CA=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/api@v0.24.1?package-id=ead2a84846f68632" type="library">
+      <name>k8s.io/api</name>
+      <version>v0.24.1</version>
+      <purl>pkg:golang/k8s.io/api@v0.24.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:BjCMRDcyEYz03joa3K1+rbshwh1Ay6oB53+iUx2H8UY=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/apimachinery@v0.24.1?package-id=e96b385271cad7d7" type="library">
+      <name>k8s.io/apimachinery</name>
+      <version>v0.24.1</version>
+      <purl>pkg:golang/k8s.io/apimachinery@v0.24.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:ShD4aDxTQKN5zNf8K1RQ2u98ELLdIW7jEnlO9uAMX/I=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/autoscaler/vertical-pod-autoscaler@v0.11.0?package-id=fdc2f476854dede0" type="library">
+      <name>k8s.io/autoscaler/vertical-pod-autoscaler</name>
+      <version>v0.11.0</version>
+      <cpe>cpe:2.3:a:autoscaler:vertical-pod-autoscaler:v0.11.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/k8s.io/autoscaler/vertical-pod-autoscaler@v0.11.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:autoscaler:vertical_pod_autoscaler:v0.11.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:vh6cHU/sZBjdfYlKZOhXkMI5CTCgK12TauHGoQOue+4=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/client-go@v0.24.1?package-id=93c5ae3b27f8dd9a" type="library">
+      <name>k8s.io/client-go</name>
+      <version>v0.24.1</version>
+      <purl>pkg:golang/k8s.io/client-go@v0.24.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:w1hNdI9PFrzu3OlovVeTnf4oHDt+FJLd9Ndluvnb42E=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/klog/v2@v2.60.1?package-id=3574293661197fa8" type="library">
+      <name>k8s.io/klog/v2</name>
+      <version>v2.60.1</version>
+      <cpe>cpe:2.3:a:klog:v2:v2.60.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/k8s.io/klog/v2@v2.60.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:VW25q3bZx9uE3vvdL6M8ezOX79vA2Aq1nEWLqNQclHc=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/kube-openapi@v0.0.0-20220328201542-3ee0da9b0b42?package-id=d91527f04bd18fb0" type="library">
+      <name>k8s.io/kube-openapi</name>
+      <version>v0.0.0-20220328201542-3ee0da9b0b42</version>
+      <purl>pkg:golang/k8s.io/kube-openapi@v0.0.0-20220328201542-3ee0da9b0b42</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:Gii5eqf+GmIEwGNKQYQClCayuJCe2/4fZUvF7VG99sU=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/kube-state-metrics/v2@(devel)?package-id=d3d2c107942b8d51" type="library">
+      <name>k8s.io/kube-state-metrics/v2</name>
+      <version>(devel)</version>
+      <cpe>cpe:2.3:a:kube-state-metrics:v2:\(devel\):*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/k8s.io/kube-state-metrics/v2@(devel)</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:kube_state_metrics:v2:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kube-state:v2:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kube_state:v2:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kube:v2:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/utils@v0.0.0-20220210201930-3a6ce19ff2f9?package-id=d0f55214602b83c3" type="library">
+      <name>k8s.io/utils</name>
+      <version>v0.0.0-20220210201930-3a6ce19ff2f9</version>
+      <purl>pkg:golang/k8s.io/utils@v0.0.0-20220210201930-3a6ce19ff2f9</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:HNSDgDCrr/6Ly3WEGKZftiE7IY19Vz2GdbOCyI4qqhc=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:deb/debian/netbase@6.3?arch=all&amp;distro=debian-11&amp;package-id=913906225fd3778b" type="library">
+      <publisher>Marco d&#39;Itri &lt;md@linux.it&gt;</publisher>
+      <name>netbase</name>
+      <version>6.3</version>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:netbase:netbase:6.3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:deb/debian/netbase@6.3?arch=all&amp;distro=debian-11</purl>
+      <properties>
+        <property name="syft:package:foundBy">dpkgdb-cataloger</property>
+        <property name="syft:package:metadataType">DpkgMetadata</property>
+        <property name="syft:package:type">deb</property>
+        <property name="syft:location:0:layerID">sha256:0b031aac65698c8794dc6bc317a45589e07bc2db1421178f30a2c7f69a4a2cf5</property>
+        <property name="syft:location:0:path">/usr/share/doc/netbase/copyright</property>
+        <property name="syft:location:1:layerID">sha256:0b031aac65698c8794dc6bc317a45589e07bc2db1421178f30a2c7f69a4a2cf5</property>
+        <property name="syft:location:1:path">/var/lib/dpkg/status.d/netbase</property>
+        <property name="syft:metadata:installedSize">41</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/json@v0.0.0-20211208200746-9f7c6b3444d2?package-id=b7aa00de53ec6ca9" type="library">
+      <name>sigs.k8s.io/json</name>
+      <version>v0.0.0-20211208200746-9f7c6b3444d2</version>
+      <purl>pkg:golang/sigs.k8s.io/json@v0.0.0-20211208200746-9f7c6b3444d2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:kDi4JBNAsJWfz1aEXhO8Jg87JJaPNLh5tIzYHgStQ9Y=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.2.1?package-id=860a597b268467da" type="library">
+      <name>sigs.k8s.io/structured-merge-diff/v4</name>
+      <version>v4.2.1</version>
+      <cpe>cpe:2.3:a:structured-merge-diff:v4:v4.2.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.2.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured_merge_diff:v4:v4.2.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured-merge:v4:v4.2.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured_merge:v4:v4.2.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured:v4:v4.2.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:bKCqE9GvQ5tiVHn5rfn1r+yao3aLQEaLzkkmAkf+A6Y=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/yaml@v1.3.0?package-id=232bf498973b886b" type="library">
+      <name>sigs.k8s.io/yaml</name>
+      <version>v1.3.0</version>
+      <purl>pkg:golang/sigs.k8s.io/yaml@v1.3.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:43ee67fc20d19c48a7619647a85b1f746ad8b9084e6e13eba12c7ce17b46187b</property>
+        <property name="syft:location:0:path">/kube-state-metrics</property>
+        <property name="syft:metadata:architecture">amd64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.18.3</property>
+        <property name="syft:metadata:h1Digest">h1:a2VclLzOGrwOHDiV8EfBGhvjHvP46CtW5j6POvhYGGo=</property>
+        <property name="syft:metadata:mainModule">k8s.io/kube-state-metrics/v2</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:deb/debian/tzdata@2021a-1+deb11u3?arch=all&amp;distro=debian-11&amp;package-id=3ae8ea9d1a9f1f7" type="library">
+      <publisher>GNU Libc Maintainers &lt;debian-glibc@lists.debian.org&gt;</publisher>
+      <name>tzdata</name>
+      <version>2021a-1+deb11u3</version>
+      <cpe>cpe:2.3:a:tzdata:tzdata:2021a-1\+deb11u3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:deb/debian/tzdata@2021a-1+deb11u3?arch=all&amp;distro=debian-11</purl>
+      <properties>
+        <property name="syft:package:foundBy">dpkgdb-cataloger</property>
+        <property name="syft:package:metadataType">DpkgMetadata</property>
+        <property name="syft:package:type">deb</property>
+        <property name="syft:location:0:layerID">sha256:0b031aac65698c8794dc6bc317a45589e07bc2db1421178f30a2c7f69a4a2cf5</property>
+        <property name="syft:location:0:path">/usr/share/doc/tzdata/copyright</property>
+        <property name="syft:location:1:layerID">sha256:0b031aac65698c8794dc6bc317a45589e07bc2db1421178f30a2c7f69a4a2cf5</property>
+        <property name="syft:location:1:path">/var/lib/dpkg/status.d/tzdata</property>
+        <property name="syft:metadata:installedSize">3409</property>
+      </properties>
+    </component>
+    <component type="operating-system">
+      <name>debian</name>
+      <version>11</version>
+      <description>Distroless</description>
+      <swid tagId="debian" name="debian" version="11"></swid>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/GoogleContainerTools/distroless/issues/new</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/GoogleContainerTools/distroless</url>
+        </reference>
+        <reference type="other">
+          <url>https://github.com/GoogleContainerTools/distroless/blob/master/README.md</url>
+          <comment>support</comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:distro:id">debian</property>
+        <property name="syft:distro:prettyName">Distroless</property>
+        <property name="syft:distro:versionID">11</property>
+      </properties>
+    </component>
+  </components>
+</bom>
