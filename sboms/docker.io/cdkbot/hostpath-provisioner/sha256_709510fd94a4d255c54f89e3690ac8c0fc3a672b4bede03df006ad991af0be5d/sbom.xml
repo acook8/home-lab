@@ -1,0 +1,812 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:7b71e02c-6d09-4367-8160-93a4d8dab9a2" version="1">
+  <metadata>
+    <timestamp>2022-10-31T16:03:09Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>anchore</vendor>
+        <name>syft</name>
+        <version>v0.58.0</version>
+      </tool>
+    </tools>
+    <component bom-ref="d6167d63c5fce3d6" type="container">
+      <name>/tmp/sha256_709510fd94a4d255c54f89e3690ac8c0fc3a672b4bede03df006ad991af0be5d.tar.gz</name>
+      <version>sha256:f9c552f0d8453a245e2c21bf66b0b8f5eaec145066cf0054c8260e7a025d5979</version>
+    </component>
+  </metadata>
+  <components>
+    <component bom-ref="pkg:golang/github.com/beorn7/perks@v1.0.1?package-id=3c9de15fc4021c28" type="library">
+      <name>github.com/beorn7/perks</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:beorn7:perks:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/beorn7/perks@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:VlbKKnNfV8bJzeqoa4cOKqO6bYr3WgKZxO8Z16+hsOM=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/cespare/xxhash/v2@v2.1.2?package-id=c1c9fe60ca838a99" type="library">
+      <name>github.com/cespare/xxhash/v2</name>
+      <version>v2.1.2</version>
+      <cpe>cpe:2.3:a:cespare:xxhash\/v2:v2.1.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/cespare/xxhash/v2@v2.1.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:YRXhKfTDauu4ajMg1TPgFO5jnlC2HCbmLXMcTG5cbYE=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/davecgh/go-spew@v1.1.1?package-id=123009e66c997f8e" type="library">
+      <name>github.com/davecgh/go-spew</name>
+      <version>v1.1.1</version>
+      <cpe>cpe:2.3:a:davecgh:go-spew:v1.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/davecgh/go-spew@v1.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:davecgh:go_spew:v1.1.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-logr/logr@v1.2.2?package-id=b5489499664e56f0" type="library">
+      <name>github.com/go-logr/logr</name>
+      <version>v1.2.2</version>
+      <cpe>cpe:2.3:a:go-logr:logr:v1.2.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-logr/logr@v1.2.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_logr:logr:v1.2.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:logr:v1.2.2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:ahHml/yUpnlb96Rp8HCvtYVPY8ZYpxq3g7UYchIYwbs=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/gogo/protobuf@v1.3.2?package-id=2acb00ecc59e8b6b" type="library">
+      <name>github.com/gogo/protobuf</name>
+      <version>v1.3.2</version>
+      <cpe>cpe:2.3:a:gogo:protobuf:v1.3.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/gogo/protobuf@v1.3.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:Ov1cvc58UF3b5XjBnZv7+opcTcQFZebYjWzi34vdm4Q=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/golang/groupcache@v0.0.0-20210331224755-41bb18bfe9da?package-id=a65d561935672b21" type="library">
+      <name>github.com/golang/groupcache</name>
+      <version>v0.0.0-20210331224755-41bb18bfe9da</version>
+      <cpe>cpe:2.3:a:golang:groupcache:v0.0.0-20210331224755-41bb18bfe9da:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/golang/groupcache@v0.0.0-20210331224755-41bb18bfe9da</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:oI5xCqsCo564l8iNU+DwB5epxmsaqB+rhGL0m5jtYqE=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/golang/protobuf@v1.5.2?package-id=6e1754660bbd64cc" type="library">
+      <name>github.com/golang/protobuf</name>
+      <version>v1.5.2</version>
+      <cpe>cpe:2.3:a:golang:protobuf:v1.5.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/golang/protobuf@v1.5.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:ROPKBNFfQgOUMifHyP+KYbvpjbdoFNs+aK7DXlji0Tw=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/go-cmp@v0.5.6?package-id=71c565e26596515b" type="library">
+      <name>github.com/google/go-cmp</name>
+      <version>v0.5.6</version>
+      <cpe>cpe:2.3:a:google:go-cmp:v0.5.6:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/go-cmp@v0.5.6</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:google:go_cmp:v0.5.6:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:BKbKCqvP6I+rmFHt06ZmyQtvB8xAkWdhFyr0ZUNZcxQ=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/gofuzz@v1.2.0?package-id=2b3edfdc6d1d0207" type="library">
+      <name>github.com/google/gofuzz</name>
+      <version>v1.2.0</version>
+      <cpe>cpe:2.3:a:google:gofuzz:v1.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/gofuzz@v1.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:xRy4A+RhZaiKjJ1bPfwQ8sedCA+YS2YcCHW6ec7JMi0=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/uuid@v1.3.0?package-id=8c2c3e6cf13dd885" type="library">
+      <name>github.com/google/uuid</name>
+      <version>v1.3.0</version>
+      <cpe>cpe:2.3:a:google:uuid:v1.3.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/uuid@v1.3.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:t6JiXgmwXMjEs8VusXIJk2BXHsn+wx8BZdTaoZ5fu7I=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/googleapis/gnostic@v0.5.5?package-id=7cf15be0dbf7042b" type="library">
+      <name>github.com/googleapis/gnostic</name>
+      <version>v0.5.5</version>
+      <cpe>cpe:2.3:a:googleapis:gnostic:v0.5.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/googleapis/gnostic@v0.5.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:9fHAtK0uDfpveeqqo1hkEZJcFvYXAiCN3UutL8F9xHw=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/imdario/mergo@v0.3.5?package-id=a15a7dc87ccc45b1" type="library">
+      <name>github.com/imdario/mergo</name>
+      <version>v0.3.5</version>
+      <cpe>cpe:2.3:a:imdario:mergo:v0.3.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/imdario/mergo@v0.3.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:JboBksRwiiAJWvIYJVo46AfV+IAIKZpfrSzVKj42R4Q=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/json-iterator/go@v1.1.12?package-id=c592f6fc555477d5" type="library">
+      <name>github.com/json-iterator/go</name>
+      <version>v1.1.12</version>
+      <cpe>cpe:2.3:a:json-iterator:go:v1.1.12:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/json-iterator/go@v1.1.12</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:json_iterator:go:v1.1.12:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:json:go:v1.1.12:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:PV8peI4a0ysnczrg+LtxykD8LfKY9ML6u2jnxaEnrnM=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/juju-solutions/hostpath-provisioner@(devel)?package-id=6430c38244f81db4" type="library">
+      <name>github.com/juju-solutions/hostpath-provisioner</name>
+      <version>(devel)</version>
+      <cpe>cpe:2.3:a:juju-solutions:hostpath-provisioner:\(devel\):*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/juju-solutions/hostpath-provisioner@(devel)</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:juju-solutions:hostpath_provisioner:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:juju_solutions:hostpath-provisioner:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:juju_solutions:hostpath_provisioner:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:juju:hostpath-provisioner:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:juju:hostpath_provisioner:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.1?package-id=6371016eab78b4b5" type="library">
+      <name>github.com/matttproud/golang_protobuf_extensions</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:matttproud:golang-protobuf-extensions:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:matttproud:golang_protobuf_extensions:v1.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:4hp9jkHxhMHkqkrB3Ix0jegS5sx/RkqARlsWZ6pIwiU=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/miekg/dns@v1.1.45?package-id=b9b35aebdce9a5b2" type="library">
+      <name>github.com/miekg/dns</name>
+      <version>v1.1.45</version>
+      <cpe>cpe:2.3:a:miekg:dns:v1.1.45:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/miekg/dns@v1.1.45</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:g5fRIhm9nx7g8osrAvgb16QJfmyMsyOCb+J7LSv+Qzk=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd?package-id=a3d25ae8a65bcef8" type="library">
+      <name>github.com/modern-go/concurrent</name>
+      <version>v0.0.0-20180306012644-bacd9c7ef1dd</version>
+      <cpe>cpe:2.3:a:modern-go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern_go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:TRLaZ9cD/w8PVh93nsPXa1VrQ6jlwL5oN8l14QlcNfg=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/modern-go/reflect2@v1.0.2?package-id=8d1bbd4c157fef75" type="library">
+      <name>github.com/modern-go/reflect2</name>
+      <version>v1.0.2</version>
+      <cpe>cpe:2.3:a:modern-go:reflect2:v1.0.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/modern-go/reflect2@v1.0.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern_go:reflect2:v1.0.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern:reflect2:v1.0.2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:xBagoLtFs94CBntxluKeaWgTMpvLxC4ur3nMaC9Gz0M=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/client_golang@v1.11.0?package-id=63cb866f0dd4b82c" type="library">
+      <name>github.com/prometheus/client_golang</name>
+      <version>v1.11.0</version>
+      <cpe>cpe:2.3:a:prometheus:client-golang:v1.11.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/client_golang@v1.11.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:client_golang:v1.11.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:HNkLOAEQMIDv/K+04rukrLx6ch7msSRwf3/SASFAGtQ=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/client_model@v0.2.0?package-id=38e6447aaf6227cb" type="library">
+      <name>github.com/prometheus/client_model</name>
+      <version>v0.2.0</version>
+      <cpe>cpe:2.3:a:prometheus:client-model:v0.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/client_model@v0.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:client_model:v0.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:uq5h0d+GuxiXLJLNABMgp2qUWDPiLvgCzz2dUR+/W/M=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/common@v0.32.1?package-id=113ab2adf9b504df" type="library">
+      <name>github.com/prometheus/common</name>
+      <version>v0.32.1</version>
+      <cpe>cpe:2.3:a:prometheus:common:v0.32.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/common@v0.32.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:hWIdL3N2HoUx3B8j3YN9mWor0qhY/NlEKZEaXxuIRh4=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/procfs@v0.7.3?package-id=4b9420ee36c12323" type="library">
+      <name>github.com/prometheus/procfs</name>
+      <version>v0.7.3</version>
+      <cpe>cpe:2.3:a:prometheus:procfs:v0.7.3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/procfs@v0.7.3</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:4jVXhlkAyzOScmCkXBTOLRLTz8EeU+eyjrwB/EPq0VU=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/spf13/pflag@v1.0.5?package-id=21f7736dd42efc96" type="library">
+      <name>github.com/spf13/pflag</name>
+      <version>v1.0.5</version>
+      <cpe>cpe:2.3:a:spf13:pflag:v1.0.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/spf13/pflag@v1.0.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:iy+VFUOCP1a+8yFto/drg2CJ5u0yRoB7fZw3DKv/JXA=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/net@v0.0.0-20220114011407-0dd24b26b47d?package-id=416bf5bf52e2695" type="library">
+      <name>golang.org/x/net</name>
+      <version>v0.0.0-20220114011407-0dd24b26b47d</version>
+      <cpe>cpe:2.3:a:golang:x\/net:v0.0.0-20220114011407-0dd24b26b47d:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/net@v0.0.0-20220114011407-0dd24b26b47d</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:1n1fc535VhN8SYtD4cDUyNlfpAF2ROMM9+11equK3hs=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/oauth2@v0.0.0-20211104180415-d3ed0bb246c8?package-id=5596159d2c438d6" type="library">
+      <name>golang.org/x/oauth2</name>
+      <version>v0.0.0-20211104180415-d3ed0bb246c8</version>
+      <cpe>cpe:2.3:a:golang:x\/oauth2:v0.0.0-20211104180415-d3ed0bb246c8:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/oauth2@v0.0.0-20211104180415-d3ed0bb246c8</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:RerP+noqYHUQ8CMRcPlC2nvTa4dcBIjegkuWdcUDuqg=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/sys@v0.0.0-20220114195835-da31bd327af9?package-id=c687763a8927868b" type="library">
+      <name>golang.org/x/sys</name>
+      <version>v0.0.0-20220114195835-da31bd327af9</version>
+      <cpe>cpe:2.3:a:golang:x\/sys:v0.0.0-20220114195835-da31bd327af9:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/sys@v0.0.0-20220114195835-da31bd327af9</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:XfKQ4OlFl8okEOr5UvAqFRVj8pY/4yfcXrddB8qAbU0=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/term@v0.0.0-20210927222741-03fcf44c2211?package-id=e5f39038ca0993fe" type="library">
+      <name>golang.org/x/term</name>
+      <version>v0.0.0-20210927222741-03fcf44c2211</version>
+      <cpe>cpe:2.3:a:golang:x\/term:v0.0.0-20210927222741-03fcf44c2211:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/term@v0.0.0-20210927222741-03fcf44c2211</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:JGgROgKl9N8DuW20oFS5gxc+lE67/N3FcwmBPMe7ArY=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/text@v0.3.7?package-id=b3007b7a8473565f" type="library">
+      <name>golang.org/x/text</name>
+      <version>v0.3.7</version>
+      <cpe>cpe:2.3:a:golang:x\/text:v0.3.7:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/text@v0.3.7</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:olpwvP2KacW1ZWvsR7uQhoyTYvKAupfQrRGBFM352Gk=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/time@v0.0.0-20211116232009-f0f3c7e86c11?package-id=522df640564854c6" type="library">
+      <name>golang.org/x/time</name>
+      <version>v0.0.0-20211116232009-f0f3c7e86c11</version>
+      <cpe>cpe:2.3:a:golang:x\/time:v0.0.0-20211116232009-f0f3c7e86c11:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/time@v0.0.0-20211116232009-f0f3c7e86c11</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:GZokNIeuVkl3aZHJchRrr13WCsols02MLUcz1U9is6M=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/protobuf@v1.27.1?package-id=a85cf83ed106a705" type="library">
+      <name>google.golang.org/protobuf</name>
+      <version>v1.27.1</version>
+      <cpe>cpe:2.3:a:google:protobuf:v1.27.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/protobuf@v1.27.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:SnqbnDw1V7RiZcXPx5MEeqPv2s79L9i7BJUlG/+RurQ=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/inf.v0@v0.9.1?package-id=6096d06ced27c04b" type="library">
+      <name>gopkg.in/inf.v0</name>
+      <version>v0.9.1</version>
+      <purl>pkg:golang/gopkg.in/inf.v0@v0.9.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:73M5CoZyi3ZLMOyDlQh031Cx6N9NDJ2Vvfl76EDAgDc=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/yaml.v2@v2.4.0?package-id=144eeb258be68069" type="library">
+      <name>gopkg.in/yaml.v2</name>
+      <version>v2.4.0</version>
+      <purl>pkg:golang/gopkg.in/yaml.v2@v2.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:D8xgwECY7CYvx+Y2n4sBz93Jn9JRvxdiyyo8CTfuKaY=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/yaml.v3@v3.0.0-20210107192922-496545a6307b?package-id=dcd8c33b1c372409" type="library">
+      <name>gopkg.in/yaml.v3</name>
+      <version>v3.0.0-20210107192922-496545a6307b</version>
+      <purl>pkg:golang/gopkg.in/yaml.v3@v3.0.0-20210107192922-496545a6307b</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:h8qDotaEPuJATrMmW04NCwg7v22aHH28wwpauUhK9Oo=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/api@v0.23.1?package-id=22233e5a3708eb48" type="library">
+      <name>k8s.io/api</name>
+      <version>v0.23.1</version>
+      <purl>pkg:golang/k8s.io/api@v0.23.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:ncu/qfBfUoClqwkTGbeRqqOqBCRoUAflMuOaOD7J0c8=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/apimachinery@v0.23.1?package-id=d8824bab6c9656fe" type="library">
+      <name>k8s.io/apimachinery</name>
+      <version>v0.23.1</version>
+      <purl>pkg:golang/k8s.io/apimachinery@v0.23.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:sfBjlDFwj2onG0Ijx5C+SrAoeUscPrmghm7wHP+uXlo=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/client-go@v0.23.1?package-id=3082f162776cf272" type="library">
+      <name>k8s.io/client-go</name>
+      <version>v0.23.1</version>
+      <purl>pkg:golang/k8s.io/client-go@v0.23.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:Ma4Fhf/p07Nmj9yAB1H7UwbFHEBrSPg8lviR24U2GiQ=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/klog/v2@v2.40.1?package-id=cf8c7e77d83de194" type="library">
+      <name>k8s.io/klog/v2</name>
+      <version>v2.40.1</version>
+      <cpe>cpe:2.3:a:klog:v2:v2.40.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/k8s.io/klog/v2@v2.40.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:P4RRucWk/lFOlDdkAr3mc7iWFkgKrZY9qZMAgek06S4=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/kube-openapi@v0.0.0-20220114203427-a0453230fd26?package-id=8abaf0c07ddc4f7c" type="library">
+      <name>k8s.io/kube-openapi</name>
+      <version>v0.0.0-20220114203427-a0453230fd26</version>
+      <purl>pkg:golang/k8s.io/kube-openapi@v0.0.0-20220114203427-a0453230fd26</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:2G24ndYyfk0l23ZrGutxb0s9TRe4m1ZjFlcu4cEU1zA=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/utils@v0.0.0-20211208161948-7d6a63dca704?package-id=40f15412f339201e" type="library">
+      <name>k8s.io/utils</name>
+      <version>v0.0.0-20211208161948-7d6a63dca704</version>
+      <purl>pkg:golang/k8s.io/utils@v0.0.0-20211208161948-7d6a63dca704</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:ZKMMxTvduyf5WUtREOqg5LiXaN1KO/+0oOQPRFrClpo=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/json@v0.0.0-20211208200746-9f7c6b3444d2?package-id=c22774b66a1558ec" type="library">
+      <name>sigs.k8s.io/json</name>
+      <version>v0.0.0-20211208200746-9f7c6b3444d2</version>
+      <purl>pkg:golang/sigs.k8s.io/json@v0.0.0-20211208200746-9f7c6b3444d2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:kDi4JBNAsJWfz1aEXhO8Jg87JJaPNLh5tIzYHgStQ9Y=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/sig-storage-lib-external-provisioner/v7@v7.0.1?package-id=56f70f6ca5efe6dd" type="library">
+      <name>sigs.k8s.io/sig-storage-lib-external-provisioner/v7</name>
+      <version>v7.0.1</version>
+      <cpe>cpe:2.3:a:sig-storage-lib-external-provisioner:v7:v7.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/sigs.k8s.io/sig-storage-lib-external-provisioner/v7@v7.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:sig_storage_lib_external_provisioner:v7:v7.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:sig-storage-lib-external:v7:v7.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:sig_storage_lib_external:v7:v7.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:sig-storage-lib:v7:v7.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:sig_storage_lib:v7:v7.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:sig-storage:v7:v7.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:sig_storage:v7:v7.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:sig:v7:v7.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:V7VpIENtPECffT1exDwS4IvxnsaZGpXByzJwIwA6wRM=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.2.1?package-id=9dcfdb58c4ff2bd1" type="library">
+      <name>sigs.k8s.io/structured-merge-diff/v4</name>
+      <version>v4.2.1</version>
+      <cpe>cpe:2.3:a:structured-merge-diff:v4:v4.2.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.2.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured_merge_diff:v4:v4.2.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured-merge:v4:v4.2.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured_merge:v4:v4.2.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured:v4:v4.2.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:bKCqE9GvQ5tiVHn5rfn1r+yao3aLQEaLzkkmAkf+A6Y=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/yaml@v1.3.0?package-id=17b3818c4fca710d" type="library">
+      <name>sigs.k8s.io/yaml</name>
+      <version>v1.3.0</version>
+      <purl>pkg:golang/sigs.k8s.io/yaml@v1.3.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:7095a487bf4260bc88e1b66263808fc11ef0f863aed537f38ff8f4aa2add691a</property>
+        <property name="syft:location:0:path">/hostpath-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.17.8</property>
+        <property name="syft:metadata:h1Digest">h1:a2VclLzOGrwOHDiV8EfBGhvjHvP46CtW5j6POvhYGGo=</property>
+        <property name="syft:metadata:mainModule">github.com/juju-solutions/hostpath-provisioner</property>
+      </properties>
+    </component>
+  </components>
+</bom>
