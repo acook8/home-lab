@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:ae6ed12b-c01f-41c4-bed0-a2e1865e8ea9" version="1">
+  <metadata>
+    <timestamp>2022-10-31T16:07:24Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>anchore</vendor>
+        <name>syft</name>
+        <version>v0.58.0</version>
+      </tool>
+    </tools>
+    <component bom-ref="9edff7f64f0aba2d" type="container">
+      <name>/tmp/sha256_36d5b3f60e1a144cc5ada820910535074bdf5cf73fb70d1ff1681537eef4e172.tar.gz</name>
+      <version>sha256:afcaa12737e6e1d222f042cd7191efcee231a6bf267f08559e3e273e8b103c3e</version>
+    </component>
+  </metadata>
+  <components>
+    <component bom-ref="pkg:golang/github.com/davecgh/go-spew@v1.1.1?package-id=e2bd4982764be2d" type="library">
+      <name>github.com/davecgh/go-spew</name>
+      <version>v1.1.1</version>
+      <cpe>cpe:2.3:a:davecgh:go-spew:v1.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/davecgh/go-spew@v1.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:davecgh:go_spew:v1.1.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:10d0ebb29e3a8b36cfc58357c714bcbfa9853dd2586edf8d4a47ccd0168d40d2</property>
+        <property name="syft:location:0:path">/metrics-sidecar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-sigs/dashboard-metrics-scraper</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/gogo/protobuf@v0.0.0-20171007142547-342cbe0a0415?package-id=8e5058a0eb1c42f8" type="library">
+      <name>github.com/gogo/protobuf</name>
+      <version>v0.0.0-20171007142547-342cbe0a0415</version>
+      <cpe>cpe:2.3:a:gogo:protobuf:v0.0.0-20171007142547-342cbe0a0415:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/gogo/protobuf@v0.0.0-20171007142547-342cbe0a0415</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:10d0ebb29e3a8b36cfc58357c714bcbfa9853dd2586edf8d4a47ccd0168d40d2</property>
+        <property name="syft:location:0:path">/metrics-sidecar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-sigs/dashboard-metrics-scraper</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/golang/protobuf@v1.2.0?package-id=343b044f41c1e901" type="library">
+      <name>github.com/golang/protobuf</name>
+      <version>v1.2.0</version>
+      <cpe>cpe:2.3:a:golang:protobuf:v1.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/golang/protobuf@v1.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:10d0ebb29e3a8b36cfc58357c714bcbfa9853dd2586edf8d4a47ccd0168d40d2</property>
+        <property name="syft:location:0:path">/metrics-sidecar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-sigs/dashboard-metrics-scraper</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/gofuzz@v0.0.0-20170612174753-24818f796faf?package-id=a1c980dc841abb97" type="library">
+      <name>github.com/google/gofuzz</name>
+      <version>v0.0.0-20170612174753-24818f796faf</version>
+      <cpe>cpe:2.3:a:google:gofuzz:v0.0.0-20170612174753-24818f796faf:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/gofuzz@v0.0.0-20170612174753-24818f796faf</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:10d0ebb29e3a8b36cfc58357c714bcbfa9853dd2586edf8d4a47ccd0168d40d2</property>
+        <property name="syft:location:0:path">/metrics-sidecar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-sigs/dashboard-metrics-scraper</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/googleapis/gnostic@v0.0.0-20170729233727-0c5108395e2d?package-id=a2f17a4d83d50a1b" type="library">
+      <name>github.com/googleapis/gnostic</name>
+      <version>v0.0.0-20170729233727-0c5108395e2d</version>
+      <cpe>cpe:2.3:a:googleapis:gnostic:v0.0.0-20170729233727-0c5108395e2d:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/googleapis/gnostic@v0.0.0-20170729233727-0c5108395e2d</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:10d0ebb29e3a8b36cfc58357c714bcbfa9853dd2586edf8d4a47ccd0168d40d2</property>
+        <property name="syft:location:0:path">/metrics-sidecar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-sigs/dashboard-metrics-scraper</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/gorilla/handlers@v1.4.0?package-id=80e7e86a3b37daba" type="library">
+      <name>github.com/gorilla/handlers</name>
+      <version>v1.4.0</version>
+      <cpe>cpe:2.3:a:gorilla:handlers:v1.4.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/gorilla/handlers@v1.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:10d0ebb29e3a8b36cfc58357c714bcbfa9853dd2586edf8d4a47ccd0168d40d2</property>
+        <property name="syft:location:0:path">/metrics-sidecar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-sigs/dashboard-metrics-scraper</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/gorilla/mux@v1.7.3?package-id=6c367a7c0264b9d3" type="library">
+      <name>github.com/gorilla/mux</name>
+      <version>v1.7.3</version>
+      <cpe>cpe:2.3:a:gorilla:mux:v1.7.3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/gorilla/mux@v1.7.3</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:10d0ebb29e3a8b36cfc58357c714bcbfa9853dd2586edf8d4a47ccd0168d40d2</property>
+        <property name="syft:location:0:path">/metrics-sidecar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-sigs/dashboard-metrics-scraper</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/imdario/mergo@v0.3.5?package-id=98828ec29be6300a" type="library">
+      <name>github.com/imdario/mergo</name>
+      <version>v0.3.5</version>
+      <cpe>cpe:2.3:a:imdario:mergo:v0.3.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/imdario/mergo@v0.3.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:10d0ebb29e3a8b36cfc58357c714bcbfa9853dd2586edf8d4a47ccd0168d40d2</property>
+        <property name="syft:location:0:path">/metrics-sidecar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-sigs/dashboard-metrics-scraper</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/json-iterator/go@v0.0.0-20180701071628-ab8a2e0c74be?package-id=4ed4683fd2051f64" type="library">
+      <name>github.com/json-iterator/go</name>
+      <version>v0.0.0-20180701071628-ab8a2e0c74be</version>
+      <cpe>cpe:2.3:a:json-iterator:go:v0.0.0-20180701071628-ab8a2e0c74be:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/json-iterator/go@v0.0.0-20180701071628-ab8a2e0c74be</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:json_iterator:go:v0.0.0-20180701071628-ab8a2e0c74be:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:json:go:v0.0.0-20180701071628-ab8a2e0c74be:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:10d0ebb29e3a8b36cfc58357c714bcbfa9853dd2586edf8d4a47ccd0168d40d2</property>
+        <property name="syft:location:0:path">/metrics-sidecar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-sigs/dashboard-metrics-scraper</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/kubernetes-sigs/dashboard-metrics-scraper@(devel)?package-id=f50cb176ff275b6d" type="library">
+      <name>github.com/kubernetes-sigs/dashboard-metrics-scraper</name>
+      <version>(devel)</version>
+      <cpe>cpe:2.3:a:kubernetes-sigs:dashboard-metrics-scraper:\(devel\):*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/kubernetes-sigs/dashboard-metrics-scraper@(devel)</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes-sigs:dashboard_metrics_scraper:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes_sigs:dashboard-metrics-scraper:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes_sigs:dashboard_metrics_scraper:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes:dashboard-metrics-scraper:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes:dashboard_metrics_scraper:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:10d0ebb29e3a8b36cfc58357c714bcbfa9853dd2586edf8d4a47ccd0168d40d2</property>
+        <property name="syft:location:0:path">/metrics-sidecar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-sigs/dashboard-metrics-scraper</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/mattn/go-sqlite3@v1.10.0?package-id=b6e97305794c3bbc" type="library">
+      <name>github.com/mattn/go-sqlite3</name>
+      <version>v1.10.0</version>
+      <cpe>cpe:2.3:a:mattn:go-sqlite3:v1.10.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/mattn/go-sqlite3@v1.10.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:mattn:go_sqlite3:v1.10.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:10d0ebb29e3a8b36cfc58357c714bcbfa9853dd2586edf8d4a47ccd0168d40d2</property>
+        <property name="syft:location:0:path">/metrics-sidecar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-sigs/dashboard-metrics-scraper</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd?package-id=e31d9f7bc6671433" type="library">
+      <name>github.com/modern-go/concurrent</name>
+      <version>v0.0.0-20180306012644-bacd9c7ef1dd</version>
+      <cpe>cpe:2.3:a:modern-go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern_go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:10d0ebb29e3a8b36cfc58357c714bcbfa9853dd2586edf8d4a47ccd0168d40d2</property>
+        <property name="syft:location:0:path">/metrics-sidecar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-sigs/dashboard-metrics-scraper</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/modern-go/reflect2@v1.0.1?package-id=97f00d10ceb937ec" type="library">
+      <name>github.com/modern-go/reflect2</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:modern-go:reflect2:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/modern-go/reflect2@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern_go:reflect2:v1.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern:reflect2:v1.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:10d0ebb29e3a8b36cfc58357c714bcbfa9853dd2586edf8d4a47ccd0168d40d2</property>
+        <property name="syft:location:0:path">/metrics-sidecar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-sigs/dashboard-metrics-scraper</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/sirupsen/logrus@v1.4.2?package-id=97f05a07b54895f6" type="library">
+      <name>github.com/sirupsen/logrus</name>
+      <version>v1.4.2</version>
+      <cpe>cpe:2.3:a:sirupsen:logrus:v1.4.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/sirupsen/logrus@v1.4.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:10d0ebb29e3a8b36cfc58357c714bcbfa9853dd2586edf8d4a47ccd0168d40d2</property>
+        <property name="syft:location:0:path">/metrics-sidecar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-sigs/dashboard-metrics-scraper</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/spf13/pflag@v1.0.1?package-id=372ff30f812f5454" type="library">
+      <name>github.com/spf13/pflag</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:spf13:pflag:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/spf13/pflag@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:10d0ebb29e3a8b36cfc58357c714bcbfa9853dd2586edf8d4a47ccd0168d40d2</property>
+        <property name="syft:location:0:path">/metrics-sidecar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-sigs/dashboard-metrics-scraper</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/crypto@v0.0.0-20190222235706-ffb98f73852f?package-id=c0df420585c0407b" type="library">
+      <name>golang.org/x/crypto</name>
+      <version>v0.0.0-20190222235706-ffb98f73852f</version>
+      <cpe>cpe:2.3:a:golang:x\/crypto:v0.0.0-20190222235706-ffb98f73852f:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/crypto@v0.0.0-20190222235706-ffb98f73852f</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:10d0ebb29e3a8b36cfc58357c714bcbfa9853dd2586edf8d4a47ccd0168d40d2</property>
+        <property name="syft:location:0:path">/metrics-sidecar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-sigs/dashboard-metrics-scraper</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/net@v0.0.0-20190213061140-3a22650c66bd?package-id=fdcafb8e6d37adc6" type="library">
+      <name>golang.org/x/net</name>
+      <version>v0.0.0-20190213061140-3a22650c66bd</version>
+      <cpe>cpe:2.3:a:golang:x\/net:v0.0.0-20190213061140-3a22650c66bd:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/net@v0.0.0-20190213061140-3a22650c66bd</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:10d0ebb29e3a8b36cfc58357c714bcbfa9853dd2586edf8d4a47ccd0168d40d2</property>
+        <property name="syft:location:0:path">/metrics-sidecar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-sigs/dashboard-metrics-scraper</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/oauth2@v0.0.0-20170412232759-a6bd8cefa181?package-id=15b0874bb8d5df5b" type="library">
+      <name>golang.org/x/oauth2</name>
+      <version>v0.0.0-20170412232759-a6bd8cefa181</version>
+      <cpe>cpe:2.3:a:golang:x\/oauth2:v0.0.0-20170412232759-a6bd8cefa181:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/oauth2@v0.0.0-20170412232759-a6bd8cefa181</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:10d0ebb29e3a8b36cfc58357c714bcbfa9853dd2586edf8d4a47ccd0168d40d2</property>
+        <property name="syft:location:0:path">/metrics-sidecar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-sigs/dashboard-metrics-scraper</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/sys@v0.0.0-20190422165155-953cdadca894?package-id=ef6723648747bae8" type="library">
+      <name>golang.org/x/sys</name>
+      <version>v0.0.0-20190422165155-953cdadca894</version>
+      <cpe>cpe:2.3:a:golang:x\/sys:v0.0.0-20190422165155-953cdadca894:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/sys@v0.0.0-20190422165155-953cdadca894</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:10d0ebb29e3a8b36cfc58357c714bcbfa9853dd2586edf8d4a47ccd0168d40d2</property>
+        <property name="syft:location:0:path">/metrics-sidecar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-sigs/dashboard-metrics-scraper</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/text@v0.3.0?package-id=eb4899091a413e1" type="library">
+      <name>golang.org/x/text</name>
+      <version>v0.3.0</version>
+      <cpe>cpe:2.3:a:golang:x\/text:v0.3.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/text@v0.3.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:10d0ebb29e3a8b36cfc58357c714bcbfa9853dd2586edf8d4a47ccd0168d40d2</property>
+        <property name="syft:location:0:path">/metrics-sidecar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-sigs/dashboard-metrics-scraper</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/time@v0.0.0-20161028155119-f51c12702a4d?package-id=3bc338eb4bbee1b6" type="library">
+      <name>golang.org/x/time</name>
+      <version>v0.0.0-20161028155119-f51c12702a4d</version>
+      <cpe>cpe:2.3:a:golang:x\/time:v0.0.0-20161028155119-f51c12702a4d:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/time@v0.0.0-20161028155119-f51c12702a4d</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:10d0ebb29e3a8b36cfc58357c714bcbfa9853dd2586edf8d4a47ccd0168d40d2</property>
+        <property name="syft:location:0:path">/metrics-sidecar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-sigs/dashboard-metrics-scraper</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/inf.v0@v0.9.0?package-id=230cbeba1d501261" type="library">
+      <name>gopkg.in/inf.v0</name>
+      <version>v0.9.0</version>
+      <purl>pkg:golang/gopkg.in/inf.v0@v0.9.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:10d0ebb29e3a8b36cfc58357c714bcbfa9853dd2586edf8d4a47ccd0168d40d2</property>
+        <property name="syft:location:0:path">/metrics-sidecar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-sigs/dashboard-metrics-scraper</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/yaml.v2@v2.2.2?package-id=5dc88cb4f5f4814f" type="library">
+      <name>gopkg.in/yaml.v2</name>
+      <version>v2.2.2</version>
+      <purl>pkg:golang/gopkg.in/yaml.v2@v2.2.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:10d0ebb29e3a8b36cfc58357c714bcbfa9853dd2586edf8d4a47ccd0168d40d2</property>
+        <property name="syft:location:0:path">/metrics-sidecar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-sigs/dashboard-metrics-scraper</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/api@v0.0.0-20190222053316-a4bb047fdb92?package-id=956c6d900ac8bf2f" type="library">
+      <name>k8s.io/api</name>
+      <version>v0.0.0-20190222053316-a4bb047fdb92</version>
+      <purl>pkg:golang/k8s.io/api@v0.0.0-20190222053316-a4bb047fdb92</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:10d0ebb29e3a8b36cfc58357c714bcbfa9853dd2586edf8d4a47ccd0168d40d2</property>
+        <property name="syft:location:0:path">/metrics-sidecar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-sigs/dashboard-metrics-scraper</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/apimachinery@v0.0.0-20190221093215-450d01ad5771?package-id=dcddaeaf7b40e79c" type="library">
+      <name>k8s.io/apimachinery</name>
+      <version>v0.0.0-20190221093215-450d01ad5771</version>
+      <purl>pkg:golang/k8s.io/apimachinery@v0.0.0-20190221093215-450d01ad5771</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:10d0ebb29e3a8b36cfc58357c714bcbfa9853dd2586edf8d4a47ccd0168d40d2</property>
+        <property name="syft:location:0:path">/metrics-sidecar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-sigs/dashboard-metrics-scraper</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/client-go@v0.0.0-20190222093734-6e378217e628?package-id=a734317ad17bdbd6" type="library">
+      <name>k8s.io/client-go</name>
+      <version>v0.0.0-20190222093734-6e378217e628</version>
+      <purl>pkg:golang/k8s.io/client-go@v0.0.0-20190222093734-6e378217e628</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:10d0ebb29e3a8b36cfc58357c714bcbfa9853dd2586edf8d4a47ccd0168d40d2</property>
+        <property name="syft:location:0:path">/metrics-sidecar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-sigs/dashboard-metrics-scraper</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/klog@v0.0.0-20181108234604-8139d8cb77af?package-id=8b24f68a0938890d" type="library">
+      <name>k8s.io/klog</name>
+      <version>v0.0.0-20181108234604-8139d8cb77af</version>
+      <purl>pkg:golang/k8s.io/klog@v0.0.0-20181108234604-8139d8cb77af</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:10d0ebb29e3a8b36cfc58357c714bcbfa9853dd2586edf8d4a47ccd0168d40d2</property>
+        <property name="syft:location:0:path">/metrics-sidecar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-sigs/dashboard-metrics-scraper</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/metrics@v0.0.0-20190222100624-62aa511161ba?package-id=2fca94d0888087c7" type="library">
+      <name>k8s.io/metrics</name>
+      <version>v0.0.0-20190222100624-62aa511161ba</version>
+      <purl>pkg:golang/k8s.io/metrics@v0.0.0-20190222100624-62aa511161ba</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:10d0ebb29e3a8b36cfc58357c714bcbfa9853dd2586edf8d4a47ccd0168d40d2</property>
+        <property name="syft:location:0:path">/metrics-sidecar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-sigs/dashboard-metrics-scraper</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/utils@v0.0.0-20190221042446-c2654d5206da?package-id=a86f08eb4890dab8" type="library">
+      <name>k8s.io/utils</name>
+      <version>v0.0.0-20190221042446-c2654d5206da</version>
+      <purl>pkg:golang/k8s.io/utils@v0.0.0-20190221042446-c2654d5206da</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:10d0ebb29e3a8b36cfc58357c714bcbfa9853dd2586edf8d4a47ccd0168d40d2</property>
+        <property name="syft:location:0:path">/metrics-sidecar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-sigs/dashboard-metrics-scraper</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/yaml@v1.1.0?package-id=7ee3e7e7d75af3fb" type="library">
+      <name>sigs.k8s.io/yaml</name>
+      <version>v1.1.0</version>
+      <purl>pkg:golang/sigs.k8s.io/yaml@v1.1.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:10d0ebb29e3a8b36cfc58357c714bcbfa9853dd2586edf8d4a47ccd0168d40d2</property>
+        <property name="syft:location:0:path">/metrics-sidecar</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.15</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-sigs/dashboard-metrics-scraper</property>
+      </properties>
+    </component>
+  </components>
+</bom>
