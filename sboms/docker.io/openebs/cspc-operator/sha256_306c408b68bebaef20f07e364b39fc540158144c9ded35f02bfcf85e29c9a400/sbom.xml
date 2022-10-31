@@ -1,0 +1,1764 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:6b1d0bb9-08d5-41e8-9455-6c98f3702c72" version="1">
+  <metadata>
+    <timestamp>2022-10-31T16:00:43Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>anchore</vendor>
+        <name>syft</name>
+        <version>v0.58.0</version>
+      </tool>
+    </tools>
+    <component bom-ref="d4cae2c5cef468b2" type="container">
+      <name>/tmp/sha256_306c408b68bebaef20f07e364b39fc540158144c9ded35f02bfcf85e29c9a400.tar.gz</name>
+      <version>sha256:fa5e469238b45a477f306430382a6f0ae1140b396708562000f091750b1625fc</version>
+    </component>
+  </metadata>
+  <components>
+    <component bom-ref="pkg:alpine/alpine-baselayout@3.2.0-r3?arch=x86_64&amp;upstream=alpine-baselayout&amp;distro=alpine-3.11.5&amp;package-id=edbdc71c217140cd" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>alpine-baselayout</name>
+      <version>3.2.0-r3</version>
+      <description>Alpine base dir structure and init scripts</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:alpine-baselayout:alpine-baselayout:3.2.0-r3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/alpine-baselayout@3.2.0-r3?arch=x86_64&amp;upstream=alpine-baselayout&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://git.alpinelinux.org/cgit/aports/tree/main/alpine-baselayout</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine-baselayout:alpine_baselayout:3.2.0-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine_baselayout:alpine-baselayout:3.2.0-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine_baselayout:alpine_baselayout:3.2.0-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine:alpine-baselayout:3.2.0-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine:alpine_baselayout:3.2.0-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:150999ca713be7d2b74957524eb7db03d3102956a463221b4c0c764f78dfb626</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">55464083de768e34737154e10544bb0be12bcf04</property>
+        <property name="syft:metadata:installedSize">413696</property>
+        <property name="syft:metadata:originPackage">alpine-baselayout</property>
+        <property name="syft:metadata:pullChecksum">Q1jzc/WzKcOq8TbrMMY6OHZh7g89A=</property>
+        <property name="syft:metadata:pullDependencies">/bin/sh so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">26599</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/alpine-keys@2.1-r2?arch=x86_64&amp;upstream=alpine-keys&amp;distro=alpine-3.11.5&amp;package-id=212b435cb0ef638f" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>alpine-keys</name>
+      <version>2.1-r2</version>
+      <description>Public keys for Alpine Linux packages</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:alpine-keys:alpine-keys:2.1-r2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/alpine-keys@2.1-r2?arch=x86_64&amp;upstream=alpine-keys&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://alpinelinux.org</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine-keys:alpine_keys:2.1-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine_keys:alpine-keys:2.1-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine_keys:alpine_keys:2.1-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine:alpine-keys:2.1-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine:alpine_keys:2.1-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:150999ca713be7d2b74957524eb7db03d3102956a463221b4c0c764f78dfb626</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">bdc861e495d33e961b7b9884324bea64a16d2b91</property>
+        <property name="syft:metadata:installedSize">98304</property>
+        <property name="syft:metadata:originPackage">alpine-keys</property>
+        <property name="syft:metadata:pullChecksum">Q1ZJKfhbf4tK27Zk2QVBAxKTa3nZs=</property>
+        <property name="syft:metadata:size">5020</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/apk-tools@2.10.4-r3?arch=x86_64&amp;upstream=apk-tools&amp;distro=alpine-3.11.5&amp;package-id=7d50021a2cd37fa6" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>apk-tools</name>
+      <version>2.10.4-r3</version>
+      <description>Alpine Package Keeper - package manager for alpine</description>
+      <cpe>cpe:2.3:a:apk-tools:apk-tools:2.10.4-r3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/apk-tools@2.10.4-r3?arch=x86_64&amp;upstream=apk-tools&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://git.alpinelinux.org/cgit/apk-tools/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:apk-tools:apk_tools:2.10.4-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apk_tools:apk-tools:2.10.4-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apk_tools:apk_tools:2.10.4-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apk:apk-tools:2.10.4-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apk:apk_tools:2.10.4-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:150999ca713be7d2b74957524eb7db03d3102956a463221b4c0c764f78dfb626</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">72048e01f0eef23b1300eb4c7d8eb2afb601f156</property>
+        <property name="syft:metadata:installedSize">262144</property>
+        <property name="syft:metadata:originPackage">apk-tools</property>
+        <property name="syft:metadata:pullChecksum">Q1sVrQyQ5Ek9/clI1rkKjgINqJNu8=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1 so:libssl.so.1.1 so:libz.so.1</property>
+        <property name="syft:metadata:size">103084</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/bash@5.0.11-r1?arch=x86_64&amp;upstream=bash&amp;distro=alpine-3.11.5&amp;package-id=24095b1d622e0518" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>bash</name>
+      <version>5.0.11-r1</version>
+      <description>The GNU Bourne Again shell</description>
+      <licenses>
+        <license>
+          <id>GPL-3.0-or-later</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:bash:bash:5.0.11-r1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/bash@5.0.11-r1?arch=x86_64&amp;upstream=bash&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.gnu.org/software/bash/bash.html</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:150999ca713be7d2b74957524eb7db03d3102956a463221b4c0c764f78dfb626</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">db415e44798fbd6a6d36caaadf52524c2c63c1f7</property>
+        <property name="syft:metadata:installedSize">1200128</property>
+        <property name="syft:metadata:originPackage">bash</property>
+        <property name="syft:metadata:pullChecksum">Q15iivp8TwfpV9RlFOa+tpnoi6/LE=</property>
+        <property name="syft:metadata:pullDependencies">/bin/sh so:libc.musl-x86_64.so.1 so:libreadline.so.8</property>
+        <property name="syft:metadata:size">408882</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/busybox@1.31.1-r9?arch=x86_64&amp;upstream=busybox&amp;distro=alpine-3.11.5&amp;package-id=e597b08571c751e1" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>busybox</name>
+      <version>1.31.1-r9</version>
+      <description>Size optimized toolbox of many common UNIX utilities</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:busybox:busybox:1.31.1-r9:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/busybox@1.31.1-r9?arch=x86_64&amp;upstream=busybox&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://busybox.net/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:150999ca713be7d2b74957524eb7db03d3102956a463221b4c0c764f78dfb626</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">e5c984f68aabb28de623a7e3ada5a223c2b66d77</property>
+        <property name="syft:metadata:installedSize">962560</property>
+        <property name="syft:metadata:originPackage">busybox</property>
+        <property name="syft:metadata:pullChecksum">Q1pFdwPXFlSBHqKNjSelz8SeziezQ=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">507134</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/ca-certificates@20191127-r2?arch=x86_64&amp;upstream=ca-certificates&amp;distro=alpine-3.11.5&amp;package-id=1fd9e6c967fec2a4" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>ca-certificates</name>
+      <version>20191127-r2</version>
+      <description>Common CA certificates PEM files from Mozilla</description>
+      <licenses>
+        <license>
+          <id>MPL-2.0</id>
+        </license>
+        <license>
+          <id>GPL-2.0-or-later</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:ca-certificates:ca-certificates:20191127-r2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/ca-certificates@20191127-r2?arch=x86_64&amp;upstream=ca-certificates&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca-certificates:ca_certificates:20191127-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates:ca-certificates:20191127-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates:ca_certificates:20191127-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca:ca-certificates:20191127-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca:ca_certificates:20191127-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:150999ca713be7d2b74957524eb7db03d3102956a463221b4c0c764f78dfb626</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">b45d3b45cc45c589af160cb29c6a5b3a0c35c231</property>
+        <property name="syft:metadata:installedSize">737280</property>
+        <property name="syft:metadata:originPackage">ca-certificates</property>
+        <property name="syft:metadata:pullChecksum">Q1OdEPtc6cRHo6InNdARsnS3TrkvQ=</property>
+        <property name="syft:metadata:pullDependencies">/bin/sh so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1</property>
+        <property name="syft:metadata:size">171530</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/ca-certificates-cacert@20191127-r1?arch=x86_64&amp;upstream=ca-certificates&amp;distro=alpine-3.11.5&amp;package-id=237526e52b87adcd" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>ca-certificates-cacert</name>
+      <version>20191127-r1</version>
+      <description>Mozilla bundled certificates</description>
+      <licenses>
+        <license>
+          <id>MPL-2.0</id>
+        </license>
+        <license>
+          <id>GPL-2.0-or-later</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:ca-certificates-cacert:ca-certificates-cacert:20191127-r1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/ca-certificates-cacert@20191127-r1?arch=x86_64&amp;upstream=ca-certificates&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca-certificates-cacert:ca_certificates_cacert:20191127-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates_cacert:ca-certificates-cacert:20191127-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates_cacert:ca_certificates_cacert:20191127-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca-certificates:ca-certificates-cacert:20191127-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca-certificates:ca_certificates_cacert:20191127-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates:ca-certificates-cacert:20191127-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates:ca_certificates_cacert:20191127-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca:ca-certificates-cacert:20191127-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca:ca_certificates_cacert:20191127-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:150999ca713be7d2b74957524eb7db03d3102956a463221b4c0c764f78dfb626</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">6b9965ff9509f1c16ca9ab79eba317016c663b43</property>
+        <property name="syft:metadata:installedSize">245760</property>
+        <property name="syft:metadata:originPackage">ca-certificates</property>
+        <property name="syft:metadata:pullChecksum">Q1OuuKkNcXnSoYd4LpgKlkSU4Ixfs=</property>
+        <property name="syft:metadata:size">133617</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/curl@7.79.0-r0?arch=x86_64&amp;upstream=curl&amp;distro=alpine-3.11.5&amp;package-id=c50bd9bdf31864d0" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>curl</name>
+      <version>7.79.0-r0</version>
+      <description>URL retrival utility and library</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:curl:curl:7.79.0-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/curl@7.79.0-r0?arch=x86_64&amp;upstream=curl&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://curl.haxx.se/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:150999ca713be7d2b74957524eb7db03d3102956a463221b4c0c764f78dfb626</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">79e5b5806a8bb32cc4ae6a9a855b941e1b1f53df</property>
+        <property name="syft:metadata:installedSize">253952</property>
+        <property name="syft:metadata:originPackage">curl</property>
+        <property name="syft:metadata:pullChecksum">Q19f/2oE0xjvfTFQcQbg8spCh8dMs=</property>
+        <property name="syft:metadata:pullDependencies">ca-certificates so:libc.musl-x86_64.so.1 so:libcurl.so.4 so:libz.so.1</property>
+        <property name="syft:metadata:size">132585</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/davecgh/go-spew@v1.1.1?package-id=5f7a75e658191f1e" type="library">
+      <name>github.com/davecgh/go-spew</name>
+      <version>v1.1.1</version>
+      <cpe>cpe:2.3:a:davecgh:go-spew:v1.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/davecgh/go-spew@v1.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:davecgh:go_spew:v1.1.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-logr/logr@v0.2.0?package-id=8bdb92cbd7cce0b4" type="library">
+      <name>github.com/go-logr/logr</name>
+      <version>v0.2.0</version>
+      <cpe>cpe:2.3:a:go-logr:logr:v0.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-logr/logr@v0.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_logr:logr:v0.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:logr:v0.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:QvGt2nLcHH0WK9orKa+ppBPAxREcH364nPUedEpK0TY=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/gogo/protobuf@v1.3.1?package-id=dad3593190d4684d" type="library">
+      <name>github.com/gogo/protobuf</name>
+      <version>v1.3.1</version>
+      <cpe>cpe:2.3:a:gogo:protobuf:v1.3.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/gogo/protobuf@v1.3.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:DqDEcV5aeaTmdFBePNpYsp3FlcVH/2ISVVM9Qf8PSls=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/golang/groupcache@v0.0.0-20200121045136-8c9f03a8e57e?package-id=e26515ad9c19a6a1" type="library">
+      <name>github.com/golang/groupcache</name>
+      <version>v0.0.0-20200121045136-8c9f03a8e57e</version>
+      <cpe>cpe:2.3:a:golang:groupcache:v0.0.0-20200121045136-8c9f03a8e57e:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/golang/groupcache@v0.0.0-20200121045136-8c9f03a8e57e</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:1r7pUrabqp18hOBcwBwiTsbnFeTZHV9eER/QT5JVZxY=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/golang/protobuf@v1.4.3?package-id=7233fc56044755a5" type="library">
+      <name>github.com/golang/protobuf</name>
+      <version>v1.4.3</version>
+      <cpe>cpe:2.3:a:golang:protobuf:v1.4.3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/golang/protobuf@v1.4.3</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:JjCZWpVbqXDqFVmTfYWEVTMIYrL/NPdPSCHPJ0T/raM=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/go-cmp@v0.5.2?package-id=74cc1cad157979b3" type="library">
+      <name>github.com/google/go-cmp</name>
+      <version>v0.5.2</version>
+      <cpe>cpe:2.3:a:google:go-cmp:v0.5.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/go-cmp@v0.5.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:google:go_cmp:v0.5.2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:X2ev0eStA3AbceY54o37/0PQ/UWqKEiiO2dKL5OPaFM=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/gofuzz@v1.1.0?package-id=3255c70284d9bec5" type="library">
+      <name>github.com/google/gofuzz</name>
+      <version>v1.1.0</version>
+      <cpe>cpe:2.3:a:google:gofuzz:v1.1.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/gofuzz@v1.1.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:Hsa8mG0dQ46ij8Sl2AYJDUv1oA9/d6Vk+3LG99Oe02g=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/googleapis/gnostic@v0.4.1?package-id=6942cbad854a06e4" type="library">
+      <name>github.com/googleapis/gnostic</name>
+      <version>v0.4.1</version>
+      <cpe>cpe:2.3:a:googleapis:gnostic:v0.4.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/googleapis/gnostic@v0.4.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:DLJCy1n/vrD4HPjOvYcT8aYQXpPIzoRZONaYwyycI+I=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/hashicorp/golang-lru@v0.5.1?package-id=2c6e9ace3e2a3d74" type="library">
+      <name>github.com/hashicorp/golang-lru</name>
+      <version>v0.5.1</version>
+      <cpe>cpe:2.3:a:hashicorp:golang-lru:v0.5.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/hashicorp/golang-lru@v0.5.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:hashicorp:golang_lru:v0.5.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:0hERBMJE1eitiLkihrMvRVBYAkpHzc/J3QdDN+dAcgU=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/imdario/mergo@v0.3.8?package-id=aa16d7eb478fdc17" type="library">
+      <name>github.com/imdario/mergo</name>
+      <version>v0.3.8</version>
+      <cpe>cpe:2.3:a:imdario:mergo:v0.3.8:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/imdario/mergo@v0.3.8</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:CGgOkSJeqMRmt0D9XLWExdT4m4F1vd3FV3VPt+0VxkQ=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/json-iterator/go@v1.1.10?package-id=9b716517627dfec8" type="library">
+      <name>github.com/json-iterator/go</name>
+      <version>v1.1.10</version>
+      <cpe>cpe:2.3:a:json-iterator:go:v1.1.10:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/json-iterator/go@v1.1.10</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:json_iterator:go:v1.1.10:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:json:go:v1.1.10:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:Kz6Cvnvv2wGdaG/V8yMvfkmNiXq9Ya2KUv4rouJJr68=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd?package-id=e912045d6f374801" type="library">
+      <name>github.com/modern-go/concurrent</name>
+      <version>v0.0.0-20180306012644-bacd9c7ef1dd</version>
+      <cpe>cpe:2.3:a:modern-go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern_go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:TRLaZ9cD/w8PVh93nsPXa1VrQ6jlwL5oN8l14QlcNfg=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/modern-go/reflect2@v1.0.1?package-id=9b15a8a9f1576afa" type="library">
+      <name>github.com/modern-go/reflect2</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:modern-go:reflect2:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/modern-go/reflect2@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern_go:reflect2:v1.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern:reflect2:v1.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:9f412s+6RmYXLWZSEzVVgPGK7C2PphHj5RJrvfx9AWI=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/openebs/api/v2@v2.2.1-0.20210302070038-f282f96d77c6?package-id=e40905ec94a9991b" type="library">
+      <name>github.com/openebs/api/v2</name>
+      <version>v2.2.1-0.20210302070038-f282f96d77c6</version>
+      <cpe>cpe:2.3:a:openebs:api\/v2:v2.2.1-0.20210302070038-f282f96d77c6:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/openebs/api/v2@v2.2.1-0.20210302070038-f282f96d77c6</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:P+gwyB2xycGJrxJoyG4SdnOC5cZwcaYRiHmCxL1a6bw=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/openebs/cstor-operators@(devel)?package-id=a9d4b59dda0dd7df" type="library">
+      <name>github.com/openebs/cstor-operators</name>
+      <version>(devel)</version>
+      <cpe>cpe:2.3:a:openebs:cstor-operators:\(devel\):*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/openebs/cstor-operators@(devel)</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:openebs:cstor_operators:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/pkg/errors@v0.9.1?package-id=82b5fb4892bfa084" type="library">
+      <name>github.com/pkg/errors</name>
+      <version>v0.9.1</version>
+      <cpe>cpe:2.3:a:pkg:errors:v0.9.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/pkg/errors@v0.9.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:FEBLx1zS214owpjy7qsBeixbURkuhQAwrK5UwLGTwt4=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/ryanuber/columnize@v2.1.0+incompatible?package-id=7ac33c1f09fa4da4" type="library">
+      <name>github.com/ryanuber/columnize</name>
+      <version>v2.1.0+incompatible</version>
+      <cpe>cpe:2.3:a:ryanuber:columnize:v2.1.0\+incompatible:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/ryanuber/columnize@v2.1.0+incompatible</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:j1Wcmh8OrK4Q7GXY+V7SVSY8nUWQxHW5TkBe7YUl+2s=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/spf13/pflag@v1.0.5?package-id=fc26b994d3f2ee5" type="library">
+      <name>github.com/spf13/pflag</name>
+      <version>v1.0.5</version>
+      <cpe>cpe:2.3:a:spf13:pflag:v1.0.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/spf13/pflag@v1.0.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:iy+VFUOCP1a+8yFto/drg2CJ5u0yRoB7fZw3DKv/JXA=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/crypto@v0.0.0-20201002170205-7f63de1d35b0?package-id=442c45b66ccd0ac8" type="library">
+      <name>golang.org/x/crypto</name>
+      <version>v0.0.0-20201002170205-7f63de1d35b0</version>
+      <cpe>cpe:2.3:a:golang:x\/crypto:v0.0.0-20201002170205-7f63de1d35b0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/crypto@v0.0.0-20201002170205-7f63de1d35b0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:hb9wdF1z5waM+dSIICn1l0DkLVDT3hqhhQsDNUmHPRE=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/net@v0.0.0-20201110031124-69a78807bb2b?package-id=ab7103dd8adece7" type="library">
+      <name>golang.org/x/net</name>
+      <version>v0.0.0-20201110031124-69a78807bb2b</version>
+      <cpe>cpe:2.3:a:golang:x\/net:v0.0.0-20201110031124-69a78807bb2b:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/net@v0.0.0-20201110031124-69a78807bb2b</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:uwuIcX0g4Yl1NC5XAz37xsr2lTtcqevgzYNVt49waME=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/oauth2@v0.0.0-20200107190931-bf48bf16ab8d?package-id=9a39d5157011ed8a" type="library">
+      <name>golang.org/x/oauth2</name>
+      <version>v0.0.0-20200107190931-bf48bf16ab8d</version>
+      <cpe>cpe:2.3:a:golang:x\/oauth2:v0.0.0-20200107190931-bf48bf16ab8d:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/oauth2@v0.0.0-20200107190931-bf48bf16ab8d</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:TzXSXBo42m9gQenoE3b9BGiEpg5IG2JkU5FkPIawgtw=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/sys@v0.0.0-20201112073958-5cba982894dd?package-id=a273a885d9738639" type="library">
+      <name>golang.org/x/sys</name>
+      <version>v0.0.0-20201112073958-5cba982894dd</version>
+      <cpe>cpe:2.3:a:golang:x\/sys:v0.0.0-20201112073958-5cba982894dd:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/sys@v0.0.0-20201112073958-5cba982894dd</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:5CtCZbICpIOFdgO940moixOPjc0178IU44m4EjOO5IY=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/text@v0.3.4?package-id=1a090f3f10a35886" type="library">
+      <name>golang.org/x/text</name>
+      <version>v0.3.4</version>
+      <cpe>cpe:2.3:a:golang:x\/text:v0.3.4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/text@v0.3.4</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:0YWbFKbhXG/wIiuHDSKpS0Iy7FSA+u45VtBMfQcFTTc=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/time@v0.0.0-20200630173020-3af7569d3a1e?package-id=92a49dad91e7c135" type="library">
+      <name>golang.org/x/time</name>
+      <version>v0.0.0-20200630173020-3af7569d3a1e</version>
+      <cpe>cpe:2.3:a:golang:x\/time:v0.0.0-20200630173020-3af7569d3a1e:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/time@v0.0.0-20200630173020-3af7569d3a1e</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:EHBhcS0mlXEAVwNyO2dLfjToGsyY4j24pTs2ScHnX7s=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/protobuf@v1.25.0?package-id=edb6cec305f16699" type="library">
+      <name>google.golang.org/protobuf</name>
+      <version>v1.25.0</version>
+      <cpe>cpe:2.3:a:google:protobuf:v1.25.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/protobuf@v1.25.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:Ejskq+SyPohKW+1uil0JJMtmHCgJPJ/qWTxr8qp+R4c=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/inf.v0@v0.9.1?package-id=9eb9584f717c1ebd" type="library">
+      <name>gopkg.in/inf.v0</name>
+      <version>v0.9.1</version>
+      <purl>pkg:golang/gopkg.in/inf.v0@v0.9.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:73M5CoZyi3ZLMOyDlQh031Cx6N9NDJ2Vvfl76EDAgDc=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/yaml.v2@v2.2.8?package-id=3b82b148f35fd48f" type="library">
+      <name>gopkg.in/yaml.v2</name>
+      <version>v2.2.8</version>
+      <purl>pkg:golang/gopkg.in/yaml.v2@v2.2.8</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:obN1ZagJSUGI0Ek/LBmuj4SNLPfIny3KsKFopxRdj10=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/iproute2@5.4.0-r1?arch=x86_64&amp;upstream=iproute2&amp;distro=alpine-3.11.5&amp;package-id=a83c22bb58f00e51" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>iproute2</name>
+      <version>5.4.0-r1</version>
+      <description>IP Routing Utilities</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-or-later</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:iproute2:iproute2:5.4.0-r1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/iproute2@5.4.0-r1?arch=x86_64&amp;upstream=iproute2&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.linuxfoundation.org/collaborate/workgroups/networking/iproute2</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:150999ca713be7d2b74957524eb7db03d3102956a463221b4c0c764f78dfb626</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">de0ae4eafabb85cfe9cf12ac0abd69d3fbbc1276</property>
+        <property name="syft:metadata:installedSize">1728512</property>
+        <property name="syft:metadata:originPackage">iproute2</property>
+        <property name="syft:metadata:pullChecksum">Q1q55Sk9njHmLb/t0l88ERSTxehD0=</property>
+        <property name="syft:metadata:pullDependencies">/bin/sh so:libc.musl-x86_64.so.1 so:libxtables.so.12</property>
+        <property name="syft:metadata:size">688763</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/iptables@1.8.3-r2?arch=x86_64&amp;upstream=iptables&amp;distro=alpine-3.11.5&amp;package-id=b665214812a04c2" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>iptables</name>
+      <version>1.8.3-r2</version>
+      <description>Linux kernel firewall, NAT and packet mangling tools</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-or-later</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:iptables:iptables:1.8.3-r2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/iptables@1.8.3-r2?arch=x86_64&amp;upstream=iptables&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.netfilter.org/projects/iptables/index.html</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:150999ca713be7d2b74957524eb7db03d3102956a463221b4c0c764f78dfb626</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">ca6e5756c35ec262e609f36f858abc504aba0fe1</property>
+        <property name="syft:metadata:installedSize">2215936</property>
+        <property name="syft:metadata:originPackage">iptables</property>
+        <property name="syft:metadata:pullChecksum">Q1oZdtTiRRVdtNXXGbRU37S3+YTNQ=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1 so:libmnl.so.0 so:libnftnl.so.11</property>
+        <property name="syft:metadata:size">407691</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/api@v0.20.2?package-id=a39493d6a0fea30b" type="library">
+      <name>k8s.io/api</name>
+      <version>v0.20.2</version>
+      <purl>pkg:golang/k8s.io/api@v0.20.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:y/HR22XDZY3pniu9hIFDLpUCPq2w5eQ6aV/VFQ7uJMw=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/apimachinery@v0.20.2?package-id=efd7edf9f248b2e1" type="library">
+      <name>k8s.io/apimachinery</name>
+      <version>v0.20.2</version>
+      <purl>pkg:golang/k8s.io/apimachinery@v0.20.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:hFx6Sbt1oG0n6DZ+g4bFt5f6BoMkOjKWsQFu077M3Vg=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/client-go@v0.20.2?package-id=af5987099eff7893" type="library">
+      <name>k8s.io/client-go</name>
+      <version>v0.20.2</version>
+      <purl>pkg:golang/k8s.io/client-go@v0.20.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:uuf+iIAbfnCSw8IGAv/Rg0giM+2bOzHLOsbbrwrdhNQ=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/klog@v1.0.0?package-id=69040e039979ffac" type="library">
+      <name>k8s.io/klog</name>
+      <version>v1.0.0</version>
+      <purl>pkg:golang/k8s.io/klog@v1.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:Pt+yjF5aB1xDSVbau4VsWe+dQNzA0qv1LlXdC2dF6Q8=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/klog/v2@v2.4.0?package-id=8a29c3b3b12e4f46" type="library">
+      <name>k8s.io/klog/v2</name>
+      <version>v2.4.0</version>
+      <cpe>cpe:2.3:a:klog:v2:v2.4.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/k8s.io/klog/v2@v2.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:7+X0fUguPyrKEC4WjH8iGDg3laWgMo5tMnRTIGTTxGQ=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/kube-openapi@v0.0.0-20201113171705-d219536bb9fd?package-id=796db06851b11d9c" type="library">
+      <name>k8s.io/kube-openapi</name>
+      <version>v0.0.0-20201113171705-d219536bb9fd</version>
+      <purl>pkg:golang/k8s.io/kube-openapi@v0.0.0-20201113171705-d219536bb9fd</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:sOHNzJIkytDF6qadMNKhhDRpc6ODik8lVC6nOur7B2c=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/utils@v0.0.0-20201110183641-67b214c5f920?package-id=579dd0be09922689" type="library">
+      <name>k8s.io/utils</name>
+      <version>v0.0.0-20201110183641-67b214c5f920</version>
+      <purl>pkg:golang/k8s.io/utils@v0.0.0-20201110183641-67b214c5f920</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:CbnUZsM497iRC5QMVkHwyl8s2tB3g7yaSHkYPkpgelw=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libc-utils@0.7.2-r0?arch=x86_64&amp;upstream=libc-dev&amp;distro=alpine-3.11.5&amp;package-id=826e44d7b8683da7" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>libc-utils</name>
+      <version>0.7.2-r0</version>
+      <description>Meta package to pull in correct libc</description>
+      <cpe>cpe:2.3:a:libc-utils:libc-utils:0.7.2-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libc-utils@0.7.2-r0?arch=x86_64&amp;upstream=libc-dev&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>http://alpinelinux.org</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc-utils:libc_utils:0.7.2-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc_utils:libc-utils:0.7.2-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc_utils:libc_utils:0.7.2-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc:libc-utils:0.7.2-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc:libc_utils:0.7.2-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:150999ca713be7d2b74957524eb7db03d3102956a463221b4c0c764f78dfb626</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">97b1c2842faa3bfa30f5811ffbf16d5ff9f1a479</property>
+        <property name="syft:metadata:installedSize">4096</property>
+        <property name="syft:metadata:originPackage">libc-dev</property>
+        <property name="syft:metadata:pullChecksum">Q1p78yvTLG094tHE1+dToJGbmYzQE=</property>
+        <property name="syft:metadata:pullDependencies">musl-utils</property>
+        <property name="syft:metadata:size">1175</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libc6-compat@1.1.24-r3?arch=x86_64&amp;upstream=musl&amp;distro=alpine-3.11.5&amp;package-id=e8118a0b318f4224" type="library">
+      <publisher>Timo Teräs &lt;timo.teras@iki.fi&gt;</publisher>
+      <name>libc6-compat</name>
+      <version>1.1.24-r3</version>
+      <description>compatibility libraries for glibc</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libc6-compat:libc6-compat:1.1.24-r3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libc6-compat@1.1.24-r3?arch=x86_64&amp;upstream=musl&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://musl.libc.org/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc6-compat:libc6_compat:1.1.24-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc6_compat:libc6-compat:1.1.24-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc6_compat:libc6_compat:1.1.24-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc6:libc6-compat:1.1.24-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc6:libc6_compat:1.1.24-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:150999ca713be7d2b74957524eb7db03d3102956a463221b4c0c764f78dfb626</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">646c516367f8746a5d153ee00cf264316451b196</property>
+        <property name="syft:metadata:installedSize">12288</property>
+        <property name="syft:metadata:originPackage">musl</property>
+        <property name="syft:metadata:pullChecksum">Q13reuwYTj1MNHm2fKUwR8MZN6Ei8=</property>
+        <property name="syft:metadata:pullDependencies">musl=1.1.24-r3</property>
+        <property name="syft:metadata:size">1440</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libcrypto1.1@1.1.1d-r3?arch=x86_64&amp;upstream=openssl&amp;distro=alpine-3.11.5&amp;package-id=751b5f10c9919263" type="library">
+      <publisher>Timo Teras &lt;timo.teras@iki.fi&gt;</publisher>
+      <name>libcrypto1.1</name>
+      <version>1.1.1d-r3</version>
+      <description>Crypto library from openssl</description>
+      <licenses>
+        <license>
+          <id>OpenSSL</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libcrypto1.1:libcrypto1.1:1.1.1d-r3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libcrypto1.1@1.1.1d-r3?arch=x86_64&amp;upstream=openssl&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.openssl.org</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:150999ca713be7d2b74957524eb7db03d3102956a463221b4c0c764f78dfb626</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">d5cdcefa208fa600971caccebd3ab1c7304fec16</property>
+        <property name="syft:metadata:installedSize">2748416</property>
+        <property name="syft:metadata:originPackage">openssl</property>
+        <property name="syft:metadata:pullChecksum">Q13Y+5o8znsrz5VCcdpi+4XawrEGo=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">1198107</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libcurl@7.79.0-r0?arch=x86_64&amp;upstream=curl&amp;distro=alpine-3.11.5&amp;package-id=195f48315e85d2e" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>libcurl</name>
+      <version>7.79.0-r0</version>
+      <description>The multiprotocol file transfer library</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libcurl:libcurl:7.79.0-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libcurl@7.79.0-r0?arch=x86_64&amp;upstream=curl&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://curl.haxx.se/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:150999ca713be7d2b74957524eb7db03d3102956a463221b4c0c764f78dfb626</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">79e5b5806a8bb32cc4ae6a9a855b941e1b1f53df</property>
+        <property name="syft:metadata:installedSize">512000</property>
+        <property name="syft:metadata:originPackage">curl</property>
+        <property name="syft:metadata:pullChecksum">Q1PM2fQTAVpswr36dN1t3h3GMzPXI=</property>
+        <property name="syft:metadata:pullDependencies">ca-certificates so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1 so:libnghttp2.so.14 so:libssl.so.1.1 so:libz.so.1</property>
+        <property name="syft:metadata:size">235820</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libintl@0.20.1-r2?arch=x86_64&amp;upstream=gettext&amp;distro=alpine-3.11.5&amp;package-id=bc16d72b0ba1b980" type="library">
+      <publisher>Carlo Landmeter &lt;clandmeter@gmail.com&gt;</publisher>
+      <name>libintl</name>
+      <version>0.20.1-r2</version>
+      <description>GNU gettext runtime library</description>
+      <licenses>
+        <license>
+          <id>LGPL-2.1-or-later</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libintl:libintl:0.20.1-r2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libintl@0.20.1-r2?arch=x86_64&amp;upstream=gettext&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.gnu.org/software/gettext/gettext.html</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:150999ca713be7d2b74957524eb7db03d3102956a463221b4c0c764f78dfb626</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">c336381eb35c0bcd385562f8ca44f79c76dddcd8</property>
+        <property name="syft:metadata:installedSize">57344</property>
+        <property name="syft:metadata:originPackage">gettext</property>
+        <property name="syft:metadata:pullChecksum">Q12Vvj9YmB3j6tAB4FTcVx5UApO8s=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">19013</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libmnl@1.0.4-r0?arch=x86_64&amp;upstream=libmnl&amp;distro=alpine-3.11.5&amp;package-id=54578d8dbd15b841" type="library">
+      <publisher>Francesco Colista &lt;fcolista@alpinelinux.org&gt;</publisher>
+      <name>libmnl</name>
+      <version>1.0.4-r0</version>
+      <description>Library for minimalistic netlink</description>
+      <cpe>cpe:2.3:a:libmnl:libmnl:1.0.4-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libmnl@1.0.4-r0?arch=x86_64&amp;upstream=libmnl&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>http://www.netfilter.org/projects/libmnl/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:150999ca713be7d2b74957524eb7db03d3102956a463221b4c0c764f78dfb626</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">d2bfb22c8e8f67ad7d8d02704f35ec4d2a19f9b9</property>
+        <property name="syft:metadata:installedSize">40960</property>
+        <property name="syft:metadata:originPackage">libmnl</property>
+        <property name="syft:metadata:pullChecksum">Q1ph+9Q3Q90V8e+QAW9f+qNk7hQmE=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">8849</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libnftnl-libs@1.1.5-r0?arch=x86_64&amp;upstream=libnftnl&amp;distro=alpine-3.11.5&amp;package-id=ab598e413ad5ab97" type="library">
+      <publisher>Sören Tempel &lt;soeren+alpine@soeren-tempel.net&gt;</publisher>
+      <name>libnftnl-libs</name>
+      <version>1.1.5-r0</version>
+      <description>Netfilter library providing interface to the nf_tables subsystem (libraries)</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-or-later</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libnftnl-libs:libnftnl-libs:1.1.5-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libnftnl-libs@1.1.5-r0?arch=x86_64&amp;upstream=libnftnl&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://netfilter.org/projects/libnftnl</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:libnftnl-libs:libnftnl_libs:1.1.5-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libnftnl_libs:libnftnl-libs:1.1.5-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libnftnl_libs:libnftnl_libs:1.1.5-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libnftnl:libnftnl-libs:1.1.5-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libnftnl:libnftnl_libs:1.1.5-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:150999ca713be7d2b74957524eb7db03d3102956a463221b4c0c764f78dfb626</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">9609603ff3a95b2f053c836afbec9ecf5db699db</property>
+        <property name="syft:metadata:installedSize">196608</property>
+        <property name="syft:metadata:originPackage">libnftnl</property>
+        <property name="syft:metadata:pullChecksum">Q1pglhipqgG+OVWfThe5+cOXOaqXE=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1 so:libmnl.so.0</property>
+        <property name="syft:metadata:size">65692</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libproc@3.3.16-r0?arch=x86_64&amp;upstream=procps&amp;distro=alpine-3.11.5&amp;package-id=fb0a308537f94cd6" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>libproc</name>
+      <version>3.3.16-r0</version>
+      <description>Library for monitoring system and processes</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+        <license>
+          <id>LGPL-2.1+</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libproc:libproc:3.3.16-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libproc@3.3.16-r0?arch=x86_64&amp;upstream=procps&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://gitlab.com/procps-ng/procps</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:150999ca713be7d2b74957524eb7db03d3102956a463221b4c0c764f78dfb626</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">52f18957fac88c7b1983256701a62b126022e330</property>
+        <property name="syft:metadata:installedSize">86016</property>
+        <property name="syft:metadata:originPackage">procps</property>
+        <property name="syft:metadata:pullChecksum">Q1sGv1q3cu51TeeK3ceMtptz1bqQE=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">29972</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libssl1.1@1.1.1d-r3?arch=x86_64&amp;upstream=openssl&amp;distro=alpine-3.11.5&amp;package-id=5bddf55b66992982" type="library">
+      <publisher>Timo Teras &lt;timo.teras@iki.fi&gt;</publisher>
+      <name>libssl1.1</name>
+      <version>1.1.1d-r3</version>
+      <description>SSL shared libraries</description>
+      <licenses>
+        <license>
+          <id>OpenSSL</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libssl1.1:libssl1.1:1.1.1d-r3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libssl1.1@1.1.1d-r3?arch=x86_64&amp;upstream=openssl&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.openssl.org</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:150999ca713be7d2b74957524eb7db03d3102956a463221b4c0c764f78dfb626</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">d5cdcefa208fa600971caccebd3ab1c7304fec16</property>
+        <property name="syft:metadata:installedSize">536576</property>
+        <property name="syft:metadata:originPackage">openssl</property>
+        <property name="syft:metadata:pullChecksum">Q1k41G5Bs+VrM5o66y0C+tPXVyjzU=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1</property>
+        <property name="syft:metadata:size">210892</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libtls-standalone@2.9.1-r0?arch=x86_64&amp;upstream=libtls-standalone&amp;distro=alpine-3.11.5&amp;package-id=3e2320ba27551280" type="library">
+      <name>libtls-standalone</name>
+      <version>2.9.1-r0</version>
+      <description>libtls extricated from libressl sources</description>
+      <licenses>
+        <license>
+          <id>ISC</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libtls-standalone:libtls-standalone:2.9.1-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libtls-standalone@2.9.1-r0?arch=x86_64&amp;upstream=libtls-standalone&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.libressl.org/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:libtls-standalone:libtls_standalone:2.9.1-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libtls_standalone:libtls-standalone:2.9.1-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libtls_standalone:libtls_standalone:2.9.1-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libtls:libtls-standalone:2.9.1-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libtls:libtls_standalone:2.9.1-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:150999ca713be7d2b74957524eb7db03d3102956a463221b4c0c764f78dfb626</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">981bf8f8fb3cbbc210ee4f2a2fb5b55d0132e02a</property>
+        <property name="syft:metadata:installedSize">110592</property>
+        <property name="syft:metadata:originPackage">libtls-standalone</property>
+        <property name="syft:metadata:pullChecksum">Q1suVielY3jqbuuWKo8zci35OTwcU=</property>
+        <property name="syft:metadata:pullDependencies">ca-certificates-cacert so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1 so:libssl.so.1.1</property>
+        <property name="syft:metadata:size">33334</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/mii-tool@1.60_git20140218-r2?arch=x86_64&amp;upstream=net-tools&amp;distro=alpine-3.11.5&amp;package-id=4e1e862ea0d8bb10" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>mii-tool</name>
+      <version>1.60_git20140218-r2</version>
+      <description>media-independent interface (MII) tool</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:mii-tool:mii-tool:1.60_git20140218-r2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/mii-tool@1.60_git20140218-r2?arch=x86_64&amp;upstream=net-tools&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://sourceforge.net/projects/net-tools/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:mii-tool:mii_tool:1.60_git20140218-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:mii_tool:mii-tool:1.60_git20140218-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:mii_tool:mii_tool:1.60_git20140218-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:mii:mii-tool:1.60_git20140218-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:mii:mii_tool:1.60_git20140218-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:150999ca713be7d2b74957524eb7db03d3102956a463221b4c0c764f78dfb626</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">721e7e9e625575f13a42af85824c9b8f7c25a41d</property>
+        <property name="syft:metadata:installedSize">36864</property>
+        <property name="syft:metadata:originPackage">net-tools</property>
+        <property name="syft:metadata:pullChecksum">Q1fxpA0pK9rWcSZzWPzIePUlSBUzM=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">8598</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/musl@1.1.24-r3?arch=x86_64&amp;upstream=musl&amp;distro=alpine-3.11.5&amp;package-id=30cf0a2fda4e3144" type="library">
+      <publisher>Timo Teräs &lt;timo.teras@iki.fi&gt;</publisher>
+      <name>musl</name>
+      <version>1.1.24-r3</version>
+      <description>the musl c library (libc) implementation</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:musl:musl:1.1.24-r3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/musl@1.1.24-r3?arch=x86_64&amp;upstream=musl&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://musl.libc.org/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:150999ca713be7d2b74957524eb7db03d3102956a463221b4c0c764f78dfb626</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">646c516367f8746a5d153ee00cf264316451b196</property>
+        <property name="syft:metadata:installedSize">614400</property>
+        <property name="syft:metadata:originPackage">musl</property>
+        <property name="syft:metadata:pullChecksum">Q1fzAzoYI1nhFCYnYwo35WN9YWh5M=</property>
+        <property name="syft:metadata:size">377126</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/musl-utils@1.1.24-r2?arch=x86_64&amp;upstream=musl&amp;distro=alpine-3.11.5&amp;package-id=c821ea78c744980d" type="library">
+      <publisher>Timo Teräs &lt;timo.teras@iki.fi&gt;</publisher>
+      <name>musl-utils</name>
+      <version>1.1.24-r2</version>
+      <description>the musl c library (libc) implementation</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:musl-utils:musl-utils:1.1.24-r2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/musl-utils@1.1.24-r2?arch=x86_64&amp;upstream=musl&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://musl.libc.org/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:musl-utils:musl_utils:1.1.24-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:musl_utils:musl-utils:1.1.24-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:musl_utils:musl_utils:1.1.24-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:musl:musl-utils:1.1.24-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:musl:musl_utils:1.1.24-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:150999ca713be7d2b74957524eb7db03d3102956a463221b4c0c764f78dfb626</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">4024cc3b29ad4c65544ad068b8f59172b5494306</property>
+        <property name="syft:metadata:installedSize">151552</property>
+        <property name="syft:metadata:originPackage">musl</property>
+        <property name="syft:metadata:pullChecksum">Q1bTtF5526tETKfL+lnigzIDvm+2o=</property>
+        <property name="syft:metadata:pullDependencies">scanelf so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">37944</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/ncurses-libs@6.1_p20200118-r4?arch=x86_64&amp;upstream=ncurses&amp;distro=alpine-3.11.5&amp;package-id=7c152dcad69bee2f" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>ncurses-libs</name>
+      <version>6.1_p20200118-r4</version>
+      <description>Ncurses libraries</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:ncurses-libs:ncurses-libs:6.1_p20200118-r4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/ncurses-libs@6.1_p20200118-r4?arch=x86_64&amp;upstream=ncurses&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://invisible-island.net/ncurses/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:ncurses-libs:ncurses_libs:6.1_p20200118-r4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ncurses_libs:ncurses-libs:6.1_p20200118-r4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ncurses_libs:ncurses_libs:6.1_p20200118-r4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ncurses:ncurses-libs:6.1_p20200118-r4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ncurses:ncurses_libs:6.1_p20200118-r4:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:150999ca713be7d2b74957524eb7db03d3102956a463221b4c0c764f78dfb626</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">25f0bae76247fa5eb76faae67f179ea8b758f828</property>
+        <property name="syft:metadata:installedSize">507904</property>
+        <property name="syft:metadata:originPackage">ncurses</property>
+        <property name="syft:metadata:pullChecksum">Q1bKQGj92NU/vgY/DjFvWm2DH3RVs=</property>
+        <property name="syft:metadata:pullDependencies">ncurses-terminfo-base=6.1_p20200118-r4 so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">207925</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/ncurses-terminfo-base@6.1_p20200118-r4?arch=x86_64&amp;upstream=ncurses&amp;distro=alpine-3.11.5&amp;package-id=9c4ba14a76102d8d" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>ncurses-terminfo-base</name>
+      <version>6.1_p20200118-r4</version>
+      <description>Descriptions of common terminals</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:ncurses-terminfo-base:ncurses-terminfo-base:6.1_p20200118-r4:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/ncurses-terminfo-base@6.1_p20200118-r4?arch=x86_64&amp;upstream=ncurses&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://invisible-island.net/ncurses/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:ncurses-terminfo-base:ncurses_terminfo_base:6.1_p20200118-r4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ncurses_terminfo_base:ncurses-terminfo-base:6.1_p20200118-r4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ncurses_terminfo_base:ncurses_terminfo_base:6.1_p20200118-r4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ncurses-terminfo:ncurses-terminfo-base:6.1_p20200118-r4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ncurses-terminfo:ncurses_terminfo_base:6.1_p20200118-r4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ncurses_terminfo:ncurses-terminfo-base:6.1_p20200118-r4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ncurses_terminfo:ncurses_terminfo_base:6.1_p20200118-r4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ncurses:ncurses-terminfo-base:6.1_p20200118-r4:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ncurses:ncurses_terminfo_base:6.1_p20200118-r4:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:150999ca713be7d2b74957524eb7db03d3102956a463221b4c0c764f78dfb626</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">25f0bae76247fa5eb76faae67f179ea8b758f828</property>
+        <property name="syft:metadata:installedSize">217088</property>
+        <property name="syft:metadata:originPackage">ncurses</property>
+        <property name="syft:metadata:pullChecksum">Q121cV73y1qSXg4w7ctJ/SXZP8kxk=</property>
+        <property name="syft:metadata:size">19470</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/net-tools@1.60_git20140218-r2?arch=x86_64&amp;upstream=net-tools&amp;distro=alpine-3.11.5&amp;package-id=ef2808032a51c0af" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>net-tools</name>
+      <version>1.60_git20140218-r2</version>
+      <description>Linux networking base tools</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:net-tools:net-tools:1.60_git20140218-r2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/net-tools@1.60_git20140218-r2?arch=x86_64&amp;upstream=net-tools&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://sourceforge.net/projects/net-tools/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:net-tools:net_tools:1.60_git20140218-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:net_tools:net-tools:1.60_git20140218-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:net_tools:net_tools:1.60_git20140218-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:net:net-tools:1.60_git20140218-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:net:net_tools:1.60_git20140218-r2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:150999ca713be7d2b74957524eb7db03d3102956a463221b4c0c764f78dfb626</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">721e7e9e625575f13a42af85824c9b8f7c25a41d</property>
+        <property name="syft:metadata:installedSize">417792</property>
+        <property name="syft:metadata:originPackage">net-tools</property>
+        <property name="syft:metadata:pullChecksum">Q11Cp8Nsn0Shpw5GDALeskabGmvMA=</property>
+        <property name="syft:metadata:pullDependencies">mii-tool so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">136302</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/nghttp2-libs@1.40.0-r1?arch=x86_64&amp;upstream=nghttp2&amp;distro=alpine-3.11.5&amp;package-id=f384d4155af1f6d2" type="library">
+      <publisher>Francesco Colista &lt;fcolista@alpinelinux.org&gt;</publisher>
+      <name>nghttp2-libs</name>
+      <version>1.40.0-r1</version>
+      <description>Experimental HTTP/2 client, server and proxy (libraries)</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:nghttp2-libs:nghttp2-libs:1.40.0-r1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/nghttp2-libs@1.40.0-r1?arch=x86_64&amp;upstream=nghttp2&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://nghttp2.org</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:nghttp2-libs:nghttp2_libs:1.40.0-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:nghttp2_libs:nghttp2-libs:1.40.0-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:nghttp2_libs:nghttp2_libs:1.40.0-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:nghttp2:nghttp2-libs:1.40.0-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:nghttp2:nghttp2_libs:1.40.0-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:150999ca713be7d2b74957524eb7db03d3102956a463221b4c0c764f78dfb626</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">0b95f9e7ef4f4ff23e543297818706a10536a19a</property>
+        <property name="syft:metadata:installedSize">159744</property>
+        <property name="syft:metadata:originPackage">nghttp2</property>
+        <property name="syft:metadata:pullChecksum">Q1awuVdJ/tIr0wKKtiuVMpnlIqAXA=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">65653</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/procps@3.3.16-r0?arch=x86_64&amp;upstream=procps&amp;distro=alpine-3.11.5&amp;package-id=eea1fc7bfa43a992" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>procps</name>
+      <version>3.3.16-r0</version>
+      <description>Utilities for monitoring your system and processes on your system</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+        <license>
+          <id>LGPL-2.1+</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:procps:procps:3.3.16-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/procps@3.3.16-r0?arch=x86_64&amp;upstream=procps&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://gitlab.com/procps-ng/procps</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:150999ca713be7d2b74957524eb7db03d3102956a463221b4c0c764f78dfb626</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">52f18957fac88c7b1983256701a62b126022e330</property>
+        <property name="syft:metadata:installedSize">557056</property>
+        <property name="syft:metadata:originPackage">procps</property>
+        <property name="syft:metadata:pullChecksum">Q1v2jP54JCnieXINANnDPEXjgKD9M=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1 so:libintl.so.8 so:libncursesw.so.6 so:libprocps.so.8</property>
+        <property name="syft:metadata:size">170336</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/readline@8.0.1-r0?arch=x86_64&amp;upstream=readline&amp;distro=alpine-3.11.5&amp;package-id=285706661e2bea3a" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>readline</name>
+      <version>8.0.1-r0</version>
+      <description>GNU readline library</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-or-later</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:readline:readline:8.0.1-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/readline@8.0.1-r0?arch=x86_64&amp;upstream=readline&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://tiswww.cwru.edu/php/chet/readline/rltop.html</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:150999ca713be7d2b74957524eb7db03d3102956a463221b4c0c764f78dfb626</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">69d654f853aec47e0d7157e66108f6f4c3640ec5</property>
+        <property name="syft:metadata:installedSize">299008</property>
+        <property name="syft:metadata:originPackage">readline</property>
+        <property name="syft:metadata:pullChecksum">Q1zXB3po/7RzLeIwE5u4AcWtFmqlA=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1 so:libncursesw.so.6</property>
+        <property name="syft:metadata:size">117385</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/scanelf@1.2.4-r0?arch=x86_64&amp;upstream=pax-utils&amp;distro=alpine-3.11.5&amp;package-id=8e6dfd5275ea5da1" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>scanelf</name>
+      <version>1.2.4-r0</version>
+      <description>Scan ELF binaries for stuff</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:scanelf:scanelf:1.2.4-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/scanelf@1.2.4-r0?arch=x86_64&amp;upstream=pax-utils&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:150999ca713be7d2b74957524eb7db03d3102956a463221b4c0c764f78dfb626</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">c2bc0a44e12b8015a83e04a9881714deb3526d80</property>
+        <property name="syft:metadata:installedSize">94208</property>
+        <property name="syft:metadata:originPackage">pax-utils</property>
+        <property name="syft:metadata:pullChecksum">Q11hR76zK/+AO12fg6O+x6sxkIcYU=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">36418</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.0.2?package-id=5ae816dfb527065a" type="library">
+      <name>sigs.k8s.io/structured-merge-diff/v4</name>
+      <version>v4.0.2</version>
+      <cpe>cpe:2.3:a:structured-merge-diff:v4:v4.0.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.0.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured_merge_diff:v4:v4.0.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured-merge:v4:v4.0.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured_merge:v4:v4.0.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured:v4:v4.0.2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:YHQV7Dajm86OuqnIR6zAelnDWBRjo+YhYV9PmGrh1s8=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/yaml@v1.2.0?package-id=ffb1043979a4a5f2" type="library">
+      <name>sigs.k8s.io/yaml</name>
+      <version>v1.2.0</version>
+      <purl>pkg:golang/sigs.k8s.io/yaml@v1.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:d16fb9da90cf350be90531588ce981f709bb7dd143abd1b7d813c5940e19f634</property>
+        <property name="syft:location:0:path">/usr/local/bin/cspc-operator</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.14.7</property>
+        <property name="syft:metadata:h1Digest">h1:kr/MCeFWJWTwyaHoR9c8EjH9OumOmoF9YGiZd7lFm/Q=</property>
+        <property name="syft:metadata:mainModule">github.com/openebs/cstor-operators</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/ssl_client@1.31.1-r9?arch=x86_64&amp;upstream=busybox&amp;distro=alpine-3.11.5&amp;package-id=71a7428dd9847eb7" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>ssl_client</name>
+      <version>1.31.1-r9</version>
+      <description>EXternal ssl_client for busybox wget</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:ssl-client:ssl-client:1.31.1-r9:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/ssl_client@1.31.1-r9?arch=x86_64&amp;upstream=busybox&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://busybox.net/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:ssl-client:ssl_client:1.31.1-r9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ssl_client:ssl-client:1.31.1-r9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ssl_client:ssl_client:1.31.1-r9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ssl:ssl-client:1.31.1-r9:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ssl:ssl_client:1.31.1-r9:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:150999ca713be7d2b74957524eb7db03d3102956a463221b4c0c764f78dfb626</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">e5c984f68aabb28de623a7e3ada5a223c2b66d77</property>
+        <property name="syft:metadata:installedSize">28672</property>
+        <property name="syft:metadata:originPackage">busybox</property>
+        <property name="syft:metadata:pullChecksum">Q1O2hRUq8yASCuiUHHQNM3a1TkPBA=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1 so:libtls-standalone.so.1</property>
+        <property name="syft:metadata:size">4291</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/zlib@1.2.11-r3?arch=x86_64&amp;upstream=zlib&amp;distro=alpine-3.11.5&amp;package-id=a9e4a0d4cee79b9d" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>zlib</name>
+      <version>1.2.11-r3</version>
+      <description>A compression/decompression Library</description>
+      <licenses>
+        <license>
+          <id>Zlib</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:zlib:zlib:1.2.11-r3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/zlib@1.2.11-r3?arch=x86_64&amp;upstream=zlib&amp;distro=alpine-3.11.5</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://zlib.net/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:150999ca713be7d2b74957524eb7db03d3102956a463221b4c0c764f78dfb626</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">388a4fb3640f8ccbd18e105df3ad741dca4247e1</property>
+        <property name="syft:metadata:installedSize">110592</property>
+        <property name="syft:metadata:originPackage">zlib</property>
+        <property name="syft:metadata:pullChecksum">Q1rMoHjui6qT4AX1ey+uNZwe/UQ80=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">51482</property>
+      </properties>
+    </component>
+    <component type="operating-system">
+      <name>alpine</name>
+      <version>3.11.5</version>
+      <description>Alpine Linux v3.11</description>
+      <swid tagId="alpine" name="alpine" version="3.11.5"></swid>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://bugs.alpinelinux.org/</url>
+        </reference>
+        <reference type="website">
+          <url>https://alpinelinux.org/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:distro:id">alpine</property>
+        <property name="syft:distro:prettyName">Alpine Linux v3.11</property>
+        <property name="syft:distro:versionID">3.11.5</property>
+      </properties>
+    </component>
+  </components>
+</bom>
