@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:ef8eb9a0-6a1f-40b8-9399-d21f326fa8b2" version="1">
+  <metadata>
+    <timestamp>2022-10-31T16:06:47Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>anchore</vendor>
+        <name>syft</name>
+        <version>v0.58.0</version>
+      </tool>
+    </tools>
+    <component bom-ref="67f4a6542ec5dcf9" type="container">
+      <name>/tmp/sha256_95cf004f559831017cdf4628aaf1bb30133677be8702a8c5f2994629f637a209.tar.gz</name>
+      <version>sha256:a502183091cfd58a56e39d432ca96aad0ac45c6b6f3bf831f34b8a136bbdaaa3</version>
+    </component>
+  </metadata>
+  <components>
+    <component type="operating-system">
+      <name>busybox</name>
+      <version>1.31.1</version>
+      <description>BusyBox v1.31.1</description>
+      <swid tagId="busybox" name="busybox" version="1.31.1"></swid>
+      <properties>
+        <property name="syft:distro:id">busybox</property>
+        <property name="syft:distro:idLike:0">busybox</property>
+        <property name="syft:distro:prettyName">BusyBox v1.31.1</property>
+        <property name="syft:distro:versionID">1.31.1</property>
+      </properties>
+    </component>
+  </components>
+</bom>
