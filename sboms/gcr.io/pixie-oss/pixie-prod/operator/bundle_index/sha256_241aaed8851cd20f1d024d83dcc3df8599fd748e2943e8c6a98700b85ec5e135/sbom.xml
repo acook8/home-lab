@@ -1,0 +1,2691 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:f1f2d93f-8bbb-4365-b904-a069ea9db056" version="1">
+  <metadata>
+    <timestamp>2022-10-31T15:56:40Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>anchore</vendor>
+        <name>syft</name>
+        <version>v0.58.0</version>
+      </tool>
+    </tools>
+    <component bom-ref="1bcdbb6ff679d410" type="container">
+      <name>/tmp/sha256_241aaed8851cd20f1d024d83dcc3df8599fd748e2943e8c6a98700b85ec5e135.tar.gz</name>
+      <version>sha256:216fdb83ffac14cb441610b8224fcb3bb0b83cc963a19a054a40b86d8705de9c</version>
+    </component>
+  </metadata>
+  <components>
+    <component bom-ref="pkg:alpine/alpine-baselayout@3.2.0-r16?arch=x86_64&amp;upstream=alpine-baselayout&amp;distro=alpine-3.14.1&amp;package-id=ed18f2a986e77aab" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>alpine-baselayout</name>
+      <version>3.2.0-r16</version>
+      <description>Alpine base dir structure and init scripts</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:alpine-baselayout:alpine-baselayout:3.2.0-r16:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/alpine-baselayout@3.2.0-r16?arch=x86_64&amp;upstream=alpine-baselayout&amp;distro=alpine-3.14.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://git.alpinelinux.org/cgit/aports/tree/main/alpine-baselayout</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine-baselayout:alpine_baselayout:3.2.0-r16:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine_baselayout:alpine-baselayout:3.2.0-r16:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine_baselayout:alpine_baselayout:3.2.0-r16:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine:alpine-baselayout:3.2.0-r16:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine:alpine_baselayout:3.2.0-r16:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:4e7f383eb531db898a0835c445abdd067b256d452302b49b6b41eb712ac3d5bc</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">8a8c96a0ea2fcd824c361aa4438763fa33ee8ca0</property>
+        <property name="syft:metadata:installedSize">413696</property>
+        <property name="syft:metadata:originPackage">alpine-baselayout</property>
+        <property name="syft:metadata:pullChecksum">Q1UJtB9cNV4r+/VbxySkEei++qbho=</property>
+        <property name="syft:metadata:pullDependencies">/bin/sh so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">20716</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/alpine-keys@2.3-r1?arch=x86_64&amp;upstream=alpine-keys&amp;distro=alpine-3.14.1&amp;package-id=acf4f57c7a295f07" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>alpine-keys</name>
+      <version>2.3-r1</version>
+      <description>Public keys for Alpine Linux packages</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:alpine-keys:alpine-keys:2.3-r1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/alpine-keys@2.3-r1?arch=x86_64&amp;upstream=alpine-keys&amp;distro=alpine-3.14.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://alpinelinux.org</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine-keys:alpine_keys:2.3-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine_keys:alpine-keys:2.3-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine_keys:alpine_keys:2.3-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine:alpine-keys:2.3-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:alpine:alpine_keys:2.3-r1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:4e7f383eb531db898a0835c445abdd067b256d452302b49b6b41eb712ac3d5bc</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">0972396a79fd723a429e518120fdf7ab48407468</property>
+        <property name="syft:metadata:installedSize">118784</property>
+        <property name="syft:metadata:originPackage">alpine-keys</property>
+        <property name="syft:metadata:pullChecksum">Q1ZV5wTtRXerQz0CBrwtKcvErpPeY=</property>
+        <property name="syft:metadata:size">5988</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/apk-tools@2.12.7-r0?arch=x86_64&amp;upstream=apk-tools&amp;distro=alpine-3.14.1&amp;package-id=9ccd9ae0ec561b1b" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>apk-tools</name>
+      <version>2.12.7-r0</version>
+      <description>Alpine Package Keeper - package manager for alpine</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:apk-tools:apk-tools:2.12.7-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/apk-tools@2.12.7-r0?arch=x86_64&amp;upstream=apk-tools&amp;distro=alpine-3.14.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://gitlab.alpinelinux.org/alpine/apk-tools</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:apk-tools:apk_tools:2.12.7-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apk_tools:apk-tools:2.12.7-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apk_tools:apk_tools:2.12.7-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apk:apk-tools:2.12.7-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apk:apk_tools:2.12.7-r0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:4e7f383eb531db898a0835c445abdd067b256d452302b49b6b41eb712ac3d5bc</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">03c6b1b0ec20f417cee0f3c1d56795b27871b1c5</property>
+        <property name="syft:metadata:installedSize">311296</property>
+        <property name="syft:metadata:originPackage">apk-tools</property>
+        <property name="syft:metadata:pullChecksum">Q1VnSoy5XasRtvFODOZ9P0pZG4Hxs=</property>
+        <property name="syft:metadata:pullDependencies">musl&gt;=1.2 so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1 so:libssl.so.1.1 so:libz.so.1</property>
+        <property name="syft:metadata:size">119979</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/busybox@1.33.1-r3?arch=x86_64&amp;upstream=busybox&amp;distro=alpine-3.14.1&amp;package-id=4f13ca0f373ab37" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>busybox</name>
+      <version>1.33.1-r3</version>
+      <description>Size optimized toolbox of many common UNIX utilities</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:busybox:busybox:1.33.1-r3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/busybox@1.33.1-r3?arch=x86_64&amp;upstream=busybox&amp;distro=alpine-3.14.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://busybox.net/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:4e7f383eb531db898a0835c445abdd067b256d452302b49b6b41eb712ac3d5bc</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">98710256acf90e670e79f32f1f0350b830979d24</property>
+        <property name="syft:metadata:installedSize">950272</property>
+        <property name="syft:metadata:originPackage">busybox</property>
+        <property name="syft:metadata:pullChecksum">Q1rGvmeXEbASEg01DqEqMbxV0fts4=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">499368</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/ca-certificates@20191127-r5?arch=x86_64&amp;upstream=ca-certificates&amp;distro=alpine-3.14.1&amp;package-id=8c989717a8ace926" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>ca-certificates</name>
+      <version>20191127-r5</version>
+      <description>Common CA certificates PEM files from Mozilla</description>
+      <licenses>
+        <license>
+          <id>MPL-2.0</id>
+        </license>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:ca-certificates:ca-certificates:20191127-r5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/ca-certificates@20191127-r5?arch=x86_64&amp;upstream=ca-certificates&amp;distro=alpine-3.14.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca-certificates:ca_certificates:20191127-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates:ca-certificates:20191127-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates:ca_certificates:20191127-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca:ca-certificates:20191127-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca:ca_certificates:20191127-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:4e7f383eb531db898a0835c445abdd067b256d452302b49b6b41eb712ac3d5bc</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">51999ab9304ec11c68c4ea9e99350ac7570e7f21</property>
+        <property name="syft:metadata:installedSize">688128</property>
+        <property name="syft:metadata:originPackage">ca-certificates</property>
+        <property name="syft:metadata:pullChecksum">Q1+3SNr5R52GfBxkXj9gkEr6QAWZw=</property>
+        <property name="syft:metadata:pullDependencies">/bin/sh so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1</property>
+        <property name="syft:metadata:size">155106</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/ca-certificates-bundle@20191127-r5?arch=x86_64&amp;upstream=ca-certificates&amp;distro=alpine-3.14.1&amp;package-id=19c1efdb3a7e8f3a" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>ca-certificates-bundle</name>
+      <version>20191127-r5</version>
+      <description>Pre generated bundle of Mozilla certificates</description>
+      <licenses>
+        <license>
+          <id>MPL-2.0</id>
+        </license>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:ca-certificates-bundle:ca-certificates-bundle:20191127-r5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/ca-certificates-bundle@20191127-r5?arch=x86_64&amp;upstream=ca-certificates&amp;distro=alpine-3.14.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca-certificates-bundle:ca_certificates_bundle:20191127-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates_bundle:ca-certificates-bundle:20191127-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates_bundle:ca_certificates_bundle:20191127-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca-certificates:ca-certificates-bundle:20191127-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca-certificates:ca_certificates_bundle:20191127-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates:ca-certificates-bundle:20191127-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca_certificates:ca_certificates_bundle:20191127-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca:ca-certificates-bundle:20191127-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ca:ca_certificates_bundle:20191127-r5:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:4e7f383eb531db898a0835c445abdd067b256d452302b49b6b41eb712ac3d5bc</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">51999ab9304ec11c68c4ea9e99350ac7570e7f21</property>
+        <property name="syft:metadata:installedSize">233472</property>
+        <property name="syft:metadata:originPackage">ca-certificates</property>
+        <property name="syft:metadata:pullChecksum">Q1bQ4InxwFIUUNl11tjOwqrqAeAIA=</property>
+        <property name="syft:metadata:size">124473</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/makenowjust/heredoc@v0.0.0-20170808103936-bb23615498cd?package-id=6d0d0cad029fcce" type="library">
+      <name>github.com/MakeNowJust/heredoc</name>
+      <version>v0.0.0-20170808103936-bb23615498cd</version>
+      <cpe>cpe:2.3:a:MakeNowJust:heredoc:v0.0.0-20170808103936-bb23615498cd:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/MakeNowJust/heredoc@v0.0.0-20170808103936-bb23615498cd</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/puerkitobio/purell@v1.1.1?package-id=564fd3503e92eeb3" type="library">
+      <name>github.com/PuerkitoBio/purell</name>
+      <version>v1.1.1</version>
+      <cpe>cpe:2.3:a:PuerkitoBio:purell:v1.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/PuerkitoBio/purell@v1.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/puerkitobio/urlesc@v0.0.0-20170810143723-de5bf2ad4578?package-id=26370dc0239a4920" type="library">
+      <name>github.com/PuerkitoBio/urlesc</name>
+      <version>v0.0.0-20170810143723-de5bf2ad4578</version>
+      <cpe>cpe:2.3:a:PuerkitoBio:urlesc:v0.0.0-20170810143723-de5bf2ad4578:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/PuerkitoBio/urlesc@v0.0.0-20170810143723-de5bf2ad4578</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/adrg/xdg@v0.4.0?package-id=9b785aadbae7395b" type="library">
+      <name>github.com/adrg/xdg</name>
+      <version>v0.4.0</version>
+      <cpe>cpe:2.3:a:adrg:xdg:v0.4.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/adrg/xdg@v0.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/antlr/antlr4/runtime/go/antlr@v0.0.0-20210826220005-b48c857c3a0e?package-id=84b9c13ac26e1a00" type="library">
+      <name>github.com/antlr/antlr4/runtime/Go/antlr</name>
+      <version>v0.0.0-20210826220005-b48c857c3a0e</version>
+      <cpe>cpe:2.3:a:antlr:antlr4\/runtime\/Go\/antlr:v0.0.0-20210826220005-b48c857c3a0e:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/antlr/antlr4/runtime/Go/antlr@v0.0.0-20210826220005-b48c857c3a0e</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/asaskevich/govalidator@v0.0.0-20190424111038-f61b66f89f4a?package-id=cac7adbbaa2b32b" type="library">
+      <name>github.com/asaskevich/govalidator</name>
+      <version>v0.0.0-20190424111038-f61b66f89f4a</version>
+      <cpe>cpe:2.3:a:asaskevich:govalidator:v0.0.0-20190424111038-f61b66f89f4a:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/asaskevich/govalidator@v0.0.0-20190424111038-f61b66f89f4a</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/beorn7/perks@v1.0.1?package-id=84c4bccd9f8f7b65" type="library">
+      <name>github.com/beorn7/perks</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:beorn7:perks:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/beorn7/perks@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/blang/semver@v3.5.1+incompatible?package-id=7eb40bd934d623a0" type="library">
+      <name>github.com/blang/semver</name>
+      <version>v3.5.1+incompatible</version>
+      <cpe>cpe:2.3:a:blang:semver:v3.5.1\+incompatible:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/blang/semver@v3.5.1+incompatible</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/blang/semver/v4@v4.0.0?package-id=3180299b089f6f20" type="library">
+      <name>github.com/blang/semver/v4</name>
+      <version>v4.0.0</version>
+      <cpe>cpe:2.3:a:blang:semver\/v4:v4.0.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/blang/semver/v4@v4.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/cespare/xxhash/v2@v2.1.1?package-id=8f529932c62631be" type="library">
+      <name>github.com/cespare/xxhash/v2</name>
+      <version>v2.1.1</version>
+      <cpe>cpe:2.3:a:cespare:xxhash\/v2:v2.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/cespare/xxhash/v2@v2.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/containerd/containerd@v1.4.11?package-id=3f16109dda0c35b9" type="library">
+      <name>github.com/containerd/containerd</name>
+      <version>v1.4.11</version>
+      <cpe>cpe:2.3:a:containerd:containerd:v1.4.11:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/containerd/containerd@v1.4.11</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/containerd/continuity@v0.0.0-20200413184840-d3ef23f19fbb?package-id=6de530d939e9b080" type="library">
+      <name>github.com/containerd/continuity</name>
+      <version>v0.0.0-20200413184840-d3ef23f19fbb</version>
+      <cpe>cpe:2.3:a:containerd:continuity:v0.0.0-20200413184840-d3ef23f19fbb:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/containerd/continuity@v0.0.0-20200413184840-d3ef23f19fbb</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/containerd/ttrpc@v1.0.1?package-id=e963a758194e571d" type="library">
+      <name>github.com/containerd/ttrpc</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:containerd:ttrpc:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/containerd/ttrpc@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/davecgh/go-spew@v1.1.1?package-id=982d26cb37b1182b" type="library">
+      <name>github.com/davecgh/go-spew</name>
+      <version>v1.1.1</version>
+      <cpe>cpe:2.3:a:davecgh:go-spew:v1.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/davecgh/go-spew@v1.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:davecgh:go_spew:v1.1.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/docker/cli@v20.10.12+incompatible?package-id=de4216f53fa15f12" type="library">
+      <name>github.com/docker/cli</name>
+      <version>v20.10.12+incompatible</version>
+      <cpe>cpe:2.3:a:docker:cli:v20.10.12\+incompatible:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/docker/cli@v20.10.12+incompatible</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/docker/distribution@v0.0.0-20191216044856-a8371794149d?package-id=182180070ec4bbbf" type="library">
+      <name>github.com/docker/distribution</name>
+      <version>v0.0.0-20191216044856-a8371794149d</version>
+      <cpe>cpe:2.3:a:docker:distribution:v0.0.0-20191216044856-a8371794149d:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/docker/distribution@v0.0.0-20191216044856-a8371794149d</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/docker/docker@v1.4.2-0.20200203170920-46ec8731fbce?package-id=33616f4a60f9f779" type="library">
+      <name>github.com/docker/docker</name>
+      <version>v1.4.2-0.20200203170920-46ec8731fbce</version>
+      <cpe>cpe:2.3:a:docker:docker:v1.4.2-0.20200203170920-46ec8731fbce:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/docker/docker@v1.4.2-0.20200203170920-46ec8731fbce</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/docker/docker-credential-helpers@v0.6.3?package-id=991b4194f4d856f6" type="library">
+      <name>github.com/docker/docker-credential-helpers</name>
+      <version>v0.6.3</version>
+      <cpe>cpe:2.3:a:docker:docker-credential-helpers:v0.6.3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/docker/docker-credential-helpers@v0.6.3</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:docker:docker_credential_helpers:v0.6.3:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/docker/go-connections@v0.4.0?package-id=6f576c3b037dc423" type="library">
+      <name>github.com/docker/go-connections</name>
+      <version>v0.4.0</version>
+      <cpe>cpe:2.3:a:docker:go-connections:v0.4.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/docker/go-connections@v0.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:docker:go_connections:v0.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/docker/go-metrics@v0.0.1?package-id=9ce9f8c57c499dec" type="library">
+      <name>github.com/docker/go-metrics</name>
+      <version>v0.0.1</version>
+      <cpe>cpe:2.3:a:docker:go-metrics:v0.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/docker/go-metrics@v0.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:docker:go_metrics:v0.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/docker/go-units@v0.4.0?package-id=b37dcab66ff2d008" type="library">
+      <name>github.com/docker/go-units</name>
+      <version>v0.4.0</version>
+      <cpe>cpe:2.3:a:docker:go-units:v0.4.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/docker/go-units@v0.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:docker:go_units:v0.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/felixge/httpsnoop@v1.0.1?package-id=7c9f65c4646932b1" type="library">
+      <name>github.com/felixge/httpsnoop</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:felixge:httpsnoop:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/felixge/httpsnoop@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/ghodss/yaml@v1.0.0?package-id=37d271755ffeb062" type="library">
+      <name>github.com/ghodss/yaml</name>
+      <version>v1.0.0</version>
+      <cpe>cpe:2.3:a:ghodss:yaml:v1.0.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/ghodss/yaml@v1.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-git/gcfg@v1.5.0?package-id=ac992c76653a1665" type="library">
+      <name>github.com/go-git/gcfg</name>
+      <version>v1.5.0</version>
+      <cpe>cpe:2.3:a:go-git:gcfg:v1.5.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-git/gcfg@v1.5.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_git:gcfg:v1.5.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:gcfg:v1.5.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-git/go-billy/v5@v5.1.0?package-id=5e83957accaafece" type="library">
+      <name>github.com/go-git/go-billy/v5</name>
+      <version>v5.1.0</version>
+      <cpe>cpe:2.3:a:go-git:go-billy\/v5:v5.1.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-git/go-billy/v5@v5.1.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go-git:go_billy\/v5:v5.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_git:go-billy\/v5:v5.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_git:go_billy\/v5:v5.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:go-billy\/v5:v5.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:go_billy\/v5:v5.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-git/go-git/v5@v5.3.0?package-id=7e35c87dbada4d5d" type="library">
+      <name>github.com/go-git/go-git/v5</name>
+      <version>v5.3.0</version>
+      <cpe>cpe:2.3:a:go-git:go-git\/v5:v5.3.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-git/go-git/v5@v5.3.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go-git:go_git\/v5:v5.3.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_git:go-git\/v5:v5.3.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_git:go_git\/v5:v5.3.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:go-git\/v5:v5.3.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:go_git\/v5:v5.3.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-logr/logr@v0.4.0?package-id=2d4b27214ca70b53" type="library">
+      <name>github.com/go-logr/logr</name>
+      <version>v0.4.0</version>
+      <cpe>cpe:2.3:a:go-logr:logr:v0.4.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-logr/logr@v0.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_logr:logr:v0.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:logr:v0.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/jsonpointer@v0.19.5?package-id=3a26f61485a3a92e" type="library">
+      <name>github.com/go-openapi/jsonpointer</name>
+      <version>v0.19.5</version>
+      <cpe>cpe:2.3:a:go-openapi:jsonpointer:v0.19.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/jsonpointer@v0.19.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:jsonpointer:v0.19.5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:jsonpointer:v0.19.5:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/jsonreference@v0.19.5?package-id=85a65b25d3b37d32" type="library">
+      <name>github.com/go-openapi/jsonreference</name>
+      <version>v0.19.5</version>
+      <cpe>cpe:2.3:a:go-openapi:jsonreference:v0.19.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/jsonreference@v0.19.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:jsonreference:v0.19.5:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:jsonreference:v0.19.5:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-openapi/swag@v0.19.14?package-id=2b6a2302736523db" type="library">
+      <name>github.com/go-openapi/swag</name>
+      <version>v0.19.14</version>
+      <cpe>cpe:2.3:a:go-openapi:swag:v0.19.14:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-openapi/swag@v0.19.14</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_openapi:swag:v0.19.14:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:swag:v0.19.14:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/gogo/protobuf@v1.3.2?package-id=89b7055ee21f0e08" type="library">
+      <name>github.com/gogo/protobuf</name>
+      <version>v1.3.2</version>
+      <cpe>cpe:2.3:a:gogo:protobuf:v1.3.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/gogo/protobuf@v1.3.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/golang-migrate/migrate/v4@v4.6.2?package-id=b9ee7d779f7c71ed" type="library">
+      <name>github.com/golang-migrate/migrate/v4</name>
+      <version>v4.6.2</version>
+      <cpe>cpe:2.3:a:golang-migrate:migrate\/v4:v4.6.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/golang-migrate/migrate/v4@v4.6.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:golang_migrate:migrate\/v4:v4.6.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:golang:migrate\/v4:v4.6.2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/golang/groupcache@v0.0.0-20210331224755-41bb18bfe9da?package-id=87614595c47f240a" type="library">
+      <name>github.com/golang/groupcache</name>
+      <version>v0.0.0-20210331224755-41bb18bfe9da</version>
+      <cpe>cpe:2.3:a:golang:groupcache:v0.0.0-20210331224755-41bb18bfe9da:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/golang/groupcache@v0.0.0-20210331224755-41bb18bfe9da</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/golang/protobuf@v1.3.2?package-id=cb92740f559db753" type="library">
+      <name>github.com/golang/protobuf</name>
+      <version>v1.3.2</version>
+      <cpe>cpe:2.3:a:golang:protobuf:v1.3.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/golang/protobuf@v1.3.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:16a6b5b421af061cabf13d2b1258e6391c8733d79b921cfdd0b44a8c03313f59</property>
+        <property name="syft:location:0:path">/bin/grpc_health_probe</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.8</property>
+        <property name="syft:metadata:h1Digest">h1:6nsPYzhq5kReh6QImI3k5qWzO4PEbvbIW2cwSfR/6xs=</property>
+        <property name="syft:metadata:mainModule">github.com/grpc-ecosystem/grpc-health-probe</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/golang/protobuf@v1.5.2?package-id=b2e978b34741902a" type="library">
+      <name>github.com/golang/protobuf</name>
+      <version>v1.5.2</version>
+      <cpe>cpe:2.3:a:golang:protobuf:v1.5.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/golang/protobuf@v1.5.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/cel-go@v0.9.0?package-id=eb2c3e9adfb04494" type="library">
+      <name>github.com/google/cel-go</name>
+      <version>v0.9.0</version>
+      <cpe>cpe:2.3:a:google:cel-go:v0.9.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/cel-go@v0.9.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:google:cel_go:v0.9.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/go-cmp@v0.5.6?package-id=bbdf63de156ab655" type="library">
+      <name>github.com/google/go-cmp</name>
+      <version>v0.5.6</version>
+      <cpe>cpe:2.3:a:google:go-cmp:v0.5.6:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/go-cmp@v0.5.6</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:google:go_cmp:v0.5.6:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/gofuzz@v1.1.0?package-id=ba78245e7da6b2ea" type="library">
+      <name>github.com/google/gofuzz</name>
+      <version>v1.1.0</version>
+      <cpe>cpe:2.3:a:google:gofuzz:v1.1.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/gofuzz@v1.1.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/googleapis/gnostic@v0.5.5?package-id=67f16beed35206df" type="library">
+      <name>github.com/googleapis/gnostic</name>
+      <version>v0.5.5</version>
+      <cpe>cpe:2.3:a:googleapis:gnostic:v0.5.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/googleapis/gnostic@v0.5.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/gorilla/mux@v1.7.2?package-id=356f615f5b313a80" type="library">
+      <name>github.com/gorilla/mux</name>
+      <version>v1.7.2</version>
+      <cpe>cpe:2.3:a:gorilla:mux:v1.7.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/gorilla/mux@v1.7.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/grpc-ecosystem/grpc-gateway@v1.16.0?package-id=5022bdb54934507a" type="library">
+      <name>github.com/grpc-ecosystem/grpc-gateway</name>
+      <version>v1.16.0</version>
+      <cpe>cpe:2.3:a:grpc-ecosystem:grpc-gateway:v1.16.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/grpc-ecosystem/grpc-gateway@v1.16.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:grpc-ecosystem:grpc_gateway:v1.16.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:grpc_ecosystem:grpc-gateway:v1.16.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:grpc_ecosystem:grpc_gateway:v1.16.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:grpc:grpc-gateway:v1.16.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:grpc:grpc_gateway:v1.16.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/grpc-ecosystem/grpc-health-probe@(devel)?package-id=83f6614500a6213d" type="library">
+      <name>github.com/grpc-ecosystem/grpc-health-probe</name>
+      <version>(devel)</version>
+      <cpe>cpe:2.3:a:grpc-ecosystem:grpc-health-probe:\(devel\):*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/grpc-ecosystem/grpc-health-probe@(devel)</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:grpc-ecosystem:grpc_health_probe:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:grpc_ecosystem:grpc-health-probe:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:grpc_ecosystem:grpc_health_probe:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:grpc:grpc-health-probe:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:grpc:grpc_health_probe:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:16a6b5b421af061cabf13d2b1258e6391c8733d79b921cfdd0b44a8c03313f59</property>
+        <property name="syft:location:0:path">/bin/grpc_health_probe</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.8</property>
+        <property name="syft:metadata:mainModule">github.com/grpc-ecosystem/grpc-health-probe</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/h2non/filetype@v1.1.1?package-id=94dfbd32d2cdcc5a" type="library">
+      <name>github.com/h2non/filetype</name>
+      <version>v1.1.1</version>
+      <cpe>cpe:2.3:a:h2non:filetype:v1.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/h2non/filetype@v1.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/h2non/go-is-svg@v0.0.0-20160927212452-35e8c4b0612c?package-id=209efb809831242c" type="library">
+      <name>github.com/h2non/go-is-svg</name>
+      <version>v0.0.0-20160927212452-35e8c4b0612c</version>
+      <cpe>cpe:2.3:a:h2non:go-is-svg:v0.0.0-20160927212452-35e8c4b0612c:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/h2non/go-is-svg@v0.0.0-20160927212452-35e8c4b0612c</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:h2non:go_is_svg:v0.0.0-20160927212452-35e8c4b0612c:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/imdario/mergo@v0.3.12?package-id=d2b9ff0c82c9bdcb" type="library">
+      <name>github.com/imdario/mergo</name>
+      <version>v0.3.12</version>
+      <cpe>cpe:2.3:a:imdario:mergo:v0.3.12:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/imdario/mergo@v0.3.12</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/jbenet/go-context@v0.0.0-20150711004518-d14ea06fba99?package-id=e36a84fcba7704c8" type="library">
+      <name>github.com/jbenet/go-context</name>
+      <version>v0.0.0-20150711004518-d14ea06fba99</version>
+      <cpe>cpe:2.3:a:jbenet:go-context:v0.0.0-20150711004518-d14ea06fba99:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/jbenet/go-context@v0.0.0-20150711004518-d14ea06fba99</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:jbenet:go_context:v0.0.0-20150711004518-d14ea06fba99:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/joelanford/ignore@v0.0.0-20210607151042-0d25dc18b62d?package-id=1207d3a397b075c8" type="library">
+      <name>github.com/joelanford/ignore</name>
+      <version>v0.0.0-20210607151042-0d25dc18b62d</version>
+      <cpe>cpe:2.3:a:joelanford:ignore:v0.0.0-20210607151042-0d25dc18b62d:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/joelanford/ignore@v0.0.0-20210607151042-0d25dc18b62d</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/josharian/intern@v1.0.0?package-id=345134ff2655c721" type="library">
+      <name>github.com/josharian/intern</name>
+      <version>v1.0.0</version>
+      <cpe>cpe:2.3:a:josharian:intern:v1.0.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/josharian/intern@v1.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/json-iterator/go@v1.1.11?package-id=343fd18f75dc63de" type="library">
+      <name>github.com/json-iterator/go</name>
+      <version>v1.1.11</version>
+      <cpe>cpe:2.3:a:json-iterator:go:v1.1.11:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/json-iterator/go@v1.1.11</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:json_iterator:go:v1.1.11:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:json:go:v1.1.11:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/mailru/easyjson@v0.7.6?package-id=10a763c25e3b957b" type="library">
+      <name>github.com/mailru/easyjson</name>
+      <version>v0.7.6</version>
+      <cpe>cpe:2.3:a:mailru:easyjson:v0.7.6:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/mailru/easyjson@v0.7.6</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/mattn/go-sqlite3@v1.14.10?package-id=f318ac7bafaaaf6a" type="library">
+      <name>github.com/mattn/go-sqlite3</name>
+      <version>v1.14.10</version>
+      <cpe>cpe:2.3:a:mattn:go-sqlite3:v1.14.10:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/mattn/go-sqlite3@v1.14.10</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:mattn:go_sqlite3:v1.14.10:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.2-0.20181231171920-c182affec369?package-id=92bf7d3f87b250cf" type="library">
+      <name>github.com/matttproud/golang_protobuf_extensions</name>
+      <version>v1.0.2-0.20181231171920-c182affec369</version>
+      <cpe>cpe:2.3:a:matttproud:golang-protobuf-extensions:v1.0.2-0.20181231171920-c182affec369:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.2-0.20181231171920-c182affec369</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:matttproud:golang_protobuf_extensions:v1.0.2-0.20181231171920-c182affec369:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/mitchellh/go-wordwrap@v1.0.0?package-id=f427fdf9bdcdda13" type="library">
+      <name>github.com/mitchellh/go-wordwrap</name>
+      <version>v1.0.0</version>
+      <cpe>cpe:2.3:a:mitchellh:go-wordwrap:v1.0.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/mitchellh/go-wordwrap@v1.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:mitchellh:go_wordwrap:v1.0.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/mitchellh/hashstructure/v2@v2.0.2?package-id=e2cb4ceec3c85f8" type="library">
+      <name>github.com/mitchellh/hashstructure/v2</name>
+      <version>v2.0.2</version>
+      <cpe>cpe:2.3:a:mitchellh:hashstructure\/v2:v2.0.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/mitchellh/hashstructure/v2@v2.0.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/mitchellh/mapstructure@v1.4.1?package-id=edaf4546873f6e4d" type="library">
+      <name>github.com/mitchellh/mapstructure</name>
+      <version>v1.4.1</version>
+      <cpe>cpe:2.3:a:mitchellh:mapstructure:v1.4.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/mitchellh/mapstructure@v1.4.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/moby/spdystream@v0.2.0?package-id=6ad544cd2a06fa1c" type="library">
+      <name>github.com/moby/spdystream</name>
+      <version>v0.2.0</version>
+      <cpe>cpe:2.3:a:moby:spdystream:v0.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/moby/spdystream@v0.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/moby/term@v0.0.0-20210610120745-9d4ed1856297?package-id=ab48d0ce9b0ebc15" type="library">
+      <name>github.com/moby/term</name>
+      <version>v0.0.0-20210610120745-9d4ed1856297</version>
+      <cpe>cpe:2.3:a:moby:term:v0.0.0-20210610120745-9d4ed1856297:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/moby/term@v0.0.0-20210610120745-9d4ed1856297</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd?package-id=6aacd555ebd73cf6" type="library">
+      <name>github.com/modern-go/concurrent</name>
+      <version>v0.0.0-20180306012644-bacd9c7ef1dd</version>
+      <cpe>cpe:2.3:a:modern-go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern_go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/modern-go/reflect2@v1.0.1?package-id=68c02949cbc3d93b" type="library">
+      <name>github.com/modern-go/reflect2</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:modern-go:reflect2:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/modern-go/reflect2@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern_go:reflect2:v1.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern:reflect2:v1.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/morikuni/aec@v0.0.0-20170113033406-39771216ff4c?package-id=8c793fed36a0c775" type="library">
+      <name>github.com/morikuni/aec</name>
+      <version>v0.0.0-20170113033406-39771216ff4c</version>
+      <cpe>cpe:2.3:a:morikuni:aec:v0.0.0-20170113033406-39771216ff4c:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/morikuni/aec@v0.0.0-20170113033406-39771216ff4c</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/onsi/gomega@v1.15.0?package-id=51763c06dda2ce7" type="library">
+      <name>github.com/onsi/gomega</name>
+      <version>v1.15.0</version>
+      <cpe>cpe:2.3:a:onsi:gomega:v1.15.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/onsi/gomega@v1.15.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/opencontainers/go-digest@v1.0.0?package-id=aa5c8e17e6ef4ead" type="library">
+      <name>github.com/opencontainers/go-digest</name>
+      <version>v1.0.0</version>
+      <cpe>cpe:2.3:a:opencontainers:go-digest:v1.0.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/opencontainers/go-digest@v1.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:opencontainers:go_digest:v1.0.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/opencontainers/image-spec@v1.0.2-0.20190823105129-775207bd45b6?package-id=e6754bf037e3c527" type="library">
+      <name>github.com/opencontainers/image-spec</name>
+      <version>v1.0.2-0.20190823105129-775207bd45b6</version>
+      <cpe>cpe:2.3:a:opencontainers:image-spec:v1.0.2-0.20190823105129-775207bd45b6:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/opencontainers/image-spec@v1.0.2-0.20190823105129-775207bd45b6</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:opencontainers:image_spec:v1.0.2-0.20190823105129-775207bd45b6:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/operator-framework/api@v0.12.0?package-id=228027e09cf998ea" type="library">
+      <name>github.com/operator-framework/api</name>
+      <version>v0.12.0</version>
+      <cpe>cpe:2.3:a:operator-framework:api:v0.12.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/operator-framework/api@v0.12.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:operator_framework:api:v0.12.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:operator:api:v0.12.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/operator-framework/operator-registry@(devel)?package-id=cf050d259f76e596" type="library">
+      <name>github.com/operator-framework/operator-registry</name>
+      <version>(devel)</version>
+      <cpe>cpe:2.3:a:operator-framework:operator-registry:\(devel\):*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/operator-framework/operator-registry@(devel)</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:operator-framework:operator_registry:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:operator_framework:operator-registry:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:operator_framework:operator_registry:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:operator:operator-registry:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:operator:operator_registry:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/otiai10/copy@v1.2.0?package-id=10e415e0be77c0d1" type="library">
+      <name>github.com/otiai10/copy</name>
+      <version>v1.2.0</version>
+      <cpe>cpe:2.3:a:otiai10:copy:v1.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/otiai10/copy@v1.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/pkg/errors@v0.9.1?package-id=741ade83ed55b3d2" type="library">
+      <name>github.com/pkg/errors</name>
+      <version>v0.9.1</version>
+      <cpe>cpe:2.3:a:pkg:errors:v0.9.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/pkg/errors@v0.9.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/pmezard/go-difflib@v1.0.0?package-id=2793c2742501235" type="library">
+      <name>github.com/pmezard/go-difflib</name>
+      <version>v1.0.0</version>
+      <cpe>cpe:2.3:a:pmezard:go-difflib:v1.0.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/pmezard/go-difflib@v1.0.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:pmezard:go_difflib:v1.0.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/client_golang@v1.11.0?package-id=bfa358a8882f3928" type="library">
+      <name>github.com/prometheus/client_golang</name>
+      <version>v1.11.0</version>
+      <cpe>cpe:2.3:a:prometheus:client-golang:v1.11.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/client_golang@v1.11.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:client_golang:v1.11.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/client_model@v0.2.0?package-id=b5651c4b1f517258" type="library">
+      <name>github.com/prometheus/client_model</name>
+      <version>v0.2.0</version>
+      <cpe>cpe:2.3:a:prometheus:client-model:v0.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/client_model@v0.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:client_model:v0.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/common@v0.26.0?package-id=8241e08db65c42cb" type="library">
+      <name>github.com/prometheus/common</name>
+      <version>v0.26.0</version>
+      <cpe>cpe:2.3:a:prometheus:common:v0.26.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/common@v0.26.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/procfs@v0.6.0?package-id=e95c37716b6b264a" type="library">
+      <name>github.com/prometheus/procfs</name>
+      <version>v0.6.0</version>
+      <cpe>cpe:2.3:a:prometheus:procfs:v0.6.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/procfs@v0.6.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/russross/blackfriday@v1.5.2?package-id=b6f79f4cda8573a" type="library">
+      <name>github.com/russross/blackfriday</name>
+      <version>v1.5.2</version>
+      <cpe>cpe:2.3:a:russross:blackfriday:v1.5.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/russross/blackfriday@v1.5.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/sirupsen/logrus@v1.8.1?package-id=b844488fe2055fd8" type="library">
+      <name>github.com/sirupsen/logrus</name>
+      <version>v1.8.1</version>
+      <cpe>cpe:2.3:a:sirupsen:logrus:v1.8.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/sirupsen/logrus@v1.8.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/spf13/cobra@v1.2.1?package-id=abaa7592b9526c42" type="library">
+      <name>github.com/spf13/cobra</name>
+      <version>v1.2.1</version>
+      <cpe>cpe:2.3:a:spf13:cobra:v1.2.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/spf13/cobra@v1.2.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/spf13/pflag@v1.0.5?package-id=9db10d7e235bb94c" type="library">
+      <name>github.com/spf13/pflag</name>
+      <version>v1.0.5</version>
+      <cpe>cpe:2.3:a:spf13:pflag:v1.0.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/spf13/pflag@v1.0.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/stoewer/go-strcase@v1.2.0?package-id=7e79251cefdea994" type="library">
+      <name>github.com/stoewer/go-strcase</name>
+      <version>v1.2.0</version>
+      <cpe>cpe:2.3:a:stoewer:go-strcase:v1.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/stoewer/go-strcase@v1.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:stoewer:go_strcase:v1.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/stretchr/testify@v1.7.0?package-id=e61572ef03be4fe0" type="library">
+      <name>github.com/stretchr/testify</name>
+      <version>v1.7.0</version>
+      <cpe>cpe:2.3:a:stretchr:testify:v1.7.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/stretchr/testify@v1.7.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/go.etcd.io/bbolt@v1.3.6?package-id=6b2e884b5fe0f74e" type="library">
+      <name>go.etcd.io/bbolt</name>
+      <version>v1.3.6</version>
+      <purl>pkg:golang/go.etcd.io/bbolt@v1.3.6</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/go.opentelemetry.io/contrib@v0.20.0?package-id=6ce8b5b2fdb8c624" type="library">
+      <name>go.opentelemetry.io/contrib</name>
+      <version>v0.20.0</version>
+      <purl>pkg:golang/go.opentelemetry.io/contrib@v0.20.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.20.0?package-id=98998b4061176aa6" type="library">
+      <name>go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp</name>
+      <version>v0.20.0</version>
+      <cpe>cpe:2.3:a:contrib:instrumentation\/net\/http\/otelhttp:v0.20.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/go.opentelemetry.io/contrib/instrumentation/net/http/otelhttp@v0.20.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/go.opentelemetry.io/otel@v0.20.0?package-id=9d4ad650d1bfdaa3" type="library">
+      <name>go.opentelemetry.io/otel</name>
+      <version>v0.20.0</version>
+      <purl>pkg:golang/go.opentelemetry.io/otel@v0.20.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/go.opentelemetry.io/otel/exporters/otlp@v0.20.0?package-id=12004cb47fdac03" type="library">
+      <name>go.opentelemetry.io/otel/exporters/otlp</name>
+      <version>v0.20.0</version>
+      <cpe>cpe:2.3:a:otel:exporters\/otlp:v0.20.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/go.opentelemetry.io/otel/exporters/otlp@v0.20.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/go.opentelemetry.io/otel/metric@v0.20.0?package-id=304d5f540afc04e6" type="library">
+      <name>go.opentelemetry.io/otel/metric</name>
+      <version>v0.20.0</version>
+      <cpe>cpe:2.3:a:otel:metric:v0.20.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/go.opentelemetry.io/otel/metric@v0.20.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/go.opentelemetry.io/otel/sdk@v0.20.0?package-id=5666bc0ae2c0b176" type="library">
+      <name>go.opentelemetry.io/otel/sdk</name>
+      <version>v0.20.0</version>
+      <cpe>cpe:2.3:a:otel:sdk:v0.20.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/go.opentelemetry.io/otel/sdk@v0.20.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/go.opentelemetry.io/otel/sdk/export/metric@v0.20.0?package-id=1400e97a8af6e105" type="library">
+      <name>go.opentelemetry.io/otel/sdk/export/metric</name>
+      <version>v0.20.0</version>
+      <cpe>cpe:2.3:a:otel:sdk\/export\/metric:v0.20.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/go.opentelemetry.io/otel/sdk/export/metric@v0.20.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/go.opentelemetry.io/otel/sdk/metric@v0.20.0?package-id=fd807e9321ff7db0" type="library">
+      <name>go.opentelemetry.io/otel/sdk/metric</name>
+      <version>v0.20.0</version>
+      <cpe>cpe:2.3:a:otel:sdk\/metric:v0.20.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/go.opentelemetry.io/otel/sdk/metric@v0.20.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/go.opentelemetry.io/otel/trace@v0.20.0?package-id=245456590285fc9f" type="library">
+      <name>go.opentelemetry.io/otel/trace</name>
+      <version>v0.20.0</version>
+      <cpe>cpe:2.3:a:otel:trace:v0.20.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/go.opentelemetry.io/otel/trace@v0.20.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/go.opentelemetry.io/proto/otlp@v0.7.0?package-id=67e7637fce031d53" type="library">
+      <name>go.opentelemetry.io/proto/otlp</name>
+      <version>v0.7.0</version>
+      <cpe>cpe:2.3:a:proto:otlp:v0.7.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/go.opentelemetry.io/proto/otlp@v0.7.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/net@v0.0.0-20191021144547-ec77196f6094?package-id=b93fd7f7ffca5ec4" type="library">
+      <name>golang.org/x/net</name>
+      <version>v0.0.0-20191021144547-ec77196f6094</version>
+      <cpe>cpe:2.3:a:golang:x\/net:v0.0.0-20191021144547-ec77196f6094:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/net@v0.0.0-20191021144547-ec77196f6094</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:16a6b5b421af061cabf13d2b1258e6391c8733d79b921cfdd0b44a8c03313f59</property>
+        <property name="syft:location:0:path">/bin/grpc_health_probe</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.8</property>
+        <property name="syft:metadata:h1Digest">h1:5O4U9trLjNpuhpynaDsqwCk+Tw6seqJz1EbqbnzHrc8=</property>
+        <property name="syft:metadata:mainModule">github.com/grpc-ecosystem/grpc-health-probe</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/net@v0.0.0-20210825183410-e898025ed96a?package-id=6d8a082ac70e360e" type="library">
+      <name>golang.org/x/net</name>
+      <version>v0.0.0-20210825183410-e898025ed96a</version>
+      <cpe>cpe:2.3:a:golang:x\/net:v0.0.0-20210825183410-e898025ed96a:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/net@v0.0.0-20210825183410-e898025ed96a</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/oauth2@v0.0.0-20210402161424-2e8d93401602?package-id=6f73eb2c86733754" type="library">
+      <name>golang.org/x/oauth2</name>
+      <version>v0.0.0-20210402161424-2e8d93401602</version>
+      <cpe>cpe:2.3:a:golang:x\/oauth2:v0.0.0-20210402161424-2e8d93401602:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/oauth2@v0.0.0-20210402161424-2e8d93401602</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/sync@v0.0.0-20210220032951-036812b2e83c?package-id=7c8030929584943f" type="library">
+      <name>golang.org/x/sync</name>
+      <version>v0.0.0-20210220032951-036812b2e83c</version>
+      <cpe>cpe:2.3:a:golang:x\/sync:v0.0.0-20210220032951-036812b2e83c:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/sync@v0.0.0-20210220032951-036812b2e83c</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/sys@v0.0.0-20191020212454-3e7259c5e7c2?package-id=8873b1039d2ac239" type="library">
+      <name>golang.org/x/sys</name>
+      <version>v0.0.0-20191020212454-3e7259c5e7c2</version>
+      <cpe>cpe:2.3:a:golang:x\/sys:v0.0.0-20191020212454-3e7259c5e7c2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/sys@v0.0.0-20191020212454-3e7259c5e7c2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:16a6b5b421af061cabf13d2b1258e6391c8733d79b921cfdd0b44a8c03313f59</property>
+        <property name="syft:location:0:path">/bin/grpc_health_probe</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.8</property>
+        <property name="syft:metadata:h1Digest">h1:nq114VpM8lsSlP+lyUbANecYHYiFcSNFtqcBlxRV+gA=</property>
+        <property name="syft:metadata:mainModule">github.com/grpc-ecosystem/grpc-health-probe</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/sys@v0.0.0-20211025201205-69cdffdb9359?package-id=8043904482ae965a" type="library">
+      <name>golang.org/x/sys</name>
+      <version>v0.0.0-20211025201205-69cdffdb9359</version>
+      <cpe>cpe:2.3:a:golang:x\/sys:v0.0.0-20211025201205-69cdffdb9359:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/sys@v0.0.0-20211025201205-69cdffdb9359</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/term@v0.0.0-20210220032956-6a3ed077a48d?package-id=d2f20ca47f5cdc11" type="library">
+      <name>golang.org/x/term</name>
+      <version>v0.0.0-20210220032956-6a3ed077a48d</version>
+      <cpe>cpe:2.3:a:golang:x\/term:v0.0.0-20210220032956-6a3ed077a48d:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/term@v0.0.0-20210220032956-6a3ed077a48d</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/text@v0.3.2?package-id=d774e44ad57a512a" type="library">
+      <name>golang.org/x/text</name>
+      <version>v0.3.2</version>
+      <cpe>cpe:2.3:a:golang:x\/text:v0.3.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/text@v0.3.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:16a6b5b421af061cabf13d2b1258e6391c8733d79b921cfdd0b44a8c03313f59</property>
+        <property name="syft:location:0:path">/bin/grpc_health_probe</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.8</property>
+        <property name="syft:metadata:h1Digest">h1:tW2bmiBqwgJj/UpqtC8EpXEZVYOwU0yG4iWbprSVAcs=</property>
+        <property name="syft:metadata:mainModule">github.com/grpc-ecosystem/grpc-health-probe</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/text@v0.3.7?package-id=803be24d24569c85" type="library">
+      <name>golang.org/x/text</name>
+      <version>v0.3.7</version>
+      <cpe>cpe:2.3:a:golang:x\/text:v0.3.7:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/text@v0.3.7</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/time@v0.0.0-20210723032227-1f47c861a9ac?package-id=6c150fcab0a98ae6" type="library">
+      <name>golang.org/x/time</name>
+      <version>v0.0.0-20210723032227-1f47c861a9ac</version>
+      <cpe>cpe:2.3:a:golang:x\/time:v0.0.0-20210723032227-1f47c861a9ac:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/time@v0.0.0-20210723032227-1f47c861a9ac</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/genproto@v0.0.0-20191009194640-548a555dbc03?package-id=f20af0dc944a5ae6" type="library">
+      <name>google.golang.org/genproto</name>
+      <version>v0.0.0-20191009194640-548a555dbc03</version>
+      <cpe>cpe:2.3:a:google:genproto:v0.0.0-20191009194640-548a555dbc03:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/genproto@v0.0.0-20191009194640-548a555dbc03</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:16a6b5b421af061cabf13d2b1258e6391c8733d79b921cfdd0b44a8c03313f59</property>
+        <property name="syft:location:0:path">/bin/grpc_health_probe</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.8</property>
+        <property name="syft:metadata:h1Digest">h1:4HYDjxeNXAOTv3o1N2tjo8UUSlhQgAD52FVkwxnWgM8=</property>
+        <property name="syft:metadata:mainModule">github.com/grpc-ecosystem/grpc-health-probe</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/genproto@v0.0.0-20210831024726-fe130286e0e2?package-id=c721c3b5bdf48826" type="library">
+      <name>google.golang.org/genproto</name>
+      <version>v0.0.0-20210831024726-fe130286e0e2</version>
+      <cpe>cpe:2.3:a:google:genproto:v0.0.0-20210831024726-fe130286e0e2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/genproto@v0.0.0-20210831024726-fe130286e0e2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/grpc@v1.24.0?package-id=9a3b56205df0ed0e" type="library">
+      <name>google.golang.org/grpc</name>
+      <version>v1.24.0</version>
+      <cpe>cpe:2.3:a:google:grpc:v1.24.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/grpc@v1.24.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:16a6b5b421af061cabf13d2b1258e6391c8733d79b921cfdd0b44a8c03313f59</property>
+        <property name="syft:location:0:path">/bin/grpc_health_probe</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.13.8</property>
+        <property name="syft:metadata:h1Digest">h1:vb/1TCsVn3DcJlQ0Gs1yB1pKI6Do2/QNwxdKqmc/b0s=</property>
+        <property name="syft:metadata:mainModule">github.com/grpc-ecosystem/grpc-health-probe</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/grpc@v1.41.0?package-id=80e93f43e44f3193" type="library">
+      <name>google.golang.org/grpc</name>
+      <version>v1.41.0</version>
+      <cpe>cpe:2.3:a:google:grpc:v1.41.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/grpc@v1.41.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/protobuf@v1.27.1?package-id=40ae66815378f750" type="library">
+      <name>google.golang.org/protobuf</name>
+      <version>v1.27.1</version>
+      <cpe>cpe:2.3:a:google:protobuf:v1.27.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/protobuf@v1.27.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/inf.v0@v0.9.1?package-id=bb1b96fbf0d5bb4a" type="library">
+      <name>gopkg.in/inf.v0</name>
+      <version>v0.9.1</version>
+      <purl>pkg:golang/gopkg.in/inf.v0@v0.9.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/warnings.v0@v0.1.2?package-id=9227ed78e855b8be" type="library">
+      <name>gopkg.in/warnings.v0</name>
+      <version>v0.1.2</version>
+      <purl>pkg:golang/gopkg.in/warnings.v0@v0.1.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/yaml.v2@v2.4.0?package-id=930611f9b5ce8b73" type="library">
+      <name>gopkg.in/yaml.v2</name>
+      <version>v2.4.0</version>
+      <purl>pkg:golang/gopkg.in/yaml.v2@v2.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/yaml.v3@v3.0.0-20210107192922-496545a6307b?package-id=79b68458599b4328" type="library">
+      <name>gopkg.in/yaml.v3</name>
+      <version>v3.0.0-20210107192922-496545a6307b</version>
+      <purl>pkg:golang/gopkg.in/yaml.v3@v3.0.0-20210107192922-496545a6307b</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/api@v0.22.1?package-id=7cd5996f2aa282a1" type="library">
+      <name>k8s.io/api</name>
+      <version>v0.22.1</version>
+      <purl>pkg:golang/k8s.io/api@v0.22.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/apiextensions-apiserver@v0.22.1?package-id=5b71ea5de307dce" type="library">
+      <name>k8s.io/apiextensions-apiserver</name>
+      <version>v0.22.1</version>
+      <purl>pkg:golang/k8s.io/apiextensions-apiserver@v0.22.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/apimachinery@v0.22.1?package-id=f8b44990cca18c72" type="library">
+      <name>k8s.io/apimachinery</name>
+      <version>v0.22.1</version>
+      <purl>pkg:golang/k8s.io/apimachinery@v0.22.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/apiserver@v0.22.1?package-id=7baa15cce139aea0" type="library">
+      <name>k8s.io/apiserver</name>
+      <version>v0.22.1</version>
+      <purl>pkg:golang/k8s.io/apiserver@v0.22.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/client-go@v0.22.1?package-id=7a572859f6eb65a5" type="library">
+      <name>k8s.io/client-go</name>
+      <version>v0.22.1</version>
+      <purl>pkg:golang/k8s.io/client-go@v0.22.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/component-base@v0.22.1?package-id=e0bcce93aef20964" type="library">
+      <name>k8s.io/component-base</name>
+      <version>v0.22.1</version>
+      <purl>pkg:golang/k8s.io/component-base@v0.22.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/klog/v2@v2.9.0?package-id=b3f5120742bc98ce" type="library">
+      <name>k8s.io/klog/v2</name>
+      <version>v2.9.0</version>
+      <cpe>cpe:2.3:a:klog:v2:v2.9.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/k8s.io/klog/v2@v2.9.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/kube-openapi@v0.0.0-20210421082810-95288971da7e?package-id=84493bd175b64156" type="library">
+      <name>k8s.io/kube-openapi</name>
+      <version>v0.0.0-20210421082810-95288971da7e</version>
+      <purl>pkg:golang/k8s.io/kube-openapi@v0.0.0-20210421082810-95288971da7e</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/kubectl@v0.22.0?package-id=ce31869abd80e860" type="library">
+      <name>k8s.io/kubectl</name>
+      <version>v0.22.0</version>
+      <purl>pkg:golang/k8s.io/kubectl@v0.22.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/utils@v0.0.0-20210802155522-efc7438f0176?package-id=be1478a215c6fe71" type="library">
+      <name>k8s.io/utils</name>
+      <version>v0.0.0-20210802155522-efc7438f0176</version>
+      <purl>pkg:golang/k8s.io/utils@v0.0.0-20210802155522-efc7438f0176</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libc-utils@0.7.2-r3?arch=x86_64&amp;upstream=libc-dev&amp;distro=alpine-3.14.1&amp;package-id=b5e6c6f96461e57e" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>libc-utils</name>
+      <version>0.7.2-r3</version>
+      <description>Meta package to pull in correct libc</description>
+      <licenses>
+        <license>
+          <id>BSD-2-Clause</id>
+        </license>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libc-utils:libc-utils:0.7.2-r3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libc-utils@0.7.2-r3?arch=x86_64&amp;upstream=libc-dev&amp;distro=alpine-3.14.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://alpinelinux.org</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc-utils:libc_utils:0.7.2-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc_utils:libc-utils:0.7.2-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc_utils:libc_utils:0.7.2-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc:libc-utils:0.7.2-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:libc:libc_utils:0.7.2-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:4e7f383eb531db898a0835c445abdd067b256d452302b49b6b41eb712ac3d5bc</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">60424133be2e79bbfeff3d58147a22886f817ce2</property>
+        <property name="syft:metadata:installedSize">4096</property>
+        <property name="syft:metadata:originPackage">libc-dev</property>
+        <property name="syft:metadata:pullChecksum">Q1UsLZaz0/Go44hd4Vw49UCt40Vp8=</property>
+        <property name="syft:metadata:pullDependencies">musl-utils</property>
+        <property name="syft:metadata:size">1228</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libcrypto1.1@1.1.1k-r0?arch=x86_64&amp;upstream=openssl&amp;distro=alpine-3.14.1&amp;package-id=93362b55856f029e" type="library">
+      <publisher>Timo Teras &lt;timo.teras@iki.fi&gt;</publisher>
+      <name>libcrypto1.1</name>
+      <version>1.1.1k-r0</version>
+      <description>Crypto library from openssl</description>
+      <licenses>
+        <license>
+          <id>OpenSSL</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libcrypto1.1:libcrypto1.1:1.1.1k-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libcrypto1.1@1.1.1k-r0?arch=x86_64&amp;upstream=openssl&amp;distro=alpine-3.14.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.openssl.org/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:4e7f383eb531db898a0835c445abdd067b256d452302b49b6b41eb712ac3d5bc</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">92ff3f34184c589fa4d811f96fa7f607b803975a</property>
+        <property name="syft:metadata:installedSize">2768896</property>
+        <property name="syft:metadata:originPackage">openssl</property>
+        <property name="syft:metadata:pullChecksum">Q1sZJvLVq7OqEyPdqxneIObbZOdk0=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">1211436</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libretls@3.3.3p1-r2?arch=x86_64&amp;upstream=libretls&amp;distro=alpine-3.14.1&amp;package-id=c9a930478ea2d899" type="library">
+      <publisher>Ariadne Conill &lt;ariadne@dereferenced.org&gt;</publisher>
+      <name>libretls</name>
+      <version>3.3.3p1-r2</version>
+      <description>port of libtls from libressl to openssl</description>
+      <licenses>
+        <license>
+          <id>ISC</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libretls:libretls:3.3.3p1-r2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libretls@3.3.3p1-r2?arch=x86_64&amp;upstream=libretls&amp;distro=alpine-3.14.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://git.causal.agency/libretls/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:4e7f383eb531db898a0835c445abdd067b256d452302b49b6b41eb712ac3d5bc</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">161d02ee8c48f3c3cae1d2b4b5d008fa318da0e1</property>
+        <property name="syft:metadata:installedSize">86016</property>
+        <property name="syft:metadata:originPackage">libretls</property>
+        <property name="syft:metadata:pullChecksum">Q1mKL75PNQ3352oQUtXLS8GfI+37M=</property>
+        <property name="syft:metadata:pullDependencies">ca-certificates-bundle so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1 so:libssl.so.1.1</property>
+        <property name="syft:metadata:size">28872</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/libssl1.1@1.1.1k-r0?arch=x86_64&amp;upstream=openssl&amp;distro=alpine-3.14.1&amp;package-id=1be5dafe413f11fa" type="library">
+      <publisher>Timo Teras &lt;timo.teras@iki.fi&gt;</publisher>
+      <name>libssl1.1</name>
+      <version>1.1.1k-r0</version>
+      <description>SSL shared libraries</description>
+      <licenses>
+        <license>
+          <id>OpenSSL</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:libssl1.1:libssl1.1:1.1.1k-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/libssl1.1@1.1.1k-r0?arch=x86_64&amp;upstream=openssl&amp;distro=alpine-3.14.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://www.openssl.org/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:4e7f383eb531db898a0835c445abdd067b256d452302b49b6b41eb712ac3d5bc</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">92ff3f34184c589fa4d811f96fa7f607b803975a</property>
+        <property name="syft:metadata:installedSize">540672</property>
+        <property name="syft:metadata:originPackage">openssl</property>
+        <property name="syft:metadata:pullChecksum">Q1aQ/C/SzqPrWHj0mzUDV/udp2JTA=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1 so:libcrypto.so.1.1</property>
+        <property name="syft:metadata:size">212489</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/musl@1.2.2-r3?arch=x86_64&amp;upstream=musl&amp;distro=alpine-3.14.1&amp;package-id=304c2239a7d1d6b7" type="library">
+      <publisher>Timo Teräs &lt;timo.teras@iki.fi&gt;</publisher>
+      <name>musl</name>
+      <version>1.2.2-r3</version>
+      <description>the musl c library (libc) implementation</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:musl:musl:1.2.2-r3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/musl@1.2.2-r3?arch=x86_64&amp;upstream=musl&amp;distro=alpine-3.14.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://musl.libc.org/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:4e7f383eb531db898a0835c445abdd067b256d452302b49b6b41eb712ac3d5bc</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">1e9cba35059e3bb4635f12ee7e10dfe687df31ad</property>
+        <property name="syft:metadata:installedSize">622592</property>
+        <property name="syft:metadata:originPackage">musl</property>
+        <property name="syft:metadata:pullChecksum">Q1n4yypJ4tpU5g+jxI7oHT0Bm4Xjo=</property>
+        <property name="syft:metadata:size">382765</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/musl-utils@1.2.2-r3?arch=x86_64&amp;upstream=musl&amp;distro=alpine-3.14.1&amp;package-id=4925c680bf6bc138" type="library">
+      <publisher>Timo Teräs &lt;timo.teras@iki.fi&gt;</publisher>
+      <name>musl-utils</name>
+      <version>1.2.2-r3</version>
+      <description>the musl c library (libc) implementation</description>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:musl-utils:musl-utils:1.2.2-r3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/musl-utils@1.2.2-r3?arch=x86_64&amp;upstream=musl&amp;distro=alpine-3.14.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://musl.libc.org/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:musl-utils:musl_utils:1.2.2-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:musl_utils:musl-utils:1.2.2-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:musl_utils:musl_utils:1.2.2-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:musl:musl-utils:1.2.2-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:musl:musl_utils:1.2.2-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:4e7f383eb531db898a0835c445abdd067b256d452302b49b6b41eb712ac3d5bc</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">1e9cba35059e3bb4635f12ee7e10dfe687df31ad</property>
+        <property name="syft:metadata:installedSize">147456</property>
+        <property name="syft:metadata:originPackage">musl</property>
+        <property name="syft:metadata:pullChecksum">Q1WNvvoHVxRySUmjgvqQie71lLRd8=</property>
+        <property name="syft:metadata:pullDependencies">scanelf so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">36662</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/scanelf@1.3.2-r0?arch=x86_64&amp;upstream=pax-utils&amp;distro=alpine-3.14.1&amp;package-id=843de7b28c17c5d7" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>scanelf</name>
+      <version>1.3.2-r0</version>
+      <description>Scan ELF binaries for stuff</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:scanelf:scanelf:1.3.2-r0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/scanelf@1.3.2-r0?arch=x86_64&amp;upstream=pax-utils&amp;distro=alpine-3.14.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://wiki.gentoo.org/wiki/Hardened/PaX_Utilities</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:4e7f383eb531db898a0835c445abdd067b256d452302b49b6b41eb712ac3d5bc</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">4c7f72840f5052bc63af1796c3ad0021f97949f2</property>
+        <property name="syft:metadata:installedSize">94208</property>
+        <property name="syft:metadata:originPackage">pax-utils</property>
+        <property name="syft:metadata:pullChecksum">Q1OWKo0fmUbClrhW0CPNjwA8AMLWo=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">36511</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/apiserver-network-proxy/konnectivity-client@v0.0.22?package-id=ee582c705e042808" type="library">
+      <name>sigs.k8s.io/apiserver-network-proxy/konnectivity-client</name>
+      <version>v0.0.22</version>
+      <cpe>cpe:2.3:a:apiserver-network-proxy:konnectivity-client:v0.0.22:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/sigs.k8s.io/apiserver-network-proxy/konnectivity-client@v0.0.22</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:apiserver-network-proxy:konnectivity_client:v0.0.22:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apiserver_network_proxy:konnectivity-client:v0.0.22:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apiserver_network_proxy:konnectivity_client:v0.0.22:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apiserver-network:konnectivity-client:v0.0.22:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apiserver-network:konnectivity_client:v0.0.22:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apiserver_network:konnectivity-client:v0.0.22:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apiserver_network:konnectivity_client:v0.0.22:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apiserver:konnectivity-client:v0.0.22:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:apiserver:konnectivity_client:v0.0.22:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/controller-runtime@v0.10.0?package-id=1ae018204399903b" type="library">
+      <name>sigs.k8s.io/controller-runtime</name>
+      <version>v0.10.0</version>
+      <purl>pkg:golang/sigs.k8s.io/controller-runtime@v0.10.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.1.2?package-id=960f30884a7b7df9" type="library">
+      <name>sigs.k8s.io/structured-merge-diff/v4</name>
+      <version>v4.1.2</version>
+      <cpe>cpe:2.3:a:structured-merge-diff:v4:v4.1.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.1.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured_merge_diff:v4:v4.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured-merge:v4:v4.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured_merge:v4:v4.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured:v4:v4.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/yaml@v1.2.0?package-id=43fc6dcfb345cf08" type="library">
+      <name>sigs.k8s.io/yaml</name>
+      <version>v1.2.0</version>
+      <purl>pkg:golang/sigs.k8s.io/yaml@v1.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:26895fdeb37eb1ebdf913f320b8e21440e30d3528df46810cafaa364ee65d76c</property>
+        <property name="syft:location:0:path">/bin/opm</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.7</property>
+        <property name="syft:metadata:mainModule">github.com/operator-framework/operator-registry</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/ssl_client@1.33.1-r3?arch=x86_64&amp;upstream=busybox&amp;distro=alpine-3.14.1&amp;package-id=ef8f9cb25b1d1b65" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>ssl_client</name>
+      <version>1.33.1-r3</version>
+      <description>EXternal ssl_client for busybox wget</description>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:ssl-client:ssl-client:1.33.1-r3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/ssl_client@1.33.1-r3?arch=x86_64&amp;upstream=busybox&amp;distro=alpine-3.14.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://busybox.net/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:cpe23">cpe:2.3:a:ssl-client:ssl_client:1.33.1-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ssl_client:ssl-client:1.33.1-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ssl_client:ssl_client:1.33.1-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ssl:ssl-client:1.33.1-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:ssl:ssl_client:1.33.1-r3:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:4e7f383eb531db898a0835c445abdd067b256d452302b49b6b41eb712ac3d5bc</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">98710256acf90e670e79f32f1f0350b830979d24</property>
+        <property name="syft:metadata:installedSize">28672</property>
+        <property name="syft:metadata:originPackage">busybox</property>
+        <property name="syft:metadata:pullChecksum">Q1d7WkMOIKXIk3qxexUxSo60HOofY=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1 so:libtls.so.2</property>
+        <property name="syft:metadata:size">4381</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:alpine/zlib@1.2.11-r3?arch=x86_64&amp;upstream=zlib&amp;distro=alpine-3.14.1&amp;package-id=771dacfc945d5a95" type="library">
+      <publisher>Natanael Copa &lt;ncopa@alpinelinux.org&gt;</publisher>
+      <name>zlib</name>
+      <version>1.2.11-r3</version>
+      <description>A compression/decompression Library</description>
+      <licenses>
+        <license>
+          <id>Zlib</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:zlib:zlib:1.2.11-r3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:alpine/zlib@1.2.11-r3?arch=x86_64&amp;upstream=zlib&amp;distro=alpine-3.14.1</purl>
+      <externalReferences>
+        <reference type="distribution">
+          <url>https://zlib.net/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:package:foundBy">apkdb-cataloger</property>
+        <property name="syft:package:metadataType">ApkMetadata</property>
+        <property name="syft:package:type">apk</property>
+        <property name="syft:location:0:layerID">sha256:4e7f383eb531db898a0835c445abdd067b256d452302b49b6b41eb712ac3d5bc</property>
+        <property name="syft:location:0:path">/lib/apk/db/installed</property>
+        <property name="syft:metadata:gitCommitOfApkPort">388a4fb3640f8ccbd18e105df3ad741dca4247e1</property>
+        <property name="syft:metadata:installedSize">110592</property>
+        <property name="syft:metadata:originPackage">zlib</property>
+        <property name="syft:metadata:pullChecksum">Q1Sc/5gG4ey/zvnyPPQ/Au7bXqc08=</property>
+        <property name="syft:metadata:pullDependencies">so:libc.musl-x86_64.so.1</property>
+        <property name="syft:metadata:size">51398</property>
+      </properties>
+    </component>
+    <component type="operating-system">
+      <name>alpine</name>
+      <version>3.14.1</version>
+      <description>Alpine Linux v3.14</description>
+      <swid tagId="alpine" name="alpine" version="3.14.1"></swid>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://bugs.alpinelinux.org/</url>
+        </reference>
+        <reference type="website">
+          <url>https://alpinelinux.org/</url>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:distro:id">alpine</property>
+        <property name="syft:distro:prettyName">Alpine Linux v3.14</property>
+        <property name="syft:distro:versionID">3.14.1</property>
+      </properties>
+    </component>
+  </components>
+</bom>
