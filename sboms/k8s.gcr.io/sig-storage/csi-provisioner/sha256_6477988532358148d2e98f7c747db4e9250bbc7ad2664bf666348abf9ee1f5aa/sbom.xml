@@ -1,0 +1,1103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:ca34d951-a5e8-47ce-b74d-20d4f9d81157" version="1">
+  <metadata>
+    <timestamp>2022-10-31T16:00:01Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>anchore</vendor>
+        <name>syft</name>
+        <version>v0.58.0</version>
+      </tool>
+    </tools>
+    <component bom-ref="d04d56eda4e1db3e" type="container">
+      <name>/tmp/sha256_6477988532358148d2e98f7c747db4e9250bbc7ad2664bf666348abf9ee1f5aa.tar.gz</name>
+      <version>sha256:47cb3f93e57e52f862a68d3d60fa58cbb0edfb0b6a5b4d1a9db91edf90db18db</version>
+    </component>
+  </metadata>
+  <components>
+    <component bom-ref="pkg:deb/debian/base-files@10.3+deb10u10?arch=amd64&amp;distro=debian-10&amp;package-id=20cfdabbc6f45b4d" type="library">
+      <publisher>Santiago Vila &lt;sanvila@debian.org&gt;</publisher>
+      <name>base-files</name>
+      <version>10.3+deb10u10</version>
+      <cpe>cpe:2.3:a:base-files:base-files:10.3\+deb10u10:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:deb/debian/base-files@10.3+deb10u10?arch=amd64&amp;distro=debian-10</purl>
+      <properties>
+        <property name="syft:package:foundBy">dpkgdb-cataloger</property>
+        <property name="syft:package:metadataType">DpkgMetadata</property>
+        <property name="syft:package:type">deb</property>
+        <property name="syft:cpe23">cpe:2.3:a:base-files:base_files:10.3\+deb10u10:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:base_files:base-files:10.3\+deb10u10:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:base_files:base_files:10.3\+deb10u10:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:base:base-files:10.3\+deb10u10:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:base:base_files:10.3\+deb10u10:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:07363fa8421000ad294c2881d17b0535aabdd17ced2a874eb354a9d8514d3d59</property>
+        <property name="syft:location:0:path">/usr/share/doc/base-files/copyright</property>
+        <property name="syft:location:1:layerID">sha256:07363fa8421000ad294c2881d17b0535aabdd17ced2a874eb354a9d8514d3d59</property>
+        <property name="syft:location:1:path">/var/lib/dpkg/status.d/YmFzZS1maWxlcw==</property>
+        <property name="syft:metadata:installedSize">340</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/beorn7/perks@v1.0.1?package-id=41d04cf965be6ed1" type="library">
+      <name>github.com/beorn7/perks</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:beorn7:perks:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/beorn7/perks@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/blang/semver@v3.5.1+incompatible?package-id=dd52b41bf4e7d716" type="library">
+      <name>github.com/blang/semver</name>
+      <version>v3.5.1+incompatible</version>
+      <cpe>cpe:2.3:a:blang:semver:v3.5.1\+incompatible:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/blang/semver@v3.5.1+incompatible</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/cespare/xxhash/v2@v2.1.1?package-id=5774668db0ede21e" type="library">
+      <name>github.com/cespare/xxhash/v2</name>
+      <version>v2.1.1</version>
+      <cpe>cpe:2.3:a:cespare:xxhash\/v2:v2.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/cespare/xxhash/v2@v2.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/container-storage-interface/spec@v1.5.0?package-id=7173351e523c6835" type="library">
+      <name>github.com/container-storage-interface/spec</name>
+      <version>v1.5.0</version>
+      <cpe>cpe:2.3:a:container-storage-interface:spec:v1.5.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/container-storage-interface/spec@v1.5.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:container_storage_interface:spec:v1.5.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:container-storage:spec:v1.5.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:container_storage:spec:v1.5.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:container:spec:v1.5.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/davecgh/go-spew@v1.1.1?package-id=eb44b06b7ea667cc" type="library">
+      <name>github.com/davecgh/go-spew</name>
+      <version>v1.1.1</version>
+      <cpe>cpe:2.3:a:davecgh:go-spew:v1.1.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/davecgh/go-spew@v1.1.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:davecgh:go_spew:v1.1.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/evanphx/json-patch@v4.11.0+incompatible?package-id=ad7abb8b575c89c8" type="library">
+      <name>github.com/evanphx/json-patch</name>
+      <version>v4.11.0+incompatible</version>
+      <cpe>cpe:2.3:a:evanphx:json-patch:v4.11.0\+incompatible:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/evanphx/json-patch@v4.11.0+incompatible</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:evanphx:json_patch:v4.11.0\+incompatible:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/go-logr/logr@v0.4.0?package-id=a775191092b36e6a" type="library">
+      <name>github.com/go-logr/logr</name>
+      <version>v0.4.0</version>
+      <cpe>cpe:2.3:a:go-logr:logr:v0.4.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/go-logr/logr@v0.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:go_logr:logr:v0.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:go:logr:v0.4.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/gogo/protobuf@v1.3.2?package-id=917ac4366b0a0af3" type="library">
+      <name>github.com/gogo/protobuf</name>
+      <version>v1.3.2</version>
+      <cpe>cpe:2.3:a:gogo:protobuf:v1.3.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/gogo/protobuf@v1.3.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/golang/groupcache@v0.0.0-20210331224755-41bb18bfe9da?package-id=30bff7fba9ddd37f" type="library">
+      <name>github.com/golang/groupcache</name>
+      <version>v0.0.0-20210331224755-41bb18bfe9da</version>
+      <cpe>cpe:2.3:a:golang:groupcache:v0.0.0-20210331224755-41bb18bfe9da:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/golang/groupcache@v0.0.0-20210331224755-41bb18bfe9da</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/golang/protobuf@v1.5.2?package-id=96829e61e33fc3e6" type="library">
+      <name>github.com/golang/protobuf</name>
+      <version>v1.5.2</version>
+      <cpe>cpe:2.3:a:golang:protobuf:v1.5.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/golang/protobuf@v1.5.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/go-cmp@v0.5.5?package-id=a3f4976ef8e62630" type="library">
+      <name>github.com/google/go-cmp</name>
+      <version>v0.5.5</version>
+      <cpe>cpe:2.3:a:google:go-cmp:v0.5.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/go-cmp@v0.5.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:google:go_cmp:v0.5.5:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/gofuzz@v1.2.0?package-id=b3347afecd1a89a4" type="library">
+      <name>github.com/google/gofuzz</name>
+      <version>v1.2.0</version>
+      <cpe>cpe:2.3:a:google:gofuzz:v1.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/gofuzz@v1.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/google/uuid@v1.2.0?package-id=c8e066137edfbde" type="library">
+      <name>github.com/google/uuid</name>
+      <version>v1.2.0</version>
+      <cpe>cpe:2.3:a:google:uuid:v1.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/google/uuid@v1.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/googleapis/gnostic@v0.5.5?package-id=cc9788bf8a6d17c1" type="library">
+      <name>github.com/googleapis/gnostic</name>
+      <version>v0.5.5</version>
+      <cpe>cpe:2.3:a:googleapis:gnostic:v0.5.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/googleapis/gnostic@v0.5.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/imdario/mergo@v0.3.12?package-id=6738193fdafcc049" type="library">
+      <name>github.com/imdario/mergo</name>
+      <version>v0.3.12</version>
+      <cpe>cpe:2.3:a:imdario:mergo:v0.3.12:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/imdario/mergo@v0.3.12</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/json-iterator/go@v1.1.11?package-id=ffc2ac648e198ce0" type="library">
+      <name>github.com/json-iterator/go</name>
+      <version>v1.1.11</version>
+      <cpe>cpe:2.3:a:json-iterator:go:v1.1.11:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/json-iterator/go@v1.1.11</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:json_iterator:go:v1.1.11:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:json:go:v1.1.11:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/kubernetes-csi/csi-lib-utils@v0.10.0?package-id=4eb581ea9732b342" type="library">
+      <name>github.com/kubernetes-csi/csi-lib-utils</name>
+      <version>v0.10.0</version>
+      <cpe>cpe:2.3:a:kubernetes-csi:csi-lib-utils:v0.10.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/kubernetes-csi/csi-lib-utils@v0.10.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes-csi:csi_lib_utils:v0.10.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes_csi:csi-lib-utils:v0.10.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes_csi:csi_lib_utils:v0.10.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes:csi-lib-utils:v0.10.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes:csi_lib_utils:v0.10.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/kubernetes-csi/external-provisioner@(devel)?package-id=75237ec41e247ea2" type="library">
+      <name>github.com/kubernetes-csi/external-provisioner</name>
+      <version>(devel)</version>
+      <cpe>cpe:2.3:a:kubernetes-csi:external-provisioner:\(devel\):*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/kubernetes-csi/external-provisioner@(devel)</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes-csi:external_provisioner:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes_csi:external-provisioner:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes_csi:external_provisioner:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes:external-provisioner:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes:external_provisioner:\(devel\):*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/kubernetes-csi/external-snapshotter/client/v4@v4.1.0?package-id=7729c2edbac61020" type="library">
+      <name>github.com/kubernetes-csi/external-snapshotter/client/v4</name>
+      <version>v4.1.0</version>
+      <cpe>cpe:2.3:a:kubernetes-csi:external-snapshotter\/client\/v4:v4.1.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/kubernetes-csi/external-snapshotter/client/v4@v4.1.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes-csi:external_snapshotter\/client\/v4:v4.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes_csi:external-snapshotter\/client\/v4:v4.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes_csi:external_snapshotter\/client\/v4:v4.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes:external-snapshotter\/client\/v4:v4.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:kubernetes:external_snapshotter\/client\/v4:v4.1.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.2-0.20181231171920-c182affec369?package-id=ce2810e2a81a8e7a" type="library">
+      <name>github.com/matttproud/golang_protobuf_extensions</name>
+      <version>v1.0.2-0.20181231171920-c182affec369</version>
+      <cpe>cpe:2.3:a:matttproud:golang-protobuf-extensions:v1.0.2-0.20181231171920-c182affec369:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/matttproud/golang_protobuf_extensions@v1.0.2-0.20181231171920-c182affec369</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:matttproud:golang_protobuf_extensions:v1.0.2-0.20181231171920-c182affec369:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/miekg/dns@v1.1.40?package-id=395ee762a8508c9c" type="library">
+      <name>github.com/miekg/dns</name>
+      <version>v1.1.40</version>
+      <cpe>cpe:2.3:a:miekg:dns:v1.1.40:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/miekg/dns@v1.1.40</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd?package-id=9d027af21e5bf77c" type="library">
+      <name>github.com/modern-go/concurrent</name>
+      <version>v0.0.0-20180306012644-bacd9c7ef1dd</version>
+      <cpe>cpe:2.3:a:modern-go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/modern-go/concurrent@v0.0.0-20180306012644-bacd9c7ef1dd</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern_go:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern:concurrent:v0.0.0-20180306012644-bacd9c7ef1dd:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/modern-go/reflect2@v1.0.1?package-id=3b9ae5091339ccea" type="library">
+      <name>github.com/modern-go/reflect2</name>
+      <version>v1.0.1</version>
+      <cpe>cpe:2.3:a:modern-go:reflect2:v1.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/modern-go/reflect2@v1.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern_go:reflect2:v1.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:modern:reflect2:v1.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/pkg/errors@v0.9.1?package-id=d87b3eb00f55d5cf" type="library">
+      <name>github.com/pkg/errors</name>
+      <version>v0.9.1</version>
+      <cpe>cpe:2.3:a:pkg:errors:v0.9.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/pkg/errors@v0.9.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/client_golang@v1.11.0?package-id=4fab6b712d880a64" type="library">
+      <name>github.com/prometheus/client_golang</name>
+      <version>v1.11.0</version>
+      <cpe>cpe:2.3:a:prometheus:client-golang:v1.11.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/client_golang@v1.11.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:client_golang:v1.11.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/client_model@v0.2.0?package-id=3f3f22c0cad9e045" type="library">
+      <name>github.com/prometheus/client_model</name>
+      <version>v0.2.0</version>
+      <cpe>cpe:2.3:a:prometheus:client-model:v0.2.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/client_model@v0.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:prometheus:client_model:v0.2.0:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/common@v0.26.0?package-id=4885d1abf49b2fa" type="library">
+      <name>github.com/prometheus/common</name>
+      <version>v0.26.0</version>
+      <cpe>cpe:2.3:a:prometheus:common:v0.26.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/common@v0.26.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/prometheus/procfs@v0.6.0?package-id=eca8ae045854df86" type="library">
+      <name>github.com/prometheus/procfs</name>
+      <version>v0.6.0</version>
+      <cpe>cpe:2.3:a:prometheus:procfs:v0.6.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/prometheus/procfs@v0.6.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/spf13/cobra@v1.1.3?package-id=e5d7eab60e26e452" type="library">
+      <name>github.com/spf13/cobra</name>
+      <version>v1.1.3</version>
+      <cpe>cpe:2.3:a:spf13:cobra:v1.1.3:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/spf13/cobra@v1.1.3</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/github.com/spf13/pflag@v1.0.5?package-id=9ceffeeda57e9927" type="library">
+      <name>github.com/spf13/pflag</name>
+      <version>v1.0.5</version>
+      <cpe>cpe:2.3:a:spf13:pflag:v1.0.5:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/github.com/spf13/pflag@v1.0.5</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/crypto@v0.0.0-20210317152858-513c2a44f670?package-id=d4772efbc258d119" type="library">
+      <name>golang.org/x/crypto</name>
+      <version>v0.0.0-20210317152858-513c2a44f670</version>
+      <cpe>cpe:2.3:a:golang:x\/crypto:v0.0.0-20210317152858-513c2a44f670:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/crypto@v0.0.0-20210317152858-513c2a44f670</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/net@v0.0.0-20210520170846-37e1c6afe023?package-id=cd3ec6e3bf44b9af" type="library">
+      <name>golang.org/x/net</name>
+      <version>v0.0.0-20210520170846-37e1c6afe023</version>
+      <cpe>cpe:2.3:a:golang:x\/net:v0.0.0-20210520170846-37e1c6afe023:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/net@v0.0.0-20210520170846-37e1c6afe023</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/oauth2@v0.0.0-20210313182246-cd4f82c27b84?package-id=989b60776691a761" type="library">
+      <name>golang.org/x/oauth2</name>
+      <version>v0.0.0-20210313182246-cd4f82c27b84</version>
+      <cpe>cpe:2.3:a:golang:x\/oauth2:v0.0.0-20210313182246-cd4f82c27b84:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/oauth2@v0.0.0-20210313182246-cd4f82c27b84</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/sys@v0.0.0-20210616094352-59db8d763f22?package-id=cb50ee9ff38136bc" type="library">
+      <name>golang.org/x/sys</name>
+      <version>v0.0.0-20210616094352-59db8d763f22</version>
+      <cpe>cpe:2.3:a:golang:x\/sys:v0.0.0-20210616094352-59db8d763f22:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/sys@v0.0.0-20210616094352-59db8d763f22</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/term@v0.0.0-20210317153231-de623e64d2a6?package-id=138ff7694354bae5" type="library">
+      <name>golang.org/x/term</name>
+      <version>v0.0.0-20210317153231-de623e64d2a6</version>
+      <cpe>cpe:2.3:a:golang:x\/term:v0.0.0-20210317153231-de623e64d2a6:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/term@v0.0.0-20210317153231-de623e64d2a6</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/text@v0.3.6?package-id=b800cb95e77d0996" type="library">
+      <name>golang.org/x/text</name>
+      <version>v0.3.6</version>
+      <cpe>cpe:2.3:a:golang:x\/text:v0.3.6:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/text@v0.3.6</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/golang.org/x/time@v0.0.0-20210723032227-1f47c861a9ac?package-id=b43df5f1161c5f44" type="library">
+      <name>golang.org/x/time</name>
+      <version>v0.0.0-20210723032227-1f47c861a9ac</version>
+      <cpe>cpe:2.3:a:golang:x\/time:v0.0.0-20210723032227-1f47c861a9ac:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/golang.org/x/time@v0.0.0-20210723032227-1f47c861a9ac</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/genproto@v0.0.0-20210602131652-f16073e35f0c?package-id=c5dce489a6fdb4e9" type="library">
+      <name>google.golang.org/genproto</name>
+      <version>v0.0.0-20210602131652-f16073e35f0c</version>
+      <cpe>cpe:2.3:a:google:genproto:v0.0.0-20210602131652-f16073e35f0c:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/genproto@v0.0.0-20210602131652-f16073e35f0c</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/grpc@v1.38.0?package-id=43e56cae17464821" type="library">
+      <name>google.golang.org/grpc</name>
+      <version>v1.38.0</version>
+      <cpe>cpe:2.3:a:google:grpc:v1.38.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/grpc@v1.38.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/google.golang.org/protobuf@v1.26.0?package-id=c85a11fe20bb8fd1" type="library">
+      <name>google.golang.org/protobuf</name>
+      <version>v1.26.0</version>
+      <cpe>cpe:2.3:a:google:protobuf:v1.26.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/google.golang.org/protobuf@v1.26.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/inf.v0@v0.9.1?package-id=d820b665a779cb99" type="library">
+      <name>gopkg.in/inf.v0</name>
+      <version>v0.9.1</version>
+      <purl>pkg:golang/gopkg.in/inf.v0@v0.9.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/yaml.v2@v2.4.0?package-id=d4ab1984bdc5c21e" type="library">
+      <name>gopkg.in/yaml.v2</name>
+      <version>v2.4.0</version>
+      <purl>pkg:golang/gopkg.in/yaml.v2@v2.4.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/gopkg.in/yaml.v3@v3.0.0-20210107192922-496545a6307b?package-id=19edc322d60c0a6b" type="library">
+      <name>gopkg.in/yaml.v3</name>
+      <version>v3.0.0-20210107192922-496545a6307b</version>
+      <purl>pkg:golang/gopkg.in/yaml.v3@v3.0.0-20210107192922-496545a6307b</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/api@v0.22.0?package-id=53dfa472dd2b1af6" type="library">
+      <name>k8s.io/api</name>
+      <version>v0.22.0</version>
+      <purl>pkg:golang/k8s.io/api@v0.22.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/apimachinery@v0.22.0?package-id=3c9945b5ab69412b" type="library">
+      <name>k8s.io/apimachinery</name>
+      <version>v0.22.0</version>
+      <purl>pkg:golang/k8s.io/apimachinery@v0.22.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/apiserver@v0.22.0?package-id=f18c9d78e6bf1b3c" type="library">
+      <name>k8s.io/apiserver</name>
+      <version>v0.22.0</version>
+      <purl>pkg:golang/k8s.io/apiserver@v0.22.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/client-go@v0.22.0?package-id=6e25b2bd7c1eb31b" type="library">
+      <name>k8s.io/client-go</name>
+      <version>v0.22.0</version>
+      <purl>pkg:golang/k8s.io/client-go@v0.22.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/component-base@v0.22.0?package-id=1bc8b6169c5882a6" type="library">
+      <name>k8s.io/component-base</name>
+      <version>v0.22.0</version>
+      <purl>pkg:golang/k8s.io/component-base@v0.22.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/component-helpers@v0.22.0?package-id=b46a37739f4ffcdc" type="library">
+      <name>k8s.io/component-helpers</name>
+      <version>v0.22.0</version>
+      <purl>pkg:golang/k8s.io/component-helpers@v0.22.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/csi-translation-lib@v0.22.0?package-id=4ad8259312356805" type="library">
+      <name>k8s.io/csi-translation-lib</name>
+      <version>v0.22.0</version>
+      <purl>pkg:golang/k8s.io/csi-translation-lib@v0.22.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/klog/v2@v2.9.0?package-id=39d102d1e902520d" type="library">
+      <name>k8s.io/klog/v2</name>
+      <version>v2.9.0</version>
+      <cpe>cpe:2.3:a:klog:v2:v2.9.0:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/k8s.io/klog/v2@v2.9.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/kube-openapi@v0.0.0-20210421082810-95288971da7e?package-id=3ed602a5dd8be0c5" type="library">
+      <name>k8s.io/kube-openapi</name>
+      <version>v0.0.0-20210421082810-95288971da7e</version>
+      <purl>pkg:golang/k8s.io/kube-openapi@v0.0.0-20210421082810-95288971da7e</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/k8s.io/utils@v0.0.0-20210707171843-4b05e18ac7d9?package-id=8c2f8d36b97830dd" type="library">
+      <name>k8s.io/utils</name>
+      <version>v0.0.0-20210707171843-4b05e18ac7d9</version>
+      <purl>pkg:golang/k8s.io/utils@v0.0.0-20210707171843-4b05e18ac7d9</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:deb/debian/netbase@5.6?arch=all&amp;distro=debian-10&amp;package-id=df080a0158baa6af" type="library">
+      <publisher>Marco d&#39;Itri &lt;md@linux.it&gt;</publisher>
+      <name>netbase</name>
+      <version>5.6</version>
+      <licenses>
+        <license>
+          <id>GPL-2.0-only</id>
+        </license>
+      </licenses>
+      <cpe>cpe:2.3:a:netbase:netbase:5.6:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:deb/debian/netbase@5.6?arch=all&amp;distro=debian-10</purl>
+      <properties>
+        <property name="syft:package:foundBy">dpkgdb-cataloger</property>
+        <property name="syft:package:metadataType">DpkgMetadata</property>
+        <property name="syft:package:type">deb</property>
+        <property name="syft:location:0:layerID">sha256:07363fa8421000ad294c2881d17b0535aabdd17ced2a874eb354a9d8514d3d59</property>
+        <property name="syft:location:0:path">/usr/share/doc/netbase/copyright</property>
+        <property name="syft:location:1:layerID">sha256:07363fa8421000ad294c2881d17b0535aabdd17ced2a874eb354a9d8514d3d59</property>
+        <property name="syft:location:1:path">/var/lib/dpkg/status.d/bmV0YmFzZQ==</property>
+        <property name="syft:metadata:installedSize">44</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/controller-runtime@v0.8.3?package-id=939cf1c9f0e19554" type="library">
+      <name>sigs.k8s.io/controller-runtime</name>
+      <version>v0.8.3</version>
+      <purl>pkg:golang/sigs.k8s.io/controller-runtime@v0.8.3</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/sig-storage-lib-external-provisioner/v7@v7.0.1?package-id=9ea79051c199d948" type="library">
+      <name>sigs.k8s.io/sig-storage-lib-external-provisioner/v7</name>
+      <version>v7.0.1</version>
+      <cpe>cpe:2.3:a:sig-storage-lib-external-provisioner:v7:v7.0.1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/sigs.k8s.io/sig-storage-lib-external-provisioner/v7@v7.0.1</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:sig_storage_lib_external_provisioner:v7:v7.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:sig-storage-lib-external:v7:v7.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:sig_storage_lib_external:v7:v7.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:sig-storage-lib:v7:v7.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:sig_storage_lib:v7:v7.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:sig-storage:v7:v7.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:sig_storage:v7:v7.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:sig:v7:v7.0.1:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.1.2?package-id=e5fdebe0e9d0b6c4" type="library">
+      <name>sigs.k8s.io/structured-merge-diff/v4</name>
+      <version>v4.1.2</version>
+      <cpe>cpe:2.3:a:structured-merge-diff:v4:v4.1.2:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:golang/sigs.k8s.io/structured-merge-diff/v4@v4.1.2</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured_merge_diff:v4:v4.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured-merge:v4:v4.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured_merge:v4:v4.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:cpe23">cpe:2.3:a:structured:v4:v4.1.2:*:*:*:*:*:*:*</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:golang/sigs.k8s.io/yaml@v1.2.0?package-id=68b0884f45ff7ef6" type="library">
+      <name>sigs.k8s.io/yaml</name>
+      <version>v1.2.0</version>
+      <purl>pkg:golang/sigs.k8s.io/yaml@v1.2.0</purl>
+      <properties>
+        <property name="syft:package:foundBy">go-module-binary-cataloger</property>
+        <property name="syft:package:language">go</property>
+        <property name="syft:package:metadataType">GolangBinMetadata</property>
+        <property name="syft:package:type">go-module</property>
+        <property name="syft:location:0:layerID">sha256:5227e51ea5701017c717894288a95eb77fba4b358e8a1af3d3229a08707af12a</property>
+        <property name="syft:location:0:path">/csi-provisioner</property>
+        <property name="syft:metadata:architecture">x86_64</property>
+        <property name="syft:metadata:goCompiledVersion">go1.16.2</property>
+        <property name="syft:metadata:mainModule">github.com/kubernetes-csi/external-provisioner</property>
+      </properties>
+    </component>
+    <component bom-ref="pkg:deb/debian/tzdata@2021a-0+deb10u1?arch=all&amp;distro=debian-10&amp;package-id=fbc3c5694749a583" type="library">
+      <publisher>GNU Libc Maintainers &lt;debian-glibc@lists.debian.org&gt;</publisher>
+      <name>tzdata</name>
+      <version>2021a-0+deb10u1</version>
+      <cpe>cpe:2.3:a:tzdata:tzdata:2021a-0\+deb10u1:*:*:*:*:*:*:*</cpe>
+      <purl>pkg:deb/debian/tzdata@2021a-0+deb10u1?arch=all&amp;distro=debian-10</purl>
+      <properties>
+        <property name="syft:package:foundBy">dpkgdb-cataloger</property>
+        <property name="syft:package:metadataType">DpkgMetadata</property>
+        <property name="syft:package:type">deb</property>
+        <property name="syft:location:0:layerID">sha256:07363fa8421000ad294c2881d17b0535aabdd17ced2a874eb354a9d8514d3d59</property>
+        <property name="syft:location:0:path">/usr/share/doc/tzdata/copyright</property>
+        <property name="syft:location:1:layerID">sha256:07363fa8421000ad294c2881d17b0535aabdd17ced2a874eb354a9d8514d3d59</property>
+        <property name="syft:location:1:path">/var/lib/dpkg/status.d/dHpkYXRh</property>
+        <property name="syft:metadata:installedSize">3040</property>
+      </properties>
+    </component>
+    <component type="operating-system">
+      <name>debian</name>
+      <version>10</version>
+      <description>Distroless</description>
+      <swid tagId="debian" name="debian" version="10"></swid>
+      <externalReferences>
+        <reference type="issue-tracker">
+          <url>https://github.com/GoogleContainerTools/distroless/issues/new</url>
+        </reference>
+        <reference type="website">
+          <url>https://github.com/GoogleContainerTools/distroless</url>
+        </reference>
+        <reference type="other">
+          <url>https://github.com/GoogleContainerTools/distroless/blob/master/README.md</url>
+          <comment>support</comment>
+        </reference>
+      </externalReferences>
+      <properties>
+        <property name="syft:distro:id">debian</property>
+        <property name="syft:distro:prettyName">Distroless</property>
+        <property name="syft:distro:versionID">10</property>
+      </properties>
+    </component>
+  </components>
+</bom>
