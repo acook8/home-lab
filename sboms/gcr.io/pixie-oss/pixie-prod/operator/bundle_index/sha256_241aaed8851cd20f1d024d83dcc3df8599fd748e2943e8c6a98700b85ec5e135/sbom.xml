@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:52922e35-e42b-400a-b908-56a2fc08889a" version="1">
+<bom xmlns="http://cyclonedx.org/schema/bom/1.4" serialNumber="urn:uuid:6c34922a-d2ae-4d92-9702-fed46f80c36a" version="1">
   <metadata>
-    <timestamp>2022-11-02T06:15:31Z</timestamp>
+    <timestamp>2022-11-02T06:33:22Z</timestamp>
     <tools>
       <tool>
         <vendor>anchore</vendor>
