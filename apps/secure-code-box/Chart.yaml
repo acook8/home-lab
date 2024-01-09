@@ -17,7 +17,7 @@ dependencies:
   version: 3.15.2
   repository: https://charts.securecodebox.io
 - name: sslyze
-  version: 3.15.0
+  version: 3.15.2
   repository: https://charts.securecodebox.io
 - name: nmap
   version: 3.15.2
