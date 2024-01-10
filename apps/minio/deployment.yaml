@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: minio 
-        image: minio/minio@sha256:d88c394a2e4c3ca2b1fa5ac49451f5d0fea602b79365f0081e993eed733d4ed2
+        image: minio/minio@sha256:eed7f8e5720272a8cb1dd5e4f97e615362ab73f2cf23b17b5470038c23fbe3d2
         args:
           - server
           - /data
