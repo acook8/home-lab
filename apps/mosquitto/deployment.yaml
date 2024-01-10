@@ -14,7 +14,7 @@ spec:
         name: mosquitto
     spec:
       containers:
-        - image: 'eclipse-mosquitto:2.0.14'
+        - image: 'eclipse-mosquitto:2.0.18'
           livenessProbe:
             failureThreshold: 3
             periodSeconds: 10
