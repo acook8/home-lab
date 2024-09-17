@@ -14,5 +14,5 @@ version: 0.1.0
 appVersion: "1.0"
 dependencies:
 - name: sbom-operator
-  version: 0.31.0
+  version: 0.37.1
   repository: https://ckotzbauer.github.io/helm-charts
