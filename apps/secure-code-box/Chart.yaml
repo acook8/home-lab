@@ -20,7 +20,7 @@ dependencies:
   version: 4.3.0
   repository: https://charts.securecodebox.io
 - name: nmap
-  version: 4.3.0
+  version: 4.9.0
   repository: https://charts.securecodebox.io
 - name: trivy
   version: 4.3.0
