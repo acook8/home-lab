@@ -1,0 +1,38 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: rss-bridge
+  labels:
+    name: rss-bridge
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: rss-bridge
+  template:
+    metadata:
+      labels:
+        name: rss-bridge
+    spec:
+      containers:
+      - image: rssbridge/rss-bridge
+        name: rss-bridge
+        resources:
+          requests:
+            cpu: "100m"
+            memory: "100M"
+          limits:
+            cpu: "250m"
+            memory: "300M"
+        env:
+        - name: HTTP_PORT
+          value: "80"
+        ports:
+        - containerPort: 80
+          name: http
+        volumeMounts:
+        - mountPath: /config
+          name: rss-bridge-config
+      volumes:
+      - name: rss-bridge-config
+        emptyDir: {}
