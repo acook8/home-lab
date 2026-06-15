@@ -1,0 +1,9 @@
+apiVersion: v2
+name: openeverest
+type: application
+version: 0.1.0
+appVersion: "1.15.2"
+dependencies:
+  - name: openeverest
+    version: 1.15.2
+    repository: https://openeverest.github.io/helm-charts/
