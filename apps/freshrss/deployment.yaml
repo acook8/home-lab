@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: freshrss
+  labels:
+    app: freshrss
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: freshrss
+  template:
+    metadata:
+      labels:
+        app: freshrss
+    spec:
+      containers:
+      - name: freshrss
+        image: freshrss/freshrss:1.4.0
+        ports:
+        - containerPort: 80
+          name: http
+        env:
+        - name: TZ
+          value: "America/Denver"
+        - name: CRON_MIN
+          value: "15"
+        volumeMounts:
+        - mountPath: /var/www/FreshRSS
+          name: freshrss-data
+      volumes:
+      - name: freshrss-data
+        emptyDir: {}
