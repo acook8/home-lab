@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: vikunja
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: vikunja
+  template:
+    metadata:
+      labels:
+        app: vikunja
+    spec:
+      containers:
+        - name: vikunja
+          image: vikunja/vikunja:latest
+          ports:
+            - containerPort: 3456
+          env:
+            - name: VIKUNJA_SERVICE_JWTSECRET
+              value: "change-me-in-production"
+            - name: VIKUNJA_SERVICE_DATABASE_TYPE
+              value: "sqlite"
+            - name: VIKUNJA_SERVICE_DATABASE_PATH
+              value: "/app/data/vikunja.db"
+          volumeMounts:
+            - name: vikunja-data
+              mountPath: /app/data
+      volumes:
+        - name: vikunja-data
+          emptyDir: {}
