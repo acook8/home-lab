@@ -1,0 +1,39 @@
+apiVersion: apps/v1
+kind: StatefulSet
+metadata:
+  name: sure-db
+spec:
+  serviceName: "sure-db"
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sure-db
+  template:
+    metadata:
+      labels:
+        app: sure-db
+    spec:
+      containers:
+        - name: postgres
+          image: postgres:15-alpine
+          env:
+            - name: POSTGRES_DB
+              value: "sure"
+            - name: POSTGRES_USER
+              value: "sure"
+            - name: POSTGRES_PASSWORD
+              value: "change-me-in-production"
+          ports:
+            - containerPort: 5432
+          volumeMounts:
+            - name: pgdata
+              mountPath: /var/lib/postgresql/data
+  volumeClaimTemplates:
+    - metadata:
+        name: pgdata
+      spec:
+        accessModes: [ "ReadWriteOnce" ]
+        storageClassName: "openebs-hostpath"
+        resources:
+          requests:
+            storage: 5Gi

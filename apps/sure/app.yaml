@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sure
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sure
+  template:
+    metadata:
+      labels:
+        app: sure
+    spec:
+      containers:
+        - name: sure
+          image: maybefinance/maybe:latest
+          ports:
+            - containerPort: 3000
+          env:
+            - name: DATABASE_URL
+              value: "postgres://sure:change-me-in-production@sure-db:5432/sure"
+            - name: SECRET_KEY_BASE
+              value: "a-very-long-random-secret-key-here"
+          livenessProbe:
+            tcpSocket:
+              port: 3000
+            initialDelaySeconds: 30
+            periodSeconds: 10
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: sure
+spec:
+  type: LoadBalancer
+  selector:
+    app: sure
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 3000
