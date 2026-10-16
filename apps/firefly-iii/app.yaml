@@ -1,0 +1,49 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: firefly-iii
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: firefly-iii
+  template:
+    metadata:
+      labels:
+        app: firefly-iii
+    spec:
+      containers:
+        - name: firefly-iii
+          image: fireflyiii/core:latest
+          ports:
+            - containerPort: 8080
+          env:
+            - name: APP_KEY
+              value: "base64:S0LpSytqUmpxYVR5Y3A5S0ZqNm9KdWZpTDF4SExqSnp2SDFyS0FqU0VqTlk="
+            - name: DB_CONNECTION
+              value: "pgsql"
+            - name: DB_HOST
+              value: "firefly-db"
+            - name: DB_PORT
+              value: "5432"
+            - name: DB_DATABASE
+              value: "firefly"
+            - name: DB_USERNAME
+              value: "firefly"
+            - name: DB_PASSWORD
+              value: "change-me-in-production"
+            - name: APP_URL
+              value: "http://firefly.local"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: firefly-iii
+spec:
+  type: LoadBalancer
+  selector:
+    app: firefly-iii
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
